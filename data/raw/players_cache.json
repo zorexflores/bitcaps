@@ -1,0 +1,2270 @@
+{
+  "4034": {
+    "player_id": "4034",
+    "first_name": "Christian",
+    "last_name": "McCaffrey",
+    "position": "RB",
+    "team": "SF"
+  },
+  "6786": {
+    "player_id": "6786",
+    "first_name": "CeeDee",
+    "last_name": "Lamb",
+    "position": "WR",
+    "team": "DAL"
+  },
+  "3321": {
+    "player_id": "3321",
+    "first_name": "Tyreek",
+    "last_name": "Hill",
+    "position": "WR",
+    "team": "MIA"
+  },
+  "7564": {
+    "player_id": "7564",
+    "first_name": "Ja'Marr",
+    "last_name": "Chase",
+    "position": "WR",
+    "team": "CIN"
+  },
+  "7547": {
+    "player_id": "7547",
+    "first_name": "Amon-Ra",
+    "last_name": "St. Brown",
+    "position": "WR",
+    "team": "DET"
+  },
+  "6794": {
+    "player_id": "6794",
+    "first_name": "Justin",
+    "last_name": "Jefferson",
+    "position": "WR",
+    "team": "MIN"
+  },
+  "9509": {
+    "player_id": "9509",
+    "first_name": "Bijan",
+    "last_name": "Robinson",
+    "position": "RB",
+    "team": "ATL"
+  },
+  "5859": {
+    "player_id": "5859",
+    "first_name": "A.J.",
+    "last_name": "Brown",
+    "position": "WR",
+    "team": "PHI"
+  },
+  "8155": {
+    "player_id": "8155",
+    "first_name": "Breece",
+    "last_name": "Hall",
+    "position": "RB",
+    "team": "NYJ"
+  },
+  "8146": {
+    "player_id": "8146",
+    "first_name": "Garrett",
+    "last_name": "Wilson",
+    "position": "WR",
+    "team": "NYJ"
+  },
+  "6813": {
+    "player_id": "6813",
+    "first_name": "Jonathan",
+    "last_name": "Taylor",
+    "position": "RB",
+    "team": "IND"
+  },
+  "9226": {
+    "player_id": "9226",
+    "first_name": "De'Von",
+    "last_name": "Achane",
+    "position": "RB",
+    "team": "MIA"
+  },
+  "7543": {
+    "player_id": "7543",
+    "first_name": "Travis",
+    "last_name": "Etienne",
+    "position": "RB",
+    "team": "JAX"
+  },
+  "4866": {
+    "player_id": "4866",
+    "first_name": "Saquon",
+    "last_name": "Barkley",
+    "position": "RB",
+    "team": "PHI"
+  },
+  "9221": {
+    "player_id": "9221",
+    "first_name": "Jahmyr",
+    "last_name": "Gibbs",
+    "position": "RB",
+    "team": "DET"
+  },
+  "8150": {
+    "player_id": "8150",
+    "first_name": "Kyren",
+    "last_name": "Williams",
+    "position": "RB",
+    "team": "LAR"
+  },
+  "11628": {
+    "player_id": "11628",
+    "first_name": "Marvin",
+    "last_name": "Harrison",
+    "position": "WR",
+    "team": "ARI"
+  },
+  "3198": {
+    "player_id": "3198",
+    "first_name": "Derrick",
+    "last_name": "Henry",
+    "position": "RB",
+    "team": "BAL"
+  },
+  "9493": {
+    "player_id": "9493",
+    "first_name": "Puka",
+    "last_name": "Nacua",
+    "position": "WR",
+    "team": "LAR"
+  },
+  "2133": {
+    "player_id": "2133",
+    "first_name": "Davante",
+    "last_name": "Adams",
+    "position": "WR",
+    "team": "LV"
+  },
+  "4984": {
+    "player_id": "4984",
+    "first_name": "Josh",
+    "last_name": "Allen",
+    "position": "QB",
+    "team": "BUF"
+  },
+  "8112": {
+    "player_id": "8112",
+    "first_name": "Drake",
+    "last_name": "London",
+    "position": "WR",
+    "team": "ATL"
+  },
+  "8205": {
+    "player_id": "8205",
+    "first_name": "Isiah",
+    "last_name": "Pacheco",
+    "position": "RB",
+    "team": "KC"
+  },
+  "8136": {
+    "player_id": "8136",
+    "first_name": "Rachaad",
+    "last_name": "White",
+    "position": "RB",
+    "team": "TB"
+  },
+  "1466": {
+    "player_id": "1466",
+    "first_name": "Travis",
+    "last_name": "Kelce",
+    "position": "TE",
+    "team": "KC"
+  },
+  "10859": {
+    "player_id": "10859",
+    "first_name": "Sam",
+    "last_name": "LaPorta",
+    "position": "TE",
+    "team": "DET"
+  },
+  "8144": {
+    "player_id": "8144",
+    "first_name": "Chris",
+    "last_name": "Olave",
+    "position": "WR",
+    "team": "NO"
+  },
+  "5872": {
+    "player_id": "5872",
+    "first_name": "Deebo",
+    "last_name": "Samuel",
+    "position": "WR",
+    "team": "SF"
+  },
+  "2216": {
+    "player_id": "2216",
+    "first_name": "Mike",
+    "last_name": "Evans",
+    "position": "WR",
+    "team": "TB"
+  },
+  "5850": {
+    "player_id": "5850",
+    "first_name": "Josh",
+    "last_name": "Jacobs",
+    "position": "RB",
+    "team": "GB"
+  },
+  "7569": {
+    "player_id": "7569",
+    "first_name": "Nico",
+    "last_name": "Collins",
+    "position": "WR",
+    "team": "HOU"
+  },
+  "4039": {
+    "player_id": "4039",
+    "first_name": "Cooper",
+    "last_name": "Kupp",
+    "position": "WR",
+    "team": "LAR"
+  },
+  "4217": {
+    "player_id": "4217",
+    "first_name": "George",
+    "last_name": "Kittle",
+    "position": "TE",
+    "team": "SF"
+  },
+  "7526": {
+    "player_id": "7526",
+    "first_name": "Jaylen",
+    "last_name": "Waddle",
+    "position": "WR",
+    "team": "MIA"
+  },
+  "6803": {
+    "player_id": "6803",
+    "first_name": "Brandon",
+    "last_name": "Aiyuk",
+    "position": "WR",
+    "team": "SF"
+  },
+  "8151": {
+    "player_id": "8151",
+    "first_name": "Kenneth",
+    "last_name": "Walker",
+    "position": "RB",
+    "team": "SEA"
+  },
+  "8138": {
+    "player_id": "8138",
+    "first_name": "James",
+    "last_name": "Cook",
+    "position": "RB",
+    "team": "BUF"
+  },
+  "2449": {
+    "player_id": "2449",
+    "first_name": "Stefon",
+    "last_name": "Diggs",
+    "position": "WR",
+    "team": "HOU"
+  },
+  "4035": {
+    "player_id": "4035",
+    "first_name": "Alvin",
+    "last_name": "Kamara",
+    "position": "RB",
+    "team": "NO"
+  },
+  "5846": {
+    "player_id": "5846",
+    "first_name": "DK",
+    "last_name": "Metcalf",
+    "position": "WR",
+    "team": "SEA"
+  },
+  "4018": {
+    "player_id": "4018",
+    "first_name": "Joe",
+    "last_name": "Mixon",
+    "position": "RB",
+    "team": "HOU"
+  },
+  "9758": {
+    "player_id": "9758",
+    "first_name": "C.J.",
+    "last_name": "Stroud",
+    "position": "QB",
+    "team": "HOU"
+  },
+  "4046": {
+    "player_id": "4046",
+    "first_name": "Patrick",
+    "last_name": "Mahomes",
+    "position": "QB",
+    "team": "KC"
+  },
+  "8130": {
+    "player_id": "8130",
+    "first_name": "Trey",
+    "last_name": "McBride",
+    "position": "TE",
+    "team": "ARI"
+  },
+  "6819": {
+    "player_id": "6819",
+    "first_name": "Michael",
+    "last_name": "Pittman",
+    "position": "WR",
+    "team": "IND"
+  },
+  "6904": {
+    "player_id": "6904",
+    "first_name": "Jalen",
+    "last_name": "Hurts",
+    "position": "QB",
+    "team": "PHI"
+  },
+  "4983": {
+    "player_id": "4983",
+    "first_name": "DJ",
+    "last_name": "Moore",
+    "position": "WR",
+    "team": "CHI"
+  },
+  "5892": {
+    "player_id": "5892",
+    "first_name": "David",
+    "last_name": "Montgomery",
+    "position": "RB",
+    "team": "DET"
+  },
+  "6790": {
+    "player_id": "6790",
+    "first_name": "D'Andre",
+    "last_name": "Swift",
+    "position": "RB",
+    "team": "CHI"
+  },
+  "4881": {
+    "player_id": "4881",
+    "first_name": "Lamar",
+    "last_name": "Jackson",
+    "position": "QB",
+    "team": "BAL"
+  },
+  "5012": {
+    "player_id": "5012",
+    "first_name": "Mark",
+    "last_name": "Andrews",
+    "position": "TE",
+    "team": "BAL"
+  },
+  "7525": {
+    "player_id": "7525",
+    "first_name": "DeVonta",
+    "last_name": "Smith",
+    "position": "WR",
+    "team": "PHI"
+  },
+  "6804": {
+    "player_id": "6804",
+    "first_name": "Jordan",
+    "last_name": "Love",
+    "position": "QB",
+    "team": "GB"
+  },
+  "8110": {
+    "player_id": "8110",
+    "first_name": "Jake",
+    "last_name": "Ferguson",
+    "position": "TE",
+    "team": "DAL"
+  },
+  "9997": {
+    "player_id": "9997",
+    "first_name": "Zay",
+    "last_name": "Flowers",
+    "position": "WR",
+    "team": "BAL"
+  },
+  "9502": {
+    "player_id": "9502",
+    "first_name": "Tank",
+    "last_name": "Dell",
+    "position": "WR",
+    "team": "HOU"
+  },
+  "11632": {
+    "player_id": "11632",
+    "first_name": "Malik",
+    "last_name": "Nabers",
+    "position": "WR",
+    "team": "NYG"
+  },
+  "10236": {
+    "player_id": "10236",
+    "first_name": "Dalton",
+    "last_name": "Kincaid",
+    "position": "TE",
+    "team": "BUF"
+  },
+  "4199": {
+    "player_id": "4199",
+    "first_name": "Aaron",
+    "last_name": "Jones",
+    "position": "RB",
+    "team": "MIN"
+  },
+  "6801": {
+    "player_id": "6801",
+    "first_name": "Tee",
+    "last_name": "Higgins",
+    "position": "WR",
+    "team": "CIN"
+  },
+  "4950": {
+    "player_id": "4950",
+    "first_name": "Christian",
+    "last_name": "Kirk",
+    "position": "WR",
+    "team": "JAX"
+  },
+  "7611": {
+    "player_id": "7611",
+    "first_name": "Rhamondre",
+    "last_name": "Stevenson",
+    "position": "RB",
+    "team": "NE"
+  },
+  "2749": {
+    "player_id": "2749",
+    "first_name": "Raheem",
+    "last_name": "Mostert",
+    "position": "RB",
+    "team": "MIA"
+  },
+  "5849": {
+    "player_id": "5849",
+    "first_name": "Kyler",
+    "last_name": "Murray",
+    "position": "QB",
+    "team": "ARI"
+  },
+  "4137": {
+    "player_id": "4137",
+    "first_name": "James",
+    "last_name": "Conner",
+    "position": "RB",
+    "team": "ARI"
+  },
+  "10229": {
+    "player_id": "10229",
+    "first_name": "Rashee",
+    "last_name": "Rice",
+    "position": "WR",
+    "team": "KC"
+  },
+  "2309": {
+    "player_id": "2309",
+    "first_name": "Amari",
+    "last_name": "Cooper",
+    "position": "WR",
+    "team": "CLE"
+  },
+  "1479": {
+    "player_id": "1479",
+    "first_name": "Keenan",
+    "last_name": "Allen",
+    "position": "WR",
+    "team": "CHI"
+  },
+  "8137": {
+    "player_id": "8137",
+    "first_name": "George",
+    "last_name": "Pickens",
+    "position": "WR",
+    "team": "PIT"
+  },
+  "5927": {
+    "player_id": "5927",
+    "first_name": "Terry",
+    "last_name": "McLaurin",
+    "position": "WR",
+    "team": "WAS"
+  },
+  "7553": {
+    "player_id": "7553",
+    "first_name": "Kyle",
+    "last_name": "Pitts",
+    "position": "TE",
+    "team": "ATL"
+  },
+  "11624": {
+    "player_id": "11624",
+    "first_name": "Xavier",
+    "last_name": "Worthy",
+    "position": "WR",
+    "team": "KC"
+  },
+  "7528": {
+    "player_id": "7528",
+    "first_name": "Najee",
+    "last_name": "Harris",
+    "position": "RB",
+    "team": "PIT"
+  },
+  "4981": {
+    "player_id": "4981",
+    "first_name": "Calvin",
+    "last_name": "Ridley",
+    "position": "WR",
+    "team": "TEN"
+  },
+  "6845": {
+    "player_id": "6845",
+    "first_name": "Zack",
+    "last_name": "Moss",
+    "position": "RB",
+    "team": "CIN"
+  },
+  "6770": {
+    "player_id": "6770",
+    "first_name": "Joe",
+    "last_name": "Burrow",
+    "position": "QB",
+    "team": "CIN"
+  },
+  "4037": {
+    "player_id": "4037",
+    "first_name": "Chris",
+    "last_name": "Godwin",
+    "position": "WR",
+    "team": "TB"
+  },
+  "11620": {
+    "player_id": "11620",
+    "first_name": "Rome",
+    "last_name": "Odunze",
+    "position": "WR",
+    "team": "CHI"
+  },
+  "5248": {
+    "player_id": "5248",
+    "first_name": "Gus",
+    "last_name": "Edwards",
+    "position": "RB",
+    "team": "LAC"
+  },
+  "4066": {
+    "player_id": "4066",
+    "first_name": "Evan",
+    "last_name": "Engram",
+    "position": "TE",
+    "team": "JAX"
+  },
+  "8139": {
+    "player_id": "8139",
+    "first_name": "Zamir",
+    "last_name": "White",
+    "position": "RB",
+    "team": "LV"
+  },
+  "8148": {
+    "player_id": "8148",
+    "first_name": "Jameson",
+    "last_name": "Williams",
+    "position": "WR",
+    "team": "DET"
+  },
+  "10222": {
+    "player_id": "10222",
+    "first_name": "Jayden",
+    "last_name": "Reed",
+    "position": "WR",
+    "team": "GB"
+  },
+  "11635": {
+    "player_id": "11635",
+    "first_name": "Ladd",
+    "last_name": "McConkey",
+    "position": "WR",
+    "team": "LAC"
+  },
+  "5967": {
+    "player_id": "5967",
+    "first_name": "Tony",
+    "last_name": "Pollard",
+    "position": "RB",
+    "team": "TEN"
+  },
+  "11637": {
+    "player_id": "11637",
+    "first_name": "Keon",
+    "last_name": "Coleman",
+    "position": "WR",
+    "team": "BUF"
+  },
+  "7588": {
+    "player_id": "7588",
+    "first_name": "Javonte",
+    "last_name": "Williams",
+    "position": "RB",
+    "team": "DEN"
+  },
+  "6130": {
+    "player_id": "6130",
+    "first_name": "Devin",
+    "last_name": "Singletary",
+    "position": "RB",
+    "team": "NYG"
+  },
+  "8228": {
+    "player_id": "8228",
+    "first_name": "Jaylen",
+    "last_name": "Warren",
+    "position": "RB",
+    "team": "PIT"
+  },
+  "4988": {
+    "player_id": "4988",
+    "first_name": "Nick",
+    "last_name": "Chubb",
+    "position": "RB",
+    "team": "CLE"
+  },
+  "4663": {
+    "player_id": "4663",
+    "first_name": "Austin",
+    "last_name": "Ekeler",
+    "position": "RB",
+    "team": "WAS"
+  },
+  "3294": {
+    "player_id": "3294",
+    "first_name": "Dak",
+    "last_name": "Prescott",
+    "position": "QB",
+    "team": "DAL"
+  },
+  "8167": {
+    "player_id": "8167",
+    "first_name": "Christian",
+    "last_name": "Watson",
+    "position": "WR",
+    "team": "GB"
+  },
+  "11604": {
+    "player_id": "11604",
+    "first_name": "Brock",
+    "last_name": "Bowers",
+    "position": "TE",
+    "team": "LV"
+  },
+  "8154": {
+    "player_id": "8154",
+    "first_name": "Brian",
+    "last_name": "Robinson",
+    "position": "RB",
+    "team": "WAS"
+  },
+  "5937": {
+    "player_id": "5937",
+    "first_name": "Diontae",
+    "last_name": "Johnson",
+    "position": "WR",
+    "team": "CAR"
+  },
+  "11583": {
+    "player_id": "11583",
+    "first_name": "Jonathon",
+    "last_name": "Brooks",
+    "position": "RB",
+    "team": "CAR"
+  },
+  "9756": {
+    "player_id": "9756",
+    "first_name": "Jordan",
+    "last_name": "Addison",
+    "position": "WR",
+    "team": "MIN"
+  },
+  "4033": {
+    "player_id": "4033",
+    "first_name": "David",
+    "last_name": "Njoku",
+    "position": "TE",
+    "team": "CLE"
+  },
+  "5848": {
+    "player_id": "5848",
+    "first_name": "Hollywood",
+    "last_name": "Brown",
+    "position": "WR",
+    "team": "KC"
+  },
+  "1426": {
+    "player_id": "1426",
+    "first_name": "DeAndre",
+    "last_name": "Hopkins",
+    "position": "WR",
+    "team": "TEN"
+  },
+  "11631": {
+    "player_id": "11631",
+    "first_name": "Brian",
+    "last_name": "Thomas",
+    "position": "WR",
+    "team": "JAX"
+  },
+  "8143": {
+    "player_id": "8143",
+    "first_name": "Jerome",
+    "last_name": "Ford",
+    "position": "RB",
+    "team": "CLE"
+  },
+  "9229": {
+    "player_id": "9229",
+    "first_name": "Anthony",
+    "last_name": "Richardson",
+    "position": "QB",
+    "team": "IND"
+  },
+  "11533": {
+    "player_id": "11533",
+    "first_name": "Brandon",
+    "last_name": "Aubrey",
+    "position": "K",
+    "team": "DAL"
+  },
+  "3164": {
+    "player_id": "3164",
+    "first_name": "Ezekiel",
+    "last_name": "Elliott",
+    "position": "RB",
+    "team": "DAL"
+  },
+  "9488": {
+    "player_id": "9488",
+    "first_name": "Jaxon",
+    "last_name": "Smith-Njigba",
+    "position": "WR",
+    "team": "SEA"
+  },
+  "5045": {
+    "player_id": "5045",
+    "first_name": "Courtland",
+    "last_name": "Sutton",
+    "position": "WR",
+    "team": "DEN"
+  },
+  "5001": {
+    "player_id": "5001",
+    "first_name": "Dalton",
+    "last_name": "Schultz",
+    "position": "TE",
+    "team": "HOU"
+  },
+  "1264": {
+    "player_id": "1264",
+    "first_name": "Justin",
+    "last_name": "Tucker",
+    "position": "K",
+    "team": "BAL"
+  },
+  "8121": {
+    "player_id": "8121",
+    "first_name": "Romeo",
+    "last_name": "Doubs",
+    "position": "WR",
+    "team": "GB"
+  },
+  "9508": {
+    "player_id": "9508",
+    "first_name": "Tyjae",
+    "last_name": "Spears",
+    "position": "RB",
+    "team": "TEN"
+  },
+  "11560": {
+    "player_id": "11560",
+    "first_name": "Caleb",
+    "last_name": "Williams",
+    "position": "QB",
+    "team": "CHI"
+  },
+  "8183": {
+    "player_id": "8183",
+    "first_name": "Brock",
+    "last_name": "Purdy",
+    "position": "QB",
+    "team": "SF"
+  },
+  "8134": {
+    "player_id": "8134",
+    "first_name": "Khalil",
+    "last_name": "Shakir",
+    "position": "WR",
+    "team": "BUF"
+  },
+  "11586": {
+    "player_id": "11586",
+    "first_name": "Blake",
+    "last_name": "Corum",
+    "position": "RB",
+    "team": "LAR"
+  },
+  "5844": {
+    "player_id": "5844",
+    "first_name": "T.J.",
+    "last_name": "Hockenson",
+    "position": "TE",
+    "team": "MIN"
+  },
+  "4227": {
+    "player_id": "4227",
+    "first_name": "Harrison",
+    "last_name": "Butker",
+    "position": "K",
+    "team": "KC"
+  },
+  "DAL": {
+    "player_id": "DAL",
+    "first_name": "Dallas Cowboys",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "DAL"
+  },
+  "9224": {
+    "player_id": "9224",
+    "first_name": "Chase",
+    "last_name": "Brown",
+    "position": "RB",
+    "team": "CIN"
+  },
+  "6768": {
+    "player_id": "6768",
+    "first_name": "Tua",
+    "last_name": "Tagovailoa",
+    "position": "QB",
+    "team": "MIA"
+  },
+  "7021": {
+    "player_id": "7021",
+    "first_name": "Rico",
+    "last_name": "Dowdle",
+    "position": "RB",
+    "team": "DAL"
+  },
+  "7670": {
+    "player_id": "7670",
+    "first_name": "Joshua",
+    "last_name": "Palmer",
+    "position": "WR",
+    "team": "LAC"
+  },
+  "11625": {
+    "player_id": "11625",
+    "first_name": "Adonai",
+    "last_name": "Mitchell",
+    "position": "WR",
+    "team": "IND"
+  },
+  "4082": {
+    "player_id": "4082",
+    "first_name": "Curtis",
+    "last_name": "Samuel",
+    "position": "WR",
+    "team": "BUF"
+  },
+  "BAL": {
+    "player_id": "BAL",
+    "first_name": "Baltimore Ravens",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "BAL"
+  },
+  "9753": {
+    "player_id": "9753",
+    "first_name": "Zach",
+    "last_name": "Charbonnet",
+    "position": "RB",
+    "team": "SEA"
+  },
+  "9481": {
+    "player_id": "9481",
+    "first_name": "Luke",
+    "last_name": "Musgrave",
+    "position": "TE",
+    "team": "GB"
+  },
+  "3163": {
+    "player_id": "3163",
+    "first_name": "Jared",
+    "last_name": "Goff",
+    "position": "QB",
+    "team": "DET"
+  },
+  "6797": {
+    "player_id": "6797",
+    "first_name": "Justin",
+    "last_name": "Herbert",
+    "position": "QB",
+    "team": "LAC"
+  },
+  "NYJ": {
+    "player_id": "NYJ",
+    "first_name": "New York Jets",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "NYJ"
+  },
+  "7839": {
+    "player_id": "7839",
+    "first_name": "Evan",
+    "last_name": "McPherson",
+    "position": "K",
+    "team": "CIN"
+  },
+  "4666": {
+    "player_id": "4666",
+    "first_name": "Younghoe",
+    "last_name": "Koo",
+    "position": "K",
+    "team": "ATL"
+  },
+  "CLE": {
+    "player_id": "CLE",
+    "first_name": "Cleveland Browns",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "CLE"
+  },
+  "8132": {
+    "player_id": "8132",
+    "first_name": "Tyler",
+    "last_name": "Allgeier",
+    "position": "RB",
+    "team": "ATL"
+  },
+  "SF": {
+    "player_id": "SF",
+    "first_name": "San Francisco 49ers",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "SF"
+  },
+  "10937": {
+    "player_id": "10937",
+    "first_name": "Jake",
+    "last_name": "Moody",
+    "position": "K",
+    "team": "SF"
+  },
+  "5022": {
+    "player_id": "5022",
+    "first_name": "Dallas",
+    "last_name": "Goedert",
+    "position": "TE",
+    "team": "PHI"
+  },
+  "7042": {
+    "player_id": "7042",
+    "first_name": "Tyler",
+    "last_name": "Bass",
+    "position": "K",
+    "team": "BUF"
+  },
+  "4195": {
+    "player_id": "4195",
+    "first_name": "Jake",
+    "last_name": "Elliott",
+    "position": "K",
+    "team": "PHI"
+  },
+  "KC": {
+    "player_id": "KC",
+    "first_name": "Kansas City Chiefs",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "KC"
+  },
+  "6806": {
+    "player_id": "6806",
+    "first_name": "J.K.",
+    "last_name": "Dobbins",
+    "position": "RB",
+    "team": "LAC"
+  },
+  "PIT": {
+    "player_id": "PIT",
+    "first_name": "Pittsburgh Steelers",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "PIT"
+  },
+  "PHI": {
+    "player_id": "PHI",
+    "first_name": "Philadelphia Eagles",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "PHI"
+  },
+  "4381": {
+    "player_id": "4381",
+    "first_name": "Taysom",
+    "last_name": "Hill",
+    "position": "TE",
+    "team": "NO"
+  },
+  "8259": {
+    "player_id": "8259",
+    "first_name": "Cameron",
+    "last_name": "Dicker",
+    "position": "K",
+    "team": "LAC"
+  },
+  "3451": {
+    "player_id": "3451",
+    "first_name": "Ka'imi",
+    "last_name": "Fairbairn",
+    "position": "K",
+    "team": "HOU"
+  },
+  "TB": {
+    "player_id": "TB",
+    "first_name": "Tampa Bay Buccaneers",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "TB"
+  },
+  "SEA": {
+    "player_id": "SEA",
+    "first_name": "Seattle Seahawks",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "SEA"
+  },
+  "7594": {
+    "player_id": "7594",
+    "first_name": "Chuba",
+    "last_name": "Hubbard",
+    "position": "RB",
+    "team": "CAR"
+  },
+  "12527": {
+    "player_id": "12527",
+    "first_name": "Ashton",
+    "last_name": "Jeanty",
+    "position": "RB",
+    "team": "LV"
+  },
+  "11584": {
+    "player_id": "11584",
+    "first_name": "Bucky",
+    "last_name": "Irving",
+    "position": "RB",
+    "team": "TB"
+  },
+  "12507": {
+    "player_id": "12507",
+    "first_name": "Omarion",
+    "last_name": "Hampton",
+    "position": "RB",
+    "team": "LAC"
+  },
+  "11566": {
+    "player_id": "11566",
+    "first_name": "Jayden",
+    "last_name": "Daniels",
+    "position": "QB",
+    "team": "WAS"
+  },
+  "12529": {
+    "player_id": "12529",
+    "first_name": "TreVeyon",
+    "last_name": "Henderson",
+    "position": "RB",
+    "team": "NE"
+  },
+  "12526": {
+    "player_id": "12526",
+    "first_name": "Tetairoa",
+    "last_name": "McMillan",
+    "position": "WR",
+    "team": "CAR"
+  },
+  "12489": {
+    "player_id": "12489",
+    "first_name": "RJ",
+    "last_name": "Harvey",
+    "position": "RB",
+    "team": "DEN"
+  },
+  "12512": {
+    "player_id": "12512",
+    "first_name": "Quinshon",
+    "last_name": "Judkins",
+    "position": "RB",
+    "team": "CLE"
+  },
+  "11563": {
+    "player_id": "11563",
+    "first_name": "Bo",
+    "last_name": "Nix",
+    "position": "QB",
+    "team": "DEN"
+  },
+  "12504": {
+    "player_id": "12504",
+    "first_name": "Kaleb",
+    "last_name": "Johnson",
+    "position": "RB",
+    "team": "PIT"
+  },
+  "4892": {
+    "player_id": "4892",
+    "first_name": "Baker",
+    "last_name": "Mayfield",
+    "position": "QB",
+    "team": "TB"
+  },
+  "11655": {
+    "player_id": "11655",
+    "first_name": "Tyrone",
+    "last_name": "Tracy",
+    "position": "RB",
+    "team": "NYG"
+  },
+  "6783": {
+    "player_id": "6783",
+    "first_name": "Jerry",
+    "last_name": "Jeudy",
+    "position": "WR",
+    "team": "CLE"
+  },
+  "12481": {
+    "player_id": "12481",
+    "first_name": "Cam",
+    "last_name": "Skattebo",
+    "position": "RB",
+    "team": "NYG"
+  },
+  "11638": {
+    "player_id": "11638",
+    "first_name": "Ricky",
+    "last_name": "Pearsall",
+    "position": "WR",
+    "team": "SF"
+  },
+  "5947": {
+    "player_id": "5947",
+    "first_name": "Jakobi",
+    "last_name": "Meyers",
+    "position": "WR",
+    "team": "LV"
+  },
+  "12530": {
+    "player_id": "12530",
+    "first_name": "Travis",
+    "last_name": "Hunter",
+    "position": "WR",
+    "team": "JAX"
+  },
+  "12518": {
+    "player_id": "12518",
+    "first_name": "Tyler",
+    "last_name": "Warren",
+    "position": "TE",
+    "team": "IND"
+  },
+  "8408": {
+    "player_id": "8408",
+    "first_name": "Jordan",
+    "last_name": "Mason",
+    "position": "RB",
+    "team": "MIN"
+  },
+  "12514": {
+    "player_id": "12514",
+    "first_name": "Emeka",
+    "last_name": "Egbuka",
+    "position": "WR",
+    "team": "TB"
+  },
+  "12501": {
+    "player_id": "12501",
+    "first_name": "Matthew",
+    "last_name": "Golden",
+    "position": "WR",
+    "team": "GB"
+  },
+  "9225": {
+    "player_id": "9225",
+    "first_name": "Tank",
+    "last_name": "Bigsby",
+    "position": "RB",
+    "team": "JAX"
+  },
+  "12457": {
+    "player_id": "12457",
+    "first_name": "Jaydon",
+    "last_name": "Blue",
+    "position": "RB",
+    "team": "DAL"
+  },
+  "12517": {
+    "player_id": "12517",
+    "first_name": "Colston",
+    "last_name": "Loveland",
+    "position": "TE",
+    "team": "CHI"
+  },
+  "7049": {
+    "player_id": "7049",
+    "first_name": "Jauan",
+    "last_name": "Jennings",
+    "position": "WR",
+    "team": "SF"
+  },
+  "12484": {
+    "player_id": "12484",
+    "first_name": "Jayden",
+    "last_name": "Higgins",
+    "position": "WR",
+    "team": "HOU"
+  },
+  "7090": {
+    "player_id": "7090",
+    "first_name": "Darnell",
+    "last_name": "Mooney",
+    "position": "WR",
+    "team": "ATL"
+  },
+  "DEN": {
+    "player_id": "DEN",
+    "first_name": "Denver Broncos",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "DEN"
+  },
+  "11589": {
+    "player_id": "11589",
+    "first_name": "Trey",
+    "last_name": "Benson",
+    "position": "RB",
+    "team": "ARI"
+  },
+  "9484": {
+    "player_id": "9484",
+    "first_name": "Tucker",
+    "last_name": "Kraft",
+    "position": "TE",
+    "team": "GB"
+  },
+  "4144": {
+    "player_id": "4144",
+    "first_name": "Jonnu",
+    "last_name": "Smith",
+    "position": "TE",
+    "team": "PIT"
+  },
+  "9500": {
+    "player_id": "9500",
+    "first_name": "Josh",
+    "last_name": "Downs",
+    "position": "WR",
+    "team": "IND"
+  },
+  "8676": {
+    "player_id": "8676",
+    "first_name": "Rashid",
+    "last_name": "Shaheed",
+    "position": "WR",
+    "team": "NO"
+  },
+  "9494": {
+    "player_id": "9494",
+    "first_name": "Marvin",
+    "last_name": "Mims",
+    "position": "WR",
+    "team": "DEN"
+  },
+  "12474": {
+    "player_id": "12474",
+    "first_name": "Woody",
+    "last_name": "Marks",
+    "position": "RB",
+    "team": "HOU"
+  },
+  "7571": {
+    "player_id": "7571",
+    "first_name": "Rashod",
+    "last_name": "Bateman",
+    "position": "WR",
+    "team": "BAL"
+  },
+  "12509": {
+    "player_id": "12509",
+    "first_name": "Tre'",
+    "last_name": "Harris",
+    "position": "WR",
+    "team": "LAC"
+  },
+  "11539": {
+    "player_id": "11539",
+    "first_name": "Jake",
+    "last_name": "Bates",
+    "position": "K",
+    "team": "DET"
+  },
+  "7591": {
+    "player_id": "7591",
+    "first_name": "Justin",
+    "last_name": "Fields",
+    "position": "QB",
+    "team": "NYJ"
+  },
+  "11575": {
+    "player_id": "11575",
+    "first_name": "Ray",
+    "last_name": "Davis",
+    "position": "RB",
+    "team": "BUF"
+  },
+  "3678": {
+    "player_id": "3678",
+    "first_name": "Wil",
+    "last_name": "Lutz",
+    "position": "K",
+    "team": "DEN"
+  },
+  "12547": {
+    "player_id": "12547",
+    "first_name": "Kyle",
+    "last_name": "Williams",
+    "position": "WR",
+    "team": "NE"
+  },
+  "MIN": {
+    "player_id": "MIN",
+    "first_name": "Minnesota Vikings",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "MIN"
+  },
+  "11576": {
+    "player_id": "11576",
+    "first_name": "Braelon",
+    "last_name": "Allen",
+    "position": "RB",
+    "team": "NYJ"
+  },
+  "6650": {
+    "player_id": "6650",
+    "first_name": "Chase",
+    "last_name": "McLaughlin",
+    "position": "K",
+    "team": "TB"
+  },
+  "DET": {
+    "player_id": "DET",
+    "first_name": "Detroit Lions",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "DET"
+  },
+  "11786": {
+    "player_id": "11786",
+    "first_name": "Cam",
+    "last_name": "Little",
+    "position": "K",
+    "team": "JAX"
+  },
+  "7600": {
+    "player_id": "7600",
+    "first_name": "Pat",
+    "last_name": "Freiermuth",
+    "position": "TE",
+    "team": "PIT"
+  },
+  "11626": {
+    "player_id": "11626",
+    "first_name": "Xavier",
+    "last_name": "Legette",
+    "position": "WR",
+    "team": "CAR"
+  },
+  "11564": {
+    "player_id": "11564",
+    "first_name": "Drake",
+    "last_name": "Maye",
+    "position": "QB",
+    "team": "NE"
+  },
+  "WAS": {
+    "player_id": "WAS",
+    "first_name": "Washington Commanders",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "WAS"
+  },
+  "11565": {
+    "player_id": "11565",
+    "first_name": "J.J.",
+    "last_name": "McCarthy",
+    "position": "QB",
+    "team": "MIN"
+  },
+  "12519": {
+    "player_id": "12519",
+    "first_name": "Luther",
+    "last_name": "Burden",
+    "position": "WR",
+    "team": "CHI"
+  },
+  "1945": {
+    "player_id": "1945",
+    "first_name": "Chris",
+    "last_name": "Boswell",
+    "position": "K",
+    "team": "PIT"
+  },
+  "11651": {
+    "player_id": "11651",
+    "first_name": "Isaac",
+    "last_name": "Guerendo",
+    "position": "RB",
+    "team": "SF"
+  },
+  "12711": {
+    "player_id": "12711",
+    "first_name": "Tyler",
+    "last_name": "Loop",
+    "position": "K",
+    "team": "BAL"
+  },
+  "4098": {
+    "player_id": "4098",
+    "first_name": "Kareem",
+    "last_name": "Hunt",
+    "position": "RB",
+    "team": "KC"
+  },
+  "BUF": {
+    "player_id": "BUF",
+    "first_name": "Buffalo Bills",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "BUF"
+  },
+  "6271": {
+    "player_id": "6271",
+    "first_name": "Olamide",
+    "last_name": "Zaccheaus",
+    "position": "WR",
+    "team": "CHI"
+  },
+  "8131": {
+    "player_id": "8131",
+    "first_name": "Isaiah",
+    "last_name": "Likely",
+    "position": "TE",
+    "team": "BAL"
+  },
+  "12535": {
+    "player_id": "12535",
+    "first_name": "Isaac",
+    "last_name": "TeSlaa",
+    "position": "WR",
+    "team": "DET"
+  },
+  "12533": {
+    "player_id": "12533",
+    "first_name": "Jacory",
+    "last_name": "Croskey-Merritt",
+    "position": "RB",
+    "team": "WAS"
+  },
+  "12495": {
+    "player_id": "12495",
+    "first_name": "Ollie",
+    "last_name": "Gordon",
+    "position": "RB",
+    "team": "MIA"
+  },
+  "HOU": {
+    "player_id": "HOU",
+    "first_name": "Houston Texans",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "HOU"
+  },
+  "12469": {
+    "player_id": "12469",
+    "first_name": "Dylan",
+    "last_name": "Sampson",
+    "position": "RB",
+    "team": "CLE"
+  },
+  "7523": {
+    "player_id": "7523",
+    "first_name": "Trevor",
+    "last_name": "Lawrence",
+    "position": "QB",
+    "team": "JAX"
+  },
+  "ARI": {
+    "player_id": "ARI",
+    "first_name": "Arizona Cardinals",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "ARI"
+  },
+  "GB": {
+    "player_id": "GB",
+    "first_name": "Green Bay Packers",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "GB"
+  },
+  "TEN": {
+    "player_id": "TEN",
+    "first_name": "Tennessee Titans",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "TEN"
+  },
+  "CHI": {
+    "player_id": "CHI",
+    "first_name": "Chicago Bears",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "CHI"
+  },
+  "NYG": {
+    "player_id": "NYG",
+    "first_name": "New York Giants",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "NYG"
+  },
+  "JAX": {
+    "player_id": "JAX",
+    "first_name": "Jacksonville Jaguars",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "JAX"
+  },
+  "NO": {
+    "player_id": "NO",
+    "first_name": "New Orleans Saints",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "NO"
+  },
+  "LAC": {
+    "player_id": "LAC",
+    "first_name": "Los Angeles Chargers",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "LAC"
+  },
+  "IND": {
+    "player_id": "IND",
+    "first_name": "Indianapolis Colts",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "IND"
+  },
+  "CAR": {
+    "player_id": "CAR",
+    "first_name": "Carolina Panthers",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "CAR"
+  },
+  "CIN": {
+    "player_id": "CIN",
+    "first_name": "Cincinnati Bengals",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "CIN"
+  },
+  "MIA": {
+    "player_id": "MIA",
+    "first_name": "Miami Dolphins",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "MIA"
+  },
+  "NE": {
+    "player_id": "NE",
+    "first_name": "New England Patriots",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "NE"
+  },
+  "LAR": {
+    "player_id": "LAR",
+    "first_name": "Los Angeles Rams",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "LAR"
+  },
+  "LV": {
+    "player_id": "LV",
+    "first_name": "Las Vegas Raiders",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "LV"
+  },
+  "ATL": {
+    "player_id": "ATL",
+    "first_name": "Atlanta Falcons",
+    "last_name": "D/ST",
+    "position": "DEF",
+    "team": "ATL"
+  },
+  "11559": {
+    "player_id": "11559",
+    "first_name": "Michael",
+    "last_name": "Penix",
+    "position": "QB",
+    "team": "ATL"
+  },
+  "12485": {
+    "player_id": "12485",
+    "first_name": "Tez",
+    "last_name": "Johnson",
+    "position": "WR",
+    "team": "TB"
+  },
+  "2307": {
+    "player_id": "2307",
+    "first_name": "Marcus",
+    "last_name": "Mariota",
+    "position": "QB",
+    "team": "WAS"
+  },
+  "11199": {
+    "player_id": "11199",
+    "first_name": "Emari",
+    "last_name": "Demercado",
+    "position": "RB",
+    "team": "KC"
+  },
+  "9480": {
+    "player_id": "9480",
+    "first_name": "Brenton",
+    "last_name": "Strange",
+    "position": "TE",
+    "team": "JAX"
+  },
+  "11623": {
+    "player_id": "11623",
+    "first_name": "Jordan",
+    "last_name": "Whittington",
+    "position": "WR",
+    "team": "LAR"
+  },
+  "5970": {
+    "player_id": "5970",
+    "first_name": "Greg",
+    "last_name": "Dortch",
+    "position": "WR",
+    "team": "DET"
+  },
+  "19": {
+    "player_id": "19",
+    "first_name": "Joe",
+    "last_name": "Flacco",
+    "position": "QB",
+    "team": "CIN"
+  },
+  "1433": {
+    "player_id": "1433",
+    "first_name": "Brandon",
+    "last_name": "McManus",
+    "position": "K",
+    "team": "GB"
+  },
+  "2020": {
+    "player_id": "2020",
+    "first_name": "Cairo",
+    "last_name": "Santos",
+    "position": "K",
+    "team": "CHI"
+  },
+  "11610": {
+    "player_id": "11610",
+    "first_name": "Malik",
+    "last_name": "Washington",
+    "position": "WR",
+    "team": "MIA"
+  },
+  "8800": {
+    "player_id": "8800",
+    "first_name": "Malik",
+    "last_name": "Davis",
+    "position": "RB",
+    "team": "DAL"
+  },
+  "4177": {
+    "player_id": "4177",
+    "first_name": "Mack",
+    "last_name": "Hollins",
+    "position": "WR",
+    "team": "NE"
+  },
+  "11792": {
+    "player_id": "11792",
+    "first_name": "Will",
+    "last_name": "Reichard",
+    "position": "K",
+    "team": "MIN"
+  },
+  "9487": {
+    "player_id": "9487",
+    "first_name": "Parker",
+    "last_name": "Washington",
+    "position": "WR",
+    "team": "JAX"
+  },
+  "12185": {
+    "player_id": "12185",
+    "first_name": "Spencer",
+    "last_name": "Shrader",
+    "position": "K",
+    "team": "IND"
+  },
+  "2359": {
+    "player_id": "2359",
+    "first_name": "Ameer",
+    "last_name": "Abdullah",
+    "position": "RB",
+    "team": null
+  },
+  "9486": {
+    "player_id": "9486",
+    "first_name": "Dontayvion",
+    "last_name": "Wicks",
+    "position": "WR",
+    "team": "GB"
+  },
+  "11650": {
+    "player_id": "11650",
+    "first_name": "Luke",
+    "last_name": "McCaffrey",
+    "position": "WR",
+    "team": "WAS"
+  },
+  "11008": {
+    "player_id": "11008",
+    "first_name": "Anders",
+    "last_name": "Carlson",
+    "position": "K",
+    "team": null
+  },
+  "10213": {
+    "player_id": "10213",
+    "first_name": "Tre",
+    "last_name": "Tucker",
+    "position": "WR",
+    "team": "LV"
+  },
+  "12498": {
+    "player_id": "12498",
+    "first_name": "Mason",
+    "last_name": "Taylor",
+    "position": "TE",
+    "team": "NYJ"
+  },
+  "7593": {
+    "player_id": "7593",
+    "first_name": "Trey",
+    "last_name": "Sermon",
+    "position": "RB",
+    "team": null
+  },
+  "11571": {
+    "player_id": "11571",
+    "first_name": "Isaiah",
+    "last_name": "Davis",
+    "position": "RB",
+    "team": "NYJ"
+  },
+  "10232": {
+    "player_id": "10232",
+    "first_name": "Michael",
+    "last_name": "Wilson",
+    "position": "WR",
+    "team": "ARI"
+  },
+  "11579": {
+    "player_id": "11579",
+    "first_name": "Audric",
+    "last_name": "Estime",
+    "position": "RB",
+    "team": "NO"
+  },
+  "4040": {
+    "player_id": "4040",
+    "first_name": "JuJu",
+    "last_name": "Smith-Schuster",
+    "position": "WR",
+    "team": null
+  },
+  "8111": {
+    "player_id": "8111",
+    "first_name": "Cade",
+    "last_name": "Otton",
+    "position": "TE",
+    "team": "TB"
+  },
+  "9754": {
+    "player_id": "9754",
+    "first_name": "Quentin",
+    "last_name": "Johnston",
+    "position": "WR",
+    "team": "LAC"
+  },
+  "8698": {
+    "player_id": "8698",
+    "first_name": "Jake",
+    "last_name": "Tonges",
+    "position": "TE",
+    "team": "SF"
+  },
+  "4943": {
+    "player_id": "4943",
+    "first_name": "Sam",
+    "last_name": "Darnold",
+    "position": "QB",
+    "team": "SEA"
+  },
+  "2747": {
+    "player_id": "2747",
+    "first_name": "Jason",
+    "last_name": "Myers",
+    "position": "K",
+    "team": "SEA"
+  },
+  "5987": {
+    "player_id": "5987",
+    "first_name": "Alexander",
+    "last_name": "Mattison",
+    "position": "RB",
+    "team": null
+  },
+  "11646": {
+    "player_id": "11646",
+    "first_name": "Jalen",
+    "last_name": "Coker",
+    "position": "WR",
+    "team": "CAR"
+  },
+  "421": {
+    "player_id": "421",
+    "first_name": "Matthew",
+    "last_name": "Stafford",
+    "position": "QB",
+    "team": "LAR"
+  },
+  "5230": {
+    "player_id": "5230",
+    "first_name": "Michael",
+    "last_name": "Badgley",
+    "position": "K",
+    "team": null
+  },
+  "2028": {
+    "player_id": "2028",
+    "first_name": "Derek",
+    "last_name": "Carr",
+    "position": "QB",
+    "team": null
+  },
+  "2505": {
+    "player_id": "2505",
+    "first_name": "Darren",
+    "last_name": "Waller",
+    "position": "TE",
+    "team": null
+  },
+  "2374": {
+    "player_id": "2374",
+    "first_name": "Tyler",
+    "last_name": "Lockett",
+    "position": "WR",
+    "team": null
+  },
+  "6865": {
+    "player_id": "6865",
+    "first_name": "Colby",
+    "last_name": "Parkinson",
+    "position": "TE",
+    "team": "LAR"
+  },
+  "12713": {
+    "player_id": "12713",
+    "first_name": "Andy",
+    "last_name": "Borregales",
+    "position": "K",
+    "team": "NE"
+  },
+  "12545": {
+    "player_id": "12545",
+    "first_name": "Tyler",
+    "last_name": "Shough",
+    "position": "QB",
+    "team": "NO"
+  },
+  "5010": {
+    "player_id": "5010",
+    "first_name": "Will",
+    "last_name": "Dissly",
+    "position": "TE",
+    "team": null
+  },
+  "11647": {
+    "player_id": "11647",
+    "first_name": "Kimani",
+    "last_name": "Vidal",
+    "position": "RB",
+    "team": "LAC"
+  },
+  "8122": {
+    "player_id": "8122",
+    "first_name": "Zonovan",
+    "last_name": "Knight",
+    "position": "RB",
+    "team": "ARI"
+  },
+  "6219": {
+    "player_id": "6219",
+    "first_name": "Austin",
+    "last_name": "Seibert",
+    "position": "K",
+    "team": null
+  },
+  "1234": {
+    "player_id": "1234",
+    "first_name": "Russell",
+    "last_name": "Wilson",
+    "position": "QB",
+    "team": null
+  },
+  "7607": {
+    "player_id": "7607",
+    "first_name": "Michael",
+    "last_name": "Carter",
+    "position": "RB",
+    "team": null
+  },
+  "96": {
+    "player_id": "96",
+    "first_name": "Aaron",
+    "last_name": "Rodgers",
+    "position": "QB",
+    "team": null
+  },
+  "5119": {
+    "player_id": "5119",
+    "first_name": "Jason",
+    "last_name": "Sanders",
+    "position": "K",
+    "team": "NYG"
+  },
+  "2197": {
+    "player_id": "2197",
+    "first_name": "Brandin",
+    "last_name": "Cooks",
+    "position": "WR",
+    "team": null
+  },
+  "11627": {
+    "player_id": "11627",
+    "first_name": "Troy",
+    "last_name": "Franklin",
+    "position": "WR",
+    "team": "DEN"
+  },
+  "9228": {
+    "player_id": "9228",
+    "first_name": "Bryce",
+    "last_name": "Young",
+    "position": "QB",
+    "team": "CAR"
+  },
+  "6149": {
+    "player_id": "6149",
+    "first_name": "Darius",
+    "last_name": "Slayton",
+    "position": "WR",
+    "team": "NYG"
+  },
+  "3257": {
+    "player_id": "3257",
+    "first_name": "Jacoby",
+    "last_name": "Brissett",
+    "position": "QB",
+    "team": "ARI"
+  },
+  "1689": {
+    "player_id": "1689",
+    "first_name": "Adam",
+    "last_name": "Thielen",
+    "position": "WR",
+    "team": null
+  },
+  "12534": {
+    "player_id": "12534",
+    "first_name": "Kyle",
+    "last_name": "Monangai",
+    "position": "RB",
+    "team": "CHI"
+  },
+  "8126": {
+    "player_id": "8126",
+    "first_name": "Wan'Dale",
+    "last_name": "Robinson",
+    "position": "WR",
+    "team": "TEN"
+  },
+  "9506": {
+    "player_id": "9506",
+    "first_name": "Sean",
+    "last_name": "Tucker",
+    "position": "RB",
+    "team": "TB"
+  },
+  "10219": {
+    "player_id": "10219",
+    "first_name": "Chris",
+    "last_name": "Rodriguez",
+    "position": "RB",
+    "team": "JAX"
+  },
+  "12508": {
+    "player_id": "12508",
+    "first_name": "Jaxson",
+    "last_name": "Dart",
+    "position": "QB",
+    "team": "NYG"
+  },
+  "5906": {
+    "player_id": "5906",
+    "first_name": "Dawson",
+    "last_name": "Knox",
+    "position": "TE",
+    "team": "BUF"
+  },
+  "5185": {
+    "player_id": "5185",
+    "first_name": "Allen",
+    "last_name": "Lazard",
+    "position": "WR",
+    "team": null
+  },
+  "4993": {
+    "player_id": "4993",
+    "first_name": "Mike",
+    "last_name": "Gesicki",
+    "position": "TE",
+    "team": "CIN"
+  },
+  "10226": {
+    "player_id": "10226",
+    "first_name": "Andrei",
+    "last_name": "Iosivas",
+    "position": "WR",
+    "team": "CIN"
+  },
+  "10444": {
+    "player_id": "10444",
+    "first_name": "Cedric",
+    "last_name": "Tillman",
+    "position": "WR",
+    "team": "CLE"
+  },
+  "8123": {
+    "player_id": "8123",
+    "first_name": "Hassan",
+    "last_name": "Haskins",
+    "position": "RB",
+    "team": null
+  },
+  "12493": {
+    "player_id": "12493",
+    "first_name": "Oronde",
+    "last_name": "Gadsden",
+    "position": "TE",
+    "team": "LAC"
+  },
+  "6826": {
+    "player_id": "6826",
+    "first_name": "Cole",
+    "last_name": "Kmet",
+    "position": "TE",
+    "team": "CHI"
+  },
+  "12506": {
+    "player_id": "12506",
+    "first_name": "Harold",
+    "last_name": "Fannin",
+    "position": "TE",
+    "team": "CLE"
+  },
+  "7002": {
+    "player_id": "7002",
+    "first_name": "Juwan",
+    "last_name": "Johnson",
+    "position": "TE",
+    "team": "NO"
+  },
+  "3214": {
+    "player_id": "3214",
+    "first_name": "Hunter",
+    "last_name": "Henry",
+    "position": "TE",
+    "team": "NE"
+  },
+  "6083": {
+    "player_id": "6083",
+    "first_name": "Matt",
+    "last_name": "Gay",
+    "position": "K",
+    "team": "LV"
+  },
+  "1166": {
+    "player_id": "1166",
+    "first_name": "Kirk",
+    "last_name": "Cousins",
+    "position": "QB",
+    "team": null
+  },
+  "9501": {
+    "player_id": "9501",
+    "first_name": "DeMario",
+    "last_name": "Douglas",
+    "position": "WR",
+    "team": "NE"
+  },
+  "12476": {
+    "player_id": "12476",
+    "first_name": "Devin",
+    "last_name": "Neal",
+    "position": "RB",
+    "team": "NO"
+  },
+  "9504": {
+    "player_id": "9504",
+    "first_name": "Kayshon",
+    "last_name": "Boutte",
+    "position": "WR",
+    "team": "NE"
+  },
+  "1339": {
+    "player_id": "1339",
+    "first_name": "Zach",
+    "last_name": "Ertz",
+    "position": "TE",
+    "team": null
+  },
+  "9757": {
+    "player_id": "9757",
+    "first_name": "Kendre",
+    "last_name": "Miller",
+    "position": "RB",
+    "team": "NO"
+  },
+  "12499": {
+    "player_id": "12499",
+    "first_name": "Elic",
+    "last_name": "Ayomanor",
+    "position": "WR",
+    "team": "TEN"
+  },
+  "11435": {
+    "player_id": "11435",
+    "first_name": "Emanuel",
+    "last_name": "Wilson",
+    "position": "RB",
+    "team": "SEA"
+  },
+  "11597": {
+    "player_id": "11597",
+    "first_name": "Theo",
+    "last_name": "Johnson",
+    "position": "TE",
+    "team": "NYG"
+  },
+  "17": {
+    "player_id": "17",
+    "first_name": "Matt",
+    "last_name": "Prater",
+    "position": "K",
+    "team": null
+  },
+  "7567": {
+    "player_id": "7567",
+    "first_name": "Kenneth",
+    "last_name": "Gainwell",
+    "position": "RB",
+    "team": "TB"
+  },
+  "5189": {
+    "player_id": "5189",
+    "first_name": "Eddy",
+    "last_name": "Pineiro",
+    "position": "K",
+    "team": "SF"
+  },
+  "11949": {
+    "player_id": "11949",
+    "first_name": "Brayden",
+    "last_name": "Narveson",
+    "position": "K",
+    "team": null
+  },
+  "5995": {
+    "player_id": "5995",
+    "first_name": "Justice",
+    "last_name": "Hill",
+    "position": "RB",
+    "team": "BAL"
+  },
+  "11603": {
+    "player_id": "11603",
+    "first_name": "AJ",
+    "last_name": "Barner",
+    "position": "TE",
+    "team": "SEA"
+  },
+  "4454": {
+    "player_id": "4454",
+    "first_name": "Kendrick",
+    "last_name": "Bourne",
+    "position": "WR",
+    "team": "ARI"
+  },
+  "5870": {
+    "player_id": "5870",
+    "first_name": "Daniel",
+    "last_name": "Jones",
+    "position": "QB",
+    "team": "IND"
+  },
+  "6039": {
+    "player_id": "6039",
+    "first_name": "Ty",
+    "last_name": "Johnson",
+    "position": "RB",
+    "team": "BUF"
+  },
+  "8142": {
+    "player_id": "8142",
+    "first_name": "Alec",
+    "last_name": "Pierce",
+    "position": "WR",
+    "team": "IND"
+  }
+}

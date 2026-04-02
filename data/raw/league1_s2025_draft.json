@@ -1,0 +1,70 @@
+{
+  "created": 1754789801271,
+  "creators": [
+    "1119735225929633792"
+  ],
+  "draft_id": "1260083392452493312",
+  "draft_order": {
+    "1018792533817745408": 6,
+    "1119735225929633792": 9,
+    "1122372080189743104": 5,
+    "1130660572242108416": 8,
+    "1136720278324740096": 2,
+    "1137457271795191808": 3,
+    "1175620887917535232": 10,
+    "1260688475489828864": 1,
+    "1260870600667189248": 7,
+    "613429319335006208": 4
+  },
+  "last_message_id": "1267651883456020480",
+  "last_message_time": 1756594270150,
+  "last_picked": 1756594269408,
+  "league_id": "1260083391416504320",
+  "metadata": {
+    "description": "",
+    "name": "Gridiron & Grace",
+    "scoring_type": "ppr",
+    "show_team_names": "0"
+  },
+  "season": "2025",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 1020,
+    "autopause_start_time": 300,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 60,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 15,
+    "slots_bn": 5,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 6,
+    "10": 7,
+    "2": 5,
+    "3": 2,
+    "4": 9,
+    "5": 3,
+    "6": 4,
+    "7": 10,
+    "8": 8,
+    "9": 1
+  },
+  "sport": "nfl",
+  "start_time": 1756591265928,
+  "status": "complete",
+  "type": "snake"
+}

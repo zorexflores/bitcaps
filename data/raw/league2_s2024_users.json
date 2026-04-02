@@ -1,0 +1,161 @@
+[
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "FCBGoBlue1310",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133149921193934848",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/e3984621cecb5b5843bce1e24c1be615.jpg",
+      "mention_pn": "on",
+      "team_name": "A Sun Above"
+    },
+    "settings": null,
+    "user_id": "871544808169246720"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "svirden",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133149921193934848",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/1e58a88891c75100e72c40ca0caa6ea9",
+      "mention_pn": "on",
+      "team_name": "The Pain train"
+    },
+    "settings": null,
+    "user_id": "994818078305288192"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "jxck03",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133149921193934848",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "999356164578095104"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "noahl11",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133149921193934848",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1053157949465608192"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "joeb1217",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1133149921193934848",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/77d46dd9508e2770a298b2d970de59ca.jpg",
+      "mention_pn": "on",
+      "team_name": "Bo-No"
+    },
+    "settings": null,
+    "user_id": "1122372080189743104"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "Ggretch05",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133149921193934848",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/b27989bb0e6534d2b6be65d0cb3b1c0c.jpg",
+      "mention_pn": "on",
+      "team_name": "LAMARVELOUS"
+    },
+    "settings": null,
+    "user_id": "1133151335517564928"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "MDubium",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133149921193934848",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Dak Goff"
+    },
+    "settings": null,
+    "user_id": "1133154832338141184"
+  },
+  {
+    "avatar": "c366b1091dd0511bd6855933af1b80b4",
+    "display_name": "Gator1Bait",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133149921193934848",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/dfc745c47272c35d0ba35594f9fcd728.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Metcalfterburners",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1133192678793023488"
+  },
+  {
+    "avatar": "041db254bf254781f13de8219616fdaa",
+    "display_name": "DaFreakinRat",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133149921193934848",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/7829f7c7f06223f7628f5eae56a1774e.jpg",
+      "mention_pn": "on",
+      "team_name": "Drake"
+    },
+    "settings": null,
+    "user_id": "1133225945856401408"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "wes4884",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133149921193934848",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1134264658157961216"
+  }
+]

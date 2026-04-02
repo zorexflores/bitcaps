@@ -1,0 +1,247 @@
+{
+  "type": "multi_sim",
+  "league": {
+    "name": "League League",
+    "season": "2025",
+    "league_id": "1181854504482328576",
+    "teams": 12
+  },
+  "config": {
+    "n_sims": 500,
+    "dampening": 0.2,
+    "base_seed": 27847,
+    "avg_flip_rate": 46.5
+  },
+  "team_stats": [
+    {
+      "roster_id": 2,
+      "name": "THE GENERAL",
+      "avg_wins": 9.0,
+      "avg_losses": 5.0,
+      "avg_pf": 1763.4,
+      "playoff_pct": 90.8,
+      "first_pct": 29.4,
+      "last_pct": 0.0,
+      "avg_rank": 3.0,
+      "win_range": "4-13"
+    },
+    {
+      "roster_id": 3,
+      "name": "Nabers in Paris Dak\u2019nGoff",
+      "avg_wins": 8.8,
+      "avg_losses": 5.2,
+      "avg_pf": 1720.9,
+      "playoff_pct": 85.8,
+      "first_pct": 22.4,
+      "last_pct": 0.2,
+      "avg_rank": 3.7,
+      "win_range": "4-13"
+    },
+    {
+      "roster_id": 8,
+      "name": "wes4884",
+      "avg_wins": 8.3,
+      "avg_losses": 5.6,
+      "avg_pf": 1737.5,
+      "playoff_pct": 82.4,
+      "first_pct": 19.0,
+      "last_pct": 0.6,
+      "avg_rank": 4.1,
+      "win_range": "3-13"
+    },
+    {
+      "roster_id": 7,
+      "name": "noahl11",
+      "avg_wins": 7.5,
+      "avg_losses": 6.5,
+      "avg_pf": 1709.6,
+      "playoff_pct": 65.2,
+      "first_pct": 8.2,
+      "last_pct": 1.4,
+      "avg_rank": 5.3,
+      "win_range": "3-12"
+    },
+    {
+      "roster_id": 9,
+      "name": "Burrow\u2019s Boyz",
+      "avg_wins": 7.5,
+      "avg_losses": 6.5,
+      "avg_pf": 1683.5,
+      "playoff_pct": 62.0,
+      "first_pct": 6.4,
+      "last_pct": 2.2,
+      "avg_rank": 5.6,
+      "win_range": "2-13"
+    },
+    {
+      "roster_id": 6,
+      "name": "Rack of Lamb",
+      "avg_wins": 7.5,
+      "avg_losses": 6.5,
+      "avg_pf": 1653.4,
+      "playoff_pct": 61.6,
+      "first_pct": 7.0,
+      "last_pct": 3.4,
+      "avg_rank": 5.8,
+      "win_range": "2-12"
+    },
+    {
+      "roster_id": 4,
+      "name": "jxck03",
+      "avg_wins": 6.8,
+      "avg_losses": 7.2,
+      "avg_pf": 1594.0,
+      "playoff_pct": 40.8,
+      "first_pct": 1.8,
+      "last_pct": 6.0,
+      "avg_rank": 7.2,
+      "win_range": "2-11"
+    },
+    {
+      "roster_id": 11,
+      "name": "Mayer Force Once",
+      "avg_wins": 6.5,
+      "avg_losses": 7.5,
+      "avg_pf": 1589.8,
+      "playoff_pct": 34.4,
+      "first_pct": 2.0,
+      "last_pct": 5.2,
+      "avg_rank": 7.6,
+      "win_range": "2-11"
+    },
+    {
+      "roster_id": 10,
+      "name": "The Pain train",
+      "avg_wins": 6.3,
+      "avg_losses": 7.7,
+      "avg_pf": 1602.9,
+      "playoff_pct": 33.0,
+      "first_pct": 2.0,
+      "last_pct": 7.0,
+      "avg_rank": 7.7,
+      "win_range": "1-11"
+    },
+    {
+      "roster_id": 1,
+      "name": "Just let it go. It\u2019s over",
+      "avg_wins": 5.9,
+      "avg_losses": 8.1,
+      "avg_pf": 1583.6,
+      "playoff_pct": 23.4,
+      "first_pct": 1.2,
+      "last_pct": 10.8,
+      "avg_rank": 8.5,
+      "win_range": "1-11"
+    },
+    {
+      "roster_id": 12,
+      "name": "Ur chick call me Kyren",
+      "avg_wins": 5.5,
+      "avg_losses": 8.5,
+      "avg_pf": 1579.4,
+      "playoff_pct": 16.2,
+      "first_pct": 0.4,
+      "last_pct": 16.4,
+      "avg_rank": 9.0,
+      "win_range": "2-11"
+    },
+    {
+      "roster_id": 5,
+      "name": "Quon Solo",
+      "avg_wins": 4.4,
+      "avg_losses": 9.6,
+      "avg_pf": 1485.3,
+      "playoff_pct": 4.4,
+      "first_pct": 0.2,
+      "last_pct": 46.8,
+      "avg_rank": 10.7,
+      "win_range": "0-10"
+    }
+  ],
+  "real_standings": [
+    {
+      "roster_id": 3,
+      "name": "Nabers in Paris Dak\u2019nGoff",
+      "wins": 20,
+      "losses": 8,
+      "points_for": 1689.0
+    },
+    {
+      "roster_id": 2,
+      "name": "THE GENERAL",
+      "wins": 19,
+      "losses": 9,
+      "points_for": 1777.08
+    },
+    {
+      "roster_id": 7,
+      "name": "noahl11",
+      "wins": 19,
+      "losses": 9,
+      "points_for": 1713.88
+    },
+    {
+      "roster_id": 9,
+      "name": "Burrow\u2019s Boyz",
+      "wins": 16,
+      "losses": 12,
+      "points_for": 1702.42
+    },
+    {
+      "roster_id": 10,
+      "name": "The Pain train",
+      "wins": 15,
+      "losses": 13,
+      "points_for": 1558.42
+    },
+    {
+      "roster_id": 8,
+      "name": "wes4884",
+      "wins": 13,
+      "losses": 15,
+      "points_for": 1692.1
+    },
+    {
+      "roster_id": 12,
+      "name": "Ur chick call me Kyren",
+      "wins": 13,
+      "losses": 15,
+      "points_for": 1612.56
+    },
+    {
+      "roster_id": 4,
+      "name": "jxck03",
+      "wins": 13,
+      "losses": 15,
+      "points_for": 1544.3
+    },
+    {
+      "roster_id": 6,
+      "name": "Rack of Lamb",
+      "wins": 11,
+      "losses": 17,
+      "points_for": 1632.24
+    },
+    {
+      "roster_id": 11,
+      "name": "Mayer Force Once",
+      "wins": 11,
+      "losses": 17,
+      "points_for": 1527.26
+    },
+    {
+      "roster_id": 5,
+      "name": "Quon Solo",
+      "wins": 11,
+      "losses": 17,
+      "points_for": 1426.94
+    },
+    {
+      "roster_id": 1,
+      "name": "Just let it go. It\u2019s over",
+      "wins": 7,
+      "losses": 21,
+      "points_for": 1520.94
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "tag": "league2",
+  "season": "2025",
+  "league_name": "League League",
+  "teams": 12,
+  "playoff_teams": 6,
+  "single_sims": [
+    {
+      "seed": 1,
+      "file": "sim_seed1.json",
+      "label": "Alternate Season #1 (seed 1)"
+    },
+    {
+      "seed": 42,
+      "file": "sim_seed42.json",
+      "label": "Alternate Season #2 (seed 42)"
+    },
+    {
+      "seed": 100,
+      "file": "sim_seed100.json",
+      "label": "Alternate Season #3 (seed 100)"
+    },
+    {
+      "seed": 500,
+      "file": "sim_seed500.json",
+      "label": "Alternate Season #4 (seed 500)"
+    },
+    {
+      "seed": 999,
+      "file": "sim_seed999.json",
+      "label": "Alternate Season #5 (seed 999)"
+    }
+  ],
+  "multi_sim_file": "multi_sim.json",
+  "player_profiles_file": "player_profiles.json"
+}

@@ -1,0 +1,7988 @@
+{
+  "type": "single_sim",
+  "league": {
+    "name": "League League",
+    "season": "2025",
+    "league_id": "1181854504482328576",
+    "teams": 12
+  },
+  "seed": 500,
+  "standings": [
+    {
+      "roster_id": 3,
+      "name": "Nabers in Paris Dak\u2019nGoff",
+      "wins": 10,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 1822.8799999999999,
+      "points_against": 1671.39
+    },
+    {
+      "roster_id": 8,
+      "name": "wes4884",
+      "wins": 10,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 1779.48,
+      "points_against": 1598.3899999999999
+    },
+    {
+      "roster_id": 6,
+      "name": "Rack of Lamb",
+      "wins": 9,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 1736.34,
+      "points_against": 1604.52
+    },
+    {
+      "roster_id": 10,
+      "name": "The Pain train",
+      "wins": 9,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 1674.7699999999998,
+      "points_against": 1633.42
+    },
+    {
+      "roster_id": 4,
+      "name": "jxck03",
+      "wins": 8,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1609.19,
+      "points_against": 1631.0600000000002
+    },
+    {
+      "roster_id": 2,
+      "name": "THE GENERAL",
+      "wins": 7,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1734.4099999999999,
+      "points_against": 1593.79
+    },
+    {
+      "roster_id": 11,
+      "name": "Mayer Force Once",
+      "wins": 7,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1588.5100000000002,
+      "points_against": 1602.14
+    },
+    {
+      "roster_id": 9,
+      "name": "Burrow\u2019s Boyz",
+      "wins": 6,
+      "losses": 8,
+      "ties": 0,
+      "points_for": 1586.8300000000002,
+      "points_against": 1676.69
+    },
+    {
+      "roster_id": 7,
+      "name": "noahl11",
+      "wins": 5,
+      "losses": 9,
+      "ties": 0,
+      "points_for": 1623.79,
+      "points_against": 1720.6
+    },
+    {
+      "roster_id": 1,
+      "name": "Just let it go. It\u2019s over",
+      "wins": 5,
+      "losses": 9,
+      "ties": 0,
+      "points_for": 1610.09,
+      "points_against": 1672.49
+    },
+    {
+      "roster_id": 12,
+      "name": "Ur chick call me Kyren",
+      "wins": 5,
+      "losses": 9,
+      "ties": 0,
+      "points_for": 1566.3700000000003,
+      "points_against": 1685.8799999999999
+    },
+    {
+      "roster_id": 5,
+      "name": "Quon Solo",
+      "wins": 3,
+      "losses": 11,
+      "ties": 0,
+      "points_for": 1436.19,
+      "points_against": 1678.4800000000002
+    }
+  ],
+  "real_standings": [
+    {
+      "roster_id": 2,
+      "name": "THE GENERAL",
+      "wins": 10,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 1777.08,
+      "points_against": 1553.62
+    },
+    {
+      "roster_id": 7,
+      "name": "noahl11",
+      "wins": 10,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 1713.88,
+      "points_against": 1571.8600000000001
+    },
+    {
+      "roster_id": 3,
+      "name": "Nabers in Paris Dak\u2019nGoff",
+      "wins": 10,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 1689.0000000000002,
+      "points_against": 1557.2200000000003
+    },
+    {
+      "roster_id": 10,
+      "name": "The Pain train",
+      "wins": 9,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 1558.42,
+      "points_against": 1493.32
+    },
+    {
+      "roster_id": 4,
+      "name": "jxck03",
+      "wins": 8,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1544.3,
+      "points_against": 1485.8999999999999
+    },
+    {
+      "roster_id": 11,
+      "name": "Mayer Force Once",
+      "wins": 7,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1527.2600000000002,
+      "points_against": 1553.32
+    },
+    {
+      "roster_id": 9,
+      "name": "Burrow\u2019s Boyz",
+      "wins": 6,
+      "losses": 8,
+      "ties": 0,
+      "points_for": 1702.4200000000003,
+      "points_against": 1785.4599999999998
+    },
+    {
+      "roster_id": 12,
+      "name": "Ur chick call me Kyren",
+      "wins": 6,
+      "losses": 8,
+      "ties": 0,
+      "points_for": 1612.5600000000002,
+      "points_against": 1672.6399999999999
+    },
+    {
+      "roster_id": 5,
+      "name": "Quon Solo",
+      "wins": 6,
+      "losses": 8,
+      "ties": 0,
+      "points_for": 1426.9400000000003,
+      "points_against": 1570.22
+    },
+    {
+      "roster_id": 8,
+      "name": "wes4884",
+      "wins": 5,
+      "losses": 9,
+      "ties": 0,
+      "points_for": 1692.0999999999995,
+      "points_against": 1624.7
+    },
+    {
+      "roster_id": 6,
+      "name": "Rack of Lamb",
+      "wins": 4,
+      "losses": 10,
+      "ties": 0,
+      "points_for": 1632.24,
+      "points_against": 1730.1000000000001
+    },
+    {
+      "roster_id": 1,
+      "name": "Just let it go. It\u2019s over",
+      "wins": 3,
+      "losses": 11,
+      "ties": 0,
+      "points_for": 1520.9399999999998,
+      "points_against": 1798.78
+    }
+  ],
+  "weekly_results": {
+    "1": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 7,
+            "name": "noahl11",
+            "real_points": 114.78,
+            "sim_points": 113.38,
+            "starters": [
+              "4892",
+              "9509",
+              "9224",
+              "11635",
+              "5927",
+              "5012",
+              "5045",
+              "8137",
+              "1945",
+              "KC"
+            ],
+            "real_starters_points": [
+              28.58,
+              21.4,
+              12.1,
+              10.4,
+              3.7,
+              1.0,
+              15.1,
+              4.5,
+              15.0,
+              3.0
+            ],
+            "sim_starters_points": [
+              20.96,
+              26.14,
+              15.08,
+              4.09,
+              6.38,
+              4.04,
+              3.03,
+              26.41,
+              2.53,
+              4.72
+            ]
+          },
+          {
+            "roster_id": 8,
+            "name": "wes4884",
+            "real_points": 97.02,
+            "sim_points": 123.27,
+            "starters": [
+              "5849",
+              "4034",
+              "9226",
+              "3321",
+              "4983",
+              "4217",
+              "4988",
+              "5967",
+              "11533",
+              "BAL"
+            ],
+            "real_starters_points": [
+              22.32,
+              18.7,
+              15.0,
+              6.0,
+              7.1,
+              10.5,
+              6.0,
+              7.4,
+              11.0,
+              -7.0
+            ],
+            "sim_starters_points": [
+              15.83,
+              29.74,
+              16.82,
+              13.27,
+              4.8,
+              9.62,
+              6.11,
+              5.83,
+              6.2,
+              15.05
+            ]
+          }
+        ],
+        "real_winner": 7,
+        "sim_winner": 8,
+        "flipped": true
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "THE GENERAL",
+            "real_points": 145.86,
+            "sim_points": 131.67,
+            "starters": [
+              "4984",
+              "8138",
+              "7588",
+              "7564",
+              "5846",
+              "12518",
+              "11620",
+              "8143",
+              "3678",
+              "DEN"
+            ],
+            "real_starters_points": [
+              42.76,
+              18.7,
+              19.4,
+              3.6,
+              10.3,
+              11.4,
+              12.7,
+              1.0,
+              8.0,
+              18.0
+            ],
+            "sim_starters_points": [
+              28.4,
+              18.32,
+              17.46,
+              14.74,
+              18.98,
+              3.93,
+              5.62,
+              1.44,
+              12.81,
+              9.97
+            ]
+          },
+          {
+            "roster_id": 12,
+            "name": "Ur chick call me Kyren",
+            "real_points": 117.52,
+            "sim_points": 142.09,
+            "starters": [
+              "11566",
+              "8150",
+              "4199",
+              "9493",
+              "7526",
+              "8130",
+              "4663",
+              "8134",
+              "11786",
+              "ARI"
+            ],
+            "real_starters_points": [
+              22.12,
+              13.4,
+              14.2,
+              18.1,
+              5.0,
+              9.1,
+              7.2,
+              9.4,
+              15.0,
+              4.0
+            ],
+            "sim_starters_points": [
+              25.83,
+              24.57,
+              13.27,
+              29.64,
+              6.03,
+              9.62,
+              3.78,
+              15.87,
+              11.57,
+              1.91
+            ]
+          }
+        ],
+        "real_winner": 2,
+        "sim_winner": 12,
+        "flipped": true
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Just let it go. It\u2019s over",
+            "real_points": 122.62,
+            "sim_points": 97.35,
+            "starters": [
+              "4046",
+              "12529",
+              "12507",
+              "11631",
+              "11638",
+              "10236",
+              "3198",
+              "8148",
+              "4666",
+              "PHI"
+            ],
+            "real_starters_points": [
+              28.02,
+              8.1,
+              7.1,
+              8.5,
+              12.8,
+              12.8,
+              28.7,
+              4.6,
+              8.0,
+              4.0
+            ],
+            "sim_starters_points": [
+              9.34,
+              8.85,
+              15.46,
+              9.8,
+              11.65,
+              12.93,
+              11.76,
+              6.26,
+              8.0,
+              3.3
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "The Pain train",
+            "real_points": 85.42,
+            "sim_points": 110.16,
+            "starters": [
+              "6797",
+              "8151",
+              "4137",
+              "7547",
+              "11624",
+              "11604",
+              "8144",
+              "7571",
+              "6650",
+              "PIT"
+            ],
+            "real_starters_points": [
+              33.92,
+              3.9,
+              12.4,
+              6.5,
+              0.0,
+              12.8,
+              8.9,
+              2.0,
+              4.0,
+              1.0
+            ],
+            "sim_starters_points": [
+              29.6,
+              4.72,
+              11.31,
+              18.84,
+              7.69,
+              8.64,
+              20.25,
+              1.98,
+              4.71,
+              2.42
+            ]
+          }
+        ],
+        "real_winner": 1,
+        "sim_winner": 10,
+        "flipped": true
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 4,
+            "name": "jxck03",
+            "real_points": 105.14,
+            "sim_points": 110.1,
+            "starters": [
+              "11563",
+              "9221",
+              "8155",
+              "8112",
+              "12530",
+              "9484",
+              "11628",
+              "11655",
+              "3451",
+              "SF"
+            ],
+            "real_starters_points": [
+              8.84,
+              10.0,
+              15.5,
+              9.5,
+              6.3,
+              8.9,
+              15.6,
+              4.5,
+              14.0,
+              12.0
+            ],
+            "sim_starters_points": [
+              16.46,
+              11.94,
+              14.08,
+              7.76,
+              5.98,
+              6.05,
+              12.19,
+              7.77,
+              16.84,
+              11.03
+            ]
+          },
+          {
+            "roster_id": 9,
+            "name": "Burrow\u2019s Boyz",
+            "real_points": 111.22,
+            "sim_points": 107.71,
+            "starters": [
+              "6770",
+              "11584",
+              "12512",
+              "6794",
+              "9488",
+              "10859",
+              "5947",
+              "12514",
+              "11539",
+              "SEA"
+            ],
+            "real_starters_points": [
+              10.82,
+              12.5,
+              0.0,
+              12.8,
+              14.9,
+              10.9,
+              13.7,
+              21.6,
+              7.0,
+              7.0
+            ],
+            "sim_starters_points": [
+              12.87,
+              12.47,
+              9.12,
+              12.12,
+              24.49,
+              4.33,
+              7.97,
+              4.73,
+              6.52,
+              13.09
+            ]
+          }
+        ],
+        "real_winner": 9,
+        "sim_winner": 4,
+        "flipped": true
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Nabers in Paris Dak\u2019nGoff",
+            "real_points": 76.02,
+            "sim_points": 109.07,
+            "starters": [
+              "3294",
+              "7594",
+              "4035",
+              "11632",
+              "7569",
+              "12517",
+              "12526",
+              "6790",
+              "7839",
+              "TB"
+            ],
+            "real_starters_points": [
+              7.82,
+              16.4,
+              12.7,
+              9.6,
+              4.0,
+              2.2,
+              9.3,
+              8.0,
+              5.0,
+              1.0
+            ],
+            "sim_starters_points": [
+              29.25,
+              3.14,
+              11.93,
+              4.25,
+              6.3,
+              6.29,
+              2.88,
+              13.85,
+              15.26,
+              15.92
+            ]
+          },
+          {
+            "roster_id": 5,
+            "name": "Quon Solo",
+            "real_points": 101.46,
+            "sim_points": 106.19,
+            "starters": [
+              "4881",
+              "4866",
+              "5892",
+              "5859",
+              "2133",
+              "4033",
+              "6783",
+              "4981",
+              "12711",
+              "MIN"
+            ],
+            "real_starters_points": [
+              33.36,
+              16.4,
+              6.3,
+              1.3,
+              7.1,
+              5.2,
+              9.1,
+              4.7,
+              12.0,
+              6.0
+            ],
+            "sim_starters_points": [
+              30.37,
+              19.63,
+              5.85,
+              12.82,
+              13.24,
+              2.39,
+              2.9,
+              3.07,
+              11.24,
+              4.68
+            ]
+          }
+        ],
+        "real_winner": 5,
+        "sim_winner": 3,
+        "flipped": true
+      },
+      {
+        "matchup_id": 6,
+        "teams": [
+          {
+            "roster_id": 6,
+            "name": "Rack of Lamb",
+            "real_points": 99.98,
+            "sim_points": 150.85,
+            "starters": [
+              "8183",
+              "6813",
+              "8205",
+              "6786",
+              "6801",
+              "1466",
+              "8146",
+              "7525",
+              "8259",
+              "DET"
+            ],
+            "real_starters_points": [
+              20.78,
+              11.3,
+              3.8,
+              14.5,
+              4.8,
+              11.7,
+              19.0,
+              3.1,
+              9.0,
+              2.0
+            ],
+            "sim_starters_points": [
+              37.55,
+              21.35,
+              9.66,
+              13.79,
+              26.11,
+              2.71,
+              18.24,
+              7.28,
+              10.76,
+              3.4
+            ]
+          },
+          {
+            "roster_id": 11,
+            "name": "Mayer Force Once",
+            "real_points": 134.98,
+            "sim_points": 118.4,
+            "starters": [
+              "6904",
+              "5850",
+              "12527",
+              "2216",
+              "5872",
+              "5844",
+              "8228",
+              "9997",
+              "4227",
+              "WAS"
+            ],
+            "real_starters_points": [
+              24.28,
+              13.5,
+              11.0,
+              7.6,
+              19.1,
+              3.0,
+              12.9,
+              24.6,
+              10.0,
+              9.0
+            ],
+            "sim_starters_points": [
+              23.16,
+              10.6,
+              7.6,
+              11.27,
+              10.68,
+              8.02,
+              12.38,
+              11.23,
+              14.46,
+              9.0
+            ]
+          }
+        ],
+        "real_winner": 11,
+        "sim_winner": 6,
+        "flipped": true
+      }
+    ],
+    "2": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 8,
+            "name": "wes4884",
+            "real_points": 142.2,
+            "sim_points": 149.53,
+            "starters": [
+              "5849",
+              "4034",
+              "9226",
+              "3321",
+              "4983",
+              "5012",
+              "4988",
+              "5967",
+              "11533",
+              "BAL"
+            ],
+            "real_starters_points": [
+              16.0,
+              19.7,
+              22.2,
+              13.9,
+              7.1,
+              0.9,
+              14.2,
+              9.2,
+              23.0,
+              16.0
+            ],
+            "sim_starters_points": [
+              19.67,
+              30.38,
+              19.14,
+              12.87,
+              1.92,
+              20.6,
+              2.59,
+              12.31,
+              21.4,
+              8.65
+            ]
+          },
+          {
+            "roster_id": 12,
+            "name": "Ur chick call me Kyren",
+            "real_points": 115.4,
+            "sim_points": 123.73,
+            "starters": [
+              "11566",
+              "8150",
+              "4199",
+              "9493",
+              "6819",
+              "8130",
+              "7526",
+              "8134",
+              "11786",
+              "ARI"
+            ],
+            "real_starters_points": [
+              23.7,
+              9.0,
+              2.3,
+              23.6,
+              6.0,
+              10.8,
+              15.3,
+              1.7,
+              10.0,
+              13.0
+            ],
+            "sim_starters_points": [
+              21.42,
+              7.13,
+              10.39,
+              22.76,
+              15.51,
+              13.22,
+              7.39,
+              6.83,
+              12.37,
+              6.71
+            ]
+          }
+        ],
+        "real_winner": 8,
+        "sim_winner": 8,
+        "flipped": false
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "THE GENERAL",
+            "real_points": 140.52,
+            "sim_points": 142.14,
+            "starters": [
+              "4984",
+              "8138",
+              "7588",
+              "7564",
+              "5846",
+              "12518",
+              "11620",
+              "5848",
+              "3678",
+              "DEN"
+            ],
+            "real_starters_points": [
+              11.82,
+              26.0,
+              22.0,
+              29.5,
+              9.5,
+              9.9,
+              28.3,
+              5.5,
+              3.0,
+              -5.0
+            ],
+            "sim_starters_points": [
+              40.25,
+              18.32,
+              20.42,
+              18.82,
+              13.3,
+              7.21,
+              6.34,
+              7.49,
+              4.81,
+              5.18
+            ]
+          },
+          {
+            "roster_id": 7,
+            "name": "noahl11",
+            "real_points": 111.1,
+            "sim_points": 104.58,
+            "starters": [
+              "4892",
+              "9509",
+              "9224",
+              "11635",
+              "5927",
+              "7002",
+              "5045",
+              "8137",
+              "1945",
+              "KC"
+            ],
+            "real_starters_points": [
+              23.9,
+              18.3,
+              7.5,
+              7.3,
+              7.3,
+              13.4,
+              1.1,
+              15.3,
+              12.0,
+              5.0
+            ],
+            "sim_starters_points": [
+              8.24,
+              24.94,
+              6.12,
+              3.21,
+              17.18,
+              6.2,
+              13.11,
+              15.13,
+              4.93,
+              5.52
+            ]
+          }
+        ],
+        "real_winner": 2,
+        "sim_winner": 2,
+        "flipped": false
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Just let it go. It\u2019s over",
+            "real_points": 78.48,
+            "sim_points": 109.61,
+            "starters": [
+              "4046",
+              "12533",
+              "3198",
+              "11631",
+              "11638",
+              "12506",
+              "12507",
+              "12529",
+              "1433",
+              "LAR"
+            ],
+            "real_starters_points": [
+              24.08,
+              1.7,
+              2.3,
+              6.9,
+              7.2,
+              7.3,
+              3.0,
+              5.0,
+              10.0,
+              11.0
+            ],
+            "sim_starters_points": [
+              27.12,
+              2.96,
+              13.28,
+              9.8,
+              10.37,
+              7.71,
+              13.62,
+              10.37,
+              3.7,
+              10.68
+            ]
+          },
+          {
+            "roster_id": 4,
+            "name": "jxck03",
+            "real_points": 105.24,
+            "sim_points": 120.29,
+            "starters": [
+              "11563",
+              "9221",
+              "8155",
+              "8112",
+              "12530",
+              "9484",
+              "11628",
+              "11655",
+              "3451",
+              "SF"
+            ],
+            "real_starters_points": [
+              26.24,
+              17.9,
+              4.8,
+              4.4,
+              3.7,
+              21.4,
+              3.7,
+              7.1,
+              9.0,
+              7.0
+            ],
+            "sim_starters_points": [
+              14.25,
+              32.1,
+              7.36,
+              3.52,
+              7.74,
+              6.05,
+              7.39,
+              21.21,
+              13.64,
+              7.03
+            ]
+          }
+        ],
+        "real_winner": 4,
+        "sim_winner": 4,
+        "flipped": false
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 9,
+            "name": "Burrow\u2019s Boyz",
+            "real_points": 99.34,
+            "sim_points": 124.09,
+            "starters": [
+              "6770",
+              "11584",
+              "9753",
+              "6794",
+              "9488",
+              "10859",
+              "5947",
+              "12514",
+              "11539",
+              "SEA"
+            ],
+            "real_starters_points": [
+              9.04,
+              15.1,
+              1.0,
+              9.6,
+              14.3,
+              4.1,
+              9.8,
+              10.9,
+              9.5,
+              16.0
+            ],
+            "sim_starters_points": [
+              12.87,
+              7.11,
+              15.9,
+              15.96,
+              12.89,
+              6.17,
+              7.01,
+              24.17,
+              6.52,
+              15.49
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "The Pain train",
+            "real_points": 121.88,
+            "sim_points": 177.08,
+            "starters": [
+              "6797",
+              "12481",
+              "4137",
+              "7547",
+              "9754",
+              "11604",
+              "8144",
+              "7553",
+              "6650",
+              "PIT"
+            ],
+            "real_starters_points": [
+              22.78,
+              12.9,
+              11.7,
+              34.7,
+              14.4,
+              6.3,
+              8.4,
+              5.7,
+              1.0,
+              4.0
+            ],
+            "sim_starters_points": [
+              29.26,
+              4.41,
+              11.87,
+              8.52,
+              6.16,
+              32.24,
+              20.25,
+              34.04,
+              10.31,
+              20.02
+            ]
+          }
+        ],
+        "real_winner": 10,
+        "sim_winner": 10,
+        "flipped": false
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Nabers in Paris Dak\u2019nGoff",
+            "real_points": 143.94,
+            "sim_points": 103.42,
+            "starters": [
+              "3294",
+              "7594",
+              "4035",
+              "7569",
+              "11632",
+              "3214",
+              "7543",
+              "6790",
+              "7839",
+              "TB"
+            ],
+            "real_starters_points": [
+              26.14,
+              16.2,
+              13.0,
+              12.7,
+              33.2,
+              1.4,
+              15.9,
+              12.4,
+              7.0,
+              6.0
+            ],
+            "sim_starters_points": [
+              9.69,
+              9.06,
+              11.69,
+              13.74,
+              10.09,
+              10.47,
+              15.5,
+              10.4,
+              9.66,
+              3.12
+            ]
+          },
+          {
+            "roster_id": 6,
+            "name": "Rack of Lamb",
+            "real_points": 92.92,
+            "sim_points": 93.3,
+            "starters": [
+              "11565",
+              "6813",
+              "8205",
+              "6786",
+              "6801",
+              "1466",
+              "8146",
+              "7525",
+              "4195",
+              "DAL"
+            ],
+            "real_starters_points": [
+              2.82,
+              28.5,
+              3.4,
+              15.7,
+              13.1,
+              8.1,
+              7.0,
+              7.3,
+              12.0,
+              -5.0
+            ],
+            "sim_starters_points": [
+              5.16,
+              7.91,
+              10.78,
+              19.07,
+              13.47,
+              8.31,
+              15.6,
+              7.76,
+              5.24,
+              0.0
+            ]
+          }
+        ],
+        "real_winner": 3,
+        "sim_winner": 3,
+        "flipped": false
+      },
+      {
+        "matchup_id": 6,
+        "teams": [
+          {
+            "roster_id": 5,
+            "name": "Quon Solo",
+            "real_points": 123.4,
+            "sim_points": 117.95,
+            "starters": [
+              "4881",
+              "4866",
+              "5892",
+              "5859",
+              "2133",
+              "4033",
+              "4981",
+              "11637",
+              "12711",
+              "MIN"
+            ],
+            "real_starters_points": [
+              34.3,
+              16.4,
+              12.6,
+              5.2,
+              19.6,
+              6.0,
+              7.2,
+              4.1,
+              12.0,
+              6.0
+            ],
+            "sim_starters_points": [
+              18.86,
+              9.79,
+              6.89,
+              26.58,
+              13.64,
+              13.83,
+              6.99,
+              4.65,
+              10.44,
+              6.28
+            ]
+          },
+          {
+            "roster_id": 11,
+            "name": "Mayer Force Once",
+            "real_points": 87.84,
+            "sim_points": 138.44,
+            "starters": [
+              "6904",
+              "5850",
+              "12527",
+              "2216",
+              "5872",
+              "5844",
+              "8228",
+              "9997",
+              "4227",
+              "WAS"
+            ],
+            "real_starters_points": [
+              11.54,
+              14.4,
+              5.9,
+              8.1,
+              13.9,
+              1.7,
+              15.4,
+              11.4,
+              6.5,
+              -1.0
+            ],
+            "sim_starters_points": [
+              32.4,
+              26.52,
+              7.28,
+              11.03,
+              10.2,
+              5.86,
+              24.94,
+              4.35,
+              6.86,
+              9.0
+            ]
+          }
+        ],
+        "real_winner": 5,
+        "sim_winner": 11,
+        "flipped": true
+      }
+    ],
+    "3": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "THE GENERAL",
+            "real_points": 118.32,
+            "sim_points": 99.01,
+            "starters": [
+              "4984",
+              "8138",
+              "7588",
+              "7564",
+              "5846",
+              "12518",
+              "11620",
+              "5848",
+              "3678",
+              "DEN"
+            ],
+            "real_starters_points": [
+              29.02,
+              19.3,
+              9.7,
+              6.4,
+              10.7,
+              5.3,
+              13.7,
+              6.2,
+              9.0,
+              9.0
+            ],
+            "sim_starters_points": [
+              11.68,
+              18.32,
+              15.22,
+              6.74,
+              3.38,
+              7.61,
+              12.42,
+              6.45,
+              4.81,
+              12.38
+            ]
+          },
+          {
+            "roster_id": 8,
+            "name": "wes4884",
+            "real_points": 105.96,
+            "sim_points": 105.98,
+            "starters": [
+              "5849",
+              "4034",
+              "9226",
+              "3321",
+              "4983",
+              "8110",
+              "4988",
+              "5967",
+              "11533",
+              "BAL"
+            ],
+            "real_starters_points": [
+              16.06,
+              19.0,
+              12.6,
+              13.4,
+              10.8,
+              14.7,
+              5.5,
+              12.9,
+              8.0,
+              -7.0
+            ],
+            "sim_starters_points": [
+              16.44,
+              25.18,
+              14.5,
+              13.27,
+              3.12,
+              6.2,
+              4.03,
+              8.39,
+              6.2,
+              8.65
+            ]
+          }
+        ],
+        "real_winner": 2,
+        "sim_winner": 8,
+        "flipped": true
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 7,
+            "name": "noahl11",
+            "real_points": 120.82,
+            "sim_points": 118.57,
+            "starters": [
+              "4892",
+              "9509",
+              "9224",
+              "11635",
+              "5927",
+              "7002",
+              "5045",
+              "8408",
+              "1945",
+              "KC"
+            ],
+            "real_starters_points": [
+              19.72,
+              13.6,
+              4.0,
+              6.1,
+              8.9,
+              8.1,
+              20.8,
+              23.6,
+              3.0,
+              13.0
+            ],
+            "sim_starters_points": [
+              14.27,
+              21.02,
+              15.48,
+              3.21,
+              17.18,
+              3.72,
+              18.79,
+              10.45,
+              2.53,
+              11.92
+            ]
+          },
+          {
+            "roster_id": 12,
+            "name": "Ur chick call me Kyren",
+            "real_points": 109.02,
+            "sim_points": 107.09,
+            "starters": [
+              "6804",
+              "8150",
+              "11576",
+              "9493",
+              "6819",
+              "8130",
+              "4039",
+              "8134",
+              "11786",
+              "ARI"
+            ],
+            "real_starters_points": [
+              13.12,
+              18.2,
+              5.7,
+              17.3,
+              16.3,
+              12.8,
+              4.1,
+              12.5,
+              4.0,
+              5.0
+            ],
+            "sim_starters_points": [
+              6.77,
+              19.93,
+              1.19,
+              29.64,
+              3.35,
+              11.62,
+              7.88,
+              11.63,
+              8.37,
+              6.71
+            ]
+          }
+        ],
+        "real_winner": 7,
+        "sim_winner": 7,
+        "flipped": false
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Just let it go. It\u2019s over",
+            "real_points": 94.96,
+            "sim_points": 126.68,
+            "starters": [
+              "4046",
+              "8151",
+              "12533",
+              "11631",
+              "11638",
+              "12506",
+              "3198",
+              "8148",
+              "1433",
+              "LAR"
+            ],
+            "real_starters_points": [
+              15.16,
+              17.5,
+              9.6,
+              6.5,
+              15.7,
+              4.0,
+              10.2,
+              5.3,
+              3.0,
+              8.0
+            ],
+            "sim_starters_points": [
+              27.68,
+              11.36,
+              2.96,
+              16.84,
+              10.37,
+              9.87,
+              20.64,
+              14.98,
+              9.3,
+              2.68
+            ]
+          },
+          {
+            "roster_id": 9,
+            "name": "Burrow\u2019s Boyz",
+            "real_points": 143.52,
+            "sim_points": 100.5,
+            "starters": [
+              "11560",
+              "11584",
+              "12512",
+              "6794",
+              "2216",
+              "10859",
+              "5947",
+              "9488",
+              "11539",
+              "SEA"
+            ],
+            "real_starters_points": [
+              37.12,
+              11.9,
+              16.0,
+              10.0,
+              11.3,
+              5.3,
+              7.8,
+              18.1,
+              9.0,
+              17.0
+            ],
+            "sim_starters_points": [
+              13.84,
+              8.15,
+              4.8,
+              3.0,
+              8.07,
+              6.17,
+              11.97,
+              24.49,
+              12.52,
+              7.49
+            ]
+          }
+        ],
+        "real_winner": 9,
+        "sim_winner": 1,
+        "flipped": true
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 4,
+            "name": "jxck03",
+            "real_points": 81.52,
+            "sim_points": 134.87,
+            "starters": [
+              "11563",
+              "9221",
+              "8155",
+              "8112",
+              "12530",
+              "9484",
+              "11628",
+              "7611",
+              "3451",
+              "SF"
+            ],
+            "real_starters_points": [
+              15.42,
+              24.4,
+              7.2,
+              8.0,
+              2.6,
+              4.4,
+              5.9,
+              3.1,
+              3.5,
+              7.0
+            ],
+            "sim_starters_points": [
+              22.19,
+              17.22,
+              6.24,
+              15.44,
+              17.5,
+              19.65,
+              6.67,
+              9.69,
+              16.44,
+              3.83
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "The Pain train",
+            "real_points": 108.4,
+            "sim_points": 125.61,
+            "starters": [
+              "6797",
+              "12481",
+              "4137",
+              "7547",
+              "9754",
+              "11604",
+              "8144",
+              "7553",
+              "17",
+              "NE"
+            ],
+            "real_starters_points": [
+              16.6,
+              21.1,
+              5.2,
+              17.2,
+              11.9,
+              7.8,
+              10.7,
+              5.9,
+              7.0,
+              5.0
+            ],
+            "sim_starters_points": [
+              29.26,
+              12.01,
+              6.11,
+              21.32,
+              12.08,
+              11.84,
+              12.88,
+              6.68,
+              6.75,
+              6.68
+            ]
+          }
+        ],
+        "real_winner": 10,
+        "sim_winner": 4,
+        "flipped": true
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Nabers in Paris Dak\u2019nGoff",
+            "real_points": 114.34,
+            "sim_points": 94.7,
+            "starters": [
+              "3294",
+              "7594",
+              "4035",
+              "7569",
+              "11632",
+              "3214",
+              "7543",
+              "12526",
+              "7839",
+              "TB"
+            ],
+            "real_starters_points": [
+              14.04,
+              8.6,
+              6.1,
+              18.4,
+              2.3,
+              25.0,
+              11.6,
+              6.3,
+              5.0,
+              17.0
+            ],
+            "sim_starters_points": [
+              9.69,
+              9.06,
+              5.93,
+              6.3,
+              4.81,
+              10.47,
+              17.98,
+              8.88,
+              5.66,
+              15.92
+            ]
+          },
+          {
+            "roster_id": 11,
+            "name": "Mayer Force Once",
+            "real_points": 93.84,
+            "sim_points": 104.97,
+            "starters": [
+              "6904",
+              "5850",
+              "12527",
+              "9997",
+              "12514",
+              "1339",
+              "8228",
+              "5872",
+              "4227",
+              "DAL"
+            ],
+            "real_starters_points": [
+              35.04,
+              9.9,
+              6.3,
+              2.3,
+              11.5,
+              5.3,
+              10.6,
+              3.9,
+              11.0,
+              -2.0
+            ],
+            "sim_starters_points": [
+              31.05,
+              15.88,
+              7.52,
+              6.99,
+              5.93,
+              10.56,
+              12.78,
+              10.2,
+              4.06,
+              0.0
+            ]
+          }
+        ],
+        "real_winner": 3,
+        "sim_winner": 11,
+        "flipped": true
+      },
+      {
+        "matchup_id": 6,
+        "teams": [
+          {
+            "roster_id": 5,
+            "name": "Quon Solo",
+            "real_points": 155.72,
+            "sim_points": 97.74,
+            "starters": [
+              "4881",
+              "4866",
+              "6806",
+              "5859",
+              "2133",
+              "4033",
+              "5892",
+              "1479",
+              "12711",
+              "GB"
+            ],
+            "real_starters_points": [
+              33.02,
+              7.5,
+              14.8,
+              19.9,
+              13.1,
+              6.5,
+              28.9,
+              16.0,
+              7.0,
+              9.0
+            ],
+            "sim_starters_points": [
+              30.37,
+              14.99,
+              5.41,
+              11.3,
+              7.48,
+              2.95,
+              9.53,
+              6.69,
+              6.04,
+              2.98
+            ]
+          },
+          {
+            "roster_id": 6,
+            "name": "Rack of Lamb",
+            "real_points": 131.38,
+            "sim_points": 120.6,
+            "starters": [
+              "11559",
+              "6813",
+              "8205",
+              "6786",
+              "6801",
+              "1466",
+              "8146",
+              "7525",
+              "8259",
+              "MIN"
+            ],
+            "real_starters_points": [
+              3.78,
+              31.3,
+              5.3,
+              0.0,
+              2.0,
+              4.6,
+              19.4,
+              16.0,
+              12.0,
+              37.0
+            ],
+            "sim_starters_points": [
+              3.78,
+              7.91,
+              10.7,
+              19.07,
+              26.11,
+              10.31,
+              18.24,
+              11.44,
+              8.36,
+              4.68
+            ]
+          }
+        ],
+        "real_winner": 5,
+        "sim_winner": 6,
+        "flipped": true
+      }
+    ],
+    "4": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Just let it go. It\u2019s over",
+            "real_points": 145.0,
+            "sim_points": 115.43,
+            "starters": [
+              "4046",
+              "8151",
+              "12507",
+              "11631",
+              "11638",
+              "12506",
+              "3198",
+              "8146",
+              "12185",
+              "DET"
+            ],
+            "real_starters_points": [
+              35.3,
+              11.5,
+              25.0,
+              8.1,
+              6.6,
+              3.5,
+              6.8,
+              17.2,
+              10.0,
+              21.0
+            ],
+            "sim_starters_points": [
+              18.37,
+              11.36,
+              5.06,
+              9.64,
+              14.13,
+              9.87,
+              13.28,
+              17.92,
+              9.2,
+              6.6
+            ]
+          },
+          {
+            "roster_id": 8,
+            "name": "wes4884",
+            "real_points": 115.0,
+            "sim_points": 122.86,
+            "starters": [
+              "5849",
+              "4034",
+              "9226",
+              "3321",
+              "4983",
+              "8110",
+              "4988",
+              "7090",
+              "11533",
+              "LAC"
+            ],
+            "real_starters_points": [
+              20.1,
+              23.1,
+              16.6,
+              9.7,
+              5.8,
+              13.5,
+              7.2,
+              2.0,
+              8.0,
+              9.0
+            ],
+            "sim_starters_points": [
+              16.39,
+              27.98,
+              17.7,
+              9.91,
+              4.8,
+              12.6,
+              12.67,
+              4.94,
+              7.4,
+              8.47
+            ]
+          }
+        ],
+        "real_winner": 1,
+        "sim_winner": 8,
+        "flipped": true
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 7,
+            "name": "noahl11",
+            "real_points": 130.16,
+            "sim_points": 103.76,
+            "starters": [
+              "4892",
+              "9509",
+              "8408",
+              "11635",
+              "5045",
+              "7002",
+              "8137",
+              "9224",
+              "1945",
+              "KC"
+            ],
+            "real_starters_points": [
+              22.86,
+              26.1,
+              8.7,
+              1.6,
+              16.6,
+              4.3,
+              29.4,
+              8.6,
+              5.0,
+              7.0
+            ],
+            "sim_starters_points": [
+              19.59,
+              21.02,
+              9.09,
+              17.45,
+              5.27,
+              1.96,
+              4.01,
+              11.72,
+              4.93,
+              8.72
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "The Pain train",
+            "real_points": 121.22,
+            "sim_points": 158.26,
+            "starters": [
+              "6797",
+              "12481",
+              "4098",
+              "7547",
+              "9754",
+              "11604",
+              "8144",
+              "11624",
+              "17",
+              "NE"
+            ],
+            "real_starters_points": [
+              14.52,
+              12.0,
+              5.2,
+              22.5,
+              19.8,
+              7.1,
+              7.5,
+              14.6,
+              7.0,
+              11.0
+            ],
+            "sim_starters_points": [
+              15.56,
+              26.89,
+              8.4,
+              31.24,
+              7.6,
+              8.08,
+              28.17,
+              7.69,
+              6.75,
+              17.88
+            ]
+          }
+        ],
+        "real_winner": 7,
+        "sim_winner": 10,
+        "flipped": true
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Nabers in Paris Dak\u2019nGoff",
+            "real_points": 132.12,
+            "sim_points": 121.01,
+            "starters": [
+              "11564",
+              "9221",
+              "4035",
+              "7569",
+              "12526",
+              "3214",
+              "6790",
+              "7543",
+              "8259",
+              "HOU"
+            ],
+            "real_starters_points": [
+              27.22,
+              16.7,
+              9.2,
+              9.9,
+              8.2,
+              10.9,
+              14.0,
+              19.0,
+              5.0,
+              12.0
+            ],
+            "sim_starters_points": [
+              19.06,
+              9.46,
+              8.89,
+              8.86,
+              10.72,
+              21.75,
+              12.57,
+              10.94,
+              6.76,
+              12.0
+            ]
+          },
+          {
+            "roster_id": 12,
+            "name": "Ur chick call me Kyren",
+            "real_points": 125.58,
+            "sim_points": 104.61,
+            "starters": [
+              "6804",
+              "8150",
+              "11576",
+              "9493",
+              "6819",
+              "8130",
+              "4039",
+              "8134",
+              "11786",
+              "ARI"
+            ],
+            "real_starters_points": [
+              32.28,
+              8.9,
+              0.6,
+              29.5,
+              12.6,
+              8.7,
+              4.6,
+              15.4,
+              8.0,
+              5.0
+            ],
+            "sim_starters_points": [
+              6.77,
+              16.81,
+              1.19,
+              22.6,
+              4.23,
+              22.5,
+              3.88,
+              9.15,
+              12.37,
+              5.11
+            ]
+          }
+        ],
+        "real_winner": 3,
+        "sim_winner": 3,
+        "flipped": false
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "THE GENERAL",
+            "real_points": 147.26,
+            "sim_points": 139.36,
+            "starters": [
+              "4984",
+              "8138",
+              "7588",
+              "7564",
+              "5846",
+              "12518",
+              "11620",
+              "10236",
+              "3678",
+              "DEN"
+            ],
+            "real_starters_points": [
+              28.86,
+              21.0,
+              17.5,
+              4.8,
+              21.1,
+              15.8,
+              14.9,
+              9.3,
+              4.0,
+              10.0
+            ],
+            "sim_starters_points": [
+              28.27,
+              27.44,
+              18.34,
+              9.3,
+              13.3,
+              9.69,
+              3.7,
+              12.93,
+              8.81,
+              7.58
+            ]
+          },
+          {
+            "roster_id": 5,
+            "name": "Quon Solo",
+            "real_points": 66.88,
+            "sim_points": 107.61,
+            "starters": [
+              "4881",
+              "4866",
+              "6806",
+              "5859",
+              "2133",
+              "4033",
+              "5892",
+              "1479",
+              "12711",
+              "GB"
+            ],
+            "real_starters_points": [
+              12.68,
+              15.4,
+              11.0,
+              1.7,
+              13.6,
+              2.1,
+              1.2,
+              6.2,
+              9.0,
+              -6.0
+            ],
+            "sim_starters_points": [
+              22.4,
+              14.99,
+              12.69,
+              11.3,
+              13.24,
+              6.07,
+              6.65,
+              5.65,
+              6.04,
+              8.58
+            ]
+          }
+        ],
+        "real_winner": 2,
+        "sim_winner": 2,
+        "flipped": false
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 4,
+            "name": "jxck03",
+            "real_points": 115.34,
+            "sim_points": 117.31,
+            "starters": [
+              "11563",
+              "7594",
+              "8155",
+              "8112",
+              "11632",
+              "9484",
+              "7049",
+              "11628",
+              "3451",
+              "SF"
+            ],
+            "real_starters_points": [
+              29.74,
+              8.4,
+              13.6,
+              21.0,
+              3.0,
+              8.1,
+              5.4,
+              15.6,
+              9.5,
+              1.0
+            ],
+            "sim_starters_points": [
+              16.51,
+              8.26,
+              5.84,
+              7.76,
+              28.97,
+              6.05,
+              7.86,
+              11.39,
+              13.64,
+              11.03
+            ]
+          },
+          {
+            "roster_id": 6,
+            "name": "Rack of Lamb",
+            "real_points": 78.96,
+            "sim_points": 153.81,
+            "starters": [
+              "8183",
+              "6813",
+              "5967",
+              "4950",
+              "6801",
+              "1466",
+              "8148",
+              "7525",
+              "4195",
+              "MIN"
+            ],
+            "real_starters_points": [
+              21.66,
+              12.1,
+              9.1,
+              3.5,
+              4.7,
+              7.3,
+              4.7,
+              3.9,
+              7.0,
+              5.0
+            ],
+            "sim_starters_points": [
+              37.55,
+              13.27,
+              12.63,
+              7.52,
+              26.11,
+              6.71,
+              6.26,
+              7.44,
+              4.44,
+              31.88
+            ]
+          }
+        ],
+        "real_winner": 4,
+        "sim_winner": 6,
+        "flipped": true
+      },
+      {
+        "matchup_id": 6,
+        "teams": [
+          {
+            "roster_id": 9,
+            "name": "Burrow\u2019s Boyz",
+            "real_points": 132.68,
+            "sim_points": 96.71,
+            "starters": [
+              "11560",
+              "11584",
+              "12512",
+              "6794",
+              "9488",
+              "10859",
+              "5947",
+              "9753",
+              "11539",
+              "SEA"
+            ],
+            "real_starters_points": [
+              13.78,
+              23.0,
+              19.5,
+              17.6,
+              11.0,
+              5.4,
+              5.0,
+              11.4,
+              13.0,
+              13.0
+            ],
+            "sim_starters_points": [
+              15.42,
+              11.99,
+              15.6,
+              3.0,
+              12.65,
+              4.33,
+              7.97,
+              2.94,
+              9.72,
+              13.09
+            ]
+          },
+          {
+            "roster_id": 11,
+            "name": "Mayer Force Once",
+            "real_points": 168.3,
+            "sim_points": 71.58,
+            "starters": [
+              "6904",
+              "5850",
+              "12527",
+              "9997",
+              "12514",
+              "5844",
+              "5872",
+              "10213",
+              "4227",
+              "PHI"
+            ],
+            "real_starters_points": [
+              23.4,
+              29.7,
+              32.5,
+              10.9,
+              18.1,
+              5.9,
+              17.1,
+              3.2,
+              12.5,
+              15.0
+            ],
+            "sim_starters_points": [
+              15.96,
+              10.84,
+              7.52,
+              11.23,
+              6.89,
+              1.7,
+              4.68,
+              3.8,
+              6.46,
+              2.5
+            ]
+          }
+        ],
+        "real_winner": 11,
+        "sim_winner": 9,
+        "flipped": true
+      }
+    ],
+    "5": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 8,
+            "name": "wes4884",
+            "real_points": 150.9,
+            "sim_points": 132.06,
+            "starters": [
+              "5849",
+              "4034",
+              "9226",
+              "9756",
+              "2449",
+              "8110",
+              "4988",
+              "8676",
+              "11533",
+              "KC"
+            ],
+            "real_starters_points": [
+              15.3,
+              23.9,
+              13.6,
+              12.6,
+              19.6,
+              20.4,
+              12.1,
+              19.4,
+              6.0,
+              8.0
+            ],
+            "sim_starters_points": [
+              21.45,
+              27.98,
+              33.62,
+              9.84,
+              5.01,
+              3.88,
+              10.99,
+              6.37,
+              5.8,
+              7.12
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "The Pain train",
+            "real_points": 89.64,
+            "sim_points": 92.41,
+            "starters": [
+              "6797",
+              "12481",
+              "4098",
+              "7547",
+              "9754",
+              "11604",
+              "8144",
+              "11624",
+              "17",
+              "LAR"
+            ],
+            "real_starters_points": [
+              16.64,
+              11.4,
+              18.2,
+              14.0,
+              4.9,
+              0.0,
+              9.4,
+              8.1,
+              9.0,
+              -2.0
+            ],
+            "sim_starters_points": [
+              6.91,
+              12.49,
+              11.2,
+              14.76,
+              13.76,
+              4.96,
+              11.93,
+              4.57,
+              6.75,
+              5.08
+            ]
+          }
+        ],
+        "real_winner": 8,
+        "sim_winner": 8,
+        "flipped": false
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Just let it go. It\u2019s over",
+            "real_points": 108.92,
+            "sim_points": 101.15,
+            "starters": [
+              "4046",
+              "8151",
+              "12507",
+              "11631",
+              "8146",
+              "12506",
+              "3198",
+              "12474",
+              "12185",
+              "DET"
+            ],
+            "real_starters_points": [
+              28.72,
+              9.1,
+              10.0,
+              10.0,
+              16.1,
+              9.3,
+              9.3,
+              2.4,
+              2.0,
+              12.0
+            ],
+            "sim_starters_points": [
+              18.37,
+              7.44,
+              15.46,
+              5.32,
+              4.96,
+              9.71,
+              14.0,
+              10.09,
+              9.2,
+              6.6
+            ]
+          },
+          {
+            "roster_id": 7,
+            "name": "noahl11",
+            "real_points": 139.96,
+            "sim_points": 131.48,
+            "starters": [
+              "4892",
+              "7021",
+              "8408",
+              "8137",
+              "5045",
+              "1339",
+              "11635",
+              "9224",
+              "2747",
+              "IND"
+            ],
+            "real_starters_points": [
+              30.66,
+              30.9,
+              11.1,
+              12.7,
+              13.9,
+              0.0,
+              12.4,
+              8.3,
+              4.0,
+              16.0
+            ],
+            "sim_starters_points": [
+              22.1,
+              28.11,
+              5.41,
+              22.97,
+              9.11,
+              6.88,
+              3.21,
+              14.76,
+              14.26,
+              4.67
+            ]
+          }
+        ],
+        "real_winner": 7,
+        "sim_winner": 7,
+        "flipped": false
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 5,
+            "name": "Quon Solo",
+            "real_points": 135.44,
+            "sim_points": 102.47,
+            "starters": [
+              "7591",
+              "4866",
+              "6806",
+              "5859",
+              "2133",
+              "4033",
+              "5892",
+              "1479",
+              "12711",
+              "CLE"
+            ],
+            "real_starters_points": [
+              29.92,
+              16.3,
+              14.9,
+              6.8,
+              11.3,
+              15.7,
+              19.72,
+              8.3,
+              3.5,
+              9.0
+            ],
+            "sim_starters_points": [
+              10.65,
+              15.71,
+              9.01,
+              3.78,
+              18.44,
+              5.43,
+              17.62,
+              7.09,
+              10.44,
+              4.3
+            ]
+          },
+          {
+            "roster_id": 12,
+            "name": "Ur chick call me Kyren",
+            "real_points": 126.54,
+            "sim_points": 106.12,
+            "starters": [
+              "11566",
+              "8150",
+              "11586",
+              "9493",
+              "7526",
+              "8130",
+              "4039",
+              "8134",
+              "11786",
+              "ARI"
+            ],
+            "real_starters_points": [
+              19.14,
+              27.1,
+              1.3,
+              19.5,
+              20.0,
+              6.6,
+              8.9,
+              8.0,
+              9.0,
+              7.0
+            ],
+            "sim_starters_points": [
+              22.68,
+              8.89,
+              5.39,
+              15.8,
+              14.27,
+              6.74,
+              6.84,
+              8.83,
+              14.77,
+              1.91
+            ]
+          }
+        ],
+        "real_winner": 5,
+        "sim_winner": 12,
+        "flipped": true
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "THE GENERAL",
+            "real_points": 113.82,
+            "sim_points": 154.93,
+            "starters": [
+              "4984",
+              "8138",
+              "7588",
+              "5848",
+              "6149",
+              "12518",
+              "12489",
+              "10236",
+              "6650",
+              "DEN"
+            ],
+            "real_starters_points": [
+              23.42,
+              4.9,
+              26.4,
+              6.8,
+              2.6,
+              12.4,
+              4.5,
+              13.8,
+              12.0,
+              7.0
+            ],
+            "sim_starters_points": [
+              40.25,
+              24.08,
+              23.94,
+              8.77,
+              2.29,
+              4.49,
+              16.45,
+              17.17,
+              5.11,
+              12.38
+            ]
+          },
+          {
+            "roster_id": 3,
+            "name": "Nabers in Paris Dak\u2019nGoff",
+            "real_points": 96.22,
+            "sim_points": 139.43,
+            "starters": [
+              "11564",
+              "9221",
+              "4035",
+              "7569",
+              "12526",
+              "3214",
+              "7543",
+              "8126",
+              "8259",
+              "HOU"
+            ],
+            "real_starters_points": [
+              12.12,
+              15.7,
+              7.5,
+              14.0,
+              10.3,
+              5.6,
+              7.3,
+              5.7,
+              6.0,
+              12.0
+            ],
+            "sim_starters_points": [
+              27.02,
+              17.54,
+              11.93,
+              17.74,
+              8.88,
+              2.87,
+              17.98,
+              15.91,
+              8.36,
+              11.2
+            ]
+          }
+        ],
+        "real_winner": 2,
+        "sim_winner": 2,
+        "flipped": false
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 4,
+            "name": "jxck03",
+            "real_points": 118.08,
+            "sim_points": 122.7,
+            "starters": [
+              "11563",
+              "9506",
+              "8155",
+              "7564",
+              "11628",
+              "9480",
+              "11199",
+              "7611",
+              "3451",
+              "SF"
+            ],
+            "real_starters_points": [
+              19.88,
+              1.4,
+              15.5,
+              26.0,
+              11.8,
+              2.7,
+              6.1,
+              13.7,
+              18.0,
+              3.0
+            ],
+            "sim_starters_points": [
+              27.97,
+              2.75,
+              14.08,
+              8.26,
+              5.31,
+              7.9,
+              5.99,
+              29.77,
+              9.64,
+              11.03
+            ]
+          },
+          {
+            "roster_id": 11,
+            "name": "Mayer Force Once",
+            "real_points": 118.4,
+            "sim_points": 112.68,
+            "starters": [
+              "6904",
+              "8136",
+              "12527",
+              "9997",
+              "12514",
+              "5844",
+              "11610",
+              "10213",
+              "4227",
+              "PHI"
+            ],
+            "real_starters_points": [
+              23.5,
+              21.1,
+              13.4,
+              9.7,
+              27.8,
+              6.8,
+              2.0,
+              9.1,
+              4.0,
+              1.0
+            ],
+            "sim_starters_points": [
+              23.08,
+              6.57,
+              6.4,
+              22.19,
+              5.93,
+              5.86,
+              10.45,
+              8.84,
+              8.06,
+              15.3
+            ]
+          }
+        ],
+        "real_winner": 11,
+        "sim_winner": 4,
+        "flipped": true
+      },
+      {
+        "matchup_id": 6,
+        "teams": [
+          {
+            "roster_id": 6,
+            "name": "Rack of Lamb",
+            "real_points": 140.28,
+            "sim_points": 153.49,
+            "starters": [
+              "5870",
+              "6813",
+              "5967",
+              "7525",
+              "6801",
+              "1466",
+              "8148",
+              "12533",
+              "4195",
+              "MIN"
+            ],
+            "real_starters_points": [
+              20.68,
+              30.1,
+              13.3,
+              15.4,
+              9.7,
+              15.6,
+              1.5,
+              26.0,
+              5.0,
+              3.0
+            ],
+            "sim_starters_points": [
+              24.99,
+              26.79,
+              9.27,
+              14.72,
+              26.11,
+              16.95,
+              14.98,
+              4.56,
+              8.04,
+              7.08
+            ]
+          },
+          {
+            "roster_id": 9,
+            "name": "Burrow\u2019s Boyz",
+            "real_points": 130.54,
+            "sim_points": 89.29,
+            "starters": [
+              "4943",
+              "9753",
+              "12512",
+              "6794",
+              "9488",
+              "10859",
+              "5947",
+              "5022",
+              "11539",
+              "SEA"
+            ],
+            "real_starters_points": [
+              35.64,
+              11.3,
+              13.3,
+              15.8,
+              23.2,
+              17.7,
+              5.2,
+              9.4,
+              5.0,
+              -6.0
+            ],
+            "sim_starters_points": [
+              12.48,
+              8.22,
+              9.12,
+              10.6,
+              15.37,
+              10.65,
+              5.17,
+              4.47,
+              5.72,
+              7.49
+            ]
+          }
+        ],
+        "real_winner": 6,
+        "sim_winner": 6,
+        "flipped": false
+      }
+    ],
+    "6": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 4,
+            "name": "jxck03",
+            "real_points": 121.26,
+            "sim_points": 103.04,
+            "starters": [
+              "11563",
+              "8132",
+              "8155",
+              "7564",
+              "11628",
+              "9484",
+              "8112",
+              "7611",
+              "6083",
+              "LV"
+            ],
+            "real_starters_points": [
+              15.36,
+              10.3,
+              5.9,
+              20.1,
+              4.2,
+              11.3,
+              26.8,
+              1.8,
+              7.5,
+              18.0
+            ],
+            "sim_starters_points": [
+              18.93,
+              3.23,
+              5.84,
+              6.74,
+              7.39,
+              19.65,
+              19.92,
+              4.81,
+              7.53,
+              9.0
+            ]
+          },
+          {
+            "roster_id": 8,
+            "name": "wes4884",
+            "real_points": 117.46,
+            "sim_points": 122.72,
+            "starters": [
+              "9228",
+              "4034",
+              "9226",
+              "4983",
+              "2449",
+              "8110",
+              "8123",
+              "8676",
+              "11533",
+              "KC"
+            ],
+            "real_starters_points": [
+              24.46,
+              20.6,
+              29.0,
+              6.7,
+              4.3,
+              10.8,
+              2.8,
+              4.8,
+              9.0,
+              5.0
+            ],
+            "sim_starters_points": [
+              13.71,
+              32.78,
+              33.62,
+              1.92,
+              17.65,
+              6.68,
+              2.67,
+              1.97,
+              7.0,
+              4.72
+            ]
+          }
+        ],
+        "real_winner": 4,
+        "sim_winner": 8,
+        "flipped": true
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 7,
+            "name": "noahl11",
+            "real_points": 165.04,
+            "sim_points": 101.02,
+            "starters": [
+              "4892",
+              "7021",
+              "9509",
+              "8137",
+              "5045",
+              "8698",
+              "11635",
+              "9224",
+              "2747",
+              "IND"
+            ],
+            "real_starters_points": [
+              23.64,
+              31.9,
+              32.8,
+              27.3,
+              2.2,
+              8.8,
+              19.5,
+              7.9,
+              10.0,
+              1.0
+            ],
+            "sim_starters_points": [
+              7.07,
+              12.59,
+              26.14,
+              13.93,
+              6.95,
+              8.8,
+              4.25,
+              9.56,
+              9.46,
+              2.27
+            ]
+          },
+          {
+            "roster_id": 9,
+            "name": "Burrow\u2019s Boyz",
+            "real_points": 123.0,
+            "sim_points": 109.52,
+            "starters": [
+              "4943",
+              "9753",
+              "12512",
+              "5947",
+              "9488",
+              "10859",
+              "7567",
+              "5022",
+              "11539",
+              "SEA"
+            ],
+            "real_starters_points": [
+              24.0,
+              4.2,
+              3.6,
+              5.9,
+              26.2,
+              14.0,
+              6.6,
+              21.5,
+              5.0,
+              12.0
+            ],
+            "sim_starters_points": [
+              6.81,
+              4.62,
+              15.6,
+              7.97,
+              19.21,
+              8.17,
+              12.82,
+              9.91,
+              11.32,
+              13.09
+            ]
+          }
+        ],
+        "real_winner": 7,
+        "sim_winner": 9,
+        "flipped": true
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 6,
+            "name": "Rack of Lamb",
+            "real_points": 91.54,
+            "sim_points": 98.39,
+            "starters": [
+              "421",
+              "6813",
+              "5967",
+              "7525",
+              "8148",
+              "1466",
+              "12499",
+              "12533",
+              "4195",
+              "GB"
+            ],
+            "real_starters_points": [
+              11.34,
+              21.7,
+              5.7,
+              6.9,
+              15.6,
+              10.8,
+              4.2,
+              5.3,
+              6.0,
+              4.0
+            ],
+            "sim_starters_points": [
+              28.77,
+              14.87,
+              10.15,
+              7.76,
+              3.7,
+              16.95,
+              3.01,
+              4.16,
+              6.84,
+              2.18
+            ]
+          },
+          {
+            "roster_id": 12,
+            "name": "Ur chick call me Kyren",
+            "real_points": 94.36,
+            "sim_points": 133.62,
+            "starters": [
+              "11566",
+              "8150",
+              "9757",
+              "9493",
+              "7526",
+              "8130",
+              "4039",
+              "6819",
+              "11786",
+              "BUF"
+            ],
+            "real_starters_points": [
+              27.64,
+              15.7,
+              3.7,
+              3.8,
+              12.82,
+              17.2,
+              11.0,
+              3.0,
+              -1.5,
+              1.0
+            ],
+            "sim_starters_points": [
+              19.51,
+              24.57,
+              3.4,
+              14.44,
+              7.39,
+              28.1,
+              6.84,
+              3.35,
+              12.37,
+              13.65
+            ]
+          }
+        ],
+        "real_winner": 12,
+        "sim_winner": 12,
+        "flipped": false
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "THE GENERAL",
+            "real_points": 112.5,
+            "sim_points": 92.36,
+            "starters": [
+              "4984",
+              "8138",
+              "7588",
+              "11620",
+              "5846",
+              "12518",
+              "5848",
+              "10236",
+              "6650",
+              "DEN"
+            ],
+            "real_starters_points": [
+              19.4,
+              8.7,
+              5.9,
+              4.2,
+              17.5,
+              15.3,
+              18.5,
+              0.0,
+              6.0,
+              17.0
+            ],
+            "sim_starters_points": [
+              10.7,
+              9.92,
+              11.94,
+              5.54,
+              18.98,
+              5.37,
+              8.77,
+              5.65,
+              7.91,
+              7.58
+            ]
+          },
+          {
+            "roster_id": 11,
+            "name": "Mayer Force Once",
+            "real_points": 116.12,
+            "sim_points": 104.42,
+            "starters": [
+              "6904",
+              "5850",
+              "12527",
+              "8121",
+              "12514",
+              "11603",
+              "8228",
+              "8136",
+              "4227",
+              "PHI"
+            ],
+            "real_starters_points": [
+              22.62,
+              29.5,
+              15.6,
+              8.0,
+              3.4,
+              8.6,
+              7.3,
+              16.1,
+              5.0,
+              0.0
+            ],
+            "sim_starters_points": [
+              27.48,
+              12.52,
+              7.28,
+              11.94,
+              4.73,
+              3.52,
+              11.58,
+              5.21,
+              4.86,
+              15.3
+            ]
+          }
+        ],
+        "real_winner": 11,
+        "sim_winner": 11,
+        "flipped": false
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Just let it go. It\u2019s over",
+            "real_points": 120.78,
+            "sim_points": 149.34,
+            "starters": [
+              "4046",
+              "8151",
+              "7607",
+              "11631",
+              "8146",
+              "2505",
+              "3198",
+              "12501",
+              "1945",
+              "DET"
+            ],
+            "real_starters_points": [
+              37.48,
+              4.2,
+              7.4,
+              19.0,
+              2.8,
+              8.2,
+              13.5,
+              11.7,
+              14.5,
+              2.0
+            ],
+            "sim_starters_points": [
+              34.69,
+              21.2,
+              7.42,
+              6.76,
+              17.92,
+              7.63,
+              18.56,
+              7.63,
+              8.93,
+              18.6
+            ]
+          },
+          {
+            "roster_id": 3,
+            "name": "Nabers in Paris Dak\u2019nGoff",
+            "real_points": 140.44,
+            "sim_points": 150.2,
+            "starters": [
+              "3294",
+              "9221",
+              "6790",
+              "12526",
+              "8126",
+              "3214",
+              "7543",
+              "4035",
+              "8259",
+              "NE"
+            ],
+            "real_starters_points": [
+              28.34,
+              7.0,
+              24.5,
+              16.4,
+              17.4,
+              4.2,
+              7.5,
+              10.1,
+              17.0,
+              8.0
+            ],
+            "sim_starters_points": [
+              29.25,
+              43.78,
+              9.04,
+              5.92,
+              7.51,
+              10.47,
+              19.34,
+              5.05,
+              11.56,
+              8.28
+            ]
+          }
+        ],
+        "real_winner": 3,
+        "sim_winner": 3,
+        "flipped": false
+      },
+      {
+        "matchup_id": 6,
+        "teams": [
+          {
+            "roster_id": 5,
+            "name": "Quon Solo",
+            "real_points": 60.6,
+            "sim_points": 86.02,
+            "starters": [
+              "7591",
+              "4866",
+              "6806",
+              "5859",
+              "2133",
+              "4033",
+              "5892",
+              "1479",
+              "1433",
+              "PIT"
+            ],
+            "real_starters_points": [
+              4.9,
+              7.7,
+              4.0,
+              11.0,
+              5.9,
+              4.3,
+              7.1,
+              4.7,
+              0.0,
+              11.0
+            ],
+            "sim_starters_points": [
+              6.67,
+              15.71,
+              7.33,
+              12.82,
+              13.64,
+              13.83,
+              2.81,
+              7.09,
+              3.7,
+              2.42
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "The Pain train",
+            "real_points": 111.56,
+            "sim_points": 125.67,
+            "starters": [
+              "6797",
+              "12481",
+              "4098",
+              "7547",
+              "9754",
+              "7553",
+              "8144",
+              "11624",
+              "17",
+              "LAR"
+            ],
+            "real_starters_points": [
+              22.76,
+              30.0,
+              3.9,
+              9.2,
+              0.0,
+              3.3,
+              12.8,
+              9.6,
+              2.0,
+              18.0
+            ],
+            "sim_starters_points": [
+              29.26,
+              19.77,
+              1.76,
+              17.4,
+              10.24,
+              4.76,
+              12.88,
+              4.97,
+              6.75,
+              17.88
+            ]
+          }
+        ],
+        "real_winner": 10,
+        "sim_winner": 10,
+        "flipped": false
+      }
+    ],
+    "7": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 8,
+            "name": "wes4884",
+            "real_points": 151.42,
+            "sim_points": 124.08,
+            "starters": [
+              "9228",
+              "4034",
+              "9226",
+              "6786",
+              "2449",
+              "8110",
+              "4983",
+              "8676",
+              "11533",
+              "KC"
+            ],
+            "real_starters_points": [
+              12.52,
+              35.6,
+              11.3,
+              19.5,
+              10.4,
+              18.4,
+              6.7,
+              6.0,
+              18.0,
+              13.0
+            ],
+            "sim_starters_points": [
+              13.71,
+              19.5,
+              17.22,
+              14.59,
+              5.25,
+              5.64,
+              18.56,
+              9.09,
+              11.8,
+              8.72
+            ]
+          },
+          {
+            "roster_id": 9,
+            "name": "Burrow\u2019s Boyz",
+            "real_points": 89.18,
+            "sim_points": 102.56,
+            "starters": [
+              "11560",
+              "7567",
+              "12512",
+              "6794",
+              "9488",
+              "10859",
+              "4454",
+              "2216",
+              "11539",
+              "SEA"
+            ],
+            "real_starters_points": [
+              4.68,
+              2.5,
+              26.4,
+              10.4,
+              22.3,
+              3.0,
+              2.4,
+              0.0,
+              7.5,
+              10.0
+            ],
+            "sim_starters_points": [
+              13.84,
+              4.26,
+              9.12,
+              8.76,
+              18.01,
+              13.13,
+              2.96,
+              10.47,
+              9.72,
+              12.29
+            ]
+          }
+        ],
+        "real_winner": 8,
+        "sim_winner": 8,
+        "flipped": false
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 4,
+            "name": "jxck03",
+            "real_points": 124.96,
+            "sim_points": 122.92,
+            "starters": [
+              "11563",
+              "8132",
+              "8155",
+              "7564",
+              "11628",
+              "9484",
+              "8112",
+              "7611",
+              "6083",
+              "LV"
+            ],
+            "real_starters_points": [
+              43.96,
+              1.6,
+              6.2,
+              30.1,
+              6.8,
+              14.3,
+              6.2,
+              15.8,
+              2.0,
+              -2.0
+            ],
+            "sim_starters_points": [
+              10.41,
+              2.59,
+              13.28,
+              19.22,
+              14.43,
+              11.57,
+              19.6,
+              9.69,
+              5.13,
+              17.0
+            ]
+          },
+          {
+            "roster_id": 7,
+            "name": "noahl11",
+            "real_points": 111.72,
+            "sim_points": 110.1,
+            "starters": [
+              "4892",
+              "8408",
+              "9509",
+              "8137",
+              "11635",
+              "8111",
+              "5045",
+              "7021",
+              "2747",
+              "IND"
+            ],
+            "real_starters_points": [
+              13.12,
+              11.7,
+              18.2,
+              10.2,
+              11.2,
+              10.0,
+              13.7,
+              10.1,
+              9.5,
+              4.0
+            ],
+            "sim_starters_points": [
+              22.93,
+              5.81,
+              10.62,
+              15.13,
+              17.45,
+              4.25,
+              6.95,
+              8.83,
+              10.26,
+              7.87
+            ]
+          }
+        ],
+        "real_winner": 4,
+        "sim_winner": 4,
+        "flipped": false
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 11,
+            "name": "Mayer Force Once",
+            "real_points": 106.04,
+            "sim_points": 95.77,
+            "starters": [
+              "6904",
+              "5850",
+              "12527",
+              "8121",
+              "5872",
+              "11603",
+              "8228",
+              "8136",
+              "4227",
+              "PHI"
+            ],
+            "real_starters_points": [
+              30.04,
+              18.3,
+              3.9,
+              10.2,
+              0.0,
+              1.4,
+              17.8,
+              6.4,
+              7.0,
+              11.0
+            ],
+            "sim_starters_points": [
+              32.4,
+              10.6,
+              7.28,
+              4.5,
+              13.08,
+              4.64,
+              10.54,
+              2.97,
+              7.26,
+              2.5
+            ]
+          },
+          {
+            "roster_id": 12,
+            "name": "Ur chick call me Kyren",
+            "real_points": 82.64,
+            "sim_points": 106.99,
+            "starters": [
+              "11566",
+              "8150",
+              "9757",
+              "6819",
+              "7526",
+              "8130",
+              "4039",
+              "11586",
+              "11786",
+              "ARI"
+            ],
+            "real_starters_points": [
+              19.74,
+              7.5,
+              0.7,
+              17.3,
+              2.0,
+              24.4,
+              1.7,
+              4.8,
+              0.5,
+              4.0
+            ],
+            "sim_starters_points": [
+              25.83,
+              10.09,
+              3.4,
+              17.51,
+              10.99,
+              13.22,
+              8.28,
+              2.59,
+              10.77,
+              4.31
+            ]
+          }
+        ],
+        "real_winner": 11,
+        "sim_winner": 12,
+        "flipped": true
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "THE GENERAL",
+            "real_points": 112.06,
+            "sim_points": 82.83,
+            "starters": [
+              "9758",
+              "7588",
+              "8205",
+              "11620",
+              "5846",
+              "12518",
+              "11650",
+              "10229",
+              "6650",
+              "CHI"
+            ],
+            "real_starters_points": [
+              15.66,
+              18.3,
+              11.9,
+              4.1,
+              6.5,
+              14.9,
+              0.0,
+              19.7,
+              5.0,
+              16.0
+            ],
+            "sim_starters_points": [
+              6.52,
+              7.06,
+              4.3,
+              14.18,
+              16.1,
+              7.21,
+              0.0,
+              9.97,
+              9.51,
+              7.98
+            ]
+          },
+          {
+            "roster_id": 6,
+            "name": "Rack of Lamb",
+            "real_points": 146.18,
+            "sim_points": 114.11,
+            "starters": [
+              "421",
+              "6813",
+              "5967",
+              "7525",
+              "12499",
+              "4217",
+              "6801",
+              "12533",
+              "4195",
+              "GB"
+            ],
+            "real_starters_points": [
+              37.38,
+              32.7,
+              9.1,
+              28.8,
+              3.9,
+              0.0,
+              18.6,
+              3.7,
+              3.0,
+              9.0
+            ],
+            "sim_starters_points": [
+              28.77,
+              21.35,
+              5.27,
+              2.96,
+              2.05,
+              12.5,
+              6.19,
+              22.4,
+              8.04,
+              4.58
+            ]
+          }
+        ],
+        "real_winner": 6,
+        "sim_winner": 6,
+        "flipped": false
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Just let it go. It\u2019s over",
+            "real_points": 94.24,
+            "sim_points": 112.24,
+            "starters": [
+              "4046",
+              "8151",
+              "11647",
+              "11631",
+              "12501",
+              "2505",
+              "12506",
+              "12474",
+              "1945",
+              "DET"
+            ],
+            "real_starters_points": [
+              32.24,
+              6.6,
+              5.5,
+              4.6,
+              5.7,
+              0.0,
+              5.6,
+              11.0,
+              8.0,
+              15.0
+            ],
+            "sim_starters_points": [
+              32.94,
+              5.2,
+              18.11,
+              8.12,
+              2.67,
+              5.63,
+              4.67,
+              22.57,
+              5.73,
+              6.6
+            ]
+          },
+          {
+            "roster_id": 5,
+            "name": "Quon Solo",
+            "real_points": 113.84,
+            "sim_points": 134.28,
+            "starters": [
+              "7591",
+              "4866",
+              "6806",
+              "5859",
+              "2133",
+              "1339",
+              "5892",
+              "1479",
+              "5189",
+              "PIT"
+            ],
+            "real_starters_points": [
+              4.04,
+              4.7,
+              8.5,
+              26.1,
+              24.0,
+              11.2,
+              4.9,
+              23.4,
+              11.0,
+              -4.0
+            ],
+            "sim_starters_points": [
+              28.7,
+              17.23,
+              14.21,
+              11.22,
+              10.04,
+              13.92,
+              9.53,
+              7.25,
+              10.96,
+              11.22
+            ]
+          }
+        ],
+        "real_winner": 5,
+        "sim_winner": 5,
+        "flipped": false
+      },
+      {
+        "matchup_id": 6,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Nabers in Paris Dak\u2019nGoff",
+            "real_points": 134.88,
+            "sim_points": 109.63,
+            "starters": [
+              "11564",
+              "9221",
+              "6790",
+              "7569",
+              "12526",
+              "3214",
+              "7543",
+              "4035",
+              "8259",
+              "NE"
+            ],
+            "real_starters_points": [
+              27.08,
+              35.3,
+              20.3,
+              4.7,
+              4.8,
+              5.3,
+              6.0,
+              4.4,
+              7.0,
+              20.0
+            ],
+            "sim_starters_points": [
+              24.45,
+              7.3,
+              6.88,
+              17.74,
+              15.2,
+              6.23,
+              16.46,
+              5.93,
+              3.56,
+              5.88
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "The Pain train",
+            "real_points": 137.0,
+            "sim_points": 110.9,
+            "starters": [
+              "6797",
+              "12481",
+              "4098",
+              "7547",
+              "9754",
+              "7553",
+              "12485",
+              "11624",
+              "7839",
+              "LAR"
+            ],
+            "real_starters_points": [
+              33.9,
+              16.9,
+              1.8,
+              17.6,
+              10.0,
+              9.7,
+              13.8,
+              6.3,
+              17.0,
+              10.0
+            ],
+            "sim_starters_points": [
+              15.85,
+              10.49,
+              16.16,
+              14.68,
+              13.76,
+              4.6,
+              1.81,
+              7.61,
+              15.26,
+              10.68
+            ]
+          }
+        ],
+        "real_winner": 10,
+        "sim_winner": 10,
+        "flipped": false
+      }
+    ],
+    "8": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Nabers in Paris Dak\u2019nGoff",
+            "real_points": 108.12,
+            "sim_points": 126.96,
+            "starters": [
+              "3294",
+              "4035",
+              "6790",
+              "12526",
+              "8126",
+              "3214",
+              "11646",
+              "11627",
+              "8259",
+              "NE"
+            ],
+            "real_starters_points": [
+              6.62,
+              5.5,
+              14.1,
+              13.4,
+              6.3,
+              7.2,
+              5.1,
+              23.9,
+              14.0,
+              12.0
+            ],
+            "sim_starters_points": [
+              22.93,
+              6.41,
+              13.85,
+              10.32,
+              15.91,
+              6.95,
+              5.14,
+              20.81,
+              13.16,
+              11.48
+            ]
+          },
+          {
+            "roster_id": 8,
+            "name": "wes4884",
+            "real_points": 97.32,
+            "sim_points": 105.67,
+            "starters": [
+              "2307",
+              "4034",
+              "9226",
+              "6786",
+              "2449",
+              "8110",
+              "9756",
+              "8676",
+              "11533",
+              "KC"
+            ],
+            "real_starters_points": [
+              13.32,
+              8.3,
+              17.6,
+              11.1,
+              8.9,
+              0.0,
+              10.1,
+              10.0,
+              6.0,
+              12.0
+            ],
+            "sim_starters_points": [
+              21.78,
+              11.26,
+              16.9,
+              12.11,
+              9.09,
+              7.48,
+              5.76,
+              6.37,
+              9.4,
+              5.52
+            ]
+          }
+        ],
+        "real_winner": 3,
+        "sim_winner": 3,
+        "flipped": false
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 5,
+            "name": "Quon Solo",
+            "real_points": 89.86,
+            "sim_points": 92.22,
+            "starters": [
+              "7591",
+              "4866",
+              "6806",
+              "9504",
+              "6783",
+              "1339",
+              "11637",
+              "1479",
+              "5189",
+              "PIT"
+            ],
+            "real_starters_points": [
+              22.86,
+              31.4,
+              13.1,
+              15.0,
+              0.0,
+              3.6,
+              4.5,
+              6.4,
+              1.0,
+              -8.0
+            ],
+            "sim_starters_points": [
+              20.55,
+              15.79,
+              11.01,
+              13.57,
+              2.9,
+              5.68,
+              3.45,
+              6.69,
+              6.16,
+              6.42
+            ]
+          },
+          {
+            "roster_id": 7,
+            "name": "noahl11",
+            "real_points": 98.28,
+            "sim_points": 83.67,
+            "starters": [
+              "4892",
+              "8408",
+              "9509",
+              "8137",
+              "11635",
+              "8111",
+              "5045",
+              "9224",
+              "3451",
+              "IND"
+            ],
+            "real_starters_points": [
+              4.08,
+              1.1,
+              4.3,
+              11.3,
+              17.8,
+              6.0,
+              8.7,
+              24.0,
+              14.0,
+              7.0
+            ],
+            "sim_starters_points": [
+              18.87,
+              9.97,
+              8.54,
+              4.01,
+              7.93,
+              4.01,
+              2.95,
+              15.48,
+              9.64,
+              2.27
+            ]
+          }
+        ],
+        "real_winner": 7,
+        "sim_winner": 5,
+        "flipped": true
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 4,
+            "name": "jxck03",
+            "real_points": 130.24,
+            "sim_points": 103.25,
+            "starters": [
+              "11563",
+              "7594",
+              "8155",
+              "7564",
+              "7049",
+              "9484",
+              "8132",
+              "7611",
+              "6083",
+              "CIN"
+            ],
+            "real_starters_points": [
+              31.78,
+              9.4,
+              33.86,
+              15.1,
+              6.5,
+              29.8,
+              8.4,
+              5.4,
+              0.0,
+              -10.0
+            ],
+            "sim_starters_points": [
+              14.25,
+              8.42,
+              29.48,
+              14.42,
+              10.9,
+              9.65,
+              7.47,
+              3.53,
+              5.13,
+              0.0
+            ]
+          },
+          {
+            "roster_id": 12,
+            "name": "Ur chick call me Kyren",
+            "real_points": 140.4,
+            "sim_points": 79.88,
+            "starters": [
+              "6804",
+              "4199",
+              "12534",
+              "6819",
+              "7526",
+              "5844",
+              "8134",
+              "9500",
+              "3678",
+              "BUF"
+            ],
+            "real_starters_points": [
+              34.3,
+              4.0,
+              2.4,
+              19.5,
+              18.4,
+              3.6,
+              17.8,
+              11.4,
+              9.0,
+              20.0
+            ],
+            "sim_starters_points": [
+              16.04,
+              13.27,
+              3.74,
+              4.31,
+              4.91,
+              5.46,
+              8.03,
+              10.46,
+              8.81,
+              4.85
+            ]
+          }
+        ],
+        "real_winner": 12,
+        "sim_winner": 4,
+        "flipped": true
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "THE GENERAL",
+            "real_points": 163.22,
+            "sim_points": 151.36,
+            "starters": [
+              "4984",
+              "7588",
+              "8138",
+              "10229",
+              "5846",
+              "12518",
+              "11620",
+              "8205",
+              "6650",
+              "DEN"
+            ],
+            "real_starters_points": [
+              25.22,
+              17.4,
+              33.6,
+              21.0,
+              14.0,
+              7.3,
+              14.9,
+              5.8,
+              17.0,
+              7.0
+            ],
+            "sim_starters_points": [
+              40.25,
+              11.94,
+              18.8,
+              23.41,
+              3.38,
+              11.69,
+              24.9,
+              4.3,
+              5.11,
+              7.58
+            ]
+          },
+          {
+            "roster_id": 9,
+            "name": "Burrow\u2019s Boyz",
+            "real_points": 95.9,
+            "sim_points": 107.36,
+            "starters": [
+              "11560",
+              "7567",
+              "12512",
+              "6794",
+              "8142",
+              "5022",
+              "4454",
+              "5012",
+              "11792",
+              "TB"
+            ],
+            "real_starters_points": [
+              11.8,
+              2.5,
+              3.2,
+              10.9,
+              7.9,
+              16.3,
+              5.9,
+              4.9,
+              5.5,
+              27.0
+            ],
+            "sim_starters_points": [
+              21.9,
+              14.42,
+              17.84,
+              7.32,
+              11.07,
+              5.03,
+              3.2,
+              5.16,
+              5.5,
+              15.92
+            ]
+          }
+        ],
+        "real_winner": 2,
+        "sim_winner": 2,
+        "flipped": false
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Just let it go. It\u2019s over",
+            "real_points": 149.66,
+            "sim_points": 112.8,
+            "starters": [
+              "4046",
+              "3198",
+              "11647",
+              "9494",
+              "12501",
+              "12493",
+              "12506",
+              "12474",
+              "1945",
+              "LAC"
+            ],
+            "real_starters_points": [
+              28.96,
+              19.1,
+              19.2,
+              1.8,
+              1.9,
+              16.2,
+              15.4,
+              13.1,
+              20.0,
+              14.0
+            ],
+            "sim_starters_points": [
+              30.49,
+              39.68,
+              6.19,
+              2.55,
+              3.23,
+              2.18,
+              4.75,
+              6.33,
+              8.93,
+              8.47
+            ]
+          },
+          {
+            "roster_id": 6,
+            "name": "Rack of Lamb",
+            "real_points": 143.88,
+            "sim_points": 139.07,
+            "starters": [
+              "5870",
+              "6813",
+              "12533",
+              "7525",
+              "6801",
+              "4217",
+              "1466",
+              "5967",
+              "4195",
+              "GB"
+            ],
+            "real_starters_points": [
+              29.18,
+              36.4,
+              2.5,
+              11.4,
+              10.9,
+              12.3,
+              18.9,
+              5.8,
+              8.5,
+              8.0
+            ],
+            "sim_starters_points": [
+              16.67,
+              26.79,
+              14.08,
+              4.72,
+              17.31,
+              17.7,
+              10.23,
+              16.15,
+              7.64,
+              7.78
+            ]
+          }
+        ],
+        "real_winner": 1,
+        "sim_winner": 6,
+        "flipped": true
+      },
+      {
+        "matchup_id": 6,
+        "teams": [
+          {
+            "roster_id": 10,
+            "name": "The Pain train",
+            "real_points": 93.88,
+            "sim_points": 94.54,
+            "starters": [
+              "6797",
+              "12481",
+              "4098",
+              "8144",
+              "9754",
+              "7553",
+              "5995",
+              "11624",
+              "7839",
+              "ATL"
+            ],
+            "real_starters_points": [
+              31.28,
+              9.5,
+              16.7,
+              10.0,
+              0.0,
+              10.4,
+              0.2,
+              7.8,
+              8.0,
+              0.0
+            ],
+            "sim_starters_points": [
+              29.26,
+              12.49,
+              5.6,
+              12.88,
+              18.08,
+              9.0,
+              0.92,
+              1.45,
+              4.86,
+              0.0
+            ]
+          },
+          {
+            "roster_id": 11,
+            "name": "Mayer Force Once",
+            "real_points": 91.86,
+            "sim_points": 119.78,
+            "starters": [
+              "6904",
+              "8228",
+              "8136",
+              "8121",
+              "5872",
+              "11597",
+              "5850",
+              "12514",
+              "4227",
+              "PHI"
+            ],
+            "real_starters_points": [
+              33.36,
+              8.3,
+              7.1,
+              7.9,
+              2.7,
+              3.5,
+              12.0,
+              5.0,
+              4.0,
+              8.0
+            ],
+            "sim_starters_points": [
+              23.08,
+              8.3,
+              7.05,
+              9.86,
+              15.64,
+              8.36,
+              10.6,
+              18.33,
+              4.86,
+              13.7
+            ]
+          }
+        ],
+        "real_winner": 10,
+        "sim_winner": 11,
+        "flipped": true
+      }
+    ],
+    "9": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 5,
+            "name": "Quon Solo",
+            "real_points": 97.86,
+            "sim_points": 101.97,
+            "starters": [
+              "4881",
+              "5892",
+              "6806",
+              "9504",
+              "2133",
+              "1339",
+              "11637",
+              "1479",
+              "12711",
+              "DET"
+            ],
+            "real_starters_points": [
+              33.56,
+              10.0,
+              6.4,
+              0.0,
+              20.5,
+              6.6,
+              2.7,
+              5.1,
+              4.0,
+              9.0
+            ],
+            "sim_starters_points": [
+              30.8,
+              5.21,
+              14.21,
+              11.57,
+              6.68,
+              7.52,
+              3.45,
+              6.69,
+              4.44,
+              11.4
+            ]
+          },
+          {
+            "roster_id": 8,
+            "name": "wes4884",
+            "real_points": 120.1,
+            "sim_points": 153.6,
+            "starters": [
+              "7523",
+              "4034",
+              "9226",
+              "6786",
+              "2449",
+              "8110",
+              "9756",
+              "8676",
+              "11533",
+              "JAX"
+            ],
+            "real_starters_points": [
+              21.2,
+              31.8,
+              13.6,
+              12.0,
+              11.3,
+              5.5,
+              7.4,
+              9.3,
+              5.0,
+              3.0
+            ],
+            "sim_starters_points": [
+              24.05,
+              23.42,
+              17.22,
+              13.79,
+              16.61,
+              12.6,
+              11.76,
+              13.17,
+              6.2,
+              14.78
+            ]
+          }
+        ],
+        "real_winner": 8,
+        "sim_winner": 8,
+        "flipped": false
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Nabers in Paris Dak\u2019nGoff",
+            "real_points": 84.7,
+            "sim_points": 146.43,
+            "starters": [
+              "3294",
+              "9221",
+              "4035",
+              "12526",
+              "7569",
+              "3214",
+              "8126",
+              "7543",
+              "8259",
+              "NE"
+            ],
+            "real_starters_points": [
+              17.4,
+              4.3,
+              0.2,
+              6.6,
+              11.0,
+              7.1,
+              9.1,
+              14.0,
+              11.0,
+              4.0
+            ],
+            "sim_starters_points": [
+              25.74,
+              17.22,
+              11.69,
+              9.52,
+              8.86,
+              18.55,
+              15.43,
+              13.98,
+              13.16,
+              12.28
+            ]
+          },
+          {
+            "roster_id": 7,
+            "name": "noahl11",
+            "real_points": 151.24,
+            "sim_points": 139.92,
+            "starters": [
+              "12508",
+              "9509",
+              "9224",
+              "8137",
+              "11635",
+              "7002",
+              "5045",
+              "7021",
+              "3451",
+              "IND"
+            ],
+            "real_starters_points": [
+              31.24,
+              13.6,
+              15.2,
+              10.9,
+              7.6,
+              10.6,
+              9.5,
+              27.1,
+              17.5,
+              8.0
+            ],
+            "sim_starters_points": [
+              4.23,
+              26.54,
+              12.6,
+              11.93,
+              17.45,
+              12.28,
+              5.27,
+              28.11,
+              16.84,
+              4.67
+            ]
+          }
+        ],
+        "real_winner": 7,
+        "sim_winner": 3,
+        "flipped": true
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 9,
+            "name": "Burrow\u2019s Boyz",
+            "real_points": 145.5,
+            "sim_points": 147.73,
+            "starters": [
+              "11560",
+              "7567",
+              "9753",
+              "6794",
+              "9488",
+              "10859",
+              "5947",
+              "5012",
+              "2020",
+              "SEA"
+            ],
+            "real_starters_points": [
+              43.7,
+              5.4,
+              5.1,
+              13.7,
+              18.0,
+              18.7,
+              4.3,
+              15.6,
+              10.0,
+              11.0
+            ],
+            "sim_starters_points": [
+              21.9,
+              23.06,
+              11.26,
+              3.0,
+              24.49,
+              16.09,
+              12.69,
+              13.8,
+              8.35,
+              13.09
+            ]
+          },
+          {
+            "roster_id": 12,
+            "name": "Ur chick call me Kyren",
+            "real_points": 114.02,
+            "sim_points": 101.06,
+            "starters": [
+              "6804",
+              "8150",
+              "4199",
+              "9493",
+              "7526",
+              "8130",
+              "6819",
+              "8134",
+              "17",
+              "BUF"
+            ],
+            "real_starters_points": [
+              9.02,
+              17.4,
+              10.8,
+              19.3,
+              11.2,
+              14.0,
+              16.0,
+              7.8,
+              3.5,
+              5.0
+            ],
+            "sim_starters_points": [
+              19.68,
+              8.89,
+              9.98,
+              14.44,
+              7.39,
+              9.62,
+              15.51,
+              9.15,
+              3.95,
+              2.45
+            ]
+          }
+        ],
+        "real_winner": 9,
+        "sim_winner": 9,
+        "flipped": false
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "THE GENERAL",
+            "real_points": 103.02,
+            "sim_points": 105.86,
+            "starters": [
+              "4984",
+              "7588",
+              "8138",
+              "10229",
+              "5846",
+              "12518",
+              "11620",
+              "10236",
+              "2747",
+              "CHI"
+            ],
+            "real_starters_points": [
+              30.82,
+              6.8,
+              13.0,
+              16.6,
+              1.6,
+              5.1,
+              0.0,
+              19.1,
+              9.0,
+              1.0
+            ],
+            "sim_starters_points": [
+              23.85,
+              17.46,
+              17.12,
+              8.53,
+              3.38,
+              5.85,
+              3.7,
+              6.93,
+              12.66,
+              6.38
+            ]
+          },
+          {
+            "roster_id": 4,
+            "name": "jxck03",
+            "real_points": 117.02,
+            "sim_points": 125.7,
+            "starters": [
+              "11563",
+              "11655",
+              "8122",
+              "7564",
+              "8112",
+              "9484",
+              "11628",
+              "7049",
+              "6083",
+              "CIN"
+            ],
+            "real_starters_points": [
+              22.52,
+              5.2,
+              5.7,
+              14.1,
+              34.3,
+              3.0,
+              19.1,
+              12.1,
+              2.0,
+              -1.0
+            ],
+            "sim_starters_points": [
+              25.17,
+              9.13,
+              8.15,
+              14.42,
+              24.24,
+              11.57,
+              11.39,
+              15.7,
+              5.93,
+              0.0
+            ]
+          }
+        ],
+        "real_winner": 4,
+        "sim_winner": 4,
+        "flipped": false
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Just let it go. It\u2019s over",
+            "real_points": 85.0,
+            "sim_points": 119.81,
+            "starters": [
+              "4046",
+              "3198",
+              "11647",
+              "11631",
+              "8167",
+              "12493",
+              "8151",
+              "12529",
+              "1945",
+              "LAC"
+            ],
+            "real_starters_points": [
+              10.5,
+              12.6,
+              3.0,
+              7.0,
+              6.8,
+              9.3,
+              7.1,
+              10.7,
+              10.0,
+              8.0
+            ],
+            "sim_starters_points": [
+              15.15,
+              14.0,
+              3.71,
+              7.24,
+              15.36,
+              7.7,
+              9.36,
+              24.29,
+              9.73,
+              13.27
+            ]
+          },
+          {
+            "roster_id": 11,
+            "name": "Mayer Force Once",
+            "real_points": 147.2,
+            "sim_points": 116.35,
+            "starters": [
+              "4943",
+              "8228",
+              "12527",
+              "9997",
+              "8142",
+              "11603",
+              "5850",
+              "10213",
+              "4227",
+              "BAL"
+            ],
+            "real_starters_points": [
+              35.2,
+              15.9,
+              17.4,
+              8.9,
+              14.5,
+              10.0,
+              18.0,
+              5.3,
+              8.0,
+              14.0
+            ],
+            "sim_starters_points": [
+              31.92,
+              8.3,
+              9.84,
+              11.31,
+              14.27,
+              4.64,
+              10.6,
+              7.16,
+              9.66,
+              8.65
+            ]
+          }
+        ],
+        "real_winner": 11,
+        "sim_winner": 1,
+        "flipped": true
+      },
+      {
+        "matchup_id": 6,
+        "teams": [
+          {
+            "roster_id": 6,
+            "name": "Rack of Lamb",
+            "real_points": 126.14,
+            "sim_points": 141.49,
+            "starters": [
+              "421",
+              "6813",
+              "12533",
+              "8148",
+              "6801",
+              "4217",
+              "1466",
+              "5967",
+              "11539",
+              "GB"
+            ],
+            "real_starters_points": [
+              34.84,
+              6.7,
+              4.6,
+              14.6,
+              29.6,
+              4.9,
+              10.6,
+              7.3,
+              6.0,
+              7.0
+            ],
+            "sim_starters_points": [
+              25.31,
+              14.87,
+              8.4,
+              3.7,
+              26.11,
+              12.5,
+              12.23,
+              9.27,
+              14.12,
+              14.98
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "The Pain train",
+            "real_points": 139.46,
+            "sim_points": 106.26,
+            "starters": [
+              "3163",
+              "6130",
+              "4098",
+              "8144",
+              "7547",
+              "11604",
+              "9754",
+              "11624",
+              "7839",
+              "LAR"
+            ],
+            "real_starters_points": [
+              23.36,
+              6.1,
+              12.0,
+              7.2,
+              14.2,
+              37.3,
+              13.3,
+              4.5,
+              10.5,
+              11.0
+            ],
+            "sim_starters_points": [
+              39.46,
+              1.61,
+              3.6,
+              10.72,
+              13.08,
+              12.48,
+              7.6,
+              4.97,
+              10.06,
+              2.68
+            ]
+          }
+        ],
+        "real_winner": 10,
+        "sim_winner": 6,
+        "flipped": true
+      }
+    ],
+    "10": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 6,
+            "name": "Rack of Lamb",
+            "real_points": 168.0,
+            "sim_points": 114.38,
+            "starters": [
+              "5870",
+              "6813",
+              "12533",
+              "8148",
+              "7525",
+              "4217",
+              "4950",
+              "6149",
+              "11539",
+              "NYJ"
+            ],
+            "real_starters_points": [
+              17.5,
+              48.1,
+              3.0,
+              20.9,
+              14.9,
+              18.9,
+              0.8,
+              10.9,
+              12.0,
+              21.0
+            ],
+            "sim_starters_points": [
+              24.78,
+              7.91,
+              4.0,
+              16.74,
+              14.72,
+              12.5,
+              1.68,
+              3.33,
+              9.72,
+              19.0
+            ]
+          },
+          {
+            "roster_id": 8,
+            "name": "wes4884",
+            "real_points": 102.82,
+            "sim_points": 155.67,
+            "starters": [
+              "7523",
+              "4034",
+              "9226",
+              "4983",
+              "2449",
+              "12517",
+              "9756",
+              "8676",
+              "3678",
+              "JAX"
+            ],
+            "real_starters_points": [
+              11.82,
+              13.6,
+              37.5,
+              0.0,
+              13.1,
+              7.5,
+              5.0,
+              2.8,
+              3.5,
+              8.0
+            ],
+            "sim_starters_points": [
+              22.49,
+              19.26,
+              33.62,
+              17.36,
+              6.61,
+              17.97,
+              12.48,
+              8.69,
+              8.81,
+              8.38
+            ]
+          }
+        ],
+        "real_winner": 6,
+        "sim_winner": 8,
+        "flipped": true
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 7,
+            "name": "noahl11",
+            "real_points": 129.88,
+            "sim_points": 99.52,
+            "starters": [
+              "12508",
+              "9509",
+              "7021",
+              "11635",
+              "5045",
+              "7002",
+              "12489",
+              "9487",
+              "11786",
+              "IND"
+            ],
+            "real_starters_points": [
+              26.28,
+              9.8,
+              13.8,
+              18.7,
+              3.9,
+              17.2,
+              2.8,
+              16.4,
+              13.0,
+              8.0
+            ],
+            "sim_starters_points": [
+              19.88,
+              30.14,
+              4.19,
+              11.37,
+              3.91,
+              1.96,
+              13.49,
+              4.34,
+              2.37,
+              7.87
+            ]
+          },
+          {
+            "roster_id": 11,
+            "name": "Mayer Force Once",
+            "real_points": 105.92,
+            "sim_points": 124.08,
+            "starters": [
+              "6904",
+              "8228",
+              "12527",
+              "9997",
+              "12514",
+              "11603",
+              "5850",
+              "8136",
+              "4195",
+              "BAL"
+            ],
+            "real_starters_points": [
+              14.02,
+              10.1,
+              13.8,
+              10.1,
+              20.5,
+              0.3,
+              17.2,
+              7.9,
+              4.0,
+              8.0
+            ],
+            "sim_starters_points": [
+              13.08,
+              16.7,
+              7.6,
+              24.75,
+              19.21,
+              3.2,
+              15.88,
+              7.77,
+              3.24,
+              12.65
+            ]
+          }
+        ],
+        "real_winner": 7,
+        "sim_winner": 11,
+        "flipped": true
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Just let it go. It\u2019s over",
+            "real_points": 106.22,
+            "sim_points": 91.11,
+            "starters": [
+              "2307",
+              "3198",
+              "11647",
+              "8146",
+              "8167",
+              "12493",
+              "8151",
+              "12529",
+              "1945",
+              "CLE"
+            ],
+            "real_starters_points": [
+              22.72,
+              9.9,
+              17.3,
+              0.0,
+              5.5,
+              2.8,
+              7.5,
+              27.5,
+              5.0,
+              8.0
+            ],
+            "sim_starters_points": [
+              14.26,
+              20.64,
+              3.15,
+              15.6,
+              5.84,
+              2.18,
+              7.36,
+              8.85,
+              4.93,
+              8.3
+            ]
+          },
+          {
+            "roster_id": 12,
+            "name": "Ur chick call me Kyren",
+            "real_points": 113.84,
+            "sim_points": 139.67,
+            "starters": [
+              "6804",
+              "8150",
+              "4199",
+              "9493",
+              "7526",
+              "8130",
+              "6819",
+              "8134",
+              "17",
+              "BUF"
+            ],
+            "real_starters_points": [
+              7.84,
+              21.4,
+              14.4,
+              14.9,
+              16.9,
+              23.2,
+              2.9,
+              9.3,
+              1.0,
+              2.0
+            ],
+            "sim_starters_points": [
+              17.32,
+              20.01,
+              7.51,
+              36.28,
+              4.91,
+              13.22,
+              15.51,
+              8.51,
+              6.75,
+              9.65
+            ]
+          }
+        ],
+        "real_winner": 12,
+        "sim_winner": 12,
+        "flipped": false
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "THE GENERAL",
+            "real_points": 88.74,
+            "sim_points": 120.77,
+            "starters": [
+              "4984",
+              "8138",
+              "11571",
+              "5846",
+              "11620",
+              "12518",
+              "9501",
+              "10236",
+              "6650",
+              "CHI"
+            ],
+            "real_starters_points": [
+              23.34,
+              8.2,
+              1.6,
+              5.0,
+              17.6,
+              13.9,
+              4.4,
+              4.7,
+              5.0,
+              5.0
+            ],
+            "sim_starters_points": [
+              20.7,
+              24.08,
+              1.6,
+              7.3,
+              16.34,
+              11.69,
+              4.4,
+              17.17,
+              15.11,
+              2.38
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "The Pain train",
+            "real_points": 121.2,
+            "sim_points": 128.81,
+            "starters": [
+              "3163",
+              "6130",
+              "5995",
+              "8144",
+              "7547",
+              "11604",
+              "9754",
+              "12485",
+              "5230",
+              "LAR"
+            ],
+            "real_starters_points": [
+              30.8,
+              8.8,
+              7.8,
+              18.9,
+              14.3,
+              3.2,
+              6.7,
+              18.2,
+              6.5,
+              6.0
+            ],
+            "sim_starters_points": [
+              16.04,
+              15.61,
+              7.0,
+              16.73,
+              14.52,
+              7.44,
+              16.96,
+              10.13,
+              6.5,
+              17.88
+            ]
+          }
+        ],
+        "real_winner": 10,
+        "sim_winner": 10,
+        "flipped": false
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Nabers in Paris Dak\u2019nGoff",
+            "real_points": 140.5,
+            "sim_points": 148.19,
+            "starters": [
+              "11564",
+              "9221",
+              "7543",
+              "12526",
+              "7569",
+              "3214",
+              "6790",
+              "8126",
+              "8259",
+              "CAR"
+            ],
+            "real_starters_points": [
+              22.1,
+              36.7,
+              14.7,
+              8.5,
+              19.1,
+              1.4,
+              12.3,
+              9.2,
+              13.5,
+              3.0
+            ],
+            "sim_starters_points": [
+              22.54,
+              43.78,
+              6.46,
+              9.52,
+              17.26,
+              7.51,
+              18.89,
+              9.27,
+              9.96,
+              3.0
+            ]
+          },
+          {
+            "roster_id": 4,
+            "name": "jxck03",
+            "real_points": 134.4,
+            "sim_points": 119.26,
+            "starters": [
+              "11563",
+              "11655",
+              "8155",
+              "11628",
+              "8112",
+              "11597",
+              "8132",
+              "7049",
+              "6083",
+              "HOU"
+            ],
+            "real_starters_points": [
+              7.8,
+              7.6,
+              19.0,
+              12.8,
+              21.4,
+              11.0,
+              17.7,
+              14.1,
+              5.0,
+              18.0
+            ],
+            "sim_starters_points": [
+              33.84,
+              7.05,
+              13.28,
+              12.19,
+              3.52,
+              8.76,
+              5.63,
+              15.86,
+              7.13,
+              12.0
+            ]
+          }
+        ],
+        "real_winner": 3,
+        "sim_winner": 3,
+        "flipped": false
+      },
+      {
+        "matchup_id": 6,
+        "teams": [
+          {
+            "roster_id": 5,
+            "name": "Quon Solo",
+            "real_points": 95.54,
+            "sim_points": 99.21,
+            "starters": [
+              "4881",
+              "4866",
+              "5892",
+              "5859",
+              "2133",
+              "1339",
+              "6806",
+              "1479",
+              "12711",
+              "DET"
+            ],
+            "real_starters_points": [
+              18.64,
+              11.6,
+              9.6,
+              2.3,
+              16.7,
+              7.4,
+              8.9,
+              2.9,
+              13.5,
+              4.0
+            ],
+            "sim_starters_points": [
+              7.73,
+              6.43,
+              12.89,
+              11.3,
+              7.48,
+              6.88,
+              11.01,
+              5.65,
+              11.24,
+              18.6
+            ]
+          },
+          {
+            "roster_id": 9,
+            "name": "Burrow\u2019s Boyz",
+            "real_points": 126.4,
+            "sim_points": 130.44,
+            "starters": [
+              "11560",
+              "12512",
+              "9753",
+              "6794",
+              "9488",
+              "10859",
+              "5022",
+              "5012",
+              "2020",
+              "SEA"
+            ],
+            "real_starters_points": [
+              27.1,
+              9.5,
+              14.3,
+              5.7,
+              17.8,
+              7.8,
+              6.3,
+              8.9,
+              6.0,
+              23.0
+            ],
+            "sim_starters_points": [
+              26.53,
+              4.8,
+              16.94,
+              15.96,
+              16.41,
+              6.25,
+              4.47,
+              2.44,
+              9.95,
+              26.69
+            ]
+          }
+        ],
+        "real_winner": 9,
+        "sim_winner": 9,
+        "flipped": false
+      }
+    ],
+    "11": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 8,
+            "name": "wes4884",
+            "real_points": 147.64,
+            "sim_points": 112.15,
+            "starters": [
+              "96",
+              "4034",
+              "9226",
+              "6786",
+              "2449",
+              "8110",
+              "9756",
+              "8676",
+              "11533",
+              "PIT"
+            ],
+            "real_starters_points": [
+              11.44,
+              32.6,
+              19.0,
+              15.1,
+              15.0,
+              9.6,
+              9.0,
+              3.9,
+              9.0,
+              23.0
+            ],
+            "sim_starters_points": [
+              11.44,
+              32.78,
+              16.82,
+              8.99,
+              9.09,
+              6.2,
+              11.76,
+              2.45,
+              6.2,
+              6.42
+            ]
+          },
+          {
+            "roster_id": 11,
+            "name": "Mayer Force Once",
+            "real_points": 86.2,
+            "sim_points": 120.66,
+            "starters": [
+              "6904",
+              "5850",
+              "12527",
+              "9997",
+              "12514",
+              "11603",
+              "8228",
+              "8136",
+              "4227",
+              "BAL"
+            ],
+            "real_starters_points": [
+              14.5,
+              4.0,
+              6.4,
+              9.8,
+              6.5,
+              12.1,
+              7.7,
+              7.2,
+              6.0,
+              12.0
+            ],
+            "sim_starters_points": [
+              27.48,
+              10.84,
+              11.36,
+              22.19,
+              8.17,
+              4.64,
+              10.94,
+              6.73,
+              9.66,
+              8.65
+            ]
+          }
+        ],
+        "real_winner": 8,
+        "sim_winner": 11,
+        "flipped": true
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 6,
+            "name": "Rack of Lamb",
+            "real_points": 104.2,
+            "sim_points": 129.67,
+            "starters": [
+              "421",
+              "5967",
+              "12533",
+              "8148",
+              "7525",
+              "4217",
+              "6801",
+              "1466",
+              "11539",
+              "NYJ"
+            ],
+            "real_starters_points": [
+              17.2,
+              4.1,
+              3.8,
+              17.7,
+              1.3,
+              21.7,
+              13.8,
+              19.6,
+              4.0,
+              1.0
+            ],
+            "sim_starters_points": [
+              19.14,
+              16.15,
+              8.4,
+              21.22,
+              5.04,
+              9.62,
+              12.91,
+              10.47,
+              7.72,
+              19.0
+            ]
+          },
+          {
+            "roster_id": 7,
+            "name": "noahl11",
+            "real_points": 122.02,
+            "sim_points": 144.91,
+            "starters": [
+              "4892",
+              "9509",
+              "7021",
+              "11635",
+              "5045",
+              "5001",
+              "8137",
+              "9224",
+              "11786",
+              "LAC"
+            ],
+            "real_starters_points": [
+              18.82,
+              28.3,
+              12.5,
+              2.8,
+              7.9,
+              8.1,
+              24.9,
+              15.7,
+              5.0,
+              -2.0
+            ],
+            "sim_starters_points": [
+              19.59,
+              33.82,
+              24.27,
+              11.77,
+              3.91,
+              8.1,
+              11.05,
+              14.76,
+              9.17,
+              8.47
+            ]
+          }
+        ],
+        "real_winner": 7,
+        "sim_winner": 7,
+        "flipped": false
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 10,
+            "name": "The Pain train",
+            "real_points": 87.0,
+            "sim_points": 107.87,
+            "starters": [
+              "3163",
+              "6130",
+              "4098",
+              "11624",
+              "7547",
+              "11604",
+              "9754",
+              "12485",
+              "2747",
+              "LAR"
+            ],
+            "real_starters_points": [
+              14.1,
+              17.2,
+              12.7,
+              4.0,
+              5.2,
+              10.7,
+              0.0,
+              1.1,
+              15.0,
+              7.0
+            ],
+            "sim_starters_points": [
+              18.82,
+              9.93,
+              5.6,
+              6.97,
+              9.24,
+              12.48,
+              16.96,
+              10.13,
+              10.26,
+              7.48
+            ]
+          },
+          {
+            "roster_id": 12,
+            "name": "Ur chick call me Kyren",
+            "real_points": 109.76,
+            "sim_points": 100.78,
+            "starters": [
+              "6804",
+              "8150",
+              "4199",
+              "9493",
+              "7526",
+              "8130",
+              "12534",
+              "8134",
+              "17",
+              "BUF"
+            ],
+            "real_starters_points": [
+              21.66,
+              16.1,
+              9.6,
+              10.8,
+              6.7,
+              22.5,
+              10.2,
+              0.2,
+              8.0,
+              4.0
+            ],
+            "sim_starters_points": [
+              16.04,
+              16.81,
+              12.79,
+              12.52,
+              6.03,
+              9.94,
+              3.82,
+              11.63,
+              3.95,
+              7.25
+            ]
+          }
+        ],
+        "real_winner": 12,
+        "sim_winner": 10,
+        "flipped": true
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Just let it go. It\u2019s over",
+            "real_points": 105.74,
+            "sim_points": 106.78,
+            "starters": [
+              "4046",
+              "3198",
+              "12529",
+              "11638",
+              "9487",
+              "12493",
+              "12474",
+              "11647",
+              "1945",
+              "CLE"
+            ],
+            "real_starters_points": [
+              15.34,
+              19.2,
+              29.8,
+              0.5,
+              3.0,
+              5.1,
+              5.6,
+              2.2,
+              10.0,
+              15.0
+            ],
+            "sim_starters_points": [
+              30.49,
+              10.64,
+              5.25,
+              11.81,
+              15.06,
+              9.78,
+              7.61,
+              3.71,
+              9.73,
+              2.7
+            ]
+          },
+          {
+            "roster_id": 2,
+            "name": "THE GENERAL",
+            "real_points": 141.48,
+            "sim_points": 105.48,
+            "starters": [
+              "4984",
+              "8138",
+              "7588",
+              "5846",
+              "10229",
+              "5906",
+              "10232",
+              "11620",
+              "6650",
+              "CHI"
+            ],
+            "real_starters_points": [
+              48.68,
+              18.9,
+              9.8,
+              7.4,
+              6.8,
+              2.8,
+              26.0,
+              5.1,
+              8.0,
+              8.0
+            ],
+            "sim_starters_points": [
+              20.7,
+              9.92,
+              11.7,
+              8.02,
+              19.17,
+              3.16,
+              7.62,
+              7.7,
+              9.51,
+              7.98
+            ]
+          }
+        ],
+        "real_winner": 2,
+        "sim_winner": 1,
+        "flipped": true
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 4,
+            "name": "jxck03",
+            "real_points": 93.9,
+            "sim_points": 128.9,
+            "starters": [
+              "11563",
+              "11655",
+              "8155",
+              "7564",
+              "8112",
+              "11597",
+              "8132",
+              "7049",
+              "6083",
+              "HOU"
+            ],
+            "real_starters_points": [
+              12.6,
+              15.9,
+              7.4,
+              4.5,
+              15.4,
+              5.1,
+              8.6,
+              7.4,
+              6.0,
+              11.0
+            ],
+            "sim_starters_points": [
+              18.93,
+              14.81,
+              18.32,
+              14.42,
+              9.2,
+              5.48,
+              12.91,
+              15.7,
+              7.13,
+              12.0
+            ]
+          },
+          {
+            "roster_id": 5,
+            "name": "Quon Solo",
+            "real_points": 66.92,
+            "sim_points": 99.96,
+            "starters": [
+              "4881",
+              "4866",
+              "5892",
+              "5859",
+              "2133",
+              "1339",
+              "11637",
+              "1479",
+              "12711",
+              "GB"
+            ],
+            "real_starters_points": [
+              4.72,
+              9.5,
+              4.2,
+              8.4,
+              6.6,
+              6.2,
+              0.0,
+              7.3,
+              12.0,
+              8.0
+            ],
+            "sim_starters_points": [
+              9.18,
+              15.79,
+              5.77,
+              9.14,
+              11.8,
+              4.48,
+              18.33,
+              7.25,
+              10.44,
+              7.78
+            ]
+          }
+        ],
+        "real_winner": 4,
+        "sim_winner": 4,
+        "flipped": false
+      },
+      {
+        "matchup_id": 6,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Nabers in Paris Dak\u2019nGoff",
+            "real_points": 138.64,
+            "sim_points": 132.06,
+            "starters": [
+              "11564",
+              "9221",
+              "7543",
+              "12526",
+              "7569",
+              "3214",
+              "6790",
+              "8126",
+              "8259",
+              "NE"
+            ],
+            "real_starters_points": [
+              17.44,
+              17.1,
+              19.3,
+              29.0,
+              19.7,
+              6.5,
+              9.0,
+              5.6,
+              8.0,
+              7.0
+            ],
+            "sim_starters_points": [
+              31.46,
+              17.54,
+              18.22,
+              10.72,
+              17.82,
+              9.19,
+              9.04,
+              7.03,
+              5.96,
+              5.08
+            ]
+          },
+          {
+            "roster_id": 9,
+            "name": "Burrow\u2019s Boyz",
+            "real_points": 110.22,
+            "sim_points": 127.89,
+            "starters": [
+              "11560",
+              "12512",
+              "9753",
+              "6794",
+              "9488",
+              "5022",
+              "7567",
+              "5012",
+              "2020",
+              "SEA"
+            ],
+            "real_starters_points": [
+              10.32,
+              5.9,
+              5.7,
+              8.6,
+              16.1,
+              3.4,
+              26.0,
+              14.2,
+              15.0,
+              5.0
+            ],
+            "sim_starters_points": [
+              26.53,
+              5.12,
+              15.9,
+              8.76,
+              12.65,
+              8.39,
+              6.66,
+              3.24,
+              13.95,
+              26.69
+            ]
+          }
+        ],
+        "real_winner": 3,
+        "sim_winner": 3,
+        "flipped": false
+      }
+    ],
+    "12": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 7,
+            "name": "noahl11",
+            "real_points": 96.74,
+            "sim_points": 132.05,
+            "starters": [
+              "4892",
+              "9509",
+              "7021",
+              "8137",
+              "4177",
+              "7002",
+              "6783",
+              "9224",
+              "11786",
+              "PHI"
+            ],
+            "real_starters_points": [
+              5.54,
+              13.7,
+              9.4,
+              25.1,
+              4.0,
+              7.6,
+              2.4,
+              14.0,
+              13.0,
+              2.0
+            ],
+            "sim_starters_points": [
+              28.34,
+              18.54,
+              9.71,
+              15.13,
+              4.0,
+              6.68,
+              3.14,
+              27.64,
+              11.57,
+              7.3
+            ]
+          },
+          {
+            "roster_id": 8,
+            "name": "wes4884",
+            "real_points": 89.34,
+            "sim_points": 127.59,
+            "starters": [
+              "7523",
+              "4034",
+              "11586",
+              "6786",
+              "2449",
+              "8110",
+              "9756",
+              "8676",
+              "11533",
+              "PIT"
+            ],
+            "real_starters_points": [
+              23.14,
+              23.7,
+              2.4,
+              9.5,
+              3.0,
+              8.6,
+              0.0,
+              0.5,
+              6.5,
+              12.0
+            ],
+            "sim_starters_points": [
+              35.26,
+              20.06,
+              7.48,
+              14.59,
+              5.25,
+              10.44,
+              11.84,
+              8.85,
+              7.4,
+              6.42
+            ]
+          }
+        ],
+        "real_winner": 7,
+        "sim_winner": 7,
+        "flipped": false
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "THE GENERAL",
+            "real_points": 111.22,
+            "sim_points": 148.91,
+            "starters": [
+              "4984",
+              "8138",
+              "7588",
+              "5846",
+              "10229",
+              "12518",
+              "10232",
+              "11620",
+              "6650",
+              "CHI"
+            ],
+            "real_starters_points": [
+              8.12,
+              20.4,
+              11.1,
+              11.9,
+              20.1,
+              7.0,
+              16.8,
+              6.8,
+              1.0,
+              8.0
+            ],
+            "sim_starters_points": [
+              28.4,
+              11.44,
+              20.42,
+              7.06,
+              19.17,
+              9.69,
+              28.9,
+              6.34,
+              9.51,
+              7.98
+            ]
+          },
+          {
+            "roster_id": 12,
+            "name": "Ur chick call me Kyren",
+            "real_points": 95.16,
+            "sim_points": 91.39,
+            "starters": [
+              "6804",
+              "8150",
+              "4199",
+              "9493",
+              "6819",
+              "8130",
+              "12534",
+              "8134",
+              "17",
+              "BUF"
+            ],
+            "real_starters_points": [
+              7.06,
+              5.3,
+              7.2,
+              13.2,
+              11.2,
+              12.4,
+              10.8,
+              13.0,
+              7.0,
+              8.0
+            ],
+            "sim_starters_points": [
+              6.77,
+              24.57,
+              4.95,
+              6.92,
+              3.59,
+              14.18,
+              8.86,
+              9.15,
+              2.75,
+              9.65
+            ]
+          }
+        ],
+        "real_winner": 2,
+        "sim_winner": 2,
+        "flipped": false
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Just let it go. It\u2019s over",
+            "real_points": 106.08,
+            "sim_points": 133.27,
+            "starters": [
+              "4046",
+              "12474",
+              "12529",
+              "11638",
+              "8167",
+              "12506",
+              "3198",
+              "8151",
+              "1945",
+              "CLE"
+            ],
+            "real_starters_points": [
+              17.08,
+              7.4,
+              9.6,
+              1.8,
+              7.4,
+              6.4,
+              21.8,
+              11.6,
+              4.0,
+              19.0
+            ],
+            "sim_starters_points": [
+              32.94,
+              22.57,
+              8.85,
+              7.33,
+              6.72,
+              9.31,
+              13.28,
+              5.44,
+              9.73,
+              17.1
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "The Pain train",
+            "real_points": 134.16,
+            "sim_points": 93.02,
+            "starters": [
+              "3163",
+              "6130",
+              "4098",
+              "11624",
+              "7547",
+              "11604",
+              "8144",
+              "7553",
+              "2747",
+              "LAR"
+            ],
+            "real_starters_points": [
+              21.16,
+              4.7,
+              18.5,
+              7.9,
+              25.4,
+              8.5,
+              11.5,
+              3.5,
+              13.0,
+              20.0
+            ],
+            "sim_starters_points": [
+              15.57,
+              2.25,
+              5.76,
+              13.05,
+              14.76,
+              11.84,
+              9.45,
+              6.6,
+              5.46,
+              8.28
+            ]
+          }
+        ],
+        "real_winner": 10,
+        "sim_winner": 1,
+        "flipped": true
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 4,
+            "name": "jxck03",
+            "real_points": 117.38,
+            "sim_points": 97.99,
+            "starters": [
+              "3257",
+              "11655",
+              "8155",
+              "7049",
+              "7090",
+              "11597",
+              "8132",
+              "8122",
+              "6083",
+              "LV"
+            ],
+            "real_starters_points": [
+              20.68,
+              14.5,
+              11.9,
+              12.6,
+              14.9,
+              9.2,
+              5.4,
+              11.2,
+              9.0,
+              8.0
+            ],
+            "sim_starters_points": [
+              20.43,
+              9.13,
+              8.32,
+              14.42,
+              12.86,
+              4.2,
+              3.15,
+              5.75,
+              2.73,
+              17.0
+            ]
+          },
+          {
+            "roster_id": 9,
+            "name": "Burrow\u2019s Boyz",
+            "real_points": 109.22,
+            "sim_points": 107.21,
+            "starters": [
+              "8183",
+              "12512",
+              "9753",
+              "6794",
+              "9488",
+              "5022",
+              "7567",
+              "5012",
+              "2020",
+              "SEA"
+            ],
+            "real_starters_points": [
+              9.32,
+              16.7,
+              9.5,
+              6.8,
+              33.1,
+              3.0,
+              15.2,
+              1.6,
+              8.0,
+              6.0
+            ],
+            "sim_starters_points": [
+              8.97,
+              8.32,
+              10.7,
+              12.84,
+              21.37,
+              9.91,
+              14.42,
+              3.24,
+              9.95,
+              7.49
+            ]
+          }
+        ],
+        "real_winner": 4,
+        "sim_winner": 9,
+        "flipped": true
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Nabers in Paris Dak\u2019nGoff",
+            "real_points": 141.86,
+            "sim_points": 111.51,
+            "starters": [
+              "11564",
+              "9221",
+              "7543",
+              "12526",
+              "7569",
+              "3214",
+              "6790",
+              "4035",
+              "4195",
+              "NE"
+            ],
+            "real_starters_points": [
+              17.96,
+              49.9,
+              19.1,
+              10.5,
+              7.0,
+              21.0,
+              1.4,
+              2.5,
+              2.5,
+              10.0
+            ],
+            "sim_starters_points": [
+              23.44,
+              7.3,
+              19.34,
+              15.2,
+              10.46,
+              2.87,
+              13.85,
+              3.53,
+              8.04,
+              7.48
+            ]
+          },
+          {
+            "roster_id": 5,
+            "name": "Quon Solo",
+            "real_points": 121.62,
+            "sim_points": 112.52,
+            "starters": [
+              "4881",
+              "4866",
+              "5892",
+              "5859",
+              "2133",
+              "4033",
+              "11435",
+              "9506",
+              "12711",
+              "GB"
+            ],
+            "real_starters_points": [
+              7.22,
+              8.9,
+              5.2,
+              21.0,
+              20.7,
+              0.0,
+              25.5,
+              5.1,
+              11.0,
+              17.0
+            ],
+            "sim_starters_points": [
+              30.8,
+              14.99,
+              9.21,
+              11.3,
+              6.68,
+              2.39,
+              2.26,
+              8.67,
+              11.24,
+              14.98
+            ]
+          }
+        ],
+        "real_winner": 3,
+        "sim_winner": 5,
+        "flipped": true
+      },
+      {
+        "matchup_id": 6,
+        "teams": [
+          {
+            "roster_id": 6,
+            "name": "Rack of Lamb",
+            "real_points": 87.32,
+            "sim_points": 131.64,
+            "starters": [
+              "421",
+              "5967",
+              "6813",
+              "8148",
+              "7525",
+              "4217",
+              "1466",
+              "6801",
+              "11539",
+              "DET"
+            ],
+            "real_starters_points": [
+              28.92,
+              6.1,
+              7.6,
+              0.0,
+              11.9,
+              10.8,
+              6.4,
+              5.6,
+              12.0,
+              -2.0
+            ],
+            "sim_starters_points": [
+              34.88,
+              16.15,
+              26.79,
+              10.1,
+              11.04,
+              9.62,
+              6.71,
+              4.03,
+              8.92,
+              3.4
+            ]
+          },
+          {
+            "roster_id": 11,
+            "name": "Mayer Force Once",
+            "real_points": 120.16,
+            "sim_points": 96.17,
+            "starters": [
+              "6904",
+              "8136",
+              "12527",
+              "9997",
+              "12514",
+              "11603",
+              "8228",
+              "8142",
+              "4227",
+              "BAL"
+            ],
+            "real_starters_points": [
+              32.86,
+              4.7,
+              20.8,
+              9.4,
+              4.7,
+              2.8,
+              12.8,
+              3.1,
+              16.0,
+              13.0
+            ],
+            "sim_starters_points": [
+              13.08,
+              7.77,
+              9.2,
+              6.99,
+              8.17,
+              8.16,
+              7.5,
+              15.79,
+              6.86,
+              12.65
+            ]
+          }
+        ],
+        "real_winner": 11,
+        "sim_winner": 6,
+        "flipped": true
+      }
+    ],
+    "13": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 8,
+            "name": "wes4884",
+            "real_points": 117.56,
+            "sim_points": 144.29,
+            "starters": [
+              "7523",
+              "4034",
+              "9226",
+              "6786",
+              "2449",
+              "8110",
+              "9756",
+              "8676",
+              "11533",
+              "PIT"
+            ],
+            "real_starters_points": [
+              25.66,
+              15.4,
+              19.4,
+              20.7,
+              4.1,
+              6.1,
+              6.1,
+              2.1,
+              12.0,
+              6.0
+            ],
+            "sim_starters_points": [
+              26.06,
+              22.78,
+              17.22,
+              14.11,
+              17.25,
+              18.12,
+              2.8,
+              6.45,
+              14.68,
+              4.82
+            ]
+          },
+          {
+            "roster_id": 12,
+            "name": "Ur chick call me Kyren",
+            "real_points": 124.66,
+            "sim_points": 123.18,
+            "starters": [
+              "6804",
+              "8150",
+              "4199",
+              "9493",
+              "6819",
+              "8130",
+              "12534",
+              "8134",
+              "17",
+              "BUF"
+            ],
+            "real_starters_points": [
+              33.76,
+              13.2,
+              2.5,
+              10.2,
+              1.8,
+              18.2,
+              19.0,
+              1.0,
+              7.0,
+              18.0
+            ],
+            "sim_starters_points": [
+              14.24,
+              10.57,
+              9.43,
+              27.48,
+              15.51,
+              10.26,
+              10.46,
+              8.83,
+              6.75,
+              9.65
+            ]
+          }
+        ],
+        "real_winner": 12,
+        "sim_winner": 8,
+        "flipped": true
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "THE GENERAL",
+            "real_points": 129.52,
+            "sim_points": 130.1,
+            "starters": [
+              "4984",
+              "8138",
+              "7588",
+              "5846",
+              "10229",
+              "12518",
+              "10232",
+              "11647",
+              "6650",
+              "DEN"
+            ],
+            "real_starters_points": [
+              18.72,
+              17.2,
+              15.5,
+              4.7,
+              25.4,
+              9.7,
+              5.1,
+              20.2,
+              10.0,
+              3.0
+            ],
+            "sim_starters_points": [
+              20.7,
+              18.32,
+              14.9,
+              3.38,
+              9.97,
+              13.69,
+              14.66,
+              15.79,
+              9.51,
+              9.18
+            ]
+          },
+          {
+            "roster_id": 7,
+            "name": "noahl11",
+            "real_points": 121.26,
+            "sim_points": 115.52,
+            "starters": [
+              "12508",
+              "9509",
+              "9224",
+              "8137",
+              "11635",
+              "7002",
+              "11584",
+              "7021",
+              "11786",
+              "PHI"
+            ],
+            "real_starters_points": [
+              15.56,
+              27.8,
+              14.8,
+              13.8,
+              11.9,
+              6.4,
+              15.1,
+              8.9,
+              6.0,
+              1.0
+            ],
+            "sim_starters_points": [
+              21.35,
+              11.74,
+              22.12,
+              11.61,
+              6.73,
+              6.2,
+              7.11,
+              12.59,
+              2.37,
+              13.7
+            ]
+          }
+        ],
+        "real_winner": 2,
+        "sim_winner": 2,
+        "flipped": false
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Just let it go. It\u2019s over",
+            "real_points": 107.84,
+            "sim_points": 135.54,
+            "starters": [
+              "4046",
+              "3198",
+              "8151",
+              "11631",
+              "8167",
+              "12493",
+              "12529",
+              "12474",
+              "1945",
+              "CLE"
+            ],
+            "real_starters_points": [
+              37.44,
+              16.9,
+              8.9,
+              3.8,
+              16.3,
+              3.2,
+              10.1,
+              7.2,
+              1.0,
+              3.0
+            ],
+            "sim_starters_points": [
+              16.83,
+              21.44,
+              11.36,
+              5.32,
+              18.16,
+              3.78,
+              24.29,
+              13.93,
+              9.73,
+              10.7
+            ]
+          },
+          {
+            "roster_id": 4,
+            "name": "jxck03",
+            "real_points": 114.04,
+            "sim_points": 97.71,
+            "starters": [
+              "11563",
+              "11655",
+              "8155",
+              "7564",
+              "7049",
+              "11597",
+              "11628",
+              "8132",
+              "6083",
+              "JAX"
+            ],
+            "real_starters_points": [
+              18.44,
+              3.8,
+              14.6,
+              14.5,
+              11.9,
+              4.4,
+              9.9,
+              12.5,
+              8.0,
+              16.0
+            ],
+            "sim_starters_points": [
+              27.97,
+              9.13,
+              14.8,
+              9.3,
+              12.02,
+              4.92,
+              4.91,
+              3.15,
+              7.13,
+              4.38
+            ]
+          }
+        ],
+        "real_winner": 4,
+        "sim_winner": 1,
+        "flipped": true
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 9,
+            "name": "Burrow\u2019s Boyz",
+            "real_points": 124.94,
+            "sim_points": 124.4,
+            "starters": [
+              "6770",
+              "12512",
+              "12489",
+              "6794",
+              "9488",
+              "5022",
+              "7567",
+              "5045",
+              "8259",
+              "SEA"
+            ],
+            "real_starters_points": [
+              23.24,
+              14.4,
+              19.7,
+              1.4,
+              3.3,
+              3.7,
+              5.5,
+              14.7,
+              9.0,
+              30.0
+            ],
+            "sim_starters_points": [
+              8.61,
+              4.8,
+              15.09,
+              10.2,
+              24.49,
+              10.63,
+              6.5,
+              16.23,
+              8.36,
+              19.49
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "The Pain train",
+            "real_points": 114.24,
+            "sim_points": 132.0,
+            "starters": [
+              "6797",
+              "6130",
+              "4098",
+              "11624",
+              "7547",
+              "11604",
+              "9754",
+              "7553",
+              "2747",
+              "LAR"
+            ],
+            "real_starters_points": [
+              16.84,
+              17.7,
+              8.5,
+              9.4,
+              0.0,
+              20.3,
+              9.8,
+              11.7,
+              19.0,
+              1.0
+            ],
+            "sim_starters_points": [
+              17.52,
+              15.21,
+              10.32,
+              7.61,
+              31.24,
+              7.04,
+              7.6,
+              6.52,
+              17.46,
+              11.48
+            ]
+          }
+        ],
+        "real_winner": 9,
+        "sim_winner": 10,
+        "flipped": true
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Nabers in Paris Dak\u2019nGoff",
+            "real_points": 109.78,
+            "sim_points": 160.59,
+            "starters": [
+              "11564",
+              "9221",
+              "7543",
+              "12526",
+              "7569",
+              "8111",
+              "6790",
+              "11627",
+              "4195",
+              "NE"
+            ],
+            "real_starters_points": [
+              24.48,
+              10.1,
+              4.6,
+              10.8,
+              19.0,
+              1.9,
+              20.3,
+              3.1,
+              2.5,
+              13.0
+            ],
+            "sim_starters_points": [
+              38.82,
+              23.38,
+              18.06,
+              25.28,
+              18.3,
+              5.77,
+              9.85,
+              10.01,
+              5.24,
+              5.88
+            ]
+          },
+          {
+            "roster_id": 6,
+            "name": "Rack of Lamb",
+            "real_points": 85.12,
+            "sim_points": 105.13,
+            "starters": [
+              "421",
+              "5967",
+              "6813",
+              "8148",
+              "4950",
+              "4217",
+              "1466",
+              "12499",
+              "11539",
+              "DET"
+            ],
+            "real_starters_points": [
+              15.62,
+              4.8,
+              13.6,
+              23.4,
+              0.0,
+              8.7,
+              13.0,
+              1.0,
+              6.0,
+              -1.0
+            ],
+            "sim_starters_points": [
+              17.87,
+              6.63,
+              16.71,
+              3.7,
+              7.52,
+              20.02,
+              8.31,
+              2.05,
+              12.52,
+              9.8
+            ]
+          }
+        ],
+        "real_winner": 3,
+        "sim_winner": 3,
+        "flipped": false
+      },
+      {
+        "matchup_id": 6,
+        "teams": [
+          {
+            "roster_id": 5,
+            "name": "Quon Solo",
+            "real_points": 98.54,
+            "sim_points": 92.54,
+            "starters": [
+              "4881",
+              "4866",
+              "5892",
+              "5859",
+              "2133",
+              "1339",
+              "1479",
+              "9506",
+              "12711",
+              "GB"
+            ],
+            "real_starters_points": [
+              6.54,
+              5.6,
+              11.8,
+              30.2,
+              19.8,
+              15.6,
+              5.0,
+              0.0,
+              2.0,
+              2.0
+            ],
+            "sim_starters_points": [
+              7.74,
+              8.83,
+              5.21,
+              23.3,
+              13.24,
+              2.88,
+              3.33,
+              8.99,
+              11.24,
+              7.78
+            ]
+          },
+          {
+            "roster_id": 11,
+            "name": "Mayer Force Once",
+            "real_points": 78.5,
+            "sim_points": 128.45,
+            "starters": [
+              "6904",
+              "8136",
+              "12527",
+              "9997",
+              "12514",
+              "11603",
+              "8228",
+              "8142",
+              "4227",
+              "BAL"
+            ],
+            "real_starters_points": [
+              20.3,
+              4.4,
+              9.1,
+              -0.4,
+              6.2,
+              5.7,
+              11.4,
+              15.8,
+              4.0,
+              2.0
+            ],
+            "sim_starters_points": [
+              13.6,
+              6.25,
+              7.28,
+              24.75,
+              8.65,
+              10.96,
+              12.78,
+              14.27,
+              10.86,
+              19.05
+            ]
+          }
+        ],
+        "real_winner": 5,
+        "sim_winner": 11,
+        "flipped": true
+      }
+    ],
+    "14": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "THE GENERAL",
+            "real_points": 149.54,
+            "sim_points": 129.63,
+            "starters": [
+              "4984",
+              "8138",
+              "7588",
+              "10232",
+              "10229",
+              "12518",
+              "10219",
+              "12476",
+              "6650",
+              "DEN"
+            ],
+            "real_starters_points": [
+              43.84,
+              10.1,
+              13.7,
+              31.7,
+              5.4,
+              2.7,
+              5.2,
+              14.9,
+              9.0,
+              13.0
+            ],
+            "sim_starters_points": [
+              10.7,
+              19.68,
+              8.26,
+              28.9,
+              7.41,
+              5.85,
+              9.62,
+              14.12,
+              9.51,
+              15.58
+            ]
+          },
+          {
+            "roster_id": 8,
+            "name": "wes4884",
+            "real_points": 137.36,
+            "sim_points": 100.01,
+            "starters": [
+              "7523",
+              "11586",
+              "9226",
+              "6786",
+              "4983",
+              "8110",
+              "9756",
+              "8676",
+              "11533",
+              "PIT"
+            ],
+            "real_starters_points": [
+              23.36,
+              25.6,
+              17.0,
+              15.1,
+              0.1,
+              8.3,
+              8.2,
+              14.7,
+              24.0,
+              1.0
+            ],
+            "sim_starters_points": [
+              22.49,
+              3.0,
+              13.7,
+              14.59,
+              2.8,
+              6.68,
+              9.84,
+              3.09,
+              21.4,
+              2.42
+            ]
+          }
+        ],
+        "real_winner": 2,
+        "sim_winner": 2,
+        "flipped": false
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 7,
+            "name": "noahl11",
+            "real_points": 100.88,
+            "sim_points": 125.31,
+            "starters": [
+              "4892",
+              "9509",
+              "9224",
+              "8137",
+              "11635",
+              "7002",
+              "11584",
+              "5927",
+              "11786",
+              "PHI"
+            ],
+            "real_starters_points": [
+              13.08,
+              8.4,
+              17.0,
+              6.2,
+              1.7,
+              5.8,
+              15.1,
+              5.6,
+              11.0,
+              17.0
+            ],
+            "sim_starters_points": [
+              26.95,
+              14.86,
+              12.92,
+              11.93,
+              7.69,
+              15.32,
+              7.11,
+              8.06,
+              8.37,
+              12.1
+            ]
+          },
+          {
+            "roster_id": 12,
+            "name": "Ur chick call me Kyren",
+            "real_points": 143.66,
+            "sim_points": 106.16,
+            "starters": [
+              "6804",
+              "8150",
+              "4199",
+              "9493",
+              "7526",
+              "8130",
+              "6819",
+              "8134",
+              "17",
+              "BUF"
+            ],
+            "real_starters_points": [
+              25.26,
+              16.7,
+              7.6,
+              32.2,
+              15.6,
+              8.3,
+              12.4,
+              8.6,
+              7.0,
+              10.0
+            ],
+            "sim_starters_points": [
+              23.65,
+              16.81,
+              3.75,
+              6.92,
+              6.03,
+              16.74,
+              3.99,
+              15.87,
+              6.75,
+              5.65
+            ]
+          }
+        ],
+        "real_winner": 12,
+        "sim_winner": 7,
+        "flipped": true
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Just let it go. It\u2019s over",
+            "real_points": 95.4,
+            "sim_points": 98.98,
+            "starters": [
+              "4046",
+              "3198",
+              "8151",
+              "11631",
+              "8167",
+              "12493",
+              "12507",
+              "12474",
+              "1945",
+              "CLE"
+            ],
+            "real_starters_points": [
+              5.8,
+              10.7,
+              3.3,
+              10.2,
+              22.9,
+              1.2,
+              13.7,
+              14.6,
+              9.0,
+              4.0
+            ],
+            "sim_starters_points": [
+              13.1,
+              10.64,
+              7.36,
+              3.88,
+              20.64,
+              7.7,
+              5.06,
+              7.77,
+              5.73,
+              17.1
+            ]
+          },
+          {
+            "roster_id": 9,
+            "name": "Burrow\u2019s Boyz",
+            "real_points": 160.76,
+            "sim_points": 111.42,
+            "starters": [
+              "6770",
+              "12512",
+              "12489",
+              "6794",
+              "9488",
+              "5022",
+              "5947",
+              "5045",
+              "8259",
+              "SEA"
+            ],
+            "real_starters_points": [
+              31.36,
+              8.9,
+              19.0,
+              2.1,
+              24.6,
+              11.8,
+              12.8,
+              9.2,
+              20.0,
+              21.0
+            ],
+            "sim_starters_points": [
+              22.8,
+              9.84,
+              13.49,
+              8.76,
+              12.65,
+              8.71,
+              7.01,
+              9.11,
+              5.96,
+              13.09
+            ]
+          }
+        ],
+        "real_winner": 9,
+        "sim_winner": 9,
+        "flipped": false
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 4,
+            "name": "jxck03",
+            "real_points": 65.78,
+            "sim_points": 105.15,
+            "starters": [
+              "11563",
+              "8122",
+              "8155",
+              "7564",
+              "11625",
+              "9480",
+              "7090",
+              "8132",
+              "7839",
+              "JAX"
+            ],
+            "real_starters_points": [
+              15.98,
+              4.9,
+              4.3,
+              7.7,
+              2.9,
+              4.2,
+              1.1,
+              7.7,
+              4.0,
+              13.0
+            ],
+            "sim_starters_points": [
+              14.25,
+              6.39,
+              13.28,
+              19.22,
+              12.86,
+              8.86,
+              2.54,
+              11.31,
+              8.06,
+              8.38
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "The Pain train",
+            "real_points": 93.36,
+            "sim_points": 112.18,
+            "starters": [
+              "3163",
+              "8800",
+              "4098",
+              "11624",
+              "7547",
+              "11604",
+              "9754",
+              "7553",
+              "2747",
+              "LAR"
+            ],
+            "real_starters_points": [
+              18.16,
+              0.6,
+              9.0,
+              7.0,
+              12.2,
+              12.6,
+              1.8,
+              12.0,
+              14.0,
+              6.0
+            ],
+            "sim_starters_points": [
+              17.67,
+              0.6,
+              14.96,
+              7.61,
+              13.08,
+              10.96,
+              6.16,
+              5.8,
+              17.46,
+              17.88
+            ]
+          }
+        ],
+        "real_winner": 10,
+        "sim_winner": 10,
+        "flipped": false
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Nabers in Paris Dak\u2019nGoff",
+            "real_points": 127.44,
+            "sim_points": 169.68,
+            "starters": [
+              "3294",
+              "9221",
+              "7543",
+              "11627",
+              "7569",
+              "8111",
+              "6790",
+              "2216",
+              "4195",
+              "TB"
+            ],
+            "real_starters_points": [
+              20.44,
+              33.5,
+              20.7,
+              2.6,
+              14.1,
+              3.4,
+              9.7,
+              0.0,
+              16.0,
+              7.0
+            ],
+            "sim_starters_points": [
+              33.97,
+              43.78,
+              26.78,
+              4.17,
+              18.3,
+              5.77,
+              10.4,
+              14.95,
+              4.44,
+              7.12
+            ]
+          },
+          {
+            "roster_id": 11,
+            "name": "Mayer Force Once",
+            "real_points": 71.9,
+            "sim_points": 136.76,
+            "starters": [
+              "6904",
+              "8228",
+              "12527",
+              "9997",
+              "12514",
+              "11603",
+              "5850",
+              "8142",
+              "4227",
+              "BAL"
+            ],
+            "real_starters_points": [
+              0.4,
+              13.7,
+              4.8,
+              16.6,
+              2.5,
+              4.2,
+              16.2,
+              10.5,
+              3.0,
+              0.0
+            ],
+            "sim_starters_points": [
+              23.16,
+              12.7,
+              13.28,
+              22.19,
+              5.93,
+              4.64,
+              16.68,
+              11.07,
+              8.06,
+              19.05
+            ]
+          }
+        ],
+        "real_winner": 3,
+        "sim_winner": 3,
+        "flipped": false
+      },
+      {
+        "matchup_id": 6,
+        "teams": [
+          {
+            "roster_id": 5,
+            "name": "Quon Solo",
+            "real_points": 99.26,
+            "sim_points": 85.51,
+            "starters": [
+              "4881",
+              "4866",
+              "5892",
+              "5859",
+              "2133",
+              "1339",
+              "1479",
+              "4037",
+              "12711",
+              "GB"
+            ],
+            "real_starters_points": [
+              23.06,
+              18.2,
+              13.8,
+              13.0,
+              4.9,
+              1.6,
+              3.7,
+              8.0,
+              9.0,
+              4.0
+            ],
+            "sim_starters_points": [
+              7.74,
+              6.43,
+              24.97,
+              9.86,
+              6.68,
+              10.56,
+              3.33,
+              2.52,
+              8.84,
+              4.58
+            ]
+          },
+          {
+            "roster_id": 6,
+            "name": "Rack of Lamb",
+            "real_points": 136.34,
+            "sim_points": 90.41,
+            "starters": [
+              "421",
+              "5967",
+              "6813",
+              "8148",
+              "4950",
+              "1466",
+              "7525",
+              "6801",
+              "11539",
+              "KC"
+            ],
+            "real_starters_points": [
+              29.24,
+              28.1,
+              11.4,
+              13.8,
+              1.1,
+              1.3,
+              5.7,
+              24.2,
+              15.5,
+              6.0
+            ],
+            "sim_starters_points": [
+              17.87,
+              6.55,
+              16.71,
+              6.26,
+              1.44,
+              7.35,
+              7.44,
+              8.75,
+              9.32,
+              8.72
+            ]
+          }
+        ],
+        "real_winner": 6,
+        "sim_winner": 6,
+        "flipped": false
+      }
+    ]
+  }
+}

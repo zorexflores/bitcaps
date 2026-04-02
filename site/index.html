@@ -1,0 +1,2492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BitCaps — Fantasy Season Simulator</title>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <style>
+    /* =====================================================================
+       RESET & BASE
+    ===================================================================== */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:         #06090f;
+      --bg-panel:   #0c1018;
+      --bg-card:    #111827;
+      --border:     #1a2540;
+      --border-hi:  #2a3d60;
+
+      --text:       #e8dcc8;
+      --text-dim:   #6a80a0;
+      --text-faint: #2d4060;
+
+      --gold:       #f0b429;
+      --gold-glow:  rgba(240,180,41,0.35);
+      --teal:       #14b8a6;
+      --teal-glow:  rgba(20,184,166,0.3);
+      --red:        #ef4444;
+      --red-glow:   rgba(239,68,68,0.3);
+
+      /* Position colors */
+      --pos-qb:     #f97316;
+      --pos-rb:     #22c55e;
+      --pos-wr:     #3b82f6;
+      --pos-te:     #a855f7;
+      --pos-k:      #eab308;
+      --pos-def:    #64748b;
+
+      /* Tier colors */
+      --tier-elite-a:  #7c3aed;
+      --tier-elite-b:  #4f46e5;
+      --tier-elite-border: #a78bfa;
+      --tier-elite-glow: rgba(139,92,246,0.5);
+
+      --tier-gold-a:   #b45309;
+      --tier-gold-b:   #78350f;
+      --tier-gold-border: #f0b429;
+      --tier-gold-glow: rgba(240,180,41,0.45);
+
+      --tier-silver-a: #334155;
+      --tier-silver-b: #1e293b;
+      --tier-silver-border: #64748b;
+      --tier-silver-glow: rgba(100,116,139,0.3);
+
+      --tier-bronze-a: #431407;
+      --tier-bronze-b: #292524;
+      --tier-bronze-border: #a16207;
+      --tier-bronze-glow: rgba(120,83,40,0.3);
+
+      --font-lcd:   'VT323', monospace;
+      --font-mono:  'Share Tech Mono', 'Courier New', monospace;
+      --font-ui:    'Segoe UI', system-ui, sans-serif;
+
+      --radius:     3px;
+      --radius-lg:  6px;
+    }
+
+    html, body {
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-ui);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    /* Subtle grid background */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(30,50,90,0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(30,50,90,0.08) 1px, transparent 1px);
+      background-size: 40px 40px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .app { position: relative; z-index: 1; display: flex; flex-direction: column; min-height: 100vh; }
+
+    /* =====================================================================
+       SCROLLBAR
+    ===================================================================== */
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--border-hi); border-radius: 3px; }
+
+    /* =====================================================================
+       HEADER
+    ===================================================================== */
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 12px 28px;
+      background: rgba(12,16,24,0.95);
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(8px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-logo {
+      font-family: var(--font-lcd);
+      font-size: 28px;
+      color: var(--gold);
+      letter-spacing: 3px;
+      text-shadow:
+        0 0 8px var(--gold-glow),
+        0 0 20px var(--gold-glow);
+    }
+
+    .header-logo span { color: rgba(240,180,41,0.45); }
+
+    .header-controls {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-left: auto;
+    }
+
+    .control-label {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--text-faint);
+    }
+
+    select {
+      background: var(--bg-card);
+      color: var(--text);
+      border: 1px solid var(--border-hi);
+      border-radius: var(--radius);
+      padding: 6px 12px;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      cursor: pointer;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    select:hover, select:focus { border-color: var(--gold); }
+
+    /* =====================================================================
+       NAV TABS
+    ===================================================================== */
+    .nav-tabs {
+      display: flex;
+      gap: 0;
+      padding: 0 28px;
+      background: rgba(12,16,24,0.9);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-tab {
+      padding: 10px 22px;
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--text-faint);
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      transition: color 0.15s, border-color 0.15s, text-shadow 0.15s;
+      user-select: none;
+    }
+
+    .nav-tab:hover:not(.disabled) { color: var(--text-dim); }
+
+    .nav-tab.active {
+      color: var(--gold);
+      border-bottom-color: var(--gold);
+      text-shadow: 0 0 10px var(--gold-glow);
+    }
+
+    .nav-tab.disabled { opacity: 0.25; cursor: not-allowed; }
+
+    /* =====================================================================
+       MAIN
+    ===================================================================== */
+    .main { flex: 1; padding: 24px 28px; max-width: 1440px; margin: 0 auto; width: 100%; }
+
+    .view { display: none; }
+    .view.active { display: block; }
+
+    /* =====================================================================
+       LOADING / ERROR
+    ===================================================================== */
+    .state-loading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 24px;
+      color: var(--text-dim);
+      font-family: var(--font-lcd);
+      font-size: 22px;
+      letter-spacing: 2px;
+      gap: 16px;
+    }
+    .state-loading::before {
+      content: '';
+      width: 28px; height: 28px;
+      border: 2px solid var(--border-hi);
+      border-top-color: var(--gold);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .error-box {
+      background: rgba(120,20,20,0.2);
+      border: 1px solid var(--red);
+      border-radius: var(--radius);
+      padding: 12px 16px;
+      color: var(--red);
+      font-family: var(--font-mono);
+      font-size: 12px;
+      margin-bottom: 16px;
+    }
+
+    /* =====================================================================
+       SECTION HEADERS
+    ===================================================================== */
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+
+    .section-title {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--text-faint);
+      white-space: nowrap;
+    }
+
+    .section-divider { flex: 1; height: 1px; background: var(--border); }
+    .section-meta { font-family: var(--font-mono); font-size: 10px; color: var(--text-faint); white-space: nowrap; }
+
+    /* =====================================================================
+       TEAM SELECTOR
+    ===================================================================== */
+    .team-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 28px;
+    }
+
+    .team-chip {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 14px;
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: 40px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .team-chip:hover {
+      border-color: var(--border-hi);
+      background: var(--bg-card);
+    }
+
+    .team-chip.selected {
+      border-color: var(--gold);
+      background: rgba(240,180,41,0.06);
+      box-shadow: 0 0 12px rgba(240,180,41,0.15);
+    }
+
+    .team-avatar {
+      width: 28px; height: 28px;
+      border-radius: 50%;
+      background: var(--border);
+      border: 1px solid var(--border-hi);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-mono);
+      font-size: 10px;
+      font-weight: bold;
+      color: var(--text-dim);
+      flex-shrink: 0;
+      overflow: hidden;
+    }
+
+    .team-avatar img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; }
+
+    .team-chip-name {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--text);
+      white-space: nowrap;
+    }
+
+    .team-chip.selected .team-chip-name { color: var(--gold); }
+
+    /* =====================================================================
+       SCOREBOARD STRIP
+    ===================================================================== */
+    .scoreboard-strip {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 28px;
+      flex-wrap: wrap;
+    }
+
+    .score-tile {
+      flex: 1;
+      min-width: 130px;
+      padding: 14px 18px;
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Faint scanline on tiles */
+    .score-tile::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 3px,
+        rgba(0,0,0,0.08) 3px,
+        rgba(0,0,0,0.08) 4px
+      );
+      pointer-events: none;
+    }
+
+    .score-tile-label {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--text-faint);
+      margin-bottom: 6px;
+    }
+
+    .score-tile-value {
+      font-family: var(--font-lcd);
+      font-size: 32px;
+      line-height: 1;
+      color: var(--gold);
+      text-shadow: 0 0 12px var(--gold-glow), 0 0 3px var(--gold-glow);
+    }
+
+    .score-tile-value.luck-bad  { color: var(--red);  text-shadow: 0 0 12px var(--red-glow); }
+    .score-tile-value.luck-good { color: var(--teal); text-shadow: 0 0 12px var(--teal-glow); }
+
+    .score-tile-sub {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--text-dim);
+      margin-top: 4px;
+    }
+
+    /* =====================================================================
+       PLAYER CARDS — PORTRAIT / TRADING CARD STYLE
+    ===================================================================== */
+    .cards-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    /* ---- The card ---- */
+    .player-card {
+      width: 168px;
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+      cursor: default;
+      flex-shrink: 0;
+
+      /* Border and shadow set by tier */
+      border: 1px solid var(--card-border, var(--border));
+      box-shadow: 0 4px 20px var(--card-glow, transparent);
+
+      transition: transform 0.2s cubic-bezier(.34,1.56,.64,1), box-shadow 0.2s;
+    }
+
+    .player-card:hover {
+      transform: translateY(-6px) scale(1.02);
+      box-shadow:
+        0 12px 40px var(--card-glow, rgba(0,0,0,0.4)),
+        0 0 0 1px var(--card-border, var(--border));
+    }
+
+    /* Foil shine sweep on hover */
+    .player-card::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        115deg,
+        transparent 20%,
+        rgba(255,255,255,0.06) 40%,
+        rgba(255,255,255,0.12) 50%,
+        rgba(255,255,255,0.06) 60%,
+        transparent 80%
+      );
+      transform: translateX(-120%);
+      transition: transform 0.5s ease;
+      pointer-events: none;
+      z-index: 10;
+      border-radius: 10px;
+    }
+
+    .player-card:hover::after { transform: translateX(120%); }
+
+    /* ---- Art area (top ~55%) ---- */
+    .card-art {
+      height: 140px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+
+      /* Gradient set by tier + position */
+      background: var(--card-art-bg, linear-gradient(160deg, #1a2540, #0d1520));
+    }
+
+    /* Scanlines over art */
+    .card-art::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(0,0,0,0.18) 2px,
+        rgba(0,0,0,0.18) 4px
+      );
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    /* Big position letter background */
+    .card-pos-letter {
+      font-family: var(--font-lcd);
+      font-size: 120px;
+      line-height: 1;
+      color: rgba(255,255,255,0.07);
+      position: absolute;
+      z-index: 1;
+      letter-spacing: -4px;
+      user-select: none;
+    }
+
+    /* OVR badge — top right */
+    .card-ovr {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 3;
+      text-align: center;
+      line-height: 1;
+    }
+
+    .card-ovr-num {
+      font-family: var(--font-lcd);
+      font-size: 30px;
+      color: #fff;
+      text-shadow: 0 0 8px rgba(255,255,255,0.4);
+      display: block;
+    }
+
+    .card-ovr-label {
+      font-family: var(--font-mono);
+      font-size: 8px;
+      letter-spacing: 1.5px;
+      color: rgba(255,255,255,0.5);
+    }
+
+    /* Tier badge — top left */
+    .card-tier-badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 3;
+      font-family: var(--font-lcd);
+      font-size: 14px;
+      letter-spacing: 2px;
+      padding: 2px 7px;
+      border-radius: 2px;
+      border: 1px solid currentColor;
+      line-height: 1.4;
+    }
+
+    .tier-ELITE .card-tier-badge  { color: #c4b5fd; border-color: rgba(196,181,253,0.5); background: rgba(109,40,217,0.3); }
+    .tier-GOLD .card-tier-badge   { color: var(--gold); border-color: rgba(240,180,41,0.5); background: rgba(120,60,0,0.4); }
+    .tier-SILVER .card-tier-badge { color: #94a3b8; border-color: rgba(148,163,184,0.4); background: rgba(30,41,59,0.5); }
+    .tier-BRONZE .card-tier-badge { color: #c4a882; border-color: rgba(161,98,7,0.5); background: rgba(67,20,7,0.4); }
+
+    /* Position badge — bottom of art */
+    .card-pos-badge {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      z-index: 3;
+      font-family: var(--font-mono);
+      font-size: 9px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      padding: 2px 7px;
+      border-radius: 2px;
+      background: var(--pos-color, var(--text-faint));
+      color: #000;
+    }
+
+    /* ---- Stats area (bottom) ---- */
+    .card-stats-area {
+      background: var(--card-stats-bg, #111827);
+      padding: 10px 11px 11px;
+      position: relative;
+    }
+
+    .card-player-name {
+      font-family: var(--font-mono);
+      font-size: 13px;
+      font-weight: bold;
+      color: var(--text);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-bottom: 1px;
+      letter-spacing: 0.3px;
+    }
+
+    .card-team-tag {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: 2px;
+      color: var(--text-dim);
+      margin-bottom: 9px;
+      text-transform: uppercase;
+    }
+
+    /* Score bar */
+    .card-bar-wrap {
+      height: 3px;
+      background: rgba(255,255,255,0.06);
+      border-radius: 2px;
+      margin-bottom: 9px;
+      overflow: hidden;
+    }
+    .card-bar-fill {
+      height: 100%;
+      border-radius: 2px;
+      background: var(--card-bar-color, var(--gold));
+      box-shadow: 0 0 6px var(--card-bar-color, var(--gold));
+    }
+
+    /* Stats rows */
+    .card-stat-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 3px;
+    }
+
+    .card-stat-label {
+      font-family: var(--font-mono);
+      font-size: 8px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--text-faint);
+    }
+
+    .card-stat-val {
+      font-family: var(--font-lcd);
+      font-size: 18px;
+      line-height: 1;
+      color: var(--text);
+    }
+
+    .card-stat-val.main-stat {
+      font-size: 22px;
+      color: var(--card-border, var(--gold));
+      text-shadow: 0 0 8px var(--card-glow, transparent);
+    }
+
+    .card-stat-range {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      color: var(--text-dim);
+    }
+
+    /* Footer: grade */
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 8px;
+      padding-top: 7px;
+      border-top: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .card-grade {
+      font-family: var(--font-lcd);
+      font-size: 26px;
+      line-height: 1;
+    }
+
+    .grade-A { color: var(--teal); text-shadow: 0 0 8px var(--teal-glow); }
+    .grade-B { color: #86efac; }
+    .grade-C { color: var(--gold); }
+    .grade-D { color: #fb923c; }
+    .grade-F { color: var(--red); }
+    .grade-NA { color: var(--text-faint); }
+
+    .card-games {
+      font-family: var(--font-mono);
+      font-size: 8px;
+      letter-spacing: 1px;
+      color: var(--text-faint);
+      text-align: right;
+      line-height: 1.5;
+    }
+
+    /* =====================================================================
+       TIER CARD THEMING
+    ===================================================================== */
+    .tier-ELITE {
+      --card-border: var(--tier-elite-border);
+      --card-glow: var(--tier-elite-glow);
+      --card-art-bg: linear-gradient(160deg, #3b0764, #1e1b4b, #0c0a1e);
+      --card-stats-bg: #100d1f;
+      --card-bar-color: #a78bfa;
+    }
+
+    .tier-GOLD {
+      --card-border: var(--tier-gold-border);
+      --card-glow: var(--tier-gold-glow);
+      --card-art-bg: linear-gradient(160deg, #451a03, #292524, #0f0a00);
+      --card-stats-bg: #0f0d0a;
+      --card-bar-color: var(--gold);
+    }
+
+    .tier-SILVER {
+      --card-border: var(--tier-silver-border);
+      --card-glow: var(--tier-silver-glow);
+      --card-art-bg: linear-gradient(160deg, #1e293b, #0f172a, #080c14);
+      --card-stats-bg: #0a0f18;
+      --card-bar-color: #64748b;
+    }
+
+    .tier-BRONZE {
+      --card-border: var(--tier-bronze-border);
+      --card-glow: var(--tier-bronze-glow);
+      --card-art-bg: linear-gradient(160deg, #292524, #1c1917, #0a0807);
+      --card-stats-bg: #0d0b0a;
+      --card-bar-color: #a16207;
+    }
+
+    /* Position colors for art accent ring */
+    .pos-art-QB  { --pos-color: var(--pos-qb); }
+    .pos-art-RB  { --pos-color: var(--pos-rb); }
+    .pos-art-WR  { --pos-color: var(--pos-wr); }
+    .pos-art-TE  { --pos-color: var(--pos-te); }
+    .pos-art-K   { --pos-color: var(--pos-k);  }
+    .pos-art-DEF { --pos-color: var(--pos-def); }
+
+    /* =====================================================================
+       INFO MODAL
+    ===================================================================== */
+    .info-btn {
+      width: 26px; height: 26px;
+      border-radius: 50%;
+      border: 1px solid var(--border-hi);
+      background: var(--bg-card);
+      color: var(--text-dim);
+      font-family: var(--font-mono);
+      font-size: 13px;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      transition: border-color 0.15s, color 0.15s;
+      flex-shrink: 0;
+    }
+    .info-btn:hover { border-color: var(--gold); color: var(--gold); }
+
+    .modal-overlay {
+      display: none;
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,0.7);
+      z-index: 200;
+      align-items: center; justify-content: center;
+      backdrop-filter: blur(4px);
+    }
+    .modal-overlay.open { display: flex; }
+
+    .modal-box {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-hi);
+      border-radius: 10px;
+      padding: 28px 32px;
+      max-width: 480px;
+      width: 90%;
+      position: relative;
+    }
+
+    .modal-title {
+      font-family: var(--font-lcd);
+      font-size: 26px;
+      letter-spacing: 3px;
+      color: var(--gold);
+      text-shadow: 0 0 10px var(--gold-glow);
+      margin-bottom: 16px;
+    }
+
+    .modal-body {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--text-dim);
+      line-height: 1.8;
+    }
+
+    .modal-body p { margin-bottom: 12px; }
+    .modal-body p:last-child { margin-bottom: 0; }
+    .modal-body strong { color: var(--text); }
+
+    /* About modal — visual redesign */
+    .about-stat-row {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 18px;
+    }
+    .about-stat {
+      flex: 1;
+      background: var(--bg);
+      border: 1px solid var(--border-hi);
+      border-radius: var(--radius-lg);
+      padding: 10px 6px;
+      text-align: center;
+    }
+    .about-stat-val {
+      font-family: var(--font-lcd);
+      font-size: 30px;
+      color: var(--gold);
+      text-shadow: 0 0 10px var(--gold-glow);
+      line-height: 1;
+      margin-bottom: 5px;
+    }
+    .about-stat-label {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: 0.5px;
+      color: var(--text-faint);
+      text-transform: uppercase;
+      line-height: 1.4;
+    }
+    .about-divider {
+      height: 1px;
+      background: var(--border);
+      margin: 14px 0;
+    }
+    .about-steps {
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+    }
+    .about-step {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 11px;
+      color: var(--text-dim);
+      font-family: var(--font-mono);
+      line-height: 1.5;
+    }
+    .about-step-num {
+      font-family: var(--font-lcd);
+      font-size: 20px;
+      color: var(--teal);
+      flex-shrink: 0;
+      line-height: 1.1;
+    }
+    .about-tabs-pills {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+    .about-tab-row {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--text-dim);
+    }
+    .about-tab-pill {
+      background: var(--bg);
+      border: 1px solid var(--border-hi);
+      border-radius: 2px;
+      padding: 2px 7px;
+      font-size: 9px;
+      letter-spacing: 1.5px;
+      color: var(--gold);
+      text-transform: uppercase;
+      flex-shrink: 0;
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 14px; right: 16px;
+      background: none; border: none;
+      color: var(--text-faint);
+      font-family: var(--font-mono);
+      font-size: 18px;
+      cursor: pointer;
+      line-height: 1;
+      padding: 4px;
+    }
+    .modal-close:hover { color: var(--text); }
+
+    /* =====================================================================
+       SUPERSIM
+    ===================================================================== */
+
+    /* Controls bar */
+    .ss-controls {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 16px;
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      margin-bottom: 20px;
+    }
+
+    .ss-controls select { min-width: 80px; }
+
+    .ss-divider {
+      width: 1px; height: 20px;
+      background: var(--border);
+      flex-shrink: 0;
+    }
+
+    .ss-btn {
+      padding: 6px 14px;
+      font-family: var(--font-lcd);
+      font-size: 18px;
+      letter-spacing: 1px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-hi);
+      border-radius: var(--radius);
+      color: var(--text-dim);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .ss-btn:hover { border-color: var(--gold); color: var(--gold); }
+    .ss-btn.active { background: rgba(240,180,41,0.1); border-color: var(--gold); color: var(--gold); }
+    .ss-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+
+    .ss-mode-toggle {
+      display: flex;
+      gap: 0;
+      margin-left: auto;
+    }
+
+    .ss-mode-btn {
+      padding: 5px 12px;
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      background: var(--bg-card);
+      border: 1px solid var(--border-hi);
+      color: var(--text-faint);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .ss-mode-btn:first-child { border-radius: var(--radius) 0 0 var(--radius); }
+    .ss-mode-btn:last-child  { border-radius: 0 var(--radius) var(--radius) 0; margin-left: -1px; }
+    .ss-mode-btn.active { background: rgba(240,180,41,0.1); border-color: var(--gold); color: var(--gold); }
+
+    /* Scoreboard header */
+    .ss-scoreboard {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      gap: 0;
+      padding: 20px 24px;
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      margin-bottom: 16px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Scanline over scoreboard */
+    .ss-scoreboard::after {
+      content: '';
+      position: absolute; inset: 0;
+      background: repeating-linear-gradient(
+        0deg, transparent, transparent 3px,
+        rgba(0,0,0,0.07) 3px, rgba(0,0,0,0.07) 4px
+      );
+      pointer-events: none;
+    }
+
+    .ss-team-block { display: flex; flex-direction: column; gap: 4px; }
+    .ss-team-block.right { text-align: right; align-items: flex-end; }
+
+    .ss-team-name {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 200px;
+    }
+
+    .ss-score-live {
+      font-family: var(--font-lcd);
+      font-size: 52px;
+      line-height: 1;
+      color: var(--gold);
+      text-shadow: 0 0 16px var(--gold-glow), 0 0 4px var(--gold-glow);
+      transition: color 0.3s;
+    }
+
+    .ss-score-live.winning { color: var(--teal); text-shadow: 0 0 16px var(--teal-glow); }
+    .ss-score-live.losing  { color: var(--text-dim); text-shadow: none; }
+
+    .ss-score-real {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-faint);
+      letter-spacing: 1px;
+    }
+
+    .ss-vs-block { text-align: center; padding: 0 20px; }
+
+    .ss-vs {
+      font-family: var(--font-lcd);
+      font-size: 22px;
+      color: var(--text-faint);
+      letter-spacing: 3px;
+      display: block;
+    }
+
+    .ss-week-label {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: 2px;
+      color: var(--text-faint);
+      text-transform: uppercase;
+    }
+
+    /* Flip alert */
+    .ss-flip-alert {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px 20px;
+      background: rgba(239,68,68,0.1);
+      border: 1px solid var(--red);
+      border-radius: var(--radius);
+      margin-bottom: 14px;
+      animation: flipPulse 1.5s ease-in-out infinite;
+    }
+
+    .ss-flip-alert.visible { display: flex; }
+
+    @keyframes flipPulse {
+      0%, 100% { box-shadow: 0 0 0 rgba(239,68,68,0); }
+      50%       { box-shadow: 0 0 16px rgba(239,68,68,0.3); }
+    }
+
+    .ss-flip-text {
+      font-family: var(--font-lcd);
+      font-size: 18px;
+      letter-spacing: 3px;
+      color: var(--red);
+    }
+
+    /* Progress */
+    .ss-progress-wrap {
+      height: 3px;
+      background: var(--border);
+      border-radius: 2px;
+      margin-bottom: 16px;
+      overflow: hidden;
+    }
+    .ss-progress-fill {
+      height: 100%;
+      background: var(--gold);
+      border-radius: 2px;
+      box-shadow: 0 0 6px var(--gold-glow);
+      transition: width 0.3s ease;
+    }
+
+    /* Player rows */
+    .ss-matchup-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .ss-col-header {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--text-faint);
+      padding: 0 0 6px 0;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 6px;
+    }
+
+    .ss-player-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 10px;
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      margin-bottom: 6px;
+      transition: border-color 0.3s, background 0.3s;
+      opacity: 0.35;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .ss-player-row.resolved {
+      opacity: 1;
+      border-color: var(--border-hi);
+    }
+
+    .ss-player-row.current {
+      border-color: var(--gold);
+      background: rgba(240,180,41,0.05);
+    }
+
+    /* Bar fill that sweeps behind the row on resolve */
+    .ss-row-bar {
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      background: rgba(255,255,255,0.03);
+      width: 0%;
+      transition: width 0.6s ease;
+      pointer-events: none;
+    }
+
+    .ss-player-pos {
+      font-family: var(--font-mono);
+      font-size: 8px;
+      font-weight: bold;
+      padding: 2px 5px;
+      border-radius: 2px;
+      background: var(--pos-color, var(--border));
+      color: #000;
+      flex-shrink: 0;
+      z-index: 1;
+    }
+
+    .ss-player-info { flex: 1; min-width: 0; z-index: 1; }
+
+    .ss-player-name {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .ss-player-team {
+      font-family: var(--font-mono);
+      font-size: 8px;
+      letter-spacing: 1px;
+      color: var(--text-faint);
+    }
+
+    .ss-player-score-wrap { text-align: right; flex-shrink: 0; z-index: 1; }
+
+    .ss-player-sim-score {
+      font-family: var(--font-lcd);
+      font-size: 20px;
+      line-height: 1;
+      color: var(--text-dim);
+      transition: color 0.3s;
+    }
+
+    .ss-player-sim-score.revealed { color: var(--gold); }
+    .ss-player-real-score {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      color: var(--text-faint);
+    }
+
+    /* =====================================================================
+       DASHBOARD
+    ===================================================================== */
+
+    .db-meta-strip {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+
+    .db-meta-pill {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      color: var(--text-faint);
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 4px 12px;
+    }
+
+    .db-meta-pill strong { color: var(--text-dim); }
+
+    /* Two-column layout for main dashboard */
+    .db-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    @media (max-width: 900px) { .db-layout { grid-template-columns: 1fr; } }
+
+    .db-panel {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 18px 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .db-panel-title {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--text-faint);
+      margin-bottom: 16px;
+    }
+
+    /* ---- Standings table ---- */
+    .db-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: var(--font-mono);
+      font-size: 11px;
+    }
+
+    .db-table th {
+      font-size: 8px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--text-faint);
+      text-align: right;
+      padding: 0 6px 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .db-table th:first-child { text-align: left; }
+
+    .db-table td {
+      padding: 7px 6px;
+      text-align: right;
+      border-bottom: 1px solid rgba(255,255,255,0.03);
+      color: var(--text-dim);
+      vertical-align: middle;
+    }
+
+    .db-table td:first-child { text-align: left; }
+
+    .db-table tr.playoff-team td { color: var(--text); }
+
+    .db-table tr:last-child td { border-bottom: none; }
+
+    .db-rank-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 20px; height: 20px;
+      border-radius: 3px;
+      font-family: var(--font-lcd);
+      font-size: 14px;
+      background: var(--border);
+      color: var(--text-dim);
+    }
+
+    .db-rank-badge.playoff {
+      background: rgba(240,180,41,0.12);
+      color: var(--gold);
+      border: 1px solid rgba(240,180,41,0.3);
+    }
+
+    .db-rank-badge.last {
+      background: rgba(239,68,68,0.1);
+      color: var(--red);
+    }
+
+    .db-move-arrow {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      white-space: nowrap;
+    }
+
+    .db-move-up   { color: var(--teal); }
+    .db-move-down { color: var(--red); }
+    .db-move-same { color: var(--text-faint); }
+
+    .db-team-name-cell {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* ---- Luck delta chart ---- */
+    .db-luck-list { display: flex; flex-direction: column; gap: 8px; }
+
+    .db-luck-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .db-luck-name {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--text-dim);
+      width: 140px;
+      flex-shrink: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .db-luck-bar-wrap {
+      flex: 1;
+      height: 18px;
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    /* Center line */
+    .db-luck-bar-wrap::before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 0; bottom: 0;
+      width: 1px;
+      background: var(--border-hi);
+    }
+
+    .db-luck-bar {
+      height: 10px;
+      border-radius: 2px;
+      position: absolute;
+      transition: width 0.6s ease;
+    }
+
+    .db-luck-val {
+      font-family: var(--font-lcd);
+      font-size: 16px;
+      width: 42px;
+      text-align: right;
+      flex-shrink: 0;
+    }
+
+    /* ---- Win distribution histograms ---- */
+    .db-dist-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 12px;
+    }
+
+    .db-dist-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 10px 12px;
+    }
+
+    .db-dist-name {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--text-dim);
+      margin-bottom: 6px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .db-dist-svg { width: 100%; display: block; }
+
+    .db-dist-footer {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 5px;
+    }
+
+    .db-dist-stat {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      color: var(--text-faint);
+    }
+
+    .db-dist-stat strong { color: var(--text-dim); }
+
+    /* ---- Insights callouts ---- */
+    .db-insights { display: flex; flex-direction: column; gap: 10px; }
+
+    .db-insight-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 10px 12px;
+      background: var(--bg-card);
+      border-radius: var(--radius);
+      border-left: 3px solid var(--border-hi);
+    }
+
+    .db-insight-row.lucky  { border-left-color: var(--red); }
+    .db-insight-row.unlucky { border-left-color: var(--teal); }
+    .db-insight-row.missed  { border-left-color: var(--purple); }
+    .db-insight-row.snuck   { border-left-color: var(--gold); }
+
+    .db-insight-icon {
+      font-family: var(--font-lcd);
+      font-size: 20px;
+      line-height: 1;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    .db-insight-text {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-dim);
+      line-height: 1.6;
+    }
+
+    .db-insight-text strong { color: var(--text); }
+
+    /* =====================================================================
+       COMING SOON
+    ===================================================================== */
+    .coming-soon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 100px 24px;
+      gap: 10px;
+    }
+
+    .coming-soon-icon {
+      font-family: var(--font-lcd);
+      font-size: 48px;
+      color: var(--text-faint);
+      margin-bottom: 8px;
+    }
+
+    .coming-soon-title {
+      font-family: var(--font-lcd);
+      font-size: 22px;
+      letter-spacing: 3px;
+      color: var(--text-dim);
+    }
+
+    .coming-soon-sub {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-faint);
+      letter-spacing: 1px;
+    }
+
+    /* =====================================================================
+       RESPONSIVE
+    ===================================================================== */
+    @media (max-width: 600px) {
+      .main { padding: 16px; }
+      .scoreboard-strip { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+<div class="app">
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-logo">BIT<span>CAPS</span></div>
+    <button class="info-btn" onclick="openAboutModal()" title="What is BitCaps?">?</button>
+    <div class="header-controls">
+      <span class="control-label">League</span>
+      <select id="league-select"><option value="">Loading...</option></select>
+    </div>
+  </header>
+
+  <!-- INFO MODAL -->
+  <div class="modal-overlay" id="info-modal" onclick="if(event.target===this)this.classList.remove('open')">
+    <div class="modal-box" style="max-width:520px">
+      <button class="modal-close" onclick="document.getElementById('info-modal').classList.remove('open')">✕</button>
+      <div class="modal-title">WHAT IS BITCAPS?</div>
+
+      <!-- Live stat row — populated by openAboutModal() -->
+      <div class="about-stat-row">
+        <div class="about-stat">
+          <div class="about-stat-val" id="about-flip-pct">~40%</div>
+          <div class="about-stat-label">matchups flip<br>outcomes</div>
+        </div>
+        <div class="about-stat">
+          <div class="about-stat-val" id="about-n-sims">500</div>
+          <div class="about-stat-label">alternate seasons<br>simulated</div>
+        </div>
+        <div class="about-stat">
+          <div class="about-stat-val">0.2</div>
+          <div class="about-stat-label">variance<br>dampening</div>
+        </div>
+      </div>
+
+      <div class="modal-body">
+        <p>A <strong>shadow league</strong> running beneath your real Sleeper season. Same players. Same lineups. Different luck.</p>
+
+        <div class="about-divider"></div>
+
+        <div class="about-steps">
+          <div class="about-step">
+            <span class="about-step-num">①</span>
+            <span>Real player scores resampled across your season's weeks — big games and duds redistributed at random</span>
+          </div>
+          <div class="about-step">
+            <span class="about-step-num">②</span>
+            <span>Hundreds of alternate seasons simulated against your real schedule — same rosters, different draws</span>
+          </div>
+          <div class="about-step">
+            <span class="about-step-num">③</span>
+            <span>Compare where you landed vs where the math says you belong — exposing luck and robbery</span>
+          </div>
+        </div>
+
+        <div class="about-divider"></div>
+
+        <div class="about-tabs-pills">
+          <div class="about-tab-row">
+            <span class="about-tab-pill">LINEUP CARDS</span>
+            <span>player profiles + OVR ratings from your real season</span>
+          </div>
+          <div class="about-tab-row">
+            <span class="about-tab-pill">SUPERSIM</span>
+            <span>watch an alternate season's matchups play out player by player</span>
+          </div>
+          <div class="about-tab-row">
+            <span class="about-tab-pill">DASHBOARD</span>
+            <span>the full probability cloud — who was robbed, who got lucky</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <nav class="nav-tabs">
+    <div class="nav-tab active" data-view="cards">Lineup Cards</div>
+    <div class="nav-tab" data-view="supersim">Supersim</div>
+    <div class="nav-tab" data-view="dashboard">Dashboard</div>
+  </nav>
+
+  <!-- MAIN -->
+  <main class="main">
+    <div id="error-container"></div>
+
+    <div id="view-cards" class="view active">
+      <div id="cards-content">
+        <div class="state-loading">Loading...</div>
+      </div>
+    </div>
+
+    <div id="view-supersim" class="view">
+      <!-- Controls -->
+      <div class="ss-controls">
+        <span class="control-label">Sim</span>
+        <select id="ss-seed-select"></select>
+        <div class="ss-divider"></div>
+        <span class="control-label">Week</span>
+        <select id="ss-week-select"></select>
+        <div class="ss-divider"></div>
+        <span class="control-label">Matchup</span>
+        <select id="ss-matchup-select"></select>
+        <div class="ss-divider"></div>
+        <button class="ss-btn" id="ss-step-btn" title="Step one player">▶|</button>
+        <button class="ss-btn" id="ss-play-btn">▶ PLAY</button>
+        <button class="ss-btn" id="ss-reset-btn" title="Reset">↺</button>
+        <div class="ss-mode-toggle">
+          <button class="ss-mode-btn active" id="ss-mode-auto">Auto</button>
+          <button class="ss-mode-btn" id="ss-mode-step">Step</button>
+        </div>
+      </div>
+
+      <!-- Scoreboard -->
+      <div class="ss-scoreboard" id="ss-scoreboard">
+        <div class="ss-team-block" id="ss-team-a">
+          <div class="ss-team-name" id="ss-name-a">—</div>
+          <div class="ss-score-live" id="ss-score-a">0.0</div>
+          <div class="ss-score-real" id="ss-real-a">Real: —</div>
+        </div>
+        <div class="ss-vs-block">
+          <span class="ss-vs">VS</span>
+          <div class="ss-week-label" id="ss-week-label">Week —</div>
+        </div>
+        <div class="ss-team-block right" id="ss-team-b">
+          <div class="ss-team-name" id="ss-name-b">—</div>
+          <div class="ss-score-live" id="ss-score-b">0.0</div>
+          <div class="ss-score-real" id="ss-real-b">Real: —</div>
+        </div>
+      </div>
+
+      <!-- Flip alert -->
+      <div class="ss-flip-alert" id="ss-flip-alert">
+        <span class="ss-flip-text">⚡ OUTCOME FLIPPED</span>
+        <span style="font-family:var(--font-mono);font-size:11px;color:var(--red)">Sim winner differs from reality</span>
+      </div>
+
+      <!-- Progress bar -->
+      <div class="ss-progress-wrap">
+        <div class="ss-progress-fill" id="ss-progress" style="width:0%"></div>
+      </div>
+
+      <!-- Player rows -->
+      <div class="ss-matchup-grid" id="ss-matchup-grid">
+        <div style="color:var(--text-faint);font-family:var(--font-mono);font-size:11px;padding:20px">Select a matchup above</div>
+        <div></div>
+      </div>
+    </div>
+
+    <div id="view-dashboard" class="view">
+      <div id="db-content">
+        <div class="state-loading">Loading...</div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script>
+// =========================================================================
+// STATE
+// =========================================================================
+const state = {
+  leagues: [],
+  currentLeague: null,
+  profiles: null,
+  multiSim: null,
+};
+
+// =========================================================================
+// ABOUT MODAL
+// =========================================================================
+function openAboutModal() {
+  // Populate live stats from loaded multi-sim data if available
+  const flipEl  = document.getElementById('about-flip-pct');
+  const simsEl  = document.getElementById('about-n-sims');
+  if (flipEl && state.multiSim?.config) {
+    const cfg = state.multiSim.config;
+    flipEl.textContent = Math.round(cfg.avg_flip_rate) + '%';
+    simsEl.textContent = cfg.n_sims;
+  }
+  document.getElementById('info-modal').classList.add('open');
+}
+
+// =========================================================================
+// TIER + OVR LOGIC
+// =========================================================================
+
+function getTier(avgScore) {
+  if (avgScore >= 20) return 'ELITE';
+  if (avgScore >= 14) return 'GOLD';
+  if (avgScore >= 8)  return 'SILVER';
+  return 'BRONZE';
+}
+
+// Normalize avg to 0-99 OVR relative to league max
+function getOVR(avg, leagueMax) {
+  if (!leagueMax || avg <= 0) return 40;
+  // Scale so league max = 99, 0 = 40 (floor)
+  const raw = 40 + (avg / leagueMax) * 59;
+  return Math.round(Math.min(99, raw));
+}
+
+function gradeClass(grade) {
+  const map = { A:'grade-A', B:'grade-B', C:'grade-C', D:'grade-D', F:'grade-F' };
+  return map[(grade||'').toUpperCase()] || 'grade-NA';
+}
+
+function normPos(pos) {
+  const p = (pos || '').toUpperCase();
+  if (['QB','RB','WR','TE','K','DEF','DST'].includes(p)) return p === 'DST' ? 'DEF' : p;
+  return 'FLEX';
+}
+
+// =========================================================================
+// DATA LOADING
+// =========================================================================
+
+async function fetchJSON(path) {
+  const res = await fetch(path);
+  if (!res.ok) throw new Error(`${res.status} — ${path}`);
+  return res.json();
+}
+
+async function init() {
+  try {
+    const index = await fetchJSON('data/index.json');
+    state.leagues = index.leagues || [];
+
+    const sel = document.getElementById('league-select');
+    sel.innerHTML = state.leagues.map((l, i) =>
+      `<option value="${i}">${l.league_name} (${l.season})</option>`
+    ).join('');
+    sel.addEventListener('change', () => loadLeague(parseInt(sel.value)));
+
+    if (state.leagues.length > 0) loadLeague(0);
+  } catch(e) {
+    showError('Could not load data/index.json. Run generate_site_data.py first.<br><code>' + e.message + '</code>');
+    document.getElementById('cards-content').innerHTML = '';
+  }
+}
+
+async function loadLeague(idx) {
+  const manifest = state.leagues[idx];
+  if (!manifest) return;
+  state.currentLeague = manifest;
+
+  const base = `data/${manifest.tag}_${manifest.season}/`;
+  document.getElementById('cards-content').innerHTML =
+    '<div class="state-loading">Loading...</div>';
+
+  try {
+    const [profiles, multiSim] = await Promise.all([
+      fetchJSON(base + manifest.player_profiles_file),
+      fetchJSON(base + manifest.multi_sim_file),
+    ]);
+    state.profiles = profiles;
+    state.multiSim = multiSim;
+    renderCardsView();
+    // Re-render dashboard if it's active
+    if (document.querySelector('.nav-tab.active')?.dataset.view === 'dashboard') {
+      renderDashboard();
+    }
+  } catch(e) {
+    showError('Failed to load league data: ' + e.message);
+    document.getElementById('cards-content').innerHTML = '';
+  }
+}
+
+// =========================================================================
+// RENDER: CARDS VIEW
+// =========================================================================
+
+function renderCardsView() {
+  const { profiles, multiSim, currentLeague } = state;
+  if (!profiles || !multiSim) return;
+
+  const rosters = Object.values(profiles.rosters);
+  const statsMap = {};
+  multiSim.team_stats.forEach(t => { statsMap[t.roster_id] = t; });
+
+  // Sort teams by sim avg rank
+  rosters.sort((a, b) => {
+    const ra = statsMap[a.roster_id]?.avg_rank ?? 99;
+    const rb = statsMap[b.roster_id]?.avg_rank ?? 99;
+    return ra - rb;
+  });
+
+  // League-wide max avg score for OVR scaling
+  const allAvgs = rosters.flatMap(r =>
+    r.players.map(p => p.avg_score).filter(v => v > 0)
+  );
+  const leagueMax = Math.max(...allAvgs) || 1;
+
+  let selectedRosterId = rosters[0]?.roster_id;
+
+  // ---- Team selector ----
+  function renderTeamSelector() {
+    return `
+      <div class="section-header">
+        <div class="section-title">Select Team</div>
+        <div class="section-divider"></div>
+        <div class="section-meta">${currentLeague.league_name} &middot; ${currentLeague.season}</div>
+      </div>
+      <div class="team-grid">
+        ${rosters.map(r => {
+          const initials = r.team_name.split(/\s+/).map(w => w[0]).slice(0,2).join('').toUpperCase();
+          const sel = r.roster_id === selectedRosterId ? 'selected' : '';
+          // Show Sleeper avatar if available, fall back to initials on error
+          const avatarInner = r.avatar_id
+            ? `<img src="https://sleepercdn.com/avatars/thumbs/${r.avatar_id}" alt="${initials}"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display=''"
+               ><span style="display:none">${initials}</span>`
+            : initials;
+          return `
+            <div class="team-chip ${sel}" data-rid="${r.roster_id}" onclick="selectTeam(${r.roster_id})">
+              <div class="team-avatar">${avatarInner}</div>
+              <span class="team-chip-name">${r.team_name}</span>
+            </div>`;
+        }).join('')}
+      </div>`;
+  }
+
+  // ---- Scoreboard strip ----
+  function renderStrip(rid) {
+    const s = statsMap[rid] || {};
+    const realStanding = multiSim.real_standings.find(r => r.roster_id === rid) || {};
+    const realRank = multiSim.real_standings.findIndex(r => r.roster_id === rid) + 1;
+    const luckDelta = realStanding.wins !== undefined
+      ? +(s.avg_wins - realStanding.wins).toFixed(1)
+      : null;
+
+    let luckClass = '';
+    let luckLabel = 'Neutral';
+    if (luckDelta !== null) {
+      if (luckDelta < -0.8)      { luckClass = 'luck-good'; luckLabel = 'Unlucky'; }
+      else if (luckDelta > 0.8)  { luckClass = 'luck-bad';  luckLabel = 'Lucky'; }
+    }
+    const luckStr = luckDelta !== null
+      ? (luckDelta > 0 ? `+${luckDelta}` : `${luckDelta}`)
+      : '—';
+
+    return `
+      <div class="scoreboard-strip">
+        <div class="score-tile">
+          <div class="score-tile-label">Avg Wins</div>
+          <div class="score-tile-value">${s.avg_wins ?? '—'}</div>
+          <div class="score-tile-sub">Real: ${realStanding.wins ?? '—'}–${realStanding.losses ?? '—'}</div>
+        </div>
+        <div class="score-tile">
+          <div class="score-tile-label">Playoff Odds</div>
+          <div class="score-tile-value">${s.playoff_pct ?? '—'}<span style="font-size:18px">%</span></div>
+          <div class="score-tile-sub">${multiSim.config.n_sims} sims</div>
+        </div>
+        <div class="score-tile">
+          <div class="score-tile-label">Sim Rank</div>
+          <div class="score-tile-value">#${s.avg_rank?.toFixed(1) ?? '—'}</div>
+          <div class="score-tile-sub">Real rank: #${realRank || '?'}</div>
+        </div>
+        <div class="score-tile">
+          <div class="score-tile-label">Luck Delta</div>
+          <div class="score-tile-value ${luckClass}">${luckStr}</div>
+          <div class="score-tile-sub">${luckLabel}</div>
+        </div>
+        <div class="score-tile">
+          <div class="score-tile-label">Win Range</div>
+          <div class="score-tile-value" style="font-size:24px">${s.win_range ?? '—'}</div>
+          <div class="score-tile-sub">across all sims</div>
+        </div>
+      </div>`;
+  }
+
+  // ---- Cards grid ----
+  function renderCards(rid) {
+    const roster = rosters.find(r => r.roster_id === rid);
+    if (!roster) return '';
+
+    // Sort: by avg_score desc so stars come first
+    const sorted = [...roster.players].sort((a,b) => b.avg_score - a.avg_score);
+
+    return `
+      <div class="section-header">
+        <div class="section-title">Starting Lineup</div>
+        <div class="section-divider"></div>
+        <div class="section-meta">${sorted.length} players &middot; 2025 season</div>
+      </div>
+      <div class="cards-grid">
+        ${sorted.map(p => renderCard(p, leagueMax)).join('')}
+      </div>`;
+  }
+
+  document.getElementById('cards-content').innerHTML =
+    renderTeamSelector() +
+    `<div id="team-detail">${renderStrip(selectedRosterId)}${renderCards(selectedRosterId)}</div>`;
+
+  window.selectTeam = function(rid) {
+    selectedRosterId = rid;
+    document.querySelectorAll('.team-chip').forEach(el => {
+      el.classList.toggle('selected', parseInt(el.dataset.rid) === rid);
+    });
+    document.getElementById('team-detail').innerHTML =
+      renderStrip(rid) + renderCards(rid);
+  };
+}
+
+// =========================================================================
+// RENDER: SINGLE CARD
+// =========================================================================
+
+function renderCard(player, leagueMax) {
+  const pos = normPos(player.position);
+  const tier = getTier(player.avg_score);
+  const ovr = getOVR(player.avg_score, leagueMax);
+  const gc = gradeClass(player.consistency_grade);
+  const pct = Math.round(Math.min(100, (player.avg_score / leagueMax) * 100));
+
+  // Abbreviated display name: "J. Murray" style; "TB Buccaneers D/ST" for defenses
+  let displayName;
+  if (player.position === 'DEF') {
+    // "Tampa Bay Buccaneers D/ST" → strip suffix, grab nickname, prepend abbr
+    const baseName = player.name.replace(/\s+D\/ST$/i, '').trim();
+    const nickname = baseName.split(' ').pop();
+    displayName = (player.team && player.team !== '?')
+      ? `${player.team} ${nickname} D/ST`
+      : player.name;
+  } else {
+    const parts = player.name.trim().split(' ');
+    displayName = parts.length > 1
+      ? parts[0][0] + '. ' + parts.slice(1).join(' ')
+      : player.name;
+  }
+
+  // Team tag: show team abbr or fallback
+  const teamTag = (player.team && player.team !== '?') ? player.team : '—';
+
+  return `
+    <div class="player-card tier-${tier} pos-art-${pos}">
+      <!-- Art area -->
+      <div class="card-art">
+        <div class="card-pos-letter">${pos}</div>
+        <div class="card-tier-badge">${tier}</div>
+        <div class="card-ovr">
+          <span class="card-ovr-num">${ovr}</span>
+          <span class="card-ovr-label">OVR</span>
+        </div>
+        <div class="card-pos-badge">${pos}</div>
+      </div>
+
+      <!-- Stats area -->
+      <div class="card-stats-area">
+        <div class="card-player-name" title="${player.name}">${displayName}</div>
+        <div class="card-team-tag">${teamTag}</div>
+
+        <div class="card-bar-wrap">
+          <div class="card-bar-fill" style="width:${pct}%"></div>
+        </div>
+
+        <div class="card-stat-row">
+          <span class="card-stat-label">AVG</span>
+          <span class="card-stat-val main-stat">${player.avg_score}</span>
+        </div>
+        <div class="card-stat-row">
+          <span class="card-stat-label">RANGE</span>
+          <span class="card-stat-range">${player.min_score} – ${player.max_score}</span>
+        </div>
+
+        <div class="card-footer">
+          <div class="card-grade ${gc}" title="Consistency">${player.consistency_grade}</div>
+          <div class="card-games">${player.games_played}<br>GAMES</div>
+        </div>
+      </div>
+    </div>`;
+}
+
+// =========================================================================
+// NAV
+// =========================================================================
+document.querySelectorAll('.nav-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    if (tab.classList.contains('disabled')) return;
+    document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('view-' + tab.dataset.view).classList.add('active');
+  });
+});
+
+// =========================================================================
+// ERROR + BOOT
+// =========================================================================
+function showError(msg) {
+  document.getElementById('error-container').innerHTML =
+    `<div class="error-box">${msg}</div>`;
+}
+
+// =========================================================================
+// SUPERSIM ENGINE
+// =========================================================================
+
+const ss = {
+  simData: {},        // cache: seed -> parsed JSON
+  playerMap: {},      // player_id -> {name, position, team}
+  currentSeed: null,
+  currentWeek: null,
+  currentMatchupIdx: null,
+  matchup: null,      // current matchup object
+  resolveOrder: [],   // [{teamIdx, slotIdx}] — order players resolve
+  step: 0,            // how many have resolved
+  totals: [0, 0],     // running sim totals
+  playing: false,
+  mode: 'auto',       // 'auto' | 'step'
+  timer: null,
+  speed: 900,         // ms per player in auto mode
+};
+
+function ssInit() {
+  if (!state.currentLeague) return;
+
+  // Build flat player map from profiles
+  ss.playerMap = {};
+  if (state.profiles) {
+    Object.values(state.profiles.rosters).forEach(roster => {
+      roster.players.forEach(p => {
+        ss.playerMap[p.player_id] = {
+          name: p.name,
+          position: p.position,
+          team: p.team,
+        };
+      });
+    });
+  }
+
+  // Populate seed selector
+  const seedSel = document.getElementById('ss-seed-select');
+  const sims = state.currentLeague.single_sims || [];
+  seedSel.innerHTML = sims.map((s, i) =>
+    `<option value="${i}">${s.label}</option>`
+  ).join('');
+  seedSel.onchange = () => ssLoadSim(parseInt(seedSel.value));
+
+  ssLoadSim(0);
+}
+
+async function ssLoadSim(simIdx) {
+  const manifest = state.currentLeague;
+  const simInfo = manifest.single_sims[simIdx];
+  if (!simInfo) return;
+
+  ss.currentSeed = simInfo.seed;
+
+  if (!ss.simData[simInfo.seed]) {
+    try {
+      const base = `data/${manifest.tag}_${manifest.season}/`;
+      ss.simData[simInfo.seed] = await fetchJSON(base + simInfo.file);
+    } catch(e) {
+      showError('Could not load sim data: ' + e.message);
+      return;
+    }
+  }
+
+  // Populate week selector
+  const data = ss.simData[simInfo.seed];
+  const weeks = Object.keys(data.weekly_results).sort((a,b) => +a - +b);
+  const weekSel = document.getElementById('ss-week-select');
+  weekSel.innerHTML = weeks.map(w => `<option value="${w}">Week ${w}</option>`).join('');
+  weekSel.onchange = () => ssLoadWeek(weekSel.value);
+
+  ssLoadWeek(weeks[0]);
+}
+
+function ssLoadWeek(week) {
+  const data = ss.simData[ss.currentSeed];
+  if (!data) return;
+  ss.currentWeek = week;
+  document.getElementById('ss-week-label').textContent = `Week ${week}`;
+
+  const matchups = data.weekly_results[week] || [];
+  const matchupSel = document.getElementById('ss-matchup-select');
+  matchupSel.innerHTML = matchups.map((m, i) => {
+    const a = m.teams[0].name;
+    const b = m.teams[1].name;
+    const flip = m.flipped ? ' ⚡' : '';
+    return `<option value="${i}">${a} vs ${b}${flip}</option>`;
+  }).join('');
+  matchupSel.onchange = () => ssLoadMatchup(parseInt(matchupSel.value));
+
+  ssLoadMatchup(0);
+}
+
+function ssLoadMatchup(idx) {
+  ssStop();
+  const data = ss.simData[ss.currentSeed];
+  const matchups = data.weekly_results[ss.currentWeek] || [];
+  const matchup = matchups[idx];
+  if (!matchup) return;
+
+  ss.currentMatchupIdx = idx;
+  ss.matchup = matchup;
+
+  // Build resolve order: alternate team A slot 0, team B slot 0, team A slot 1, ...
+  const lenA = matchup.teams[0].starters.length;
+  const lenB = matchup.teams[1].starters.length;
+  const maxLen = Math.max(lenA, lenB);
+  ss.resolveOrder = [];
+  for (let i = 0; i < maxLen; i++) {
+    if (i < lenA) ss.resolveOrder.push({ teamIdx: 0, slotIdx: i });
+    if (i < lenB) ss.resolveOrder.push({ teamIdx: 1, slotIdx: i });
+  }
+
+  ss.step = 0;
+  ss.totals = [0, 0];
+
+  ssRenderMatchup();
+  ssUpdateScoreboard();
+  ssUpdateProgress();
+  document.getElementById('ss-flip-alert').classList.remove('visible');
+}
+
+function ssRenderMatchup() {
+  const m = ss.matchup;
+  if (!m) return;
+
+  function colHTML(teamIdx) {
+    const team = m.teams[teamIdx];
+    const rows = team.starters.map((pid, slotIdx) => {
+      const p = ss.playerMap[pid] || { name: `#${pid}`, position: '?', team: '' };
+      const pos = normPos(p.position);
+      const realPts = (team.real_starters_points[slotIdx] || 0).toFixed(1);
+      const simPts = (team.sim_starters_points[slotIdx] || 0).toFixed(1);
+      return `
+        <div class="ss-player-row pos-art-${pos}" id="ss-row-${teamIdx}-${slotIdx}">
+          <div class="ss-row-bar" id="ss-bar-${teamIdx}-${slotIdx}"></div>
+          <div class="ss-player-pos" style="background:var(--pos-${pos.toLowerCase()},var(--border));color:#000">${pos}</div>
+          <div class="ss-player-info">
+            <div class="ss-player-name">${p.name}</div>
+            <div class="ss-player-team">${p.team || '—'}</div>
+          </div>
+          <div class="ss-player-score-wrap">
+            <div class="ss-player-sim-score" id="ss-score-${teamIdx}-${slotIdx}">—</div>
+            <div class="ss-player-real-score">Real: ${realPts}</div>
+          </div>
+        </div>`;
+    }).join('');
+
+    return `
+      <div>
+        <div class="ss-col-header">${team.name}</div>
+        ${rows}
+      </div>`;
+  }
+
+  document.getElementById('ss-matchup-grid').innerHTML =
+    colHTML(0) + colHTML(1);
+
+  // Update scoreboard names + real scores
+  const a = m.teams[0], b = m.teams[1];
+  document.getElementById('ss-name-a').textContent = a.name;
+  document.getElementById('ss-name-b').textContent = b.name;
+  document.getElementById('ss-real-a').textContent = `Real: ${a.real_points.toFixed(1)}`;
+  document.getElementById('ss-real-b').textContent = `Real: ${b.real_points.toFixed(1)}`;
+}
+
+function ssUpdateScoreboard() {
+  const [tA, tB] = ss.totals;
+  const scoreA = document.getElementById('ss-score-a');
+  const scoreB = document.getElementById('ss-score-b');
+  scoreA.textContent = tA.toFixed(1);
+  scoreB.textContent = tB.toFixed(1);
+
+  // Color the leader
+  scoreA.className = 'ss-score-live' + (tA > tB ? ' winning' : tA < tB ? ' losing' : '');
+  scoreB.className = 'ss-score-live' + (tB > tA ? ' winning' : tB < tA ? ' losing' : '');
+}
+
+function ssUpdateProgress() {
+  const total = ss.resolveOrder.length;
+  const pct = total > 0 ? (ss.step / total * 100) : 0;
+  document.getElementById('ss-progress').style.width = pct + '%';
+}
+
+function ssResolveNext() {
+  if (ss.step >= ss.resolveOrder.length) {
+    ssFinish();
+    return;
+  }
+
+  const { teamIdx, slotIdx } = ss.resolveOrder[ss.step];
+  const team = ss.matchup.teams[teamIdx];
+  const simPts = team.sim_starters_points[slotIdx] || 0;
+  const maxScore = 50; // bar scale ceiling
+
+  // Mark current row
+  const row = document.getElementById(`ss-row-${teamIdx}-${slotIdx}`);
+  if (row) {
+    row.classList.remove('current');
+    row.classList.add('resolved');
+  }
+
+  // Reveal score
+  const scoreEl = document.getElementById(`ss-score-${teamIdx}-${slotIdx}`);
+  if (scoreEl) {
+    scoreEl.textContent = simPts.toFixed(1);
+    scoreEl.classList.add('revealed');
+  }
+
+  // Animate bar fill
+  const bar = document.getElementById(`ss-bar-${teamIdx}-${slotIdx}`);
+  if (bar) {
+    const pct = Math.min(100, (simPts / maxScore) * 100);
+    setTimeout(() => { bar.style.width = pct + '%'; }, 30);
+  }
+
+  // Update running total
+  ss.totals[teamIdx] += simPts;
+  ss.step++;
+
+  ssUpdateScoreboard();
+  ssUpdateProgress();
+
+  // Highlight next row as "current"
+  if (ss.step < ss.resolveOrder.length) {
+    const next = ss.resolveOrder[ss.step];
+    const nextRow = document.getElementById(`ss-row-${next.teamIdx}-${next.slotIdx}`);
+    if (nextRow) nextRow.classList.add('current');
+  }
+}
+
+function ssFinish() {
+  ssStop();
+  // Show flip alert if outcome differs from reality
+  if (ss.matchup.flipped) {
+    document.getElementById('ss-flip-alert').classList.add('visible');
+  }
+  document.getElementById('ss-play-btn').textContent = '▶ PLAY';
+}
+
+function ssPlay() {
+  if (ss.step >= ss.resolveOrder.length) {
+    ssReset();
+    return;
+  }
+  ss.playing = true;
+  document.getElementById('ss-play-btn').textContent = '⏸ PAUSE';
+
+  function tick() {
+    if (!ss.playing) return;
+    ssResolveNext();
+    if (ss.step < ss.resolveOrder.length) {
+      ss.timer = setTimeout(tick, ss.speed);
+    } else {
+      ssFinish();
+    }
+  }
+  tick();
+}
+
+function ssPause() {
+  ss.playing = false;
+  clearTimeout(ss.timer);
+  document.getElementById('ss-play-btn').textContent = '▶ PLAY';
+}
+
+function ssStop() {
+  ss.playing = false;
+  clearTimeout(ss.timer);
+}
+
+function ssReset() {
+  ssStop();
+  ss.step = 0;
+  ss.totals = [0, 0];
+  document.getElementById('ss-play-btn').textContent = '▶ PLAY';
+  document.getElementById('ss-flip-alert').classList.remove('visible');
+  ssRenderMatchup();
+  ssUpdateScoreboard();
+  ssUpdateProgress();
+}
+
+// Wire up controls
+document.getElementById('ss-play-btn').addEventListener('click', () => {
+  if (ss.mode === 'step') return; // play btn does nothing in step mode
+  ss.playing ? ssPause() : ssPlay();
+});
+
+document.getElementById('ss-step-btn').addEventListener('click', () => {
+  if (ss.playing) ssPause();
+  ssResolveNext();
+  if (ss.step >= ss.resolveOrder.length) ssFinish();
+});
+
+document.getElementById('ss-reset-btn').addEventListener('click', ssReset);
+
+document.getElementById('ss-mode-auto').addEventListener('click', () => {
+  ss.mode = 'auto';
+  document.getElementById('ss-mode-auto').classList.add('active');
+  document.getElementById('ss-mode-step').classList.remove('active');
+  document.getElementById('ss-play-btn').disabled = false;
+  document.getElementById('ss-play-btn').style.opacity = '';
+});
+
+document.getElementById('ss-mode-step').addEventListener('click', () => {
+  ss.mode = 'step';
+  ssPause();
+  document.getElementById('ss-mode-step').classList.add('active');
+  document.getElementById('ss-mode-auto').classList.remove('active');
+  document.getElementById('ss-play-btn').disabled = true;
+  document.getElementById('ss-play-btn').style.opacity = '0.3';
+});
+
+// =========================================================================
+// DASHBOARD
+// =========================================================================
+
+function renderDashboard() {
+  const { multiSim, currentLeague } = state;
+  if (!multiSim || !currentLeague) return;
+
+  const stats     = multiSim.team_stats;
+  const real      = multiSim.real_standings;
+  const config    = multiSim.config;
+  const nSims     = config.n_sims;
+  const playoffN  = currentLeague.playoff_teams || 6;
+
+  // Build lookup maps
+  const realMap   = {};
+  real.forEach((r, i) => { realMap[r.roster_id] = { ...r, real_rank: i + 1 }; });
+  const simRanks  = {};
+  stats.forEach((t, i) => { simRanks[t.roster_id] = i + 1; });
+
+  // Luck delta: real_wins - sim_avg_wins (positive = lucky, negative = unlucky)
+  const withLuck = stats.map(t => {
+    const r = realMap[t.roster_id] || {};
+    return { ...t, luck: +(( (r.wins || 0) - t.avg_wins)).toFixed(1), real_rank: realMap[t.roster_id]?.real_rank || 0 };
+  });
+
+  // ---- META STRIP ----
+  const metaHTML = `
+    <div class="db-meta-strip">
+      <div class="db-meta-pill"><strong>${nSims}</strong> simulations</div>
+      <div class="db-meta-pill">dampening <strong>${config.dampening}</strong></div>
+      <div class="db-meta-pill">avg flip rate <strong>${config.avg_flip_rate}%</strong></div>
+      <div class="db-meta-pill"><strong>${playoffN}</strong> playoff spots</div>
+      <div class="db-meta-pill">${currentLeague.league_name} · <strong>${currentLeague.season}</strong></div>
+    </div>`;
+
+  // ---- STANDINGS TABLE ----
+  const standingsRows = withLuck.map((t, i) => {
+    const simRank = i + 1;
+    const realRank = t.real_rank;
+    const rankDiff = realRank - simRank;
+    const isPlayoff = simRank <= playoffN;
+    const isLast = simRank === stats.length;
+
+    let moveHTML = '';
+    if (rankDiff > 0)      moveHTML = `<span class="db-move-arrow db-move-up">▲${rankDiff}</span>`;
+    else if (rankDiff < 0) moveHTML = `<span class="db-move-arrow db-move-down">▼${Math.abs(rankDiff)}</span>`;
+    else                   moveHTML = `<span class="db-move-arrow db-move-same">—</span>`;
+
+    const badgeClass = isPlayoff ? 'playoff' : isLast ? 'last' : '';
+
+    return `
+      <tr class="${isPlayoff ? 'playoff-team' : ''}">
+        <td>
+          <div class="db-team-name-cell">
+            <span class="db-rank-badge ${badgeClass}">${simRank}</span>
+            ${t.name}
+          </div>
+        </td>
+        <td>${t.avg_wins}</td>
+        <td style="color:var(--text-faint)">${realMap[t.roster_id]?.wins ?? '—'}</td>
+        <td>${t.playoff_pct}<span style="font-size:9px">%</span></td>
+        <td>${t.first_pct}<span style="font-size:9px">%</span></td>
+        <td>${moveHTML}</td>
+      </tr>`;
+  }).join('');
+
+  const standingsHTML = `
+    <div class="db-panel">
+      <div class="db-panel-title">Sim Standings vs Reality</div>
+      <table class="db-table">
+        <thead>
+          <tr>
+            <th>Team</th>
+            <th>Avg W</th>
+            <th>Real W</th>
+            <th>Playoff%</th>
+            <th>#1%</th>
+            <th>Move</th>
+          </tr>
+        </thead>
+        <tbody>${standingsRows}</tbody>
+      </table>
+    </div>`;
+
+  // ---- LUCK DELTA BAR CHART ----
+  const luckSorted = [...withLuck].sort((a, b) => a.luck - b.luck);
+  const maxAbs = Math.max(...luckSorted.map(t => Math.abs(t.luck)), 0.1);
+
+  const luckRows = luckSorted.map(t => {
+    const pct = Math.abs(t.luck) / maxAbs * 48; // max 48% each side
+    const isLucky   = t.luck > 0.5;
+    const isUnlucky = t.luck < -0.5;
+    const color     = isLucky ? 'var(--red)' : isUnlucky ? 'var(--teal)' : 'var(--text-faint)';
+    const valColor  = isLucky ? 'var(--red)' : isUnlucky ? 'var(--teal)' : 'var(--text-dim)';
+    const sign      = t.luck > 0 ? '+' : '';
+
+    // Bar goes left of center for unlucky, right for lucky
+    const barStyle = t.luck >= 0
+      ? `left:50%; width:${pct}%; background:${color}; box-shadow:0 0 6px ${color};`
+      : `right:50%; width:${pct}%; background:${color}; box-shadow:0 0 6px ${color};`;
+
+    return `
+      <div class="db-luck-row">
+        <div class="db-luck-name" title="${t.name}">${t.name}</div>
+        <div class="db-luck-bar-wrap">
+          <div class="db-luck-bar" style="${barStyle}"></div>
+        </div>
+        <div class="db-luck-val" style="color:${valColor}">${sign}${t.luck}</div>
+      </div>`;
+  }).join('');
+
+  const luckHTML = `
+    <div class="db-panel">
+      <div class="db-panel-title">Luck Delta · Real Wins − Sim Average</div>
+      <div style="display:flex;justify-content:space-between;margin-bottom:10px;">
+        <span style="font-family:var(--font-mono);font-size:9px;color:var(--teal)">◀ Unlucky</span>
+        <span style="font-family:var(--font-mono);font-size:9px;color:var(--red)">Lucky ▶</span>
+      </div>
+      <div class="db-luck-list">${luckRows}</div>
+    </div>`;
+
+  // ---- WIN DISTRIBUTION HISTOGRAMS ----
+  function buildHistSVG(winCounts, realWins, avgWins) {
+    const freq = {};
+    winCounts.forEach(w => { freq[w] = (freq[w] || 0) + 1; });
+    const minW = Math.min(...Object.keys(freq).map(Number));
+    const maxW = Math.max(...Object.keys(freq).map(Number));
+    const maxFreq = Math.max(...Object.values(freq));
+
+    const W = 176, H = 48;
+    const bins = maxW - minW + 1;
+    const barW = Math.floor((W - 2) / bins) - 1;
+
+    let bars = '';
+    for (let w = minW; w <= maxW; w++) {
+      const count = freq[w] || 0;
+      const barH  = count / maxFreq * (H - 8);
+      const x     = Math.floor((w - minW) / bins * (W - 2)) + 1;
+      const y     = H - barH;
+      const isReal = w === realWins;
+      const fill  = isReal
+        ? 'var(--gold)'
+        : w <= avgWins ? 'rgba(20,184,166,0.4)' : 'rgba(60,90,140,0.4)';
+      const glow  = isReal ? `filter:drop-shadow(0 0 3px var(--gold));` : '';
+      bars += `<rect x="${x}" y="${y}" width="${Math.max(barW,1)}" height="${barH}" fill="${fill}" style="${glow}" rx="1"/>`;
+    }
+
+    // Real wins marker line
+    const realX = Math.floor((realWins - minW) / bins * (W - 2)) + 1 + Math.floor(barW / 2);
+    const marker = `<line x1="${realX}" y1="0" x2="${realX}" y2="${H}" stroke="var(--gold)" stroke-width="1" stroke-dasharray="2,2" opacity="0.7"/>`;
+
+    // Axis labels
+    const labelMin = `<text x="1" y="${H + 10}" font-size="8" fill="var(--text-faint)" font-family="monospace">${minW}W</text>`;
+    const labelMax = `<text x="${W - 14}" y="${H + 10}" font-size="8" fill="var(--text-faint)" font-family="monospace">${maxW}W</text>`;
+
+    return `<svg class="db-dist-svg" viewBox="0 0 ${W} ${H + 14}" height="${H + 14}">${bars}${marker}${labelMin}${labelMax}</svg>`;
+  }
+
+  const distCards = withLuck.map(t => {
+    const r = realMap[t.roster_id] || {};
+    const realW = r.wins ?? 0;
+    const svg = buildHistSVG(t.win_counts, realW, t.avg_wins);
+    const luckyLabel = t.luck > 0.8 ? `<span style="color:var(--red)">Lucky +${t.luck}</span>`
+      : t.luck < -0.8 ? `<span style="color:var(--teal)">Unlucky ${t.luck}</span>`
+      : `<span style="color:var(--text-faint)">On track</span>`;
+
+    return `
+      <div class="db-dist-card">
+        <div class="db-dist-name" title="${t.name}">${t.name}</div>
+        ${svg}
+        <div class="db-dist-footer">
+          <div class="db-dist-stat">Avg <strong>${t.avg_wins}W</strong> · Real <strong style="color:var(--gold)">${realW}W</strong></div>
+          <div class="db-dist-stat">${luckyLabel}</div>
+        </div>
+      </div>`;
+  }).join('');
+
+  const distHTML = `
+    <div class="db-panel" style="grid-column:1/-1">
+      <div class="db-panel-title">Win Distributions · Gold bar = real season result</div>
+      <div class="db-dist-grid">${distCards}</div>
+    </div>`;
+
+  // ---- KEY INSIGHTS ----
+  const luckiest   = [...withLuck].sort((a, b) => b.luck - a.luck)[0];
+  const unluckiest = [...withLuck].sort((a, b) => a.luck - b.luck)[0];
+
+  const insights = [];
+
+  if (luckiest.luck > 0.8) {
+    insights.push({ type: 'lucky', icon: '🎲',
+      html: `<strong>${luckiest.name}</strong> was the luckiest team — won <strong>${realMap[luckiest.roster_id]?.wins} games</strong> in reality but only averaged <strong>${luckiest.avg_wins}</strong> across ${nSims} sims. Right place, right time.` });
+  }
+
+  if (unluckiest.luck < -0.8) {
+    insights.push({ type: 'unlucky', icon: '⚡',
+      html: `<strong>${unluckiest.name}</strong> got robbed — averaged <strong>${unluckiest.avg_wins} wins</strong> in simulation but only won <strong>${realMap[unluckiest.roster_id]?.wins}</strong> in reality.` });
+  }
+
+  // Missed playoffs despite 50%+ sim odds
+  withLuck.forEach(t => {
+    const rr = t.real_rank;
+    if (rr > playoffN && t.playoff_pct >= 50) {
+      insights.push({ type: 'missed', icon: '▲',
+        html: `<strong>${t.name}</strong> made the playoffs in <strong>${t.playoff_pct}%</strong> of simulations but missed in reality. One of the unluckier outcomes.` });
+    }
+  });
+
+  // Snuck in despite &lt;50% odds
+  withLuck.forEach(t => {
+    const rr = t.real_rank;
+    if (rr <= playoffN && t.playoff_pct < 50) {
+      insights.push({ type: 'snuck', icon: '▼',
+        html: `<strong>${t.name}</strong> made the real playoffs but only qualified in <strong>${t.playoff_pct}%</strong> of sims. A fortunate run.` });
+    }
+  });
+
+  const insightRows = insights.map(i => `
+    <div class="db-insight-row ${i.type}">
+      <div class="db-insight-icon">${i.icon}</div>
+      <div class="db-insight-text">${i.html}</div>
+    </div>`).join('') || `<div style="font-family:var(--font-mono);font-size:11px;color:var(--text-faint)">No major outliers detected.</div>`;
+
+  const insightsHTML = `
+    <div class="db-panel" style="grid-column:1/-1">
+      <div class="db-panel-title">Key Insights</div>
+      <div class="db-insights">${insightRows}</div>
+    </div>`;
+
+  document.getElementById('db-content').innerHTML =
+    metaHTML +
+    `<div class="db-layout">
+      ${standingsHTML}
+      ${luckHTML}
+      ${distHTML}
+      ${insightsHTML}
+    </div>`;
+}
+
+// Hook into tab switches
+document.querySelectorAll('.nav-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    if (tab.dataset.view === 'supersim' && state.profiles) {
+      setTimeout(ssInit, 50);
+    }
+    if (tab.dataset.view === 'dashboard' && state.multiSim) {
+      setTimeout(renderDashboard, 50);
+    }
+  });
+});
+
+// =========================================================================
+// ERROR + BOOT
+// =========================================================================
+function showError(msg) {
+  document.getElementById('error-container').innerHTML =
+    `<div class="error-box">${msg}</div>`;
+}
+
+init();
+</script>
+</body>
+</html>

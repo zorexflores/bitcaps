@@ -1,0 +1,6664 @@
+{
+  "type": "single_sim",
+  "league": {
+    "name": "Gridiron & Grace",
+    "season": "2025",
+    "league_id": "1260083391416504320",
+    "teams": 10
+  },
+  "seed": 100,
+  "standings": [
+    {
+      "roster_id": 3,
+      "name": "Bowers Tower",
+      "wins": 10,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 2001.55,
+      "points_against": 1796.02
+    },
+    {
+      "roster_id": 5,
+      "name": "Bird Gang Bang ",
+      "wins": 9,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 1926.9300000000003,
+      "points_against": 1783.9099999999999
+    },
+    {
+      "roster_id": 8,
+      "name": "1stDownSyndromee",
+      "wins": 9,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 1750.0500000000002,
+      "points_against": 1724.4600000000003
+    },
+    {
+      "roster_id": 10,
+      "name": "Drake Maye never play",
+      "wins": 8,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1945.4900000000002,
+      "points_against": 1822.93
+    },
+    {
+      "roster_id": 7,
+      "name": "DjStinkyNutz",
+      "wins": 8,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1864.78,
+      "points_against": 1883.9799999999998
+    },
+    {
+      "roster_id": 1,
+      "name": "Nabers in the ER",
+      "wins": 8,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1860.7400000000002,
+      "points_against": 1811.16
+    },
+    {
+      "roster_id": 4,
+      "name": "Ceedeez Butterfingers",
+      "wins": 7,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1644.9999999999998,
+      "points_against": 1718.63
+    },
+    {
+      "roster_id": 9,
+      "name": "OnlyRB\u2019s",
+      "wins": 5,
+      "losses": 9,
+      "ties": 0,
+      "points_for": 1792.2399999999998,
+      "points_against": 1840.9300000000003
+    },
+    {
+      "roster_id": 6,
+      "name": "dbombrisk",
+      "wins": 4,
+      "losses": 10,
+      "ties": 0,
+      "points_for": 1579.72,
+      "points_against": 1764.0200000000002
+    },
+    {
+      "roster_id": 2,
+      "name": "Mayer Force One",
+      "wins": 2,
+      "losses": 12,
+      "ties": 0,
+      "points_for": 1569.1200000000001,
+      "points_against": 1789.58
+    }
+  ],
+  "real_standings": [
+    {
+      "roster_id": 9,
+      "name": "OnlyRB\u2019s",
+      "wins": 10,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 1979.1599999999999,
+      "points_against": 1747.3200000000004
+    },
+    {
+      "roster_id": 7,
+      "name": "DjStinkyNutz",
+      "wins": 10,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 1875.9,
+      "points_against": 1649.96
+    },
+    {
+      "roster_id": 3,
+      "name": "Bowers Tower",
+      "wins": 9,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 1884.6399999999999,
+      "points_against": 1824.82
+    },
+    {
+      "roster_id": 8,
+      "name": "1stDownSyndromee",
+      "wins": 9,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 1727.88,
+      "points_against": 1656.3600000000001
+    },
+    {
+      "roster_id": 5,
+      "name": "Bird Gang Bang ",
+      "wins": 8,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1872.5800000000002,
+      "points_against": 1801.4600000000003
+    },
+    {
+      "roster_id": 1,
+      "name": "Nabers in the ER",
+      "wins": 7,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1946.32,
+      "points_against": 1815.04
+    },
+    {
+      "roster_id": 10,
+      "name": "Drake Maye never play",
+      "wins": 7,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1894.0,
+      "points_against": 1899.8400000000001
+    },
+    {
+      "roster_id": 2,
+      "name": "Mayer Force One",
+      "wins": 4,
+      "losses": 10,
+      "ties": 0,
+      "points_for": 1621.9600000000005,
+      "points_against": 1757.6000000000001
+    },
+    {
+      "roster_id": 4,
+      "name": "Ceedeez Butterfingers",
+      "wins": 3,
+      "losses": 11,
+      "ties": 0,
+      "points_for": 1651.38,
+      "points_against": 1797.6000000000001
+    },
+    {
+      "roster_id": 6,
+      "name": "dbombrisk",
+      "wins": 3,
+      "losses": 11,
+      "ties": 0,
+      "points_for": 1307.8,
+      "points_against": 1811.6200000000001
+    }
+  ],
+  "weekly_results": {
+    "1": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "Mayer Force One",
+            "real_points": 134.12,
+            "sim_points": 121.35,
+            "starters": [
+              "7523",
+              "9509",
+              "11584",
+              "5927",
+              "5045",
+              "4217",
+              "7594",
+              "11620",
+              "4227",
+              "ARI"
+            ],
+            "real_starters_points": [
+              11.32,
+              24.4,
+              14.5,
+              4.7,
+              18.1,
+              12.5,
+              17.9,
+              15.7,
+              10.0,
+              5.0
+            ],
+            "sim_starters_points": [
+              14.02,
+              17.24,
+              8.45,
+              20.36,
+              3.86,
+              21.95,
+              9.43,
+              16.18,
+              4.86,
+              5.0
+            ]
+          },
+          {
+            "roster_id": 8,
+            "name": "1stDownSyndromee",
+            "real_points": 98.42,
+            "sim_points": 120.6,
+            "starters": [
+              "4046",
+              "5850",
+              "8151",
+              "7547",
+              "3321",
+              "5012",
+              "4199",
+              "5892",
+              "8259",
+              "BUF"
+            ],
+            "real_starters_points": [
+              26.02,
+              14.0,
+              5.4,
+              8.5,
+              8.0,
+              1.5,
+              15.7,
+              8.3,
+              9.0,
+              2.0
+            ],
+            "sim_starters_points": [
+              15.49,
+              7.0,
+              4.58,
+              23.97,
+              15.4,
+              4.9,
+              14.54,
+              7.32,
+              15.55,
+              11.85
+            ]
+          }
+        ],
+        "real_winner": 2,
+        "sim_winner": 2,
+        "flipped": false
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Nabers in the ER",
+            "real_points": 148.68,
+            "sim_points": 155.85,
+            "starters": [
+              "4892",
+              "3198",
+              "8155",
+              "11632",
+              "11635",
+              "12518",
+              "9488",
+              "8148",
+              "3451",
+              "DET"
+            ],
+            "real_starters_points": [
+              22.58,
+              29.2,
+              16.5,
+              12.1,
+              13.4,
+              14.9,
+              19.4,
+              6.6,
+              14.0,
+              0.0
+            ],
+            "sim_starters_points": [
+              24.68,
+              21.53,
+              9.24,
+              33.02,
+              4.02,
+              11.18,
+              18.87,
+              18.69,
+              9.62,
+              5.0
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "Drake Maye never play",
+            "real_points": 114.26,
+            "sim_points": 150.44,
+            "starters": [
+              "4984",
+              "9224",
+              "6790",
+              "6794",
+              "11624",
+              "8130",
+              "2133",
+              "12489",
+              "11539",
+              "PIT"
+            ],
+            "real_starters_points": [
+              38.76,
+              13.1,
+              9.5,
+              14.8,
+              0.0,
+              12.1,
+              9.1,
+              7.9,
+              7.0,
+              2.0
+            ],
+            "sim_starters_points": [
+              18.86,
+              15.32,
+              20.38,
+              14.21,
+              10.84,
+              22.6,
+              15.66,
+              10.78,
+              12.08,
+              9.71
+            ]
+          }
+        ],
+        "real_winner": 1,
+        "sim_winner": 1,
+        "flipped": false
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 4,
+            "name": "Ceedeez Butterfingers",
+            "real_points": 116.88,
+            "sim_points": 123.87,
+            "starters": [
+              "6904",
+              "8150",
+              "5967",
+              "6786",
+              "5859",
+              "4066",
+              "6783",
+              "5846",
+              "1945",
+              "HOU"
+            ],
+            "real_starters_points": [
+              24.28,
+              13.9,
+              7.9,
+              18.0,
+              1.8,
+              5.1,
+              11.6,
+              12.3,
+              15.0,
+              7.0
+            ],
+            "sim_starters_points": [
+              13.43,
+              17.26,
+              7.55,
+              11.97,
+              31.1,
+              5.03,
+              8.67,
+              12.34,
+              8.92,
+              7.6
+            ]
+          },
+          {
+            "roster_id": 6,
+            "name": "dbombrisk",
+            "real_points": 104.32,
+            "sim_points": 117.46,
+            "starters": [
+              "6770",
+              "9226",
+              "8205",
+              "7564",
+              "10222",
+              "10859",
+              "4033",
+              "8408",
+              "11533",
+              "DEN"
+            ],
+            "real_starters_points": [
+              8.82,
+              16.5,
+              4.8,
+              4.6,
+              13.5,
+              13.9,
+              6.7,
+              8.5,
+              11.0,
+              16.0
+            ],
+            "sim_starters_points": [
+              19.81,
+              17.32,
+              3.74,
+              33.12,
+              8.42,
+              7.9,
+              3.49,
+              10.01,
+              6.96,
+              6.69
+            ]
+          }
+        ],
+        "real_winner": 4,
+        "sim_winner": 4,
+        "flipped": false
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Bowers Tower",
+            "real_points": 153.92,
+            "sim_points": 125.64,
+            "starters": [
+              "11566",
+              "4034",
+              "12529",
+              "11631",
+              "12526",
+              "11604",
+              "11638",
+              "12514",
+              "11786",
+              "GB"
+            ],
+            "real_starters_points": [
+              20.12,
+              23.2,
+              11.1,
+              9.0,
+              11.8,
+              15.3,
+              14.8,
+              23.6,
+              15.0,
+              10.0
+            ],
+            "sim_starters_points": [
+              19.11,
+              27.22,
+              2.83,
+              20.38,
+              11.69,
+              9.98,
+              4.69,
+              10.14,
+              11.8,
+              7.8
+            ]
+          },
+          {
+            "roster_id": 7,
+            "name": "DjStinkyNutz",
+            "real_points": 127.42,
+            "sim_points": 114.93,
+            "starters": [
+              "6797",
+              "8138",
+              "12507",
+              "9493",
+              "7569",
+              "5844",
+              "9997",
+              "7526",
+              "6650",
+              "BAL"
+            ],
+            "real_starters_points": [
+              27.92,
+              21.2,
+              8.1,
+              23.1,
+              5.5,
+              4.5,
+              28.1,
+              7.0,
+              4.0,
+              -2.0
+            ],
+            "sim_starters_points": [
+              14.82,
+              10.52,
+              9.02,
+              26.77,
+              10.94,
+              3.21,
+              11.9,
+              6.11,
+              11.33,
+              10.31
+            ]
+          }
+        ],
+        "real_winner": 3,
+        "sim_winner": 3,
+        "flipped": false
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 5,
+            "name": "Bird Gang Bang ",
+            "real_points": 120.56,
+            "sim_points": 136.05,
+            "starters": [
+              "4881",
+              "4866",
+              "4035",
+              "8112",
+              "6801",
+              "1466",
+              "7525",
+              "8137",
+              "12711",
+              "PHI"
+            ],
+            "real_starters_points": [
+              29.36,
+              18.4,
+              13.7,
+              13.5,
+              6.3,
+              12.7,
+              4.6,
+              6.0,
+              12.0,
+              4.0
+            ],
+            "sim_starters_points": [
+              20.55,
+              9.86,
+              10.79,
+              11.77,
+              10.74,
+              12.49,
+              13.89,
+              24.23,
+              8.86,
+              12.87
+            ]
+          },
+          {
+            "roster_id": 9,
+            "name": "OnlyRB\u2019s",
+            "real_points": 119.12,
+            "sim_points": 101.29,
+            "starters": [
+              "5849",
+              "9221",
+              "12527",
+              "2216",
+              "4983",
+              "7553",
+              "6813",
+              "4137",
+              "4195",
+              "NE"
+            ],
+            "real_starters_points": [
+              18.32,
+              15.0,
+              12.0,
+              10.1,
+              8.6,
+              12.9,
+              12.8,
+              14.4,
+              8.0,
+              7.0
+            ],
+            "sim_starters_points": [
+              14.48,
+              18.48,
+              8.8,
+              11.87,
+              8.1,
+              6.42,
+              8.98,
+              7.58,
+              6.84,
+              9.74
+            ]
+          }
+        ],
+        "real_winner": 5,
+        "sim_winner": 5,
+        "flipped": false
+      }
+    ],
+    "2": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 8,
+            "name": "1stDownSyndromee",
+            "real_points": 150.18,
+            "sim_points": 108.53,
+            "starters": [
+              "4046",
+              "5850",
+              "8151",
+              "7547",
+              "3321",
+              "5012",
+              "4199",
+              "5892",
+              "8259",
+              "BUF"
+            ],
+            "real_starters_points": [
+              23.08,
+              14.4,
+              18.8,
+              39.2,
+              16.9,
+              1.4,
+              2.3,
+              13.1,
+              8.0,
+              13.0
+            ],
+            "sim_starters_points": [
+              18.7,
+              16.92,
+              6.58,
+              20.61,
+              15.4,
+              3.22,
+              11.02,
+              3.08,
+              8.35,
+              4.65
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "Drake Maye never play",
+            "real_points": 113.12,
+            "sim_points": 135.95,
+            "starters": [
+              "4984",
+              "9224",
+              "6790",
+              "6794",
+              "8676",
+              "8130",
+              "2133",
+              "8134",
+              "11539",
+              "PIT"
+            ],
+            "real_starters_points": [
+              11.82,
+              8.5,
+              13.9,
+              11.1,
+              15.2,
+              13.8,
+              22.6,
+              2.2,
+              9.0,
+              5.0
+            ],
+            "sim_starters_points": [
+              12.78,
+              18.52,
+              20.94,
+              12.69,
+              11.45,
+              12.36,
+              20.62,
+              8.0,
+              7.28,
+              11.31
+            ]
+          }
+        ],
+        "real_winner": 8,
+        "sim_winner": 10,
+        "flipped": true
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Nabers in the ER",
+            "real_points": 136.5,
+            "sim_points": 113.64,
+            "starters": [
+              "4892",
+              "3198",
+              "8155",
+              "11632",
+              "9488",
+              "12518",
+              "11635",
+              "5947",
+              "3451",
+              "DET"
+            ],
+            "real_starters_points": [
+              19.9,
+              2.3,
+              5.8,
+              37.7,
+              18.3,
+              11.9,
+              9.8,
+              12.8,
+              9.0,
+              9.0
+            ],
+            "sim_starters_points": [
+              13.05,
+              5.13,
+              6.04,
+              12.54,
+              26.71,
+              13.74,
+              5.54,
+              13.87,
+              13.62,
+              3.4
+            ]
+          },
+          {
+            "roster_id": 2,
+            "name": "Mayer Force One",
+            "real_points": 124.54,
+            "sim_points": 119.37,
+            "starters": [
+              "3294",
+              "9509",
+              "11584",
+              "5927",
+              "5045",
+              "1339",
+              "7594",
+              "6819",
+              "4227",
+              "DAL"
+            ],
+            "real_starters_points": [
+              23.14,
+              19.8,
+              18.1,
+              9.8,
+              1.6,
+              18.4,
+              18.7,
+              8.0,
+              6.0,
+              1.0
+            ],
+            "sim_starters_points": [
+              26.42,
+              20.2,
+              8.45,
+              6.04,
+              15.94,
+              7.87,
+              9.59,
+              14.2,
+              9.66,
+              1.0
+            ]
+          }
+        ],
+        "real_winner": 1,
+        "sim_winner": 2,
+        "flipped": true
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Bowers Tower",
+            "real_points": 119.7,
+            "sim_points": 129.67,
+            "starters": [
+              "11566",
+              "4034",
+              "12529",
+              "11631",
+              "12526",
+              "12506",
+              "11628",
+              "12514",
+              "11786",
+              "LAR"
+            ],
+            "real_starters_points": [
+              19.7,
+              22.7,
+              6.0,
+              8.9,
+              16.0,
+              9.8,
+              4.7,
+              12.9,
+              10.0,
+              9.0
+            ],
+            "sim_starters_points": [
+              19.11,
+              24.1,
+              12.51,
+              11.58,
+              8.73,
+              11.77,
+              8.56,
+              12.62,
+              13.4,
+              7.29
+            ]
+          },
+          {
+            "roster_id": 6,
+            "name": "dbombrisk",
+            "real_points": 116.04,
+            "sim_points": 125.33,
+            "starters": [
+              "6770",
+              "9226",
+              "8205",
+              "7564",
+              "10222",
+              "10859",
+              "4033",
+              "8408",
+              "11533",
+              "DEN"
+            ],
+            "real_starters_points": [
+              7.04,
+              26.2,
+              3.9,
+              36.5,
+              0.0,
+              5.6,
+              8.0,
+              5.8,
+              23.0,
+              0.0
+            ],
+            "sim_starters_points": [
+              9.12,
+              14.28,
+              11.58,
+              33.12,
+              7.62,
+              18.54,
+              6.93,
+              4.89,
+              9.36,
+              9.89
+            ]
+          }
+        ],
+        "real_winner": 3,
+        "sim_winner": 3,
+        "flipped": false
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 4,
+            "name": "Ceedeez Butterfingers",
+            "real_points": 121.14,
+            "sim_points": 91.77,
+            "starters": [
+              "6904",
+              "8150",
+              "5967",
+              "6786",
+              "5859",
+              "9484",
+              "6783",
+              "8146",
+              "1945",
+              "HOU"
+            ],
+            "real_starters_points": [
+              11.54,
+              10.0,
+              9.2,
+              20.2,
+              7.7,
+              24.4,
+              9.1,
+              9.0,
+              12.0,
+              8.0
+            ],
+            "sim_starters_points": [
+              10.93,
+              12.3,
+              8.67,
+              10.77,
+              5.58,
+              11.41,
+              4.19,
+              18.6,
+              5.72,
+              3.6
+            ]
+          },
+          {
+            "roster_id": 9,
+            "name": "OnlyRB\u2019s",
+            "real_points": 136.4,
+            "sim_points": 119.91,
+            "starters": [
+              "5849",
+              "9221",
+              "12527",
+              "2216",
+              "4983",
+              "7553",
+              "6813",
+              "4137",
+              "4195",
+              "NE"
+            ],
+            "real_starters_points": [
+              15.0,
+              19.4,
+              7.4,
+              10.6,
+              9.6,
+              7.7,
+              29.5,
+              12.2,
+              12.0,
+              13.0
+            ],
+            "sim_starters_points": [
+              17.89,
+              16.32,
+              12.56,
+              11.87,
+              12.1,
+              8.91,
+              14.5,
+              7.58,
+              7.64,
+              10.54
+            ]
+          }
+        ],
+        "real_winner": 9,
+        "sim_winner": 9,
+        "flipped": false
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 5,
+            "name": "Bird Gang Bang ",
+            "real_points": 135.4,
+            "sim_points": 157.49,
+            "starters": [
+              "4881",
+              "4866",
+              "4035",
+              "7525",
+              "6801",
+              "1466",
+              "8112",
+              "8137",
+              "12711",
+              "PHI"
+            ],
+            "real_starters_points": [
+              26.3,
+              17.4,
+              16.0,
+              9.3,
+              14.6,
+              10.1,
+              5.9,
+              17.8,
+              12.0,
+              6.0
+            ],
+            "sim_starters_points": [
+              25.03,
+              7.06,
+              6.55,
+              18.37,
+              17.78,
+              21.61,
+              34.41,
+              14.55,
+              6.46,
+              5.67
+            ]
+          },
+          {
+            "roster_id": 7,
+            "name": "DjStinkyNutz",
+            "real_points": 155.88,
+            "sim_points": 145.84,
+            "starters": [
+              "6797",
+              "8138",
+              "7543",
+              "9493",
+              "7569",
+              "5844",
+              "9997",
+              "7526",
+              "6650",
+              "BAL"
+            ],
+            "real_starters_points": [
+              18.78,
+              26.5,
+              16.9,
+              27.6,
+              14.2,
+              2.2,
+              14.9,
+              17.8,
+              1.0,
+              16.0
+            ],
+            "sim_starters_points": [
+              26.08,
+              19.88,
+              16.19,
+              27.01,
+              7.42,
+              6.17,
+              5.5,
+              19.15,
+              11.33,
+              7.11
+            ]
+          }
+        ],
+        "real_winner": 7,
+        "sim_winner": 5,
+        "flipped": true
+      }
+    ],
+    "3": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Nabers in the ER",
+            "real_points": 95.72,
+            "sim_points": 127.76,
+            "starters": [
+              "4892",
+              "3198",
+              "8155",
+              "11632",
+              "9488",
+              "12518",
+              "11635",
+              "8148",
+              "3451",
+              "DET"
+            ],
+            "real_starters_points": [
+              17.72,
+              10.7,
+              9.2,
+              3.3,
+              20.6,
+              6.8,
+              8.1,
+              6.3,
+              3.0,
+              10.0
+            ],
+            "sim_starters_points": [
+              19.07,
+              12.41,
+              9.96,
+              6.06,
+              25.99,
+              6.14,
+              3.94,
+              16.77,
+              9.62,
+              17.8
+            ]
+          },
+          {
+            "roster_id": 8,
+            "name": "1stDownSyndromee",
+            "real_points": 157.66,
+            "sim_points": 119.78,
+            "starters": [
+              "4046",
+              "5850",
+              "8151",
+              "7547",
+              "3321",
+              "5012",
+              "4988",
+              "5892",
+              "8259",
+              "BUF"
+            ],
+            "real_starters_points": [
+              13.16,
+              12.4,
+              18.0,
+              20.7,
+              15.9,
+              27.1,
+              7.0,
+              29.4,
+              12.0,
+              2.0
+            ],
+            "sim_starters_points": [
+              15.71,
+              28.76,
+              6.58,
+              24.85,
+              16.2,
+              2.66,
+              1.26,
+              10.76,
+              9.95,
+              3.05
+            ]
+          }
+        ],
+        "real_winner": 8,
+        "sim_winner": 1,
+        "flipped": true
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "Mayer Force One",
+            "real_points": 118.04,
+            "sim_points": 120.82,
+            "starters": [
+              "3294",
+              "9509",
+              "11584",
+              "11620",
+              "5927",
+              "1339",
+              "7594",
+              "11637",
+              "4227",
+              "SEA"
+            ],
+            "real_starters_points": [
+              14.04,
+              16.1,
+              13.9,
+              15.2,
+              10.4,
+              6.8,
+              9.6,
+              5.0,
+              11.0,
+              16.0
+            ],
+            "sim_starters_points": [
+              21.94,
+              26.84,
+              11.41,
+              9.3,
+              13.8,
+              17.15,
+              3.27,
+              6.62,
+              4.86,
+              5.63
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "Drake Maye never play",
+            "real_points": 122.02,
+            "sim_points": 131.96,
+            "starters": [
+              "4984",
+              "9224",
+              "6790",
+              "6794",
+              "8676",
+              "8130",
+              "2133",
+              "8126",
+              "11539",
+              "PIT"
+            ],
+            "real_starters_points": [
+              23.02,
+              6.0,
+              10.8,
+              12.5,
+              8.2,
+              15.3,
+              14.6,
+              3.6,
+              8.0,
+              20.0
+            ],
+            "sim_starters_points": [
+              10.2,
+              12.92,
+              19.5,
+              12.37,
+              13.37,
+              17.24,
+              8.86,
+              20.51,
+              5.68,
+              11.31
+            ]
+          }
+        ],
+        "real_winner": 10,
+        "sim_winner": 10,
+        "flipped": false
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 6,
+            "name": "dbombrisk",
+            "real_points": 88.7,
+            "sim_points": 142.21,
+            "starters": [
+              "6770",
+              "9226",
+              "8205",
+              "7564",
+              "10222",
+              "10859",
+              "4033",
+              "8408",
+              "11533",
+              "DEN"
+            ],
+            "real_starters_points": [
+              0.0,
+              16.1,
+              5.8,
+              8.9,
+              0.0,
+              7.3,
+              9.0,
+              23.6,
+              8.0,
+              10.0
+            ],
+            "sim_starters_points": [
+              23.77,
+              19.55,
+              11.58,
+              33.12,
+              12.74,
+              7.9,
+              2.93,
+              9.77,
+              8.56,
+              12.29
+            ]
+          },
+          {
+            "roster_id": 7,
+            "name": "DjStinkyNutz",
+            "real_points": 159.3,
+            "sim_points": 146.41,
+            "starters": [
+              "6797",
+              "8138",
+              "7543",
+              "9493",
+              "7569",
+              "5844",
+              "9997",
+              "7526",
+              "6650",
+              "KC"
+            ],
+            "real_starters_points": [
+              15.6,
+              20.8,
+              11.6,
+              22.8,
+              22.4,
+              15.9,
+              3.3,
+              14.9,
+              20.0,
+              12.0
+            ],
+            "sim_starters_points": [
+              16.66,
+              24.76,
+              11.95,
+              33.25,
+              22.38,
+              8.73,
+              14.14,
+              2.99,
+              4.93,
+              6.62
+            ]
+          }
+        ],
+        "real_winner": 7,
+        "sim_winner": 7,
+        "flipped": false
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 4,
+            "name": "Ceedeez Butterfingers",
+            "real_points": 116.18,
+            "sim_points": 137.42,
+            "starters": [
+              "3163",
+              "8150",
+              "5967",
+              "6786",
+              "5859",
+              "9484",
+              "5846",
+              "8146",
+              "1945",
+              "ATL"
+            ],
+            "real_starters_points": [
+              12.68,
+              19.2,
+              13.9,
+              0.0,
+              22.9,
+              5.9,
+              12.2,
+              24.4,
+              3.0,
+              2.0
+            ],
+            "sim_starters_points": [
+              13.73,
+              16.38,
+              10.67,
+              17.57,
+              22.94,
+              7.65,
+              12.26,
+              18.6,
+              12.92,
+              4.7
+            ]
+          },
+          {
+            "roster_id": 5,
+            "name": "Bird Gang Bang ",
+            "real_points": 127.72,
+            "sim_points": 123.23,
+            "starters": [
+              "4881",
+              "4866",
+              "4035",
+              "7525",
+              "6801",
+              "7002",
+              "6806",
+              "8144",
+              "12711",
+              "PHI"
+            ],
+            "real_starters_points": [
+              27.02,
+              9.5,
+              6.6,
+              20.0,
+              2.5,
+              11.1,
+              15.3,
+              15.7,
+              7.0,
+              13.0
+            ],
+            "sim_starters_points": [
+              16.73,
+              17.46,
+              14.63,
+              5.97,
+              10.74,
+              9.17,
+              14.72,
+              24.08,
+              6.46,
+              3.27
+            ]
+          }
+        ],
+        "real_winner": 5,
+        "sim_winner": 4,
+        "flipped": true
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Bowers Tower",
+            "real_points": 134.52,
+            "sim_points": 152.02,
+            "starters": [
+              "11560",
+              "4034",
+              "12533",
+              "11631",
+              "12526",
+              "11604",
+              "11638",
+              "12514",
+              "11786",
+              "GB"
+            ],
+            "real_starters_points": [
+              29.12,
+              24.0,
+              10.1,
+              7.5,
+              7.8,
+              9.8,
+              19.7,
+              14.5,
+              4.0,
+              8.0
+            ],
+            "sim_starters_points": [
+              23.46,
+              24.1,
+              3.1,
+              9.18,
+              17.93,
+              14.3,
+              13.81,
+              27.34,
+              11.0,
+              7.8
+            ]
+          },
+          {
+            "roster_id": 9,
+            "name": "OnlyRB\u2019s",
+            "real_points": 132.26,
+            "sim_points": 111.44,
+            "starters": [
+              "5849",
+              "9221",
+              "6813",
+              "2216",
+              "4983",
+              "7553",
+              "12527",
+              "7588",
+              "4195",
+              "NE"
+            ],
+            "real_starters_points": [
+              14.06,
+              26.9,
+              32.8,
+              13.3,
+              12.8,
+              7.9,
+              6.3,
+              12.2,
+              3.0,
+              3.0
+            ],
+            "sim_starters_points": [
+              17.89,
+              8.96,
+              16.34,
+              12.83,
+              9.54,
+              5.46,
+              10.4,
+              18.24,
+              5.24,
+              6.54
+            ]
+          }
+        ],
+        "real_winner": 3,
+        "sim_winner": 3,
+        "flipped": false
+      }
+    ],
+    "4": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 6,
+            "name": "dbombrisk",
+            "real_points": 75.4,
+            "sim_points": 107.54,
+            "starters": [
+              "0",
+              "9226",
+              "8205",
+              "7564",
+              "0",
+              "10859",
+              "4033",
+              "8408",
+              "11533",
+              "DEN"
+            ],
+            "real_starters_points": [
+              0.0,
+              17.1,
+              12.8,
+              7.3,
+              0.0,
+              6.9,
+              3.1,
+              10.2,
+              8.0,
+              10.0
+            ],
+            "sim_starters_points": [
+              0.0,
+              17.71,
+              5.98,
+              22.8,
+              0.0,
+              15.58,
+              4.05,
+              5.37,
+              21.36,
+              14.69
+            ]
+          },
+          {
+            "roster_id": 8,
+            "name": "1stDownSyndromee",
+            "real_points": 141.1,
+            "sim_points": 123.09,
+            "starters": [
+              "4046",
+              "5850",
+              "8151",
+              "7547",
+              "3321",
+              "5012",
+              "4988",
+              "5892",
+              "8259",
+              "BUF"
+            ],
+            "real_starters_points": [
+              27.3,
+              31.7,
+              12.0,
+              26.0,
+              12.7,
+              10.0,
+              8.2,
+              1.2,
+              5.0,
+              7.0
+            ],
+            "sim_starters_points": [
+              18.7,
+              28.76,
+              22.58,
+              9.01,
+              12.84,
+              8.5,
+              2.86,
+              8.44,
+              6.75,
+              4.65
+            ]
+          }
+        ],
+        "real_winner": 8,
+        "sim_winner": 8,
+        "flipped": false
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "Mayer Force One",
+            "real_points": 165.58,
+            "sim_points": 116.87,
+            "starters": [
+              "4943",
+              "9509",
+              "11584",
+              "11620",
+              "6819",
+              "3214",
+              "7594",
+              "5045",
+              "4227",
+              "SEA"
+            ],
+            "real_starters_points": [
+              16.08,
+              28.1,
+              25.5,
+              16.9,
+              15.1,
+              11.9,
+              9.9,
+              19.1,
+              12.0,
+              11.0
+            ],
+            "sim_starters_points": [
+              16.02,
+              9.0,
+              9.41,
+              14.82,
+              4.76,
+              14.36,
+              8.55,
+              3.86,
+              8.06,
+              28.03
+            ]
+          },
+          {
+            "roster_id": 4,
+            "name": "Ceedeez Butterfingers",
+            "real_points": 116.2,
+            "sim_points": 120.49,
+            "starters": [
+              "6904",
+              "8150",
+              "5967",
+              "5846",
+              "5859",
+              "9484",
+              "1479",
+              "8146",
+              "1945",
+              "MIN"
+            ],
+            "real_starters_points": [
+              19.4,
+              10.4,
+              10.6,
+              23.6,
+              2.7,
+              10.6,
+              8.7,
+              20.2,
+              5.0,
+              5.0
+            ],
+            "sim_starters_points": [
+              21.11,
+              9.9,
+              8.43,
+              18.1,
+              5.1,
+              12.77,
+              8.92,
+              19.48,
+              5.72,
+              10.96
+            ]
+          }
+        ],
+        "real_winner": 2,
+        "sim_winner": 4,
+        "flipped": true
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Bowers Tower",
+            "real_points": 124.48,
+            "sim_points": 148.55,
+            "starters": [
+              "11560",
+              "4034",
+              "12512",
+              "11631",
+              "12526",
+              "11604",
+              "11638",
+              "12514",
+              "11786",
+              "GB"
+            ],
+            "real_starters_points": [
+              12.78,
+              26.1,
+              21.5,
+              10.6,
+              10.2,
+              9.6,
+              8.6,
+              20.1,
+              8.0,
+              -3.0
+            ],
+            "sim_starters_points": [
+              23.46,
+              23.46,
+              15.63,
+              8.78,
+              15.29,
+              14.3,
+              4.69,
+              27.34,
+              8.6,
+              7.0
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "Drake Maye never play",
+            "real_points": 166.36,
+            "sim_points": 132.01,
+            "starters": [
+              "4984",
+              "12529",
+              "6790",
+              "6794",
+              "11628",
+              "8130",
+              "2133",
+              "8134",
+              "11539",
+              "PIT"
+            ],
+            "real_starters_points": [
+              25.86,
+              12.6,
+              16.0,
+              22.6,
+              18.6,
+              12.2,
+              15.6,
+              17.9,
+              13.0,
+              12.0
+            ],
+            "sim_starters_points": [
+              27.74,
+              8.59,
+              10.46,
+              8.53,
+              20.4,
+              16.92,
+              9.5,
+              11.28,
+              8.88,
+              9.71
+            ]
+          }
+        ],
+        "real_winner": 10,
+        "sim_winner": 3,
+        "flipped": true
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Nabers in the ER",
+            "real_points": 135.76,
+            "sim_points": 121.85,
+            "starters": [
+              "4892",
+              "3198",
+              "12481",
+              "11632",
+              "9488",
+              "12518",
+              "9754",
+              "5947",
+              "3451",
+              "DET"
+            ],
+            "real_starters_points": [
+              19.86,
+              7.8,
+              13.0,
+              4.0,
+              13.0,
+              18.3,
+              23.8,
+              7.0,
+              9.0,
+              20.0
+            ],
+            "sim_starters_points": [
+              14.32,
+              11.85,
+              22.98,
+              5.5,
+              25.27,
+              9.82,
+              11.46,
+              7.63,
+              9.62,
+              3.4
+            ]
+          },
+          {
+            "roster_id": 5,
+            "name": "Bird Gang Bang ",
+            "real_points": 159.78,
+            "sim_points": 123.8,
+            "starters": [
+              "4881",
+              "4866",
+              "4035",
+              "7525",
+              "8137",
+              "5022",
+              "6806",
+              "8112",
+              "12711",
+              "PHI"
+            ],
+            "real_starters_points": [
+              11.68,
+              17.4,
+              11.2,
+              4.9,
+              33.4,
+              19.7,
+              11.5,
+              25.0,
+              9.0,
+              16.0
+            ],
+            "sim_starters_points": [
+              26.9,
+              13.38,
+              10.79,
+              8.93,
+              28.87,
+              11.59,
+              9.52,
+              8.09,
+              3.26,
+              2.47
+            ]
+          }
+        ],
+        "real_winner": 5,
+        "sim_winner": 5,
+        "flipped": false
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 7,
+            "name": "DjStinkyNutz",
+            "real_points": 159.52,
+            "sim_points": 155.98,
+            "starters": [
+              "6797",
+              "8138",
+              "7543",
+              "9493",
+              "7569",
+              "5844",
+              "9997",
+              "7526",
+              "6650",
+              "KC"
+            ],
+            "real_starters_points": [
+              14.52,
+              22.5,
+              19.5,
+              36.0,
+              11.9,
+              7.9,
+              14.4,
+              7.8,
+              17.0,
+              8.0
+            ],
+            "sim_starters_points": [
+              27.91,
+              21.08,
+              16.51,
+              16.13,
+              21.1,
+              6.97,
+              14.78,
+              14.35,
+              6.53,
+              10.62
+            ]
+          },
+          {
+            "roster_id": 9,
+            "name": "OnlyRB\u2019s",
+            "real_points": 154.26,
+            "sim_points": 130.09,
+            "starters": [
+              "8183",
+              "9221",
+              "6813",
+              "4981",
+              "4983",
+              "7553",
+              "12527",
+              "7588",
+              "4195",
+              "NE"
+            ],
+            "real_starters_points": [
+              19.66,
+              17.7,
+              14.6,
+              5.0,
+              7.8,
+              18.0,
+              33.5,
+              19.0,
+              7.0,
+              12.0
+            ],
+            "sim_starters_points": [
+              25.12,
+              9.44,
+              13.38,
+              5.21,
+              8.1,
+              5.3,
+              29.68,
+              18.08,
+              3.64,
+              12.14
+            ]
+          }
+        ],
+        "real_winner": 7,
+        "sim_winner": 7,
+        "flipped": false
+      }
+    ],
+    "5": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 4,
+            "name": "Ceedeez Butterfingers",
+            "real_points": 112.62,
+            "sim_points": 122.8,
+            "starters": [
+              "3163",
+              "8150",
+              "5967",
+              "6783",
+              "8148",
+              "9480",
+              "1479",
+              "8146",
+              "4195",
+              "MIN"
+            ],
+            "real_starters_points": [
+              20.12,
+              31.1,
+              14.8,
+              3.5,
+              2.0,
+              3.2,
+              10.8,
+              19.1,
+              5.0,
+              3.0
+            ],
+            "sim_starters_points": [
+              6.85,
+              16.38,
+              7.55,
+              10.67,
+              17.97,
+              15.66,
+              10.52,
+              18.6,
+              6.84,
+              11.76
+            ]
+          },
+          {
+            "roster_id": 8,
+            "name": "1stDownSyndromee",
+            "real_points": 127.44,
+            "sim_points": 123.95,
+            "starters": [
+              "4046",
+              "5892",
+              "8151",
+              "7547",
+              "9756",
+              "5012",
+              "4988",
+              "11627",
+              "8259",
+              "BUF"
+            ],
+            "real_starters_points": [
+              27.72,
+              18.22,
+              9.6,
+              18.0,
+              15.1,
+              4.2,
+              12.1,
+              8.5,
+              6.0,
+              8.0
+            ],
+            "sim_starters_points": [
+              24.21,
+              7.16,
+              9.94,
+              23.97,
+              19.52,
+              6.66,
+              5.34,
+              5.35,
+              12.35,
+              9.45
+            ]
+          }
+        ],
+        "real_winner": 8,
+        "sim_winner": 8,
+        "flipped": false
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "Mayer Force One",
+            "real_points": 112.7,
+            "sim_points": 102.83,
+            "starters": [
+              "5849",
+              "11199",
+              "7021",
+              "11637",
+              "6819",
+              "3214",
+              "8126",
+              "5045",
+              "4227",
+              "SEA"
+            ],
+            "real_starters_points": [
+              15.3,
+              6.1,
+              32.4,
+              10.3,
+              14.9,
+              6.6,
+              8.2,
+              17.9,
+              4.0,
+              -3.0
+            ],
+            "sim_starters_points": [
+              14.48,
+              12.67,
+              7.32,
+              7.82,
+              8.04,
+              11.48,
+              5.55,
+              10.58,
+              6.46,
+              18.43
+            ]
+          },
+          {
+            "roster_id": 6,
+            "name": "dbombrisk",
+            "real_points": 118.7,
+            "sim_points": 105.07,
+            "starters": [
+              "0",
+              "9226",
+              "8205",
+              "7564",
+              "0",
+              "10859",
+              "4033",
+              "8408",
+              "11533",
+              "DEN"
+            ],
+            "real_starters_points": [
+              0.0,
+              16.6,
+              8.6,
+              29.0,
+              0.0,
+              20.2,
+              18.7,
+              12.6,
+              6.0,
+              7.0
+            ],
+            "sim_starters_points": [
+              0.0,
+              28.84,
+              3.9,
+              19.84,
+              0.0,
+              7.9,
+              7.25,
+              20.49,
+              6.16,
+              10.69
+            ]
+          }
+        ],
+        "real_winner": 6,
+        "sim_winner": 6,
+        "flipped": false
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 7,
+            "name": "DjStinkyNutz",
+            "real_points": 150.44,
+            "sim_points": 145.95,
+            "starters": [
+              "6797",
+              "8138",
+              "12507",
+              "9493",
+              "7569",
+              "5844",
+              "5872",
+              "7526",
+              "6650",
+              "KC"
+            ],
+            "real_starters_points": [
+              15.64,
+              4.9,
+              13.0,
+              24.5,
+              16.0,
+              9.8,
+              23.6,
+              23.0,
+              12.0,
+              8.0
+            ],
+            "sim_starters_points": [
+              26.08,
+              19.88,
+              9.02,
+              23.17,
+              21.1,
+              6.97,
+              21.35,
+              4.43,
+              9.73,
+              4.22
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "Drake Maye never play",
+            "real_points": 134.02,
+            "sim_points": 141.13,
+            "starters": [
+              "4984",
+              "12529",
+              "9224",
+              "6794",
+              "11628",
+              "8130",
+              "2133",
+              "1466",
+              "11539",
+              "IND"
+            ],
+            "real_starters_points": [
+              20.42,
+              4.7,
+              11.8,
+              19.3,
+              13.8,
+              9.1,
+              13.8,
+              19.1,
+              5.0,
+              17.0
+            ],
+            "sim_starters_points": [
+              40.43,
+              24.83,
+              18.52,
+              4.85,
+              8.56,
+              12.36,
+              8.86,
+              5.69,
+              12.08,
+              4.95
+            ]
+          }
+        ],
+        "real_winner": 7,
+        "sim_winner": 7,
+        "flipped": false
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Nabers in the ER",
+            "real_points": 160.52,
+            "sim_points": 155.99,
+            "starters": [
+              "7591",
+              "3198",
+              "12481",
+              "9754",
+              "9488",
+              "12518",
+              "8155",
+              "8110",
+              "6083",
+              "DET"
+            ],
+            "real_starters_points": [
+              25.92,
+              9.3,
+              14.4,
+              6.9,
+              27.2,
+              14.4,
+              17.5,
+              23.9,
+              9.0,
+              12.0
+            ],
+            "sim_starters_points": [
+              23.63,
+              39.77,
+              15.22,
+              14.9,
+              20.71,
+              8.3,
+              9.32,
+              3.54,
+              2.8,
+              17.8
+            ]
+          },
+          {
+            "roster_id": 9,
+            "name": "OnlyRB\u2019s",
+            "real_points": 178.66,
+            "sim_points": 131.36,
+            "starters": [
+              "421",
+              "9221",
+              "6813",
+              "4037",
+              "2449",
+              "2505",
+              "12527",
+              "7588",
+              "2747",
+              "CLE"
+            ],
+            "real_starters_points": [
+              25.56,
+              16.7,
+              31.6,
+              5.6,
+              24.6,
+              18.8,
+              15.9,
+              26.9,
+              4.0,
+              9.0
+            ],
+            "sim_starters_points": [
+              24.92,
+              16.32,
+              13.38,
+              5.42,
+              10.79,
+              17.84,
+              18.8,
+              12.16,
+              9.53,
+              2.2
+            ]
+          }
+        ],
+        "real_winner": 9,
+        "sim_winner": 1,
+        "flipped": true
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Bowers Tower",
+            "real_points": 138.94,
+            "sim_points": 125.4,
+            "starters": [
+              "11566",
+              "4034",
+              "12512",
+              "12514",
+              "12526",
+              "1339",
+              "8136",
+              "12474",
+              "11786",
+              "LAR"
+            ],
+            "real_starters_points": [
+              17.14,
+              27.9,
+              13.8,
+              31.3,
+              13.3,
+              0.0,
+              23.1,
+              2.4,
+              9.0,
+              1.0
+            ],
+            "sim_starters_points": [
+              16.33,
+              25.78,
+              10.51,
+              21.1,
+              6.09,
+              12.59,
+              6.39,
+              4.32,
+              13.4,
+              8.89
+            ]
+          },
+          {
+            "roster_id": 5,
+            "name": "Bird Gang Bang ",
+            "real_points": 132.88,
+            "sim_points": 113.2,
+            "starters": [
+              "3294",
+              "4866",
+              "4035",
+              "7525",
+              "8137",
+              "5022",
+              "6806",
+              "8144",
+              "12711",
+              "PHI"
+            ],
+            "real_starters_points": [
+              28.28,
+              17.8,
+              9.5,
+              19.4,
+              13.7,
+              10.9,
+              15.4,
+              12.9,
+              3.0,
+              2.0
+            ],
+            "sim_starters_points": [
+              15.03,
+              12.82,
+              13.43,
+              17.89,
+              10.39,
+              5.99,
+              14.16,
+              8.16,
+              4.06,
+              11.27
+            ]
+          }
+        ],
+        "real_winner": 3,
+        "sim_winner": 3,
+        "flipped": false
+      }
+    ],
+    "6": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Bowers Tower",
+            "real_points": 114.24,
+            "sim_points": 123.77,
+            "starters": [
+              "11566",
+              "4034",
+              "12512",
+              "12514",
+              "12526",
+              "12498",
+              "8136",
+              "12533",
+              "11786",
+              "LAR"
+            ],
+            "real_starters_points": [
+              22.64,
+              24.1,
+              3.6,
+              4.4,
+              17.9,
+              1.2,
+              17.6,
+              5.8,
+              -2.0,
+              19.0
+            ],
+            "sim_starters_points": [
+              21.46,
+              26.66,
+              15.15,
+              8.86,
+              11.69,
+              5.61,
+              8.15,
+              3.1,
+              11.8,
+              11.29
+            ]
+          },
+          {
+            "roster_id": 8,
+            "name": "1stDownSyndromee",
+            "real_points": 126.18,
+            "sim_points": 130.79,
+            "starters": [
+              "4046",
+              "5892",
+              "8151",
+              "12530",
+              "7547",
+              "5012",
+              "5850",
+              "11627",
+              "8259",
+              "BUF"
+            ],
+            "real_starters_points": [
+              31.48,
+              8.1,
+              4.7,
+              5.5,
+              13.7,
+              6.6,
+              32.0,
+              3.1,
+              17.0,
+              4.0
+            ],
+            "sim_starters_points": [
+              15.49,
+              5.72,
+              12.74,
+              6.22,
+              27.97,
+              3.22,
+              28.76,
+              9.67,
+              15.55,
+              5.45
+            ]
+          }
+        ],
+        "real_winner": 8,
+        "sim_winner": 8,
+        "flipped": false
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "Mayer Force One",
+            "real_points": 131.18,
+            "sim_points": 133.16,
+            "starters": [
+              "5870",
+              "9509",
+              "7021",
+              "11620",
+              "6819",
+              "3214",
+              "4098",
+              "5045",
+              "4227",
+              "SEA"
+            ],
+            "real_starters_points": [
+              23.48,
+              35.8,
+              33.9,
+              5.2,
+              4.0,
+              5.7,
+              4.4,
+              2.7,
+              5.0,
+              11.0
+            ],
+            "sim_starters_points": [
+              13.23,
+              26.84,
+              30.12,
+              16.18,
+              6.76,
+              8.12,
+              12.04,
+              3.78,
+              10.46,
+              5.63
+            ]
+          },
+          {
+            "roster_id": 7,
+            "name": "DjStinkyNutz",
+            "real_points": 88.78,
+            "sim_points": 134.6,
+            "starters": [
+              "6797",
+              "8138",
+              "7543",
+              "9493",
+              "4039",
+              "4144",
+              "5872",
+              "7526",
+              "6650",
+              "GB"
+            ],
+            "real_starters_points": [
+              18.76,
+              8.7,
+              9.5,
+              4.8,
+              12.0,
+              5.8,
+              5.4,
+              15.82,
+              6.0,
+              2.0
+            ],
+            "sim_starters_points": [
+              14.82,
+              20.52,
+              7.07,
+              22.93,
+              11.38,
+              10.57,
+              19.03,
+              17.95,
+              5.73,
+              4.6
+            ]
+          }
+        ],
+        "real_winner": 2,
+        "sim_winner": 7,
+        "flipped": true
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 9,
+            "name": "OnlyRB\u2019s",
+            "real_points": 104.74,
+            "sim_points": 146.42,
+            "starters": [
+              "421",
+              "9221",
+              "6813",
+              "4983",
+              "2449",
+              "2505",
+              "12527",
+              "7588",
+              "2747",
+              "NE"
+            ],
+            "real_starters_points": [
+              9.34,
+              7.5,
+              23.7,
+              8.2,
+              5.8,
+              9.2,
+              16.6,
+              8.4,
+              10.0,
+              6.0
+            ],
+            "sim_starters_points": [
+              15.37,
+              20.56,
+              34.18,
+              8.1,
+              10.79,
+              10.16,
+              15.6,
+              14.79,
+              13.53,
+              3.34
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "Drake Maye never play",
+            "real_points": 85.5,
+            "sim_points": 93.2,
+            "starters": [
+              "4984",
+              "8123",
+              "12529",
+              "8134",
+              "11628",
+              "8130",
+              "2133",
+              "11624",
+              "11539",
+              "IND"
+            ],
+            "real_starters_points": [
+              17.4,
+              3.3,
+              4.6,
+              6.3,
+              5.2,
+              21.2,
+              7.9,
+              10.6,
+              5.0,
+              4.0
+            ],
+            "sim_starters_points": [
+              21.02,
+              3.3,
+              11.31,
+              7.12,
+              4.24,
+              16.92,
+              8.86,
+              8.2,
+              4.88,
+              7.35
+            ]
+          }
+        ],
+        "real_winner": 9,
+        "sim_winner": 9,
+        "flipped": false
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Nabers in the ER",
+            "real_points": 172.44,
+            "sim_points": 112.06,
+            "starters": [
+              "4892",
+              "3198",
+              "12481",
+              "5859",
+              "9488",
+              "12518",
+              "11635",
+              "8110",
+              "6083",
+              "DET"
+            ],
+            "real_starters_points": [
+              19.64,
+              14.0,
+              31.0,
+              14.0,
+              30.2,
+              18.3,
+              23.0,
+              12.3,
+              7.0,
+              3.0
+            ],
+            "sim_starters_points": [
+              19.28,
+              13.37,
+              11.7,
+              4.38,
+              19.75,
+              8.3,
+              5.46,
+              11.62,
+              6.8,
+              11.4
+            ]
+          },
+          {
+            "roster_id": 4,
+            "name": "Ceedeez Butterfingers",
+            "real_points": 114.12,
+            "sim_points": 139.72,
+            "starters": [
+              "6904",
+              "8150",
+              "8228",
+              "8146",
+              "5846",
+              "9484",
+              "1479",
+              "5967",
+              "4195",
+              "TB"
+            ],
+            "real_starters_points": [
+              21.62,
+              16.7,
+              8.3,
+              4.3,
+              19.5,
+              12.3,
+              6.7,
+              6.7,
+              6.0,
+              12.0
+            ],
+            "sim_starters_points": [
+              7.33,
+              14.22,
+              12.95,
+              18.6,
+              12.34,
+              16.37,
+              10.52,
+              16.75,
+              5.24,
+              25.4
+            ]
+          }
+        ],
+        "real_winner": 1,
+        "sim_winner": 4,
+        "flipped": true
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 5,
+            "name": "Bird Gang Bang ",
+            "real_points": 153.34,
+            "sim_points": 169.41,
+            "starters": [
+              "3294",
+              "4866",
+              "6806",
+              "7525",
+              "8137",
+              "5022",
+              "8144",
+              "8112",
+              "12711",
+              "PHI"
+            ],
+            "real_starters_points": [
+              22.34,
+              8.7,
+              4.0,
+              8.9,
+              31.8,
+              26.0,
+              15.8,
+              31.8,
+              3.0,
+              1.0
+            ],
+            "sim_starters_points": [
+              26.42,
+              8.34,
+              9.84,
+              10.21,
+              26.95,
+              11.59,
+              15.92,
+              34.41,
+              11.26,
+              14.47
+            ]
+          },
+          {
+            "roster_id": 6,
+            "name": "dbombrisk",
+            "real_points": 119.86,
+            "sim_points": 103.97,
+            "starters": [
+              "11563",
+              "9226",
+              "8205",
+              "7564",
+              "0",
+              "10859",
+              "4033",
+              "8408",
+              "11533",
+              "DEN"
+            ],
+            "real_starters_points": [
+              13.36,
+              31.0,
+              6.1,
+              25.1,
+              0.0,
+              16.5,
+              5.8,
+              0.0,
+              9.0,
+              13.0
+            ],
+            "sim_starters_points": [
+              16.5,
+              14.28,
+              3.02,
+              24.0,
+              0.0,
+              18.54,
+              6.93,
+              6.25,
+              8.56,
+              5.89
+            ]
+          }
+        ],
+        "real_winner": 5,
+        "sim_winner": 5,
+        "flipped": false
+      }
+    ],
+    "7": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 7,
+            "name": "DjStinkyNutz",
+            "real_points": 78.1,
+            "sim_points": 108.74,
+            "starters": [
+              "6797",
+              "7567",
+              "7543",
+              "4039",
+              "7569",
+              "4144",
+              "5872",
+              "7526",
+              "6650",
+              "GB"
+            ],
+            "real_starters_points": [
+              29.9,
+              3.5,
+              6.5,
+              3.2,
+              6.7,
+              11.8,
+              0.0,
+              2.5,
+              5.0,
+              9.0
+            ],
+            "sim_starters_points": [
+              26.08,
+              19.47,
+              16.51,
+              4.42,
+              9.98,
+              2.25,
+              7.83,
+              8.67,
+              5.73,
+              7.8
+            ]
+          },
+          {
+            "roster_id": 8,
+            "name": "1stDownSyndromee",
+            "real_points": 122.14,
+            "sim_points": 115.76,
+            "starters": [
+              "4046",
+              "5892",
+              "8151",
+              "12530",
+              "7547",
+              "5012",
+              "5850",
+              "11627",
+              "8259",
+              "BUF"
+            ],
+            "real_starters_points": [
+              26.24,
+              5.9,
+              6.6,
+              24.1,
+              20.6,
+              0.0,
+              18.8,
+              12.9,
+              7.0,
+              0.0
+            ],
+            "sim_starters_points": [
+              22.7,
+              12.2,
+              4.58,
+              6.22,
+              24.85,
+              14.1,
+              14.36,
+              5.35,
+              8.35,
+              3.05
+            ]
+          }
+        ],
+        "real_winner": 8,
+        "sim_winner": 8,
+        "flipped": false
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "Mayer Force One",
+            "real_points": 121.72,
+            "sim_points": 111.5,
+            "starters": [
+              "5870",
+              "9509",
+              "7021",
+              "11620",
+              "6819",
+              "3214",
+              "4098",
+              "5045",
+              "4227",
+              "SEA"
+            ],
+            "real_starters_points": [
+              22.22,
+              21.2,
+              10.6,
+              5.1,
+              20.8,
+              7.3,
+              1.8,
+              16.7,
+              7.0,
+              9.0
+            ],
+            "sim_starters_points": [
+              4.76,
+              27.96,
+              12.12,
+              6.82,
+              8.04,
+              14.36,
+              6.69,
+              17.06,
+              8.06,
+              5.63
+            ]
+          },
+          {
+            "roster_id": 9,
+            "name": "OnlyRB\u2019s",
+            "real_points": 163.48,
+            "sim_points": 134.12,
+            "starters": [
+              "421",
+              "9221",
+              "6813",
+              "2216",
+              "2449",
+              "2505",
+              "12527",
+              "7588",
+              "2747",
+              "NE"
+            ],
+            "real_starters_points": [
+              27.38,
+              36.8,
+              34.2,
+              0.0,
+              13.9,
+              0.0,
+              4.4,
+              18.8,
+              9.0,
+              19.0
+            ],
+            "sim_starters_points": [
+              15.37,
+              10.32,
+              27.86,
+              6.51,
+              6.95,
+              17.84,
+              22.72,
+              8.88,
+              7.13,
+              10.54
+            ]
+          }
+        ],
+        "real_winner": 9,
+        "sim_winner": 9,
+        "flipped": false
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 5,
+            "name": "Bird Gang Bang ",
+            "real_points": 145.76,
+            "sim_points": 123.67,
+            "starters": [
+              "3294",
+              "4866",
+              "6806",
+              "7525",
+              "8137",
+              "5022",
+              "8144",
+              "8112",
+              "5189",
+              "PHI"
+            ],
+            "real_starters_points": [
+              23.26,
+              5.2,
+              9.0,
+              33.3,
+              12.2,
+              4.8,
+              26.8,
+              8.2,
+              11.0,
+              12.0
+            ],
+            "sim_starters_points": [
+              13.37,
+              10.9,
+              14.72,
+              8.53,
+              30.15,
+              6.31,
+              24.08,
+              4.49,
+              4.65,
+              6.47
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "Drake Maye never play",
+            "real_points": 153.98,
+            "sim_points": 168.39,
+            "starters": [
+              "11564",
+              "6790",
+              "11647",
+              "11624",
+              "6794",
+              "8130",
+              "2133",
+              "9224",
+              "11539",
+              "IND"
+            ],
+            "real_starters_points": [
+              23.08,
+              20.8,
+              7.5,
+              7.8,
+              12.9,
+              29.4,
+              26.5,
+              12.0,
+              7.0,
+              7.0
+            ],
+            "sim_starters_points": [
+              30.19,
+              11.5,
+              8.4,
+              11.08,
+              7.97,
+              25.88,
+              20.62,
+              23.72,
+              13.68,
+              15.35
+            ]
+          }
+        ],
+        "real_winner": 10,
+        "sim_winner": 10,
+        "flipped": false
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Nabers in the ER",
+            "real_points": 134.14,
+            "sim_points": 107.45,
+            "starters": [
+              "7591",
+              "8155",
+              "12481",
+              "12501",
+              "9488",
+              "12518",
+              "11635",
+              "8110",
+              "6083",
+              "DET"
+            ],
+            "real_starters_points": [
+              4.04,
+              7.2,
+              18.4,
+              7.7,
+              26.3,
+              16.9,
+              15.7,
+              21.9,
+              2.0,
+              14.0
+            ],
+            "sim_starters_points": [
+              6.81,
+              9.32,
+              18.42,
+              7.01,
+              20.47,
+              9.82,
+              12.98,
+              8.42,
+              6.8,
+              7.4
+            ]
+          },
+          {
+            "roster_id": 6,
+            "name": "dbombrisk",
+            "real_points": 142.46,
+            "sim_points": 98.15,
+            "starters": [
+              "11563",
+              "9226",
+              "8205",
+              "7564",
+              "0",
+              "10859",
+              "4033",
+              "8408",
+              "11533",
+              "DEN"
+            ],
+            "real_starters_points": [
+              39.96,
+              12.8,
+              12.4,
+              38.1,
+              0.0,
+              4.5,
+              0.0,
+              11.7,
+              18.0,
+              5.0
+            ],
+            "sim_starters_points": [
+              9.96,
+              25.0,
+              3.74,
+              27.12,
+              0.0,
+              6.86,
+              6.93,
+              3.29,
+              8.56,
+              6.69
+            ]
+          }
+        ],
+        "real_winner": 6,
+        "sim_winner": 1,
+        "flipped": true
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Bowers Tower",
+            "real_points": 143.24,
+            "sim_points": 173.26,
+            "starters": [
+              "11566",
+              "4034",
+              "12512",
+              "10229",
+              "11631",
+              "12498",
+              "12533",
+              "8136",
+              "11786",
+              "LAR"
+            ],
+            "real_starters_points": [
+              17.74,
+              39.1,
+              26.4,
+              23.2,
+              6.1,
+              6.1,
+              4.2,
+              8.4,
+              0.0,
+              12.0
+            ],
+            "sim_starters_points": [
+              16.33,
+              27.22,
+              23.55,
+              23.03,
+              20.38,
+              5.61,
+              5.1,
+              20.15,
+              15.0,
+              16.89
+            ]
+          },
+          {
+            "roster_id": 4,
+            "name": "Ceedeez Butterfingers",
+            "real_points": 127.24,
+            "sim_points": 133.1,
+            "starters": [
+              "3163",
+              "8150",
+              "8228",
+              "6786",
+              "5846",
+              "9484",
+              "1479",
+              "11623",
+              "1945",
+              "PIT"
+            ],
+            "real_starters_points": [
+              11.34,
+              8.5,
+              19.8,
+              22.0,
+              8.0,
+              16.8,
+              28.9,
+              2.9,
+              8.0,
+              1.0
+            ],
+            "sim_starters_points": [
+              19.68,
+              11.42,
+              13.19,
+              22.45,
+              12.26,
+              11.41,
+              25.16,
+              2.9,
+              7.32,
+              7.31
+            ]
+          }
+        ],
+        "real_winner": 3,
+        "sim_winner": 3,
+        "flipped": false
+      }
+    ],
+    "8": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 8,
+            "name": "1stDownSyndromee",
+            "real_points": 130.26,
+            "sim_points": 111.04,
+            "starters": [
+              "4046",
+              "4199",
+              "4988",
+              "11627",
+              "9756",
+              "5012",
+              "5850",
+              "8154",
+              "8259",
+              "BUF"
+            ],
+            "real_starters_points": [
+              24.96,
+              5.0,
+              8.9,
+              26.9,
+              11.6,
+              6.4,
+              13.5,
+              0.0,
+              14.0,
+              19.0
+            ],
+            "sim_starters_points": [
+              29.42,
+              11.42,
+              8.7,
+              6.63,
+              12.08,
+              6.66,
+              19.16,
+              3.17,
+              5.95,
+              7.85
+            ]
+          },
+          {
+            "roster_id": 9,
+            "name": "OnlyRB\u2019s",
+            "real_points": 158.82,
+            "sim_points": 118.97,
+            "starters": [
+              "19",
+              "6813",
+              "7588",
+              "8121",
+              "2449",
+              "12493",
+              "4454",
+              "12485",
+              "12711",
+              "NE"
+            ],
+            "real_starters_points": [
+              24.32,
+              37.4,
+              17.9,
+              9.4,
+              10.4,
+              18.7,
+              7.4,
+              9.3,
+              13.0,
+              11.0
+            ],
+            "sim_starters_points": [
+              24.32,
+              18.18,
+              9.76,
+              5.35,
+              20.71,
+              6.42,
+              5.4,
+              18.23,
+              4.86,
+              5.74
+            ]
+          }
+        ],
+        "real_winner": 9,
+        "sim_winner": 9,
+        "flipped": false
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "Mayer Force One",
+            "real_points": 110.08,
+            "sim_points": 118.31,
+            "starters": [
+              "5870",
+              "9509",
+              "7021",
+              "11620",
+              "6819",
+              "3214",
+              "7594",
+              "5045",
+              "4227",
+              "CHI"
+            ],
+            "real_starters_points": [
+              23.18,
+              5.8,
+              5.4,
+              18.4,
+              23.5,
+              7.7,
+              9.4,
+              10.7,
+              4.0,
+              2.0
+            ],
+            "sim_starters_points": [
+              21.87,
+              28.6,
+              7.32,
+              28.1,
+              5.48,
+              4.2,
+              4.95,
+              3.86,
+              8.06,
+              5.87
+            ]
+          },
+          {
+            "roster_id": 5,
+            "name": "Bird Gang Bang ",
+            "real_points": 124.12,
+            "sim_points": 120.79,
+            "starters": [
+              "3294",
+              "4866",
+              "6806",
+              "7525",
+              "8137",
+              "5022",
+              "8144",
+              "8112",
+              "5189",
+              "PHI"
+            ],
+            "real_starters_points": [
+              8.62,
+              33.4,
+              14.1,
+              14.4,
+              14.8,
+              17.8,
+              14.0,
+              0.0,
+              1.0,
+              6.0
+            ],
+            "sim_starters_points": [
+              19.13,
+              19.86,
+              9.52,
+              6.29,
+              8.23,
+              11.59,
+              16.16,
+              4.49,
+              11.05,
+              14.47
+            ]
+          }
+        ],
+        "real_winner": 5,
+        "sim_winner": 5,
+        "flipped": false
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 6,
+            "name": "dbombrisk",
+            "real_points": 100.08,
+            "sim_points": 123.78,
+            "starters": [
+              "11563",
+              "9226",
+              "8205",
+              "7564",
+              "0",
+              "10859",
+              "4033",
+              "8408",
+              "11533",
+              "DEN"
+            ],
+            "real_starters_points": [
+              24.78,
+              20.1,
+              5.8,
+              21.1,
+              0.0,
+              0.0,
+              13.7,
+              1.6,
+              6.0,
+              7.0
+            ],
+            "sim_starters_points": [
+              12.15,
+              28.84,
+              3.9,
+              23.92,
+              0.0,
+              13.5,
+              7.25,
+              10.97,
+              8.56,
+              14.69
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "Drake Maye never play",
+            "real_points": 166.92,
+            "sim_points": 106.54,
+            "starters": [
+              "4984",
+              "6790",
+              "11647",
+              "11624",
+              "6794",
+              "1466",
+              "8134",
+              "9224",
+              "5230",
+              "IND"
+            ],
+            "real_starters_points": [
+              23.22,
+              15.1,
+              19.7,
+              10.3,
+              14.4,
+              21.9,
+              20.8,
+              25.5,
+              9.0,
+              7.0
+            ],
+            "sim_starters_points": [
+              20.95,
+              7.5,
+              8.4,
+              10.2,
+              4.29,
+              13.53,
+              18.72,
+              11.4,
+              6.6,
+              4.95
+            ]
+          }
+        ],
+        "real_winner": 10,
+        "sim_winner": 6,
+        "flipped": true
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Nabers in the ER",
+            "real_points": 125.68,
+            "sim_points": 160.51,
+            "starters": [
+              "4892",
+              "3198",
+              "12481",
+              "9500",
+              "11635",
+              "12518",
+              "9504",
+              "8110",
+              "11792",
+              "TB"
+            ],
+            "real_starters_points": [
+              4.08,
+              19.1,
+              10.0,
+              12.9,
+              20.8,
+              9.3,
+              16.5,
+              0.0,
+              5.0,
+              28.0
+            ],
+            "sim_starters_points": [
+              19.5,
+              26.65,
+              22.98,
+              5.88,
+              20.66,
+              5.18,
+              15.2,
+              21.46,
+              10.4,
+              12.6
+            ]
+          },
+          {
+            "roster_id": 3,
+            "name": "Bowers Tower",
+            "real_points": 106.62,
+            "sim_points": 126.24,
+            "starters": [
+              "1166",
+              "4034",
+              "12512",
+              "12526",
+              "12514",
+              "8111",
+              "8136",
+              "10229",
+              "7839",
+              "LAC"
+            ],
+            "real_starters_points": [
+              7.12,
+              9.8,
+              4.7,
+              16.9,
+              6.5,
+              8.0,
+              8.1,
+              25.5,
+              8.0,
+              12.0
+            ],
+            "sim_starters_points": [
+              7.12,
+              18.98,
+              15.79,
+              7.53,
+              18.38,
+              7.41,
+              8.23,
+              27.27,
+              8.53,
+              7.0
+            ]
+          }
+        ],
+        "real_winner": 1,
+        "sim_winner": 1,
+        "flipped": false
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 4,
+            "name": "Ceedeez Butterfingers",
+            "real_points": 114.96,
+            "sim_points": 80.77,
+            "starters": [
+              "6904",
+              "5967",
+              "8228",
+              "6786",
+              "5846",
+              "0",
+              "1479",
+              "8676",
+              "1945",
+              "ATL"
+            ],
+            "real_starters_points": [
+              25.36,
+              6.3,
+              9.3,
+              14.6,
+              16.5,
+              0.0,
+              8.4,
+              14.5,
+              20.0,
+              0.0
+            ],
+            "sim_starters_points": [
+              7.33,
+              9.55,
+              12.63,
+              14.77,
+              7.46,
+              0.0,
+              7.64,
+              2.17,
+              8.12,
+              11.1
+            ]
+          },
+          {
+            "roster_id": 7,
+            "name": "DjStinkyNutz",
+            "real_points": 115.18,
+            "sim_points": 103.36,
+            "starters": [
+              "6797",
+              "7567",
+              "8138",
+              "5848",
+              "7569",
+              "4144",
+              "5872",
+              "7526",
+              "6650",
+              "GB"
+            ],
+            "real_starters_points": [
+              26.28,
+              3.5,
+              33.6,
+              0.0,
+              0.0,
+              3.7,
+              4.2,
+              20.9,
+              17.0,
+              6.0
+            ],
+            "sim_starters_points": [
+              14.82,
+              7.79,
+              20.52,
+              8.13,
+              22.38,
+              5.53,
+              7.83,
+              4.43,
+              2.53,
+              9.4
+            ]
+          }
+        ],
+        "real_winner": 7,
+        "sim_winner": 7,
+        "flipped": false
+      }
+    ],
+    "9": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 5,
+            "name": "Bird Gang Bang ",
+            "real_points": 150.66,
+            "sim_points": 149.12,
+            "starters": [
+              "4881",
+              "6806",
+              "4035",
+              "6801",
+              "8137",
+              "9484",
+              "8144",
+              "8112",
+              "5189",
+              "HOU"
+            ],
+            "real_starters_points": [
+              25.56,
+              6.9,
+              0.7,
+              33.1,
+              13.9,
+              4.0,
+              8.7,
+              38.8,
+              12.0,
+              7.0
+            ],
+            "sim_starters_points": [
+              9.45,
+              14.72,
+              13.43,
+              17.78,
+              27.11,
+              10.85,
+              19.76,
+              11.77,
+              11.05,
+              13.2
+            ]
+          },
+          {
+            "roster_id": 8,
+            "name": "1stDownSyndromee",
+            "real_points": 107.3,
+            "sim_points": 91.44,
+            "starters": [
+              "4046",
+              "4199",
+              "4988",
+              "11627",
+              "9756",
+              "5012",
+              "5850",
+              "8154",
+              "8259",
+              "BUF"
+            ],
+            "real_starters_points": [
+              11.5,
+              11.8,
+              3.4,
+              8.3,
+              8.4,
+              16.6,
+              20.0,
+              11.3,
+              11.0,
+              5.0
+            ],
+            "sim_starters_points": [
+              29.42,
+              8.94,
+              3.9,
+              5.35,
+              14.16,
+              2.74,
+              13.08,
+              2.45,
+              6.75,
+              4.65
+            ]
+          }
+        ],
+        "real_winner": 5,
+        "sim_winner": 5,
+        "flipped": false
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "Mayer Force One",
+            "real_points": 127.78,
+            "sim_points": 95.06,
+            "starters": [
+              "5870",
+              "9509",
+              "7021",
+              "11620",
+              "6819",
+              "4217",
+              "8126",
+              "5045",
+              "4227",
+              "CHI"
+            ],
+            "real_starters_points": [
+              17.08,
+              17.6,
+              28.1,
+              0.0,
+              20.5,
+              6.9,
+              13.6,
+              10.0,
+              8.0,
+              6.0
+            ],
+            "sim_starters_points": [
+              13.23,
+              13.0,
+              5.4,
+              6.74,
+              15.8,
+              14.67,
+              9.23,
+              3.86,
+              5.66,
+              7.47
+            ]
+          },
+          {
+            "roster_id": 3,
+            "name": "Bowers Tower",
+            "real_points": 173.92,
+            "sim_points": 159.92,
+            "starters": [
+              "11566",
+              "4034",
+              "12534",
+              "12526",
+              "11631",
+              "11604",
+              "9753",
+              "10229",
+              "7839",
+              "LAC"
+            ],
+            "real_starters_points": [
+              16.22,
+              34.3,
+              22.8,
+              8.6,
+              8.5,
+              43.3,
+              5.6,
+              18.6,
+              10.0,
+              6.0
+            ],
+            "sim_starters_points": [
+              19.11,
+              27.38,
+              20.72,
+              3.69,
+              11.58,
+              9.98,
+              23.23,
+              22.31,
+              10.12,
+              11.8
+            ]
+          }
+        ],
+        "real_winner": 3,
+        "sim_winner": 3,
+        "flipped": false
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 4,
+            "name": "Ceedeez Butterfingers",
+            "real_points": 123.66,
+            "sim_points": 91.84,
+            "starters": [
+              "3163",
+              "4098",
+              "8228",
+              "6786",
+              "5846",
+              "7002",
+              "1479",
+              "8148",
+              "1945",
+              "ATL"
+            ],
+            "real_starters_points": [
+              19.36,
+              12.5,
+              16.9,
+              15.5,
+              2.6,
+              12.1,
+              6.1,
+              16.6,
+              10.0,
+              12.0
+            ],
+            "sim_starters_points": [
+              13.73,
+              4.53,
+              12.95,
+              20.69,
+              10.42,
+              5.01,
+              4.2,
+              7.49,
+              9.72,
+              3.1
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "Drake Maye never play",
+            "real_points": 156.12,
+            "sim_points": 133.21,
+            "starters": [
+              "4984",
+              "9224",
+              "11647",
+              "8134",
+              "6794",
+              "8130",
+              "2133",
+              "11628",
+              "5230",
+              "JAX"
+            ],
+            "real_starters_points": [
+              28.82,
+              19.2,
+              3.0,
+              11.3,
+              16.7,
+              16.5,
+              23.0,
+              22.6,
+              12.0,
+              3.0
+            ],
+            "sim_starters_points": [
+              23.23,
+              12.76,
+              18.96,
+              9.76,
+              4.85,
+              14.52,
+              21.26,
+              4.24,
+              9.0,
+              14.63
+            ]
+          }
+        ],
+        "real_winner": 10,
+        "sim_winner": 10,
+        "flipped": false
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Nabers in the ER",
+            "real_points": 123.9,
+            "sim_points": 127.3,
+            "starters": [
+              "4943",
+              "3198",
+              "8150",
+              "9488",
+              "11635",
+              "12518",
+              "9504",
+              "8110",
+              "11792",
+              "DET"
+            ],
+            "real_starters_points": [
+              28.2,
+              13.1,
+              17.4,
+              22.0,
+              9.6,
+              7.6,
+              0.0,
+              8.0,
+              11.0,
+              7.0
+            ],
+            "sim_starters_points": [
+              15.5,
+              13.37,
+              14.22,
+              33.91,
+              14.82,
+              11.74,
+              4.8,
+              3.54,
+              10.4,
+              5.0
+            ]
+          },
+          {
+            "roster_id": 7,
+            "name": "DjStinkyNutz",
+            "real_points": 138.1,
+            "sim_points": 132.55,
+            "starters": [
+              "6797",
+              "7543",
+              "8138",
+              "9493",
+              "7569",
+              "4144",
+              "9997",
+              "7526",
+              "11539",
+              "GB"
+            ],
+            "real_starters_points": [
+              28.7,
+              16.5,
+              13.5,
+              22.8,
+              14.5,
+              5.5,
+              11.4,
+              14.2,
+              6.0,
+              5.0
+            ],
+            "sim_starters_points": [
+              15.51,
+              15.55,
+              10.52,
+              27.01,
+              20.22,
+              4.09,
+              12.62,
+              14.35,
+              6.48,
+              6.2
+            ]
+          }
+        ],
+        "real_winner": 7,
+        "sim_winner": 7,
+        "flipped": false
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 6,
+            "name": "dbombrisk",
+            "real_points": 88.62,
+            "sim_points": 132.77,
+            "starters": [
+              "11563",
+              "9226",
+              "8205",
+              "7564",
+              "0",
+              "10859",
+              "4033",
+              "8408",
+              "11533",
+              "DEN"
+            ],
+            "real_starters_points": [
+              19.52,
+              16.6,
+              0.0,
+              17.1,
+              0.0,
+              21.7,
+              0.0,
+              4.7,
+              4.0,
+              5.0
+            ],
+            "sim_starters_points": [
+              23.54,
+              25.0,
+              8.22,
+              22.48,
+              0.0,
+              15.58,
+              6.93,
+              10.97,
+              9.36,
+              10.69
+            ]
+          },
+          {
+            "roster_id": 9,
+            "name": "OnlyRB\u2019s",
+            "real_points": 114.24,
+            "sim_points": 121.93,
+            "starters": [
+              "421",
+              "6813",
+              "7588",
+              "8121",
+              "2449",
+              "12493",
+              "9221",
+              "12527",
+              "12711",
+              "NE"
+            ],
+            "real_starters_points": [
+              26.84,
+              7.7,
+              7.3,
+              16.1,
+              12.8,
+              11.8,
+              5.8,
+              19.9,
+              4.0,
+              2.0
+            ],
+            "sim_starters_points": [
+              11.95,
+              27.86,
+              17.36,
+              12.47,
+              6.95,
+              4.5,
+              9.44,
+              10.4,
+              10.46,
+              10.54
+            ]
+          }
+        ],
+        "real_winner": 9,
+        "sim_winner": 6,
+        "flipped": true
+      }
+    ],
+    "10": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "Mayer Force One",
+            "real_points": 106.9,
+            "sim_points": 124.57,
+            "starters": [
+              "5870",
+              "9509",
+              "7021",
+              "8126",
+              "6819",
+              "4217",
+              "8136",
+              "5045",
+              "17",
+              "CHI"
+            ],
+            "real_starters_points": [
+              16.5,
+              10.8,
+              15.3,
+              12.2,
+              3.9,
+              23.4,
+              10.4,
+              5.4,
+              1.0,
+              8.0
+            ],
+            "sim_starters_points": [
+              21.1,
+              9.0,
+              15.24,
+              15.79,
+              13.24,
+              8.75,
+              9.99,
+              22.02,
+              6.77,
+              2.67
+            ]
+          },
+          {
+            "roster_id": 8,
+            "name": "1stDownSyndromee",
+            "real_points": 111.24,
+            "sim_points": 125.45,
+            "starters": [
+              "6804",
+              "4199",
+              "5892",
+              "7547",
+              "9756",
+              "5012",
+              "5850",
+              "8151",
+              "8259",
+              "BUF"
+            ],
+            "real_starters_points": [
+              7.84,
+              15.9,
+              10.1,
+              16.8,
+              6.5,
+              10.4,
+              19.7,
+              8.0,
+              13.0,
+              3.0
+            ],
+            "sim_starters_points": [
+              15.98,
+              14.54,
+              8.44,
+              20.61,
+              8.96,
+              14.82,
+              18.92,
+              4.58,
+              4.35,
+              14.25
+            ]
+          }
+        ],
+        "real_winner": 8,
+        "sim_winner": 8,
+        "flipped": false
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Nabers in the ER",
+            "real_points": 138.42,
+            "sim_points": 122.71,
+            "starters": [
+              "4943",
+              "3198",
+              "8150",
+              "9488",
+              "11635",
+              "12518",
+              "5859",
+              "8155",
+              "2747",
+              "DET"
+            ],
+            "real_starters_points": [
+              5.92,
+              11.4,
+              22.4,
+              20.3,
+              20.7,
+              17.9,
+              3.3,
+              19.5,
+              15.0,
+              2.0
+            ],
+            "sim_starters_points": [
+              7.38,
+              11.29,
+              16.46,
+              20.71,
+              13.38,
+              5.18,
+              12.62,
+              8.36,
+              14.33,
+              13.0
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "Drake Maye never play",
+            "real_points": 156.34,
+            "sim_points": 139.29,
+            "starters": [
+              "4984",
+              "6790",
+              "12529",
+              "8134",
+              "6794",
+              "8130",
+              "2133",
+              "11628",
+              "5230",
+              "CLE"
+            ],
+            "real_starters_points": [
+              20.34,
+              14.8,
+              28.0,
+              12.8,
+              7.7,
+              27.7,
+              19.7,
+              14.3,
+              6.0,
+              5.0
+            ],
+            "sim_starters_points": [
+              35.69,
+              10.06,
+              6.83,
+              11.12,
+              14.21,
+              21.48,
+              15.66,
+              4.24,
+              11.4,
+              8.6
+            ]
+          }
+        ],
+        "real_winner": 10,
+        "sim_winner": 10,
+        "flipped": false
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 4,
+            "name": "Ceedeez Butterfingers",
+            "real_points": 118.02,
+            "sim_points": 120.98,
+            "starters": [
+              "6904",
+              "11199",
+              "8228",
+              "8146",
+              "5846",
+              "7002",
+              "1479",
+              "8148",
+              "1945",
+              "SEA"
+            ],
+            "real_starters_points": [
+              12.02,
+              13.4,
+              11.1,
+              0.0,
+              6.5,
+              19.2,
+              3.9,
+              23.9,
+              5.0,
+              23.0
+            ],
+            "sim_starters_points": [
+              22.13,
+              12.67,
+              14.63,
+              6.76,
+              12.26,
+              10.93,
+              5.16,
+              18.69,
+              13.72,
+              4.03
+            ]
+          },
+          {
+            "roster_id": 6,
+            "name": "dbombrisk",
+            "real_points": 87.8,
+            "sim_points": 115.57,
+            "starters": [
+              "11563",
+              "9226",
+              "8205",
+              "7564",
+              "0",
+              "10859",
+              "4033",
+              "8408",
+              "11533",
+              "DEN"
+            ],
+            "real_starters_points": [
+              7.8,
+              40.5,
+              0.0,
+              0.0,
+              0.0,
+              10.3,
+              10.1,
+              4.1,
+              0.0,
+              15.0
+            ],
+            "sim_starters_points": [
+              23.54,
+              17.32,
+              3.74,
+              8.72,
+              0.0,
+              18.54,
+              8.77,
+              20.49,
+              6.96,
+              7.49
+            ]
+          }
+        ],
+        "real_winner": 4,
+        "sim_winner": 4,
+        "flipped": false
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Bowers Tower",
+            "real_points": 133.5,
+            "sim_points": 130.56,
+            "starters": [
+              "11560",
+              "4034",
+              "12512",
+              "12526",
+              "12514",
+              "11604",
+              "9753",
+              "12534",
+              "12713",
+              "LAC"
+            ],
+            "real_starters_points": [
+              25.1,
+              17.6,
+              10.5,
+              11.0,
+              23.5,
+              3.7,
+              14.3,
+              8.8,
+              4.0,
+              15.0
+            ],
+            "sim_starters_points": [
+              20.71,
+              27.38,
+              6.19,
+              6.09,
+              5.82,
+              10.62,
+              17.23,
+              20.72,
+              4.0,
+              11.8
+            ]
+          },
+          {
+            "roster_id": 7,
+            "name": "DjStinkyNutz",
+            "real_points": 126.0,
+            "sim_points": 134.49,
+            "starters": [
+              "6797",
+              "7543",
+              "8138",
+              "9493",
+              "7569",
+              "4144",
+              "9997",
+              "7526",
+              "6650",
+              "GB"
+            ],
+            "real_starters_points": [
+              14.7,
+              15.7,
+              10.7,
+              17.4,
+              22.6,
+              1.4,
+              12.1,
+              19.4,
+              5.0,
+              7.0
+            ],
+            "sim_starters_points": [
+              14.28,
+              10.03,
+              21.56,
+              24.29,
+              22.38,
+              5.53,
+              9.74,
+              17.95,
+              2.53,
+              6.2
+            ]
+          }
+        ],
+        "real_winner": 3,
+        "sim_winner": 7,
+        "flipped": true
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 5,
+            "name": "Bird Gang Bang ",
+            "real_points": 130.94,
+            "sim_points": 144.45,
+            "starters": [
+              "4881",
+              "6806",
+              "4866",
+              "7525",
+              "8112",
+              "5022",
+              "8144",
+              "12489",
+              "5189",
+              "HOU"
+            ],
+            "real_starters_points": [
+              16.64,
+              9.4,
+              13.1,
+              16.9,
+              24.4,
+              8.3,
+              21.4,
+              3.8,
+              1.0,
+              16.0
+            ],
+            "sim_starters_points": [
+              25.03,
+              7.84,
+              10.5,
+              17.89,
+              14.17,
+              9.11,
+              20.48,
+              19.98,
+              4.65,
+              14.8
+            ]
+          },
+          {
+            "roster_id": 9,
+            "name": "OnlyRB\u2019s",
+            "real_points": 183.5,
+            "sim_points": 112.88,
+            "starters": [
+              "421",
+              "6813",
+              "12527",
+              "8121",
+              "2449",
+              "12493",
+              "9221",
+              "7049",
+              "12711",
+              "NE"
+            ],
+            "real_starters_points": [
+              26.9,
+              49.6,
+              15.3,
+              1.5,
+              15.6,
+              4.3,
+              38.2,
+              17.1,
+              13.0,
+              2.0
+            ],
+            "sim_starters_points": [
+              11.95,
+              10.42,
+              18.8,
+              5.35,
+              20.71,
+              4.5,
+              9.44,
+              16.31,
+              11.26,
+              4.14
+            ]
+          }
+        ],
+        "real_winner": 9,
+        "sim_winner": 5,
+        "flipped": true
+      }
+    ],
+    "11": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 8,
+            "name": "1stDownSyndromee",
+            "real_points": 112.54,
+            "sim_points": 148.66,
+            "starters": [
+              "4046",
+              "4199",
+              "5892",
+              "7547",
+              "9756",
+              "5012",
+              "5850",
+              "10232",
+              "8259",
+              "BUF"
+            ],
+            "real_starters_points": [
+              14.34,
+              11.1,
+              4.7,
+              6.2,
+              10.0,
+              15.7,
+              4.0,
+              33.5,
+              8.0,
+              5.0
+            ],
+            "sim_starters_points": [
+              25.05,
+              10.86,
+              7.16,
+              15.01,
+              11.36,
+              4.26,
+              28.52,
+              31.04,
+              8.35,
+              7.05
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "Drake Maye never play",
+            "real_points": 162.28,
+            "sim_points": 123.87,
+            "starters": [
+              "4984",
+              "8228",
+              "9224",
+              "2133",
+              "6794",
+              "8130",
+              "12529",
+              "11647",
+              "4195",
+              "LAC"
+            ],
+            "real_starters_points": [
+              44.68,
+              8.7,
+              18.7,
+              7.1,
+              11.1,
+              27.5,
+              32.3,
+              3.2,
+              11.0,
+              -2.0
+            ],
+            "sim_starters_points": [
+              23.26,
+              16.63,
+              18.28,
+              8.7,
+              13.89,
+              13.48,
+              4.19,
+              8.4,
+              10.04,
+              7.0
+            ]
+          }
+        ],
+        "real_winner": 10,
+        "sim_winner": 8,
+        "flipped": true
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Nabers in the ER",
+            "real_points": 150.52,
+            "sim_points": 142.38,
+            "starters": [
+              "4892",
+              "7021",
+              "8150",
+              "9488",
+              "11635",
+              "8110",
+              "3198",
+              "8155",
+              "2747",
+              "PIT"
+            ],
+            "real_starters_points": [
+              17.82,
+              15.0,
+              16.6,
+              20.6,
+              4.3,
+              11.6,
+              20.2,
+              8.4,
+              14.0,
+              22.0
+            ],
+            "sim_starters_points": [
+              19.28,
+              10.44,
+              21.02,
+              28.39,
+              13.7,
+              11.22,
+              13.77,
+              9.32,
+              9.53,
+              5.71
+            ]
+          },
+          {
+            "roster_id": 2,
+            "name": "Mayer Force One",
+            "real_points": 69.94,
+            "sim_points": 100.52,
+            "starters": [
+              "6768",
+              "9753",
+              "8136",
+              "8126",
+              "11620",
+              "3214",
+              "12474",
+              "5045",
+              "17",
+              "KC"
+            ],
+            "real_starters_points": [
+              6.84,
+              6.7,
+              8.2,
+              7.6,
+              6.1,
+              8.5,
+              6.1,
+              9.9,
+              8.0,
+              2.0
+            ],
+            "sim_starters_points": [
+              6.84,
+              12.19,
+              4.63,
+              15.07,
+              16.18,
+              8.12,
+              12.16,
+              11.14,
+              6.77,
+              7.42
+            ]
+          }
+        ],
+        "real_winner": 1,
+        "sim_winner": 1,
+        "flipped": false
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Bowers Tower",
+            "real_points": 142.6,
+            "sim_points": 153.48,
+            "starters": [
+              "8183",
+              "4034",
+              "9509",
+              "10229",
+              "12514",
+              "11604",
+              "12512",
+              "11638",
+              "7839",
+              "BAL"
+            ],
+            "real_starters_points": [
+              19.3,
+              35.1,
+              30.3,
+              9.8,
+              9.0,
+              14.2,
+              5.9,
+              1.0,
+              8.0,
+              10.0
+            ],
+            "sim_starters_points": [
+              19.19,
+              24.1,
+              26.84,
+              11.59,
+              6.3,
+              14.3,
+              10.51,
+              13.81,
+              21.33,
+              5.51
+            ]
+          },
+          {
+            "roster_id": 6,
+            "name": "dbombrisk",
+            "real_points": 69.3,
+            "sim_points": 89.67,
+            "starters": [
+              "11563",
+              "9226",
+              "8205",
+              "7564",
+              "0",
+              "10859",
+              "4033",
+              "8408",
+              "11533",
+              "DEN"
+            ],
+            "real_starters_points": [
+              12.6,
+              21.5,
+              0.0,
+              6.0,
+              0.0,
+              0.0,
+              1.7,
+              10.5,
+              9.0,
+              8.0
+            ],
+            "sim_starters_points": [
+              9.96,
+              17.32,
+              4.46,
+              9.76,
+              0.0,
+              10.62,
+              6.21,
+              3.29,
+              21.36,
+              6.69
+            ]
+          }
+        ],
+        "real_winner": 3,
+        "sim_winner": 3,
+        "flipped": false
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 4,
+            "name": "Ceedeez Butterfingers",
+            "real_points": 107.0,
+            "sim_points": 139.88,
+            "starters": [
+              "6904",
+              "5967",
+              "4098",
+              "6786",
+              "8676",
+              "1339",
+              "1479",
+              "8148",
+              "1945",
+              "ATL"
+            ],
+            "real_starters_points": [
+              14.5,
+              5.6,
+              13.2,
+              17.6,
+              4.9,
+              8.2,
+              9.3,
+              19.7,
+              10.0,
+              4.0
+            ],
+            "sim_starters_points": [
+              23.05,
+              10.67,
+              11.48,
+              17.49,
+              2.73,
+              17.15,
+              17.64,
+              24.45,
+              9.72,
+              5.5
+            ]
+          },
+          {
+            "roster_id": 9,
+            "name": "OnlyRB\u2019s",
+            "real_points": 114.3,
+            "sim_points": 109.59,
+            "starters": [
+              "421",
+              "7588",
+              "12527",
+              "8121",
+              "2449",
+              "12493",
+              "9221",
+              "5846",
+              "12711",
+              "NE"
+            ],
+            "real_starters_points": [
+              13.2,
+              10.3,
+              9.4,
+              9.3,
+              19.5,
+              6.1,
+              19.6,
+              9.9,
+              12.0,
+              5.0
+            ],
+            "sim_starters_points": [
+              22.81,
+              8.88,
+              6.4,
+              9.43,
+              6.71,
+              2.9,
+              20.56,
+              18.1,
+              4.06,
+              9.74
+            ]
+          }
+        ],
+        "real_winner": 9,
+        "sim_winner": 4,
+        "flipped": true
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 5,
+            "name": "Bird Gang Bang ",
+            "real_points": 116.52,
+            "sim_points": 147.53,
+            "starters": [
+              "4881",
+              "12489",
+              "4866",
+              "7525",
+              "8112",
+              "5022",
+              "8137",
+              "6801",
+              "5189",
+              "HOU"
+            ],
+            "real_starters_points": [
+              6.72,
+              8.0,
+              10.0,
+              1.8,
+              18.9,
+              4.4,
+              29.4,
+              15.3,
+              12.0,
+              10.0
+            ],
+            "sim_starters_points": [
+              21.06,
+              5.82,
+              7.06,
+              5.97,
+              14.17,
+              18.23,
+              28.87,
+              29.3,
+              2.25,
+              14.8
+            ]
+          },
+          {
+            "roster_id": 7,
+            "name": "DjStinkyNutz",
+            "real_points": 142.74,
+            "sim_points": 146.6,
+            "starters": [
+              "6797",
+              "7543",
+              "8138",
+              "9493",
+              "7569",
+              "4217",
+              "9997",
+              "7526",
+              "6650",
+              "GB"
+            ],
+            "real_starters_points": [
+              4.34,
+              19.3,
+              20.4,
+              14.3,
+              24.2,
+              24.7,
+              11.3,
+              8.2,
+              8.0,
+              8.0
+            ],
+            "sim_starters_points": [
+              24.77,
+              6.83,
+              14.36,
+              41.89,
+              20.22,
+              11.79,
+              5.5,
+              6.11,
+              6.53,
+              8.6
+            ]
+          }
+        ],
+        "real_winner": 7,
+        "sim_winner": 5,
+        "flipped": true
+      }
+    ],
+    "12": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Nabers in the ER",
+            "real_points": 153.74,
+            "sim_points": 126.66,
+            "starters": [
+              "4892",
+              "7021",
+              "8150",
+              "9488",
+              "5859",
+              "12518",
+              "9506",
+              "3198",
+              "2747",
+              "CLE"
+            ],
+            "real_starters_points": [
+              5.54,
+              11.4,
+              5.8,
+              37.1,
+              25.0,
+              9.5,
+              5.6,
+              22.8,
+              13.0,
+              18.0
+            ],
+            "sim_starters_points": [
+              21.42,
+              10.92,
+              16.38,
+              20.47,
+              14.14,
+              11.74,
+              8.57,
+              11.29,
+              9.53,
+              2.2
+            ]
+          },
+          {
+            "roster_id": 8,
+            "name": "1stDownSyndromee",
+            "real_points": 107.68,
+            "sim_points": 173.93,
+            "starters": [
+              "4046",
+              "4199",
+              "8151",
+              "7547",
+              "9756",
+              "5012",
+              "5850",
+              "10232",
+              "2020",
+              "BUF"
+            ],
+            "real_starters_points": [
+              18.08,
+              8.7,
+              13.1,
+              29.9,
+              0.0,
+              2.1,
+              0.0,
+              21.8,
+              8.0,
+              6.0
+            ],
+            "sim_starters_points": [
+              27.79,
+              14.22,
+              18.34,
+              20.61,
+              8.8,
+              23.22,
+              7.0,
+              34.0,
+              8.1,
+              11.85
+            ]
+          }
+        ],
+        "real_winner": 1,
+        "sim_winner": 8,
+        "flipped": true
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "Mayer Force One",
+            "real_points": 124.54,
+            "sim_points": 105.66,
+            "starters": [
+              "5870",
+              "9753",
+              "8136",
+              "8126",
+              "11620",
+              "3214",
+              "12474",
+              "6819",
+              "17",
+              "KC"
+            ],
+            "real_starters_points": [
+              16.84,
+              9.5,
+              5.2,
+              30.6,
+              8.3,
+              24.5,
+              7.9,
+              13.7,
+              7.0,
+              1.0
+            ],
+            "sim_starters_points": [
+              16.52,
+              9.87,
+              8.07,
+              8.91,
+              7.54,
+              9.24,
+              24.48,
+              13.24,
+              5.17,
+              2.62
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "Drake Maye never play",
+            "real_points": 105.82,
+            "sim_points": 161.29,
+            "starters": [
+              "4984",
+              "12529",
+              "9224",
+              "2133",
+              "6794",
+              "8130",
+              "8228",
+              "6790",
+              "4195",
+              "DET"
+            ],
+            "real_starters_points": [
+              10.12,
+              11.1,
+              15.0,
+              23.2,
+              8.8,
+              16.9,
+              12.8,
+              1.9,
+              2.0,
+              4.0
+            ],
+            "sim_starters_points": [
+              23.26,
+              24.83,
+              26.6,
+              20.62,
+              11.25,
+              11.0,
+              25.99,
+              7.5,
+              6.04,
+              4.2
+            ]
+          }
+        ],
+        "real_winner": 2,
+        "sim_winner": 10,
+        "flipped": true
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 6,
+            "name": "dbombrisk",
+            "real_points": 10.2,
+            "sim_points": 93.33,
+            "starters": [
+              "11563",
+              "9226",
+              "8205",
+              "7564",
+              "0",
+              "10859",
+              "4033",
+              "8408",
+              "11533",
+              "DEN"
+            ],
+            "real_starters_points": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              4.2,
+              6.0,
+              0.0
+            ],
+            "sim_starters_points": [
+              16.5,
+              14.28,
+              12.14,
+              19.84,
+              0.0,
+              7.9,
+              6.93,
+              2.89,
+              5.36,
+              7.49
+            ]
+          },
+          {
+            "roster_id": 7,
+            "name": "DjStinkyNutz",
+            "real_points": 141.44,
+            "sim_points": 142.26,
+            "starters": [
+              "7523",
+              "7543",
+              "8138",
+              "11624",
+              "7569",
+              "4217",
+              "9997",
+              "9493",
+              "6650",
+              "GB"
+            ],
+            "real_starters_points": [
+              20.14,
+              20.6,
+              21.9,
+              9.9,
+              8.5,
+              13.8,
+              11.9,
+              16.7,
+              1.0,
+              17.0
+            ],
+            "sim_starters_points": [
+              14.02,
+              19.47,
+              10.52,
+              8.76,
+              9.98,
+              22.99,
+              5.5,
+              33.49,
+              11.33,
+              6.2
+            ]
+          }
+        ],
+        "real_winner": 7,
+        "sim_winner": 7,
+        "flipped": false
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 4,
+            "name": "Ceedeez Butterfingers",
+            "real_points": 101.16,
+            "sim_points": 114.6,
+            "starters": [
+              "3163",
+              "5967",
+              "4098",
+              "6786",
+              "8676",
+              "8111",
+              "5970",
+              "8148",
+              "1945",
+              "ATL"
+            ],
+            "real_starters_points": [
+              18.16,
+              8.1,
+              20.0,
+              11.5,
+              0.5,
+              6.1,
+              16.8,
+              0.0,
+              4.0,
+              16.0
+            ],
+            "sim_starters_points": [
+              19.68,
+              10.35,
+              1.65,
+              19.25,
+              18.89,
+              19.49,
+              4.74,
+              4.53,
+              12.92,
+              3.1
+            ]
+          },
+          {
+            "roster_id": 5,
+            "name": "Bird Gang Bang ",
+            "real_points": 127.72,
+            "sim_points": 130.13,
+            "starters": [
+              "4881",
+              "4035",
+              "4866",
+              "7525",
+              "6801",
+              "5022",
+              "8137",
+              "8144",
+              "4227",
+              "HOU"
+            ],
+            "real_starters_points": [
+              7.22,
+              3.5,
+              12.4,
+              14.9,
+              8.1,
+              4.0,
+              29.6,
+              16.0,
+              16.0,
+              16.0
+            ],
+            "sim_starters_points": [
+              16.73,
+              13.43,
+              10.5,
+              17.89,
+              15.06,
+              11.59,
+              14.39,
+              20.48,
+              6.46,
+              3.6
+            ]
+          }
+        ],
+        "real_winner": 5,
+        "sim_winner": 5,
+        "flipped": false
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Bowers Tower",
+            "real_points": 147.22,
+            "sim_points": 163.53,
+            "starters": [
+              "8183",
+              "12512",
+              "9509",
+              "10229",
+              "12514",
+              "11604",
+              "4034",
+              "12526",
+              "7839",
+              "BAL"
+            ],
+            "real_starters_points": [
+              10.32,
+              16.7,
+              14.7,
+              24.1,
+              6.2,
+              11.5,
+              27.2,
+              11.5,
+              13.0,
+              12.0
+            ],
+            "sim_starters_points": [
+              29.68,
+              15.15,
+              10.2,
+              13.43,
+              21.18,
+              10.78,
+              30.98,
+              11.69,
+              8.53,
+              11.91
+            ]
+          },
+          {
+            "roster_id": 9,
+            "name": "OnlyRB\u2019s",
+            "real_points": 173.82,
+            "sim_points": 158.47,
+            "starters": [
+              "421",
+              "7588",
+              "6813",
+              "5846",
+              "2449",
+              "7002",
+              "9221",
+              "12527",
+              "12711",
+              "NE"
+            ],
+            "real_starters_points": [
+              22.92,
+              12.1,
+              8.6,
+              14.4,
+              4.0,
+              10.6,
+              55.4,
+              24.8,
+              11.0,
+              10.0
+            ],
+            "sim_starters_points": [
+              24.92,
+              12.71,
+              34.18,
+              15.7,
+              12.71,
+              10.29,
+              20.56,
+              8.8,
+              11.26,
+              7.34
+            ]
+          }
+        ],
+        "real_winner": 9,
+        "sim_winner": 3,
+        "flipped": true
+      }
+    ],
+    "13": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 6,
+            "name": "dbombrisk",
+            "real_points": 86.34,
+            "sim_points": 117.91,
+            "starters": [
+              "11563",
+              "9226",
+              "8205",
+              "7564",
+              "0",
+              "10859",
+              "4033",
+              "8408",
+              "11533",
+              "DEN"
+            ],
+            "real_starters_points": [
+              17.44,
+              19.4,
+              5.3,
+              18.0,
+              0.0,
+              0.0,
+              2.4,
+              5.8,
+              12.0,
+              6.0
+            ],
+            "sim_starters_points": [
+              13.8,
+              20.12,
+              8.22,
+              18.32,
+              0.0,
+              7.9,
+              6.21,
+              3.29,
+              20.56,
+              19.49
+            ]
+          },
+          {
+            "roster_id": 8,
+            "name": "1stDownSyndromee",
+            "real_points": 103.34,
+            "sim_points": 117.92,
+            "starters": [
+              "4046",
+              "4199",
+              "8151",
+              "7547",
+              "9756",
+              "5012",
+              "5850",
+              "10232",
+              "8259",
+              "BUF"
+            ],
+            "real_starters_points": [
+              29.44,
+              4.5,
+              10.4,
+              0.0,
+              8.6,
+              8.7,
+              10.1,
+              6.6,
+              9.0,
+              16.0
+            ],
+            "sim_starters_points": [
+              26.41,
+              5.58,
+              12.74,
+              17.49,
+              12.08,
+              2.66,
+              11.24,
+              9.52,
+              12.35,
+              7.85
+            ]
+          }
+        ],
+        "real_winner": 8,
+        "sim_winner": 8,
+        "flipped": false
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "Mayer Force One",
+            "real_points": 86.94,
+            "sim_points": 100.92,
+            "starters": [
+              "5870",
+              "9753",
+              "11584",
+              "8126",
+              "11620",
+              "3214",
+              "12474",
+              "6819",
+              "17",
+              "KC"
+            ],
+            "real_starters_points": [
+              16.14,
+              11.2,
+              16.1,
+              10.4,
+              2.8,
+              11.3,
+              7.7,
+              2.3,
+              7.0,
+              2.0
+            ],
+            "sim_starters_points": [
+              16.52,
+              13.71,
+              8.45,
+              6.83,
+              14.82,
+              11.0,
+              12.16,
+              8.04,
+              6.77,
+              2.62
+            ]
+          },
+          {
+            "roster_id": 4,
+            "name": "Ceedeez Butterfingers",
+            "real_points": 147.9,
+            "sim_points": 112.31,
+            "starters": [
+              "6904",
+              "7567",
+              "4098",
+              "6786",
+              "1479",
+              "1339",
+              "5970",
+              "8148",
+              "1945",
+              "SEA"
+            ],
+            "real_starters_points": [
+              17.3,
+              6.5,
+              9.0,
+              24.2,
+              7.0,
+              20.6,
+              3.4,
+              26.9,
+              1.0,
+              32.0
+            ],
+            "sim_starters_points": [
+              17.65,
+              5.15,
+              1.65,
+              19.25,
+              6.92,
+              17.15,
+              4.74,
+              24.45,
+              4.12,
+              11.23
+            ]
+          }
+        ],
+        "real_winner": 4,
+        "sim_winner": 4,
+        "flipped": false
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Bowers Tower",
+            "real_points": 177.92,
+            "sim_points": 147.54,
+            "starters": [
+              "8183",
+              "12512",
+              "9509",
+              "10229",
+              "12514",
+              "11604",
+              "4034",
+              "12526",
+              "7839",
+              "LAR"
+            ],
+            "real_starters_points": [
+              17.12,
+              15.9,
+              30.3,
+              29.4,
+              8.2,
+              22.3,
+              17.4,
+              11.3,
+              24.0,
+              2.0
+            ],
+            "sim_starters_points": [
+              19.19,
+              10.51,
+              20.2,
+              23.03,
+              5.1,
+              14.62,
+              23.06,
+              16.01,
+              8.53,
+              7.29
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "Drake Maye never play",
+            "real_points": 129.12,
+            "sim_points": 156.43,
+            "starters": [
+              "4984",
+              "12529",
+              "9224",
+              "2133",
+              "6794",
+              "8130",
+              "8228",
+              "11647",
+              "4195",
+              "DET"
+            ],
+            "real_starters_points": [
+              17.72,
+              11.6,
+              18.3,
+              21.8,
+              2.4,
+              22.2,
+              12.4,
+              20.7,
+              2.0,
+              0.0
+            ],
+            "sim_starters_points": [
+              21.02,
+              16.27,
+              10.12,
+              14.86,
+              13.89,
+              33.64,
+              7.83,
+              18.16,
+              2.84,
+              17.8
+            ]
+          }
+        ],
+        "real_winner": 3,
+        "sim_winner": 10,
+        "flipped": true
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Nabers in the ER",
+            "real_points": 143.14,
+            "sim_points": 153.95,
+            "starters": [
+              "3257",
+              "7021",
+              "8150",
+              "9488",
+              "5859",
+              "8110",
+              "11635",
+              "3198",
+              "2747",
+              "CLE"
+            ],
+            "real_starters_points": [
+              20.64,
+              9.9,
+              13.2,
+              4.3,
+              35.2,
+              8.6,
+              13.9,
+              17.4,
+              19.0,
+              1.0
+            ],
+            "sim_starters_points": [
+              20.1,
+              28.92,
+              17.02,
+              14.63,
+              5.58,
+              15.94,
+              13.38,
+              19.45,
+              10.33,
+              8.6
+            ]
+          },
+          {
+            "roster_id": 5,
+            "name": "Bird Gang Bang ",
+            "real_points": 102.44,
+            "sim_points": 147.47,
+            "starters": [
+              "4881",
+              "12489",
+              "4866",
+              "7525",
+              "5872",
+              "5022",
+              "8137",
+              "8144",
+              "3451",
+              "HOU"
+            ],
+            "real_starters_points": [
+              7.54,
+              21.2,
+              5.6,
+              9.8,
+              11.1,
+              4.7,
+              16.8,
+              14.7,
+              9.0,
+              2.0
+            ],
+            "sim_starters_points": [
+              20.55,
+              5.1,
+              29.62,
+              5.97,
+              21.35,
+              16.71,
+              12.87,
+              12.48,
+              9.62,
+              13.2
+            ]
+          }
+        ],
+        "real_winner": 1,
+        "sim_winner": 1,
+        "flipped": false
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 7,
+            "name": "DjStinkyNutz",
+            "real_points": 112.64,
+            "sim_points": 120.12,
+            "starters": [
+              "6797",
+              "7543",
+              "8138",
+              "7526",
+              "7569",
+              "4217",
+              "9997",
+              "9493",
+              "11539",
+              "JAX"
+            ],
+            "real_starters_points": [
+              13.84,
+              5.1,
+              18.7,
+              7.0,
+              21.5,
+              10.7,
+              0.6,
+              13.2,
+              6.0,
+              16.0
+            ],
+            "sim_starters_points": [
+              12.87,
+              16.27,
+              18.52,
+              8.03,
+              8.38,
+              9.55,
+              9.74,
+              17.25,
+              7.28,
+              12.23
+            ]
+          },
+          {
+            "roster_id": 9,
+            "name": "OnlyRB\u2019s",
+            "real_points": 103.12,
+            "sim_points": 187.23,
+            "starters": [
+              "421",
+              "7588",
+              "6813",
+              "5846",
+              "2449",
+              "7002",
+              "9221",
+              "12527",
+              "12711",
+              "NE"
+            ],
+            "real_starters_points": [
+              13.62,
+              17.0,
+              15.1,
+              6.2,
+              5.6,
+              8.9,
+              11.6,
+              12.1,
+              2.0,
+              11.0
+            ],
+            "sim_starters_points": [
+              15.03,
+              23.04,
+              27.86,
+              11.3,
+              20.71,
+              15.57,
+              33.92,
+              15.6,
+              12.06,
+              12.14
+            ]
+          }
+        ],
+        "real_winner": 7,
+        "sim_winner": 9,
+        "flipped": true
+      }
+    ],
+    "14": [
+      {
+        "matchup_id": 1,
+        "teams": [
+          {
+            "roster_id": 4,
+            "name": "Ceedeez Butterfingers",
+            "real_points": 114.3,
+            "sim_points": 115.45,
+            "starters": [
+              "6904",
+              "7567",
+              "4098",
+              "6786",
+              "8142",
+              "1339",
+              "1479",
+              "8148",
+              "1945",
+              "SEA"
+            ],
+            "real_starters_points": [
+              4.4,
+              16.2,
+              9.0,
+              18.1,
+              13.0,
+              2.1,
+              5.2,
+              17.3,
+              9.0,
+              20.0
+            ],
+            "sim_starters_points": [
+              13.05,
+              10.03,
+              17.48,
+              12.29,
+              5.93,
+              15.47,
+              8.76,
+              7.49,
+              13.72,
+              11.23
+            ]
+          },
+          {
+            "roster_id": 8,
+            "name": "1stDownSyndromee",
+            "real_points": 132.4,
+            "sim_points": 139.11,
+            "starters": [
+              "4046",
+              "4199",
+              "8151",
+              "7547",
+              "9756",
+              "5012",
+              "5850",
+              "10232",
+              "8259",
+              "BUF"
+            ],
+            "real_starters_points": [
+              9.3,
+              7.6,
+              3.8,
+              15.2,
+              10.2,
+              1.9,
+              17.2,
+              37.2,
+              20.0,
+              10.0
+            ],
+            "sim_starters_points": [
+              11.68,
+              9.58,
+              8.66,
+              24.85,
+              10.08,
+              3.06,
+              28.76,
+              31.04,
+              5.95,
+              5.45
+            ]
+          }
+        ],
+        "real_winner": 8,
+        "sim_winner": 8,
+        "flipped": false
+      },
+      {
+        "matchup_id": 2,
+        "teams": [
+          {
+            "roster_id": 2,
+            "name": "Mayer Force One",
+            "real_points": 87.9,
+            "sim_points": 98.18,
+            "starters": [
+              "5870",
+              "9753",
+              "11584",
+              "5045",
+              "11620",
+              "11603",
+              "12474",
+              "6819",
+              "17",
+              "KC"
+            ],
+            "real_starters_points": [
+              1.8,
+              8.6,
+              16.1,
+              12.2,
+              0.0,
+              5.7,
+              15.6,
+              16.9,
+              7.0,
+              4.0
+            ],
+            "sim_starters_points": [
+              16.99,
+              10.83,
+              11.41,
+              15.94,
+              6.82,
+              12.36,
+              8.96,
+              5.48,
+              6.77,
+              2.62
+            ]
+          },
+          {
+            "roster_id": 6,
+            "name": "dbombrisk",
+            "real_points": 99.98,
+            "sim_points": 106.96,
+            "starters": [
+              "11563",
+              "9226",
+              "8205",
+              "7564",
+              "0",
+              "10859",
+              "4033",
+              "8408",
+              "11533",
+              "DEN"
+            ],
+            "real_starters_points": [
+              15.98,
+              17.5,
+              3.0,
+              10.2,
+              0.0,
+              0.0,
+              7.1,
+              11.2,
+              24.0,
+              11.0
+            ],
+            "sim_starters_points": [
+              14.45,
+              19.0,
+              6.22,
+              19.84,
+              0.0,
+              6.86,
+              8.77,
+              10.97,
+              6.96,
+              13.89
+            ]
+          }
+        ],
+        "real_winner": 6,
+        "sim_winner": 6,
+        "flipped": false
+      },
+      {
+        "matchup_id": 3,
+        "teams": [
+          {
+            "roster_id": 7,
+            "name": "DjStinkyNutz",
+            "real_points": 180.36,
+            "sim_points": 132.95,
+            "starters": [
+              "6797",
+              "7543",
+              "8138",
+              "7526",
+              "7569",
+              "12506",
+              "9997",
+              "9493",
+              "11539",
+              "GB"
+            ],
+            "real_starters_points": [
+              13.16,
+              21.2,
+              11.1,
+              18.1,
+              16.1,
+              25.4,
+              20.6,
+              35.7,
+              15.0,
+              4.0
+            ],
+            "sim_starters_points": [
+              27.67,
+              7.07,
+              20.52,
+              14.35,
+              21.1,
+              11.77,
+              3.34,
+              15.25,
+              4.88,
+              7.0
+            ]
+          },
+          {
+            "roster_id": 10,
+            "name": "Drake Maye never play",
+            "real_points": 128.14,
+            "sim_points": 171.78,
+            "starters": [
+              "4984",
+              "8228",
+              "9224",
+              "2133",
+              "6794",
+              "8130",
+              "6790",
+              "8134",
+              "11786",
+              "PIT"
+            ],
+            "real_starters_points": [
+              37.84,
+              15.2,
+              18.5,
+              6.9,
+              3.1,
+              10.8,
+              11.2,
+              9.6,
+              11.0,
+              4.0
+            ],
+            "sim_starters_points": [
+              40.43,
+              7.83,
+              18.12,
+              21.26,
+              20.45,
+              25.88,
+              13.98,
+              7.12,
+              11.8,
+              4.91
+            ]
+          }
+        ],
+        "real_winner": 7,
+        "sim_winner": 10,
+        "flipped": true
+      },
+      {
+        "matchup_id": 4,
+        "teams": [
+          {
+            "roster_id": 1,
+            "name": "Nabers in the ER",
+            "real_points": 127.16,
+            "sim_points": 132.63,
+            "starters": [
+              "7523",
+              "8155",
+              "3198",
+              "9488",
+              "5859",
+              "12518",
+              "8110",
+              "8150",
+              "2747",
+              "CLE"
+            ],
+            "real_starters_points": [
+              19.36,
+              4.3,
+              11.2,
+              28.1,
+              16.0,
+              3.7,
+              10.8,
+              17.7,
+              14.0,
+              2.0
+            ],
+            "sim_starters_points": [
+              14.02,
+              18.2,
+              19.45,
+              20.71,
+              14.14,
+              11.74,
+              8.74,
+              9.9,
+              12.73,
+              3.0
+            ]
+          },
+          {
+            "roster_id": 9,
+            "name": "OnlyRB\u2019s",
+            "real_points": 142.44,
+            "sim_points": 108.54,
+            "starters": [
+              "421",
+              "7588",
+              "6813",
+              "5846",
+              "5872",
+              "7002",
+              "9221",
+              "12527",
+              "12711",
+              "TB"
+            ],
+            "real_starters_points": [
+              23.24,
+              14.7,
+              11.4,
+              21.8,
+              6.7,
+              7.8,
+              37.0,
+              5.8,
+              9.0,
+              5.0
+            ],
+            "sim_starters_points": [
+              24.92,
+              9.76,
+              15.94,
+              7.7,
+              6.39,
+              10.53,
+              9.44,
+              6.4,
+              10.46,
+              7.0
+            ]
+          }
+        ],
+        "real_winner": 9,
+        "sim_winner": 1,
+        "flipped": true
+      },
+      {
+        "matchup_id": 5,
+        "teams": [
+          {
+            "roster_id": 3,
+            "name": "Bowers Tower",
+            "real_points": 73.82,
+            "sim_points": 141.97,
+            "starters": [
+              "11566",
+              "12512",
+              "9509",
+              "10229",
+              "12514",
+              "11604",
+              "5927",
+              "12534",
+              "7839",
+              "LAR"
+            ],
+            "real_starters_points": [
+              3.72,
+              9.4,
+              9.4,
+              7.4,
+              3.5,
+              14.6,
+              7.1,
+              8.7,
+              4.0,
+              6.0
+            ],
+            "sim_starters_points": [
+              6.33,
+              10.51,
+              27.96,
+              11.59,
+              12.62,
+              37.58,
+              6.04,
+              9.52,
+              8.53,
+              11.29
+            ]
+          },
+          {
+            "roster_id": 5,
+            "name": "Bird Gang Bang ",
+            "real_points": 144.74,
+            "sim_points": 140.59,
+            "starters": [
+              "3294",
+              "12489",
+              "4866",
+              "7525",
+              "6801",
+              "9480",
+              "8137",
+              "5947",
+              "3451",
+              "HOU"
+            ],
+            "real_starters_points": [
+              20.44,
+              22.0,
+              18.2,
+              7.7,
+              27.2,
+              5.7,
+              8.7,
+              14.8,
+              8.0,
+              12.0
+            ],
+            "sim_starters_points": [
+              21.94,
+              8.7,
+              16.82,
+              13.89,
+              24.58,
+              12.7,
+              17.67,
+              9.47,
+              4.82,
+              10.0
+            ]
+          }
+        ],
+        "real_winner": 5,
+        "sim_winner": 3,
+        "flipped": true
+      }
+    ]
+  }
+}
