@@ -1410,6 +1410,157 @@
     }
 
     /* =====================================================================
+       CINEMATIC MODE
+    ===================================================================== */
+    .ss-cinematic-btn {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      background: none;
+      border: 1px solid var(--border-hi);
+      color: var(--text-faint);
+      padding: 5px 10px;
+      border-radius: var(--radius);
+      cursor: pointer;
+      transition: all 0.15s;
+      margin-left: 4px;
+    }
+    .ss-cinematic-btn:hover { border-color: var(--teal); color: var(--teal); }
+    .ss-cinematic-btn.active {
+      background: rgba(20,184,166,0.1);
+      border-color: var(--teal);
+      color: var(--teal);
+      text-shadow: 0 0 8px var(--teal-glow);
+    }
+
+    /* Big play row highlight */
+    .ss-player-row.big-play {
+      background: rgba(240,180,41,0.1) !important;
+      border-color: var(--gold) !important;
+    }
+    .ss-big-play-badge {
+      font-family: var(--font-lcd);
+      font-size: 13px;
+      color: var(--gold);
+      text-shadow: 0 0 8px var(--gold-glow);
+      white-space: nowrap;
+      display: block;
+      margin-top: 1px;
+      animation: bigPlayIn 0.4s cubic-bezier(.34,1.56,.64,1);
+    }
+    @keyframes bigPlayIn {
+      from { opacity: 0; transform: scale(0.4); }
+      to   { opacity: 1; transform: scale(1); }
+    }
+
+    /* Quarter break banner */
+    .ss-quarter-banner {
+      text-align: center;
+      font-family: var(--font-lcd);
+      font-size: 16px;
+      letter-spacing: 5px;
+      color: var(--teal);
+      text-shadow: 0 0 12px var(--teal-glow);
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.25s ease, padding 0.25s ease, opacity 0.25s ease;
+      opacity: 0;
+      border-top: 1px solid transparent;
+      border-bottom: 1px solid transparent;
+      margin-bottom: 0;
+    }
+    .ss-quarter-banner.active {
+      max-height: 36px;
+      padding: 7px 0;
+      opacity: 1;
+      border-color: var(--border-hi);
+      margin-bottom: 8px;
+    }
+
+    /* Winner overlay */
+    .ss-winner-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(6,9,15,0.9);
+      z-index: 150;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 8px;
+      backdrop-filter: blur(8px);
+      animation: overlayIn 0.5s ease;
+    }
+    .ss-winner-overlay.visible { display: flex; }
+    @keyframes overlayIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+    .ss-winner-eyebrow {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: var(--text-faint);
+      margin-bottom: 4px;
+    }
+    .ss-winner-name {
+      font-family: var(--font-lcd);
+      font-size: 52px;
+      color: var(--gold);
+      text-align: center;
+      padding: 0 24px;
+      text-shadow: 0 0 20px var(--gold-glow), 0 0 60px rgba(240,180,41,0.2);
+      animation: winnerPulse 1.8s ease-in-out infinite alternate;
+      line-height: 1;
+    }
+    @keyframes winnerPulse {
+      from { text-shadow: 0 0 15px var(--gold-glow); }
+      to   { text-shadow: 0 0 40px var(--gold-glow), 0 0 80px rgba(240,180,41,0.3); }
+    }
+    .ss-winner-score {
+      font-family: var(--font-lcd);
+      font-size: 28px;
+      color: var(--text-dim);
+      letter-spacing: 4px;
+      margin-top: 4px;
+    }
+    .ss-winner-margin {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--text-faint);
+      letter-spacing: 2px;
+      margin-top: 2px;
+    }
+    .ss-winner-flip {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--red);
+      letter-spacing: 1px;
+      margin-top: 6px;
+      padding: 4px 12px;
+      border: 1px solid var(--red);
+      border-radius: var(--radius);
+      background: rgba(239,68,68,0.08);
+    }
+    .ss-winner-close {
+      margin-top: 24px;
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      background: none;
+      border: 1px solid var(--border-hi);
+      color: var(--text-dim);
+      padding: 8px 24px;
+      cursor: pointer;
+      border-radius: var(--radius);
+      transition: all 0.15s;
+    }
+    .ss-winner-close:hover { border-color: var(--gold); color: var(--gold); }
+
+    /* =====================================================================
        RESPONSIVE
     ===================================================================== */
     @media (max-width: 600px) {
@@ -1565,6 +1716,7 @@
           <button class="ss-mode-btn active" id="ss-mode-auto">Fast</button>
           <button class="ss-mode-btn" id="ss-mode-step">Step</button>
         </div>
+        <button class="ss-cinematic-btn" id="ss-cinematic-btn" title="Toggle cinematic mode">✦ CINEMATIC</button>
       </div>
 
       <!-- Scoreboard -->
@@ -1596,11 +1748,24 @@
         <div class="ss-progress-fill" id="ss-progress" style="width:0%"></div>
       </div>
 
+      <!-- Quarter break banner (cinematic mode) -->
+      <div class="ss-quarter-banner" id="ss-quarter-banner"></div>
+
       <!-- Player rows -->
       <div class="ss-matchup-grid" id="ss-matchup-grid">
         <div style="color:var(--text-faint);font-family:var(--font-mono);font-size:11px;padding:20px">Select a matchup above</div>
         <div></div>
       </div>
+    </div>
+
+    <!-- Cinematic winner overlay (outside supersim div, fixed position) -->
+    <div class="ss-winner-overlay" id="ss-winner-overlay">
+      <div class="ss-winner-eyebrow">SIM WINNER</div>
+      <div class="ss-winner-name" id="ss-winner-name">—</div>
+      <div class="ss-winner-score" id="ss-winner-score">0.0 – 0.0</div>
+      <div class="ss-winner-margin" id="ss-winner-margin"></div>
+      <div class="ss-winner-flip" id="ss-winner-flip" style="display:none">⚡ OUTCOME FLIPPED — sim winner differs from reality</div>
+      <button class="ss-winner-close" id="ss-winner-close">DISMISS</button>
     </div>
 
     <div id="view-dashboard" class="view">
@@ -1964,6 +2129,7 @@ const ss = {
   mode: 'auto',       // 'auto' | 'step'
   timer: null,
   speed: 600,         // ms per player in fast mode
+  cinematic: false,   // cinematic mode toggle
 };
 
 function ssInit() {
@@ -1978,6 +2144,7 @@ function ssInit() {
           name: p.name,
           position: p.position,
           team: p.team,
+          avg_score: p.avg_score || 0,
         };
       });
     });
@@ -2156,6 +2323,20 @@ function ssResolveNext() {
     scoreEl.classList.add('revealed');
   }
 
+  // Cinematic: big play detection (score > 1.5× season avg and ≥ 10 pts)
+  if (ss.cinematic && row && scoreEl) {
+    const pid = team.starters ? team.starters[slotIdx] : null;
+    const playerData = pid ? (ss.playerMap[pid] || {}) : {};
+    const avg = playerData.avg_score || 0;
+    if (avg > 0 && simPts >= 10 && simPts > 1.5 * avg) {
+      row.classList.add('big-play');
+      const badge = document.createElement('span');
+      badge.className = 'ss-big-play-badge';
+      badge.textContent = '⚡ BIG WEEK';
+      scoreEl.parentElement.appendChild(badge);
+    }
+  }
+
   // Animate bar fill
   const bar = document.getElementById(`ss-bar-${teamIdx}-${slotIdx}`);
   if (bar) {
@@ -2180,11 +2361,33 @@ function ssResolveNext() {
 
 function ssFinish() {
   ssStop();
-  // Show flip alert if outcome differs from reality
-  if (ss.matchup.flipped) {
-    document.getElementById('ss-flip-alert').classList.add('visible');
-  }
   document.getElementById('ss-play-btn').textContent = '▶ PLAY';
+
+  if (ss.cinematic) {
+    // Cinematic: show full winner overlay
+    const [tA, tB] = ss.totals;
+    const winnerIdx = tA >= tB ? 0 : 1;
+    const winnerName = ss.matchup.teams[winnerIdx].name;
+    const loserScore = winnerIdx === 0 ? tB : tA;
+    const winnerScore = winnerIdx === 0 ? tA : tB;
+    const margin = Math.abs(tA - tB).toFixed(1);
+
+    document.getElementById('ss-winner-name').textContent = winnerName;
+    document.getElementById('ss-winner-score').textContent =
+      `${winnerScore.toFixed(1)}  –  ${loserScore.toFixed(1)}`;
+    document.getElementById('ss-winner-margin').textContent =
+      `WIN MARGIN: ${margin} PTS`;
+
+    const flipEl = document.getElementById('ss-winner-flip');
+    flipEl.style.display = ss.matchup.flipped ? '' : 'none';
+
+    document.getElementById('ss-winner-overlay').classList.add('visible');
+  } else {
+    // Classic: just show the flip alert banner
+    if (ss.matchup.flipped) {
+      document.getElementById('ss-flip-alert').classList.add('visible');
+    }
+  }
 }
 
 function ssPlay() {
@@ -2198,11 +2401,27 @@ function ssPlay() {
   function tick() {
     if (!ss.playing) return;
     ssResolveNext();
-    if (ss.step < ss.resolveOrder.length) {
-      ss.timer = setTimeout(tick, ss.speed);
-    } else {
+
+    if (ss.step >= ss.resolveOrder.length) {
       ssFinish();
+      return;
     }
+
+    // Cinematic: pause at quarter boundaries (after Q1, Q2, Q3)
+    if (ss.cinematic && ss.resolveOrder.length >= 8) {
+      const qSize = Math.ceil(ss.resolveOrder.length / 4);
+      const q = Math.floor(ss.step / qSize);
+      if (ss.step % qSize === 0 && q >= 1 && q <= 3) {
+        ssShowQuarterBanner(q);
+        ss.timer = setTimeout(() => {
+          ssHideQuarterBanner();
+          ss.timer = setTimeout(tick, 200);
+        }, 1600);
+        return;
+      }
+    }
+
+    ss.timer = setTimeout(tick, ss.speed);
   }
   tick();
 }
@@ -2224,9 +2443,24 @@ function ssReset() {
   ss.totals = [0, 0];
   document.getElementById('ss-play-btn').textContent = '▶ PLAY';
   document.getElementById('ss-flip-alert').classList.remove('visible');
+  document.getElementById('ss-winner-overlay').classList.remove('visible');
+  ssHideQuarterBanner();
   ssRenderMatchup();
   ssUpdateScoreboard();
   ssUpdateProgress();
+}
+
+function ssShowQuarterBanner(qNum) {
+  const labels = ['', 'END OF Q1', 'END OF Q2', 'END OF Q3', ''];
+  const banner = document.getElementById('ss-quarter-banner');
+  if (!banner) return;
+  banner.textContent = labels[qNum] || `END OF Q${qNum}`;
+  banner.classList.add('active');
+}
+
+function ssHideQuarterBanner() {
+  const banner = document.getElementById('ss-quarter-banner');
+  if (banner) banner.classList.remove('active');
 }
 
 // Wire up controls
@@ -2258,6 +2492,23 @@ document.getElementById('ss-mode-step').addEventListener('click', () => {
   document.getElementById('ss-mode-auto').classList.remove('active');
   document.getElementById('ss-play-btn').disabled = true;
   document.getElementById('ss-play-btn').style.opacity = '0.3';
+});
+
+// Cinematic mode toggle
+document.getElementById('ss-cinematic-btn').addEventListener('click', () => {
+  ss.cinematic = !ss.cinematic;
+  document.getElementById('ss-cinematic-btn').classList.toggle('active', ss.cinematic);
+  // Reset so the new mode takes full effect from the start
+  ssReset();
+});
+
+// Winner overlay dismiss
+document.getElementById('ss-winner-close').addEventListener('click', () => {
+  document.getElementById('ss-winner-overlay').classList.remove('visible');
+  // Also show classic flip alert if applicable (so context isn't lost)
+  if (ss.matchup && ss.matchup.flipped) {
+    document.getElementById('ss-flip-alert').classList.add('visible');
+  }
 });
 
 // =========================================================================
