@@ -1837,10 +1837,8 @@ function renderCard(player, leagueMax) {
   let displayName;
   if (player.position === 'DEF') {
     // "Tampa Bay Buccaneers D/ST" → strip suffix, grab nickname, prepend abbr
-    const baseName = player.name.replace(/\s+D\/ST$/i, '').trim();
-    const nickname = baseName.split(' ').pop();
     displayName = (player.team && player.team !== '?')
-      ? `${player.team} ${nickname} D/ST`
+      ? `${player.team} D/ST`
       : player.name;
   } else {
     const parts = player.name.trim().split(' ');
