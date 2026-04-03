@@ -1413,8 +1413,44 @@
        RESPONSIVE
     ===================================================================== */
     @media (max-width: 600px) {
-      .main { padding: 16px; }
+      /* Layout */
+      .main { padding: 12px; }
+
+      /* Header */
+      .header { padding: 10px 14px; gap: 10px; }
+      .header-logo { font-size: 22px; letter-spacing: 2px; }
+      .control-label { display: none; }
+
+      /* Nav */
+      .nav-tabs { padding: 0 14px; }
+      .nav-tab { padding: 9px 14px; font-size: 9px; letter-spacing: 1px; }
+
+      /* Cards — 2 per row */
+      .cards-grid { gap: 10px; }
+      .player-card { width: calc(50% - 5px); }
+
+      /* Scoreboard strip */
       .scoreboard-strip { flex-direction: column; }
+      .score-tile { min-width: unset; }
+
+      /* Section header */
+      .section-meta { display: none; }
+
+      /* Supersim — stack columns */
+      .ss-matchup-grid { grid-template-columns: 1fr; }
+      .ss-controls { gap: 6px; padding: 10px 12px; }
+
+      /* Supersim scoreboard */
+      .ss-scoreboard { font-size: 11px; }
+      .ss-score-val { font-size: 42px; }
+
+      /* Dashboard */
+      .db-dist-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+    }
+
+    @media (max-width: 400px) {
+      /* Very small — 1 card per row */
+      .player-card { width: 100%; }
     }
   </style>
 </head>
@@ -1526,7 +1562,7 @@
         <button class="ss-btn" id="ss-play-btn">▶ PLAY</button>
         <button class="ss-btn" id="ss-reset-btn" title="Reset">↺</button>
         <div class="ss-mode-toggle">
-          <button class="ss-mode-btn active" id="ss-mode-auto">Auto</button>
+          <button class="ss-mode-btn active" id="ss-mode-auto">Fast</button>
           <button class="ss-mode-btn" id="ss-mode-step">Step</button>
         </div>
       </div>
@@ -1927,7 +1963,7 @@ const ss = {
   playing: false,
   mode: 'auto',       // 'auto' | 'step'
   timer: null,
-  speed: 900,         // ms per player in auto mode
+  speed: 600,         // ms per player in fast mode
 };
 
 function ssInit() {
